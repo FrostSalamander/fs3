@@ -1,0 +1,7 @@
+fs_seagulls
+{
+	editor_displayFolder  map_specific
+	omnidirectional
+	sound/speakers/seagulls.ogg
+	no_efx
+}
