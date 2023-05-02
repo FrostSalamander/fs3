@@ -188,11 +188,11 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 -512 ) ( ( 0.00244140625 0 -1.94844140821715e-13 ) ( 0 0.00244140625 0.0625 ) ) "textures/darkmod/stone/brick/bt_basewall1" 0 0 0
-( 0 1 0 1024 ) ( ( 0.00244140625 0 -1.94844140821715e-13 ) ( 0 0.00244140625 0.0625 ) ) "textures/darkmod/stone/brick/bt_basewall1" 0 0 0
-( 0.9456865787506104 -0.3250797688961029 0 -5689.25048828125 ) ( ( 0.00244140625 0 -1.94844140821715e-13 ) ( 0 0.00244140625 0.0625 ) ) "textures/darkmod/stone/brick/bt_basewall1" 0 0 0
+( 0 1 0 1000 ) ( ( 0.00244140625 0 -1.94844140821715e-13 ) ( 0 0.00244140625 0.0625 ) ) "textures/darkmod/stone/brick/bt_basewall1" 0 0 0
+( 0.9412532424882155 -0.3377015450148559 0 -5691.549988287826 ) ( ( 0.00244140625 0 -1.94844140821715e-13 ) ( 0 0.00244140625 0.0625 ) ) "textures/darkmod/stone/brick/bt_basewall1" 0 0 0
 ( 0 0 -1 -1024 ) ( ( 0.00244140625 0 -1.94844140821715e-13 ) ( 0 0.00244140625 0.0625 ) ) "textures/darkmod/stone/brick/bt_basewall1" 0 0 0
 ( 0 -1 0 -2048 ) ( ( 0.00244140625 0 -1.94844140821715e-13 ) ( 0 0.00244140625 0.0625 ) ) "textures/darkmod/stone/brick/bt_basewall1" 0 0 0
-( -0.8240419030189514 0.5665287971496582 0 5089.28271484375 ) ( ( 0.001220703125 0 0 ) ( 0 0.001220703125 0 ) ) "textures/darkmod/stone/brick/blocks_large_whitestone" 0 0 0
+( -0.821288367254118 0.570513293283395 0 5084.314159712028 ) ( ( 0.001220703125 0 0 ) ( 0 0.001220703125 0 ) ) "textures/darkmod/stone/brick/blocks_large_whitestone" 0 0 0
 }
 }
 // primitive 16
@@ -741,7 +741,7 @@ brushDef3
 {
 ( 0 0 1 -512 ) ( ( 0.001220703125 0 0 ) ( 0 0.001220703125 0 ) ) "textures/darkmod/stone/brick/blocks_large_whitestone" 0 0 0
 ( 0 1 0 -2624 ) ( ( 0.001220703125 0 1.0791015625 ) ( 0 0.001220703125 2.220446049250313e-16 ) ) "textures/darkmod/stone/brick/blocks_large_whitestone" 0 0 0
-( 1 0 0 896 ) ( ( 0.001220703125 0 -0.07812500000000022 ) ( 0 0.001220703125 2.775557561562891e-17 ) ) "textures/darkmod/stone/brick/blocks_large_whitestone" 0 0 0
+( 1 0 0 896 ) ( ( 0.001220703125 0 -0.078125 ) ( 0 0.001220703125 2.775557561562891e-17 ) ) "textures/darkmod/stone/brick/blocks_large_whitestone" 0 0 0
 ( 0 0 -1 -256 ) ( ( 0.001220703125 0 0 ) ( 0 0.001220703125 0.1171875 ) ) "textures/darkmod/stone/brick/blocks_large_whitestone" 0 0 0
 ( 0 -1 0 -1600 ) ( ( 0.001220703125 0 5.551115123125783e-17 ) ( 0 0.001220703125 2.775557561562891e-17 ) ) "textures/darkmod/stone/brick/blocks_large_whitestone" 0 0 0
 ( -1 0 0 -1024 ) ( ( 0.001220703125 0 0 ) ( 0 0.001220703125 0 ) ) "textures/darkmod/stone/brick/blocks_large_whitestone" 0 0 0
@@ -3149,10 +3149,10 @@ brushDef3
 "classname" "speaker"
 "name" "speaker_1"
 "origin" "432 432 0"
-"s_shader" "water_docks01_loop"
-"s_mindistance" "63.744003"
-"s_maxdistance" "63.744003"
 "s_looping" "1"
+"s_maxdistance" "63.744003"
+"s_mindistance" "63.744003"
+"s_shader" "water_docks01_loop"
 "s_volume" "-20"
 }
 // entity 130
@@ -3160,8 +3160,8 @@ brushDef3
 "classname" "speaker"
 "name" "speaker_2"
 "origin" "440 424 0"
-"s_shader" "fs_seagulls"
-"s_mindistance" "63.744003"
-"s_maxdistance" "63.744003"
 "s_looping" "1"
+"s_maxdistance" "63.744003"
+"s_mindistance" "63.744003"
+"s_shader" "fs_seagulls"
 }
