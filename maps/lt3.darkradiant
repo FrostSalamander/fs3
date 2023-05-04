@@ -2,30 +2,32 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "18506" } 
-		KeyValue { "LastCameraAngle" "-6.6 161.548 0" } 
-		KeyValue { "LastCameraPosition" "799.034 -1468.62 875.103" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/bt_basewall1" } 
-	}
-	MapEditTimings
-	{
-		TotalSecondsEdited { 18506 }
+		KeyValue { "EditTimeInSeconds" "22806" } 
+		KeyValue { "LastCameraAngle" "4.49999 107.248 0" } 
+		KeyValue { "LastCameraPosition" "1930.39 -774.716 -62.0216" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/ship_deck" } 
 	}
 	SelectionSets
 	{
 	}
+	MapEditTimings
+	{
+		TotalSecondsEdited { 22806 }
+	}
 	Layers
 	{
 		Layer 0 { Default }
+		Layer 1 { galleon }
 	}
 	LayerProperties
 	{
-		ActiveLayer { 0 }
+		ActiveLayer { 1 }
 		HiddenLayers {  }
 	}
 	LayerHierarchy
 	{
 		Layer 0 Parent { -1 }
+		Layer 1 Parent { -1 }
 	}
 	NodeToLayerMapping
 	{
@@ -133,6 +135,28 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // brush (Brush)
 		Node { 0 } // entity (ambient_world)
 		Node { 0 } // entity (Objectives)
 		Node { 0 } // entity (CompassEasy)
@@ -202,7 +226,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (VineArrowsExpert)
 		Node { 0 } // entity (atdm_location_settings_1)
 		Node { 0 } // entity (info_player_start_1)
-		Node { 0 } // entity (func_static_3)
+		Node { 1 } // entity (func_static_3)
 		Node { 0 } // entity (func_static_4)
 		Node { 0 } // entity (func_static_7)
 		Node { 0 } // patch (Patch)
@@ -246,7 +270,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_6)
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
-		Node { 0 } // entity (func_static_21)
+		Node { 1 } // entity (func_static_21)
 		Node { 0 } // entity (func_rotating_1)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (func_static_22)
@@ -280,6 +304,13 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_50)
 		Node { 0 } // entity (speaker_1)
 		Node { 0 } // entity (speaker_2)
+		Node { 0 } // entity (atdm_ai_moor02_1)
+		Node { 0 } // entity (atdm_ai_sorcerer_moor_1)
+		Node { 1 } // entity (func_static_51)
+		Node { 1 } // entity (func_static_52)
+		Node { 1 } // entity (func_static_53)
+		Node { 1 } // entity (func_static_54)
+		Node { 1 } // entity (func_static_55)
 	}
 	SelectionGroups
 	{
