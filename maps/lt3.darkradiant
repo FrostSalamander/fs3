@@ -2,17 +2,17 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "22806" } 
-		KeyValue { "LastCameraAngle" "4.49999 107.248 0" } 
-		KeyValue { "LastCameraPosition" "1930.39 -774.716 -62.0216" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/ship_deck" } 
+		KeyValue { "EditTimeInSeconds" "27347" } 
+		KeyValue { "LastCameraAngle" "-6.3 250.048 0" } 
+		KeyValue { "LastCameraPosition" "66.2558 -1106.29 151.439" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/bt_basewall1" } 
 	}
 	SelectionSets
 	{
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 22806 }
+		TotalSecondsEdited { 27347 }
 	}
 	Layers
 	{
@@ -135,10 +135,19 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
 		Node { 1 } // brush (Brush)
 		Node { 1 } // brush (Brush)
 		Node { 1 } // brush (Brush)
@@ -147,16 +156,7 @@ DarkRadiant Map Information File Version 2
 		Node { 1 } // brush (Brush)
 		Node { 1 } // patch (Patch)
 		Node { 1 } // patch (Patch)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
 		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // brush (Brush)
 		Node { 0 } // entity (ambient_world)
 		Node { 0 } // entity (Objectives)
 		Node { 0 } // entity (CompassEasy)
@@ -305,12 +305,6 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (speaker_1)
 		Node { 0 } // entity (speaker_2)
 		Node { 0 } // entity (atdm_ai_moor02_1)
-		Node { 0 } // entity (atdm_ai_sorcerer_moor_1)
-		Node { 1 } // entity (func_static_51)
-		Node { 1 } // entity (func_static_52)
-		Node { 1 } // entity (func_static_53)
-		Node { 1 } // entity (func_static_54)
-		Node { 1 } // entity (func_static_55)
 	}
 	SelectionGroups
 	{
