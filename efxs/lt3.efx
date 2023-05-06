@@ -1,0 +1,11 @@
+Version 2
+
+//////////////
+// HARBOUR
+//////////////
+eaxreverb "location_harbour" {
+  preset OUTDOORS_VALLEY
+}
+eaxreverb "location_harbour_office" {
+  preset CASTLE_MEDIUMROOM
+}
