@@ -9,3 +9,6 @@ eaxreverb "location_harbour" {
 eaxreverb "location_harbour_office" {
   preset CASTLE_MEDIUMROOM
 }
+eaxreverb "location_harbour_street" {
+  preset CASTLE_COURTYARD
+}
