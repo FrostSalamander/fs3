@@ -2,14 +2,1331 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "108944" } 
-		KeyValue { "LastCameraAngle" "-5.1 178.5 0" } 
-		KeyValue { "LastCameraPosition" "-2117.69 192.718 12.4271" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/bt_basewall1" } 
+		KeyValue { "EditTimeInSeconds" "112621" } 
+		KeyValue { "LastCameraAngle" "5.09999 166.8 0" } 
+		KeyValue { "LastCameraPosition" "-109.217 -1369.97 -56.8197" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/bt_basewall2" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 108944 }
+		TotalSecondsEdited { 112621 }
+	}
+	SelectionGroups
+	{
+		SelectionGroup 1 { "" }
+		SelectionGroup 5 { "" }
+		SelectionGroup 6 { "" }
+		SelectionGroup 10 { "" }
+		SelectionGroup 11 { "" }
+		SelectionGroup 12 { "" }
+		SelectionGroup 13 { "" }
+		SelectionGroup 15 { "" }
+		SelectionGroup 17 { "" }
+		SelectionGroup 22 { "" }
+		SelectionGroup 24 { "" }
+		SelectionGroup 25 { "" }
+		SelectionGroup 26 { "" }
+		SelectionGroup 27 { "" }
+		SelectionGroup 29 { "" }
+		SelectionGroup 30 { "" }
+		SelectionGroup 31 { "" }
+		SelectionGroup 32 { "" }
+		SelectionGroup 33 { "" }
+		SelectionGroup 34 { "" }
+		SelectionGroup 35 { "" }
+		SelectionGroup 46 { "" }
+		SelectionGroup 47 { "" }
+		SelectionGroup 48 { "" }
+		SelectionGroup 49 { "" }
+		SelectionGroup 55 { "" }
+		SelectionGroup 56 { "" }
+		SelectionGroup 59 { "" }
+		SelectionGroup 60 { "" }
+		SelectionGroup 62 { "" }
+		SelectionGroup 64 { "" }
+		SelectionGroup 65 { "" }
+		SelectionGroup 66 { "" }
+		SelectionGroup 67 { "" }
+		SelectionGroup 68 { "" }
+		SelectionGroup 75 { "" }
+		SelectionGroup 77 { "" }
+		SelectionGroup 83 { "" }
+		SelectionGroup 84 { "" }
+		SelectionGroup 85 { "" }
+		SelectionGroup 86 { "" }
+		SelectionGroup 87 { "" }
+		SelectionGroup 88 { "" }
+		SelectionGroup 90 { "" }
+		SelectionGroup 92 { "" }
+		SelectionGroup 98 { "" }
+		SelectionGroup 99 { "" }
+		SelectionGroup 100 { "" }
+		SelectionGroup 101 { "" }
+		SelectionGroup 102 { "" }
+		SelectionGroup 103 { "" }
+		SelectionGroup 104 { "" }
+		SelectionGroup 105 { "" }
+		SelectionGroup 106 { "" }
+		SelectionGroup 107 { "" }
+		SelectionGroup 108 { "" }
+		SelectionGroup 109 { "" }
+		SelectionGroup 110 { "" }
+		SelectionGroup 111 { "" }
+		SelectionGroup 117 { "" }
+		SelectionGroup 118 { "" }
+		SelectionGroup 119 { "" }
+		SelectionGroup 120 { "" }
+		SelectionGroup 122 { "" }
+		SelectionGroup 123 { "" }
+		SelectionGroup 124 { "" }
+		SelectionGroup 125 { "" }
+		SelectionGroup 126 { "" }
+		SelectionGroup 127 { "" }
+		SelectionGroup 128 { "" }
+		SelectionGroup 129 { "" }
+		SelectionGroup 130 { "" }
+		SelectionGroup 131 { "" }
+		SelectionGroup 132 { "" }
+		SelectionGroup 133 { "" }
+		SelectionGroup 134 { "" }
+		SelectionGroup 135 { "" }
+		SelectionGroup 136 { "" }
+		SelectionGroup 137 { "" }
+		SelectionGroup 138 { "" }
+		SelectionGroup 139 { "" }
+		SelectionGroup 140 { "" }
+		SelectionGroup 141 { "" }
+		SelectionGroup 142 { "" }
+		SelectionGroup 143 { "" }
+		SelectionGroup 162 { "" }
+		SelectionGroup 163 { "" }
+		SelectionGroup 166 { "" }
+		SelectionGroup 167 { "" }
+		SelectionGroup 168 { "" }
+		SelectionGroup 169 { "" }
+		SelectionGroup 170 { "" }
+		SelectionGroup 171 { "" }
+		SelectionGroup 172 { "" }
+		SelectionGroup 173 { "" }
+		SelectionGroup 174 { "" }
+		SelectionGroup 175 { "" }
+		SelectionGroup 176 { "" }
+		SelectionGroup 177 { "" }
+		SelectionGroup 178 { "" }
+		SelectionGroup 179 { "" }
+		SelectionGroup 180 { "" }
+		SelectionGroup 181 { "" }
+		SelectionGroup 182 { "" }
+		SelectionGroup 183 { "" }
+		SelectionGroup 184 { "" }
+		SelectionGroup 185 { "" }
+		SelectionGroup 190 { "" }
+		SelectionGroup 192 { "" }
+		SelectionGroup 193 { "" }
+		SelectionGroup 196 { "" }
+		SelectionGroup 199 { "" }
+		SelectionGroup 201 { "" }
+		SelectionGroup 203 { "" }
+		SelectionGroup 204 { "" }
+		SelectionGroup 205 { "" }
+		SelectionGroup 207 { "" }
+		SelectionGroup 208 { "" }
+		SelectionGroup 209 { "" }
+		SelectionGroup 210 { "" }
+		SelectionGroup 211 { "" }
+		SelectionGroup 212 { "" }
+		SelectionGroup 213 { "" }
+		SelectionGroup 214 { "" }
+		SelectionGroup 215 { "" }
+		SelectionGroup 216 { "" }
+		SelectionGroup 217 { "" }
+		SelectionGroup 219 { "" }
+		SelectionGroup 220 { "" }
+		SelectionGroup 221 { "" }
+		SelectionGroup 222 { "" }
+		SelectionGroup 224 { "" }
+		SelectionGroup 233 { "" }
+		SelectionGroup 234 { "" }
+		SelectionGroup 235 { "" }
+		SelectionGroup 236 { "" }
+		SelectionGroup 237 { "" }
+		SelectionGroup 238 { "" }
+		SelectionGroup 239 { "" }
+		SelectionGroup 240 { "" }
+		SelectionGroup 241 { "" }
+		SelectionGroup 242 { "" }
+		SelectionGroup 243 { "" }
+		SelectionGroup 244 { "" }
+		SelectionGroup 245 { "" }
+		SelectionGroup 246 { "" }
+		SelectionGroup 247 { "" }
+		SelectionGroup 248 { "" }
+		SelectionGroup 255 { "" }
+		SelectionGroup 256 { "" }
+		SelectionGroup 257 { "" }
+		SelectionGroup 258 { "" }
+		SelectionGroup 259 { "" }
+		SelectionGroup 260 { "" }
+		SelectionGroup 264 { "" }
+		SelectionGroup 265 { "" }
+		SelectionGroup 266 { "" }
+		SelectionGroup 267 { "" }
+		SelectionGroup 268 { "" }
+		SelectionGroup 270 { "" }
+		SelectionGroup 271 { "" }
+		SelectionGroup 272 { "" }
+		SelectionGroup 273 { "" }
+		SelectionGroup 274 { "" }
+		SelectionGroup 275 { "" }
+		SelectionGroup 276 { "" }
+		SelectionGroup 277 { "" }
+		SelectionGroup 278 { "" }
+		SelectionGroup 279 { "" }
+		SelectionGroup 280 { "" }
+		SelectionGroup 281 { "" }
+		SelectionGroup 289 { "" }
+		SelectionGroup 290 { "" }
+		SelectionGroup 291 { "" }
+		SelectionGroup 292 { "" }
+		SelectionGroup 293 { "" }
+		SelectionGroup 294 { "" }
+		SelectionGroup 295 { "" }
+		SelectionGroup 296 { "" }
+		SelectionGroup 297 { "" }
+		SelectionGroup 298 { "" }
+		SelectionGroup 299 { "" }
+		SelectionGroup 300 { "" }
+		SelectionGroup 301 { "" }
+		SelectionGroup 302 { "" }
+		SelectionGroup 303 { "" }
+		SelectionGroup 304 { "" }
+		SelectionGroup 305 { "" }
+		SelectionGroup 306 { "" }
+		SelectionGroup 307 { "" }
+		SelectionGroup 308 { "" }
+		SelectionGroup 309 { "" }
+		SelectionGroup 310 { "" }
+		SelectionGroup 311 { "" }
+		SelectionGroup 312 { "" }
+		SelectionGroup 313 { "" }
+		SelectionGroup 314 { "" }
+		SelectionGroup 315 { "" }
+		SelectionGroup 316 { "" }
+		SelectionGroup 318 { "" }
+		SelectionGroup 319 { "" }
+		SelectionGroup 320 { "" }
+		SelectionGroup 325 { "" }
+		SelectionGroup 326 { "" }
+		SelectionGroup 329 { "" }
+		SelectionGroup 330 { "" }
+		SelectionGroup 332 { "" }
+		SelectionGroup 333 { "" }
+		SelectionGroup 334 { "" }
+		SelectionGroup 335 { "" }
+		SelectionGroup 336 { "" }
+		SelectionGroup 339 { "" }
+		SelectionGroup 340 { "" }
+		SelectionGroup 341 { "" }
+		SelectionGroup 342 { "" }
+		SelectionGroup 343 { "" }
+		SelectionGroup 344 { "" }
+		SelectionGroup 345 { "" }
+		SelectionGroup 346 { "" }
+		SelectionGroup 347 { "" }
+		SelectionGroup 350 { "" }
+		SelectionGroup 351 { "" }
+		SelectionGroup 352 { "" }
+		SelectionGroup 353 { "" }
+		SelectionGroup 354 { "" }
+		SelectionGroup 355 { "" }
+		SelectionGroup 356 { "" }
+		SelectionGroup 357 { "" }
+		SelectionGroup 358 { "" }
+		SelectionGroup 359 { "" }
+		SelectionGroup 360 { "" }
+		SelectionGroup 361 { "" }
+		SelectionGroup 362 { "" }
+		SelectionGroup 363 { "" }
+		SelectionGroup 364 { "" }
+		SelectionGroup 365 { "" }
+		SelectionGroup 366 { "" }
+		SelectionGroup 367 { "" }
+		SelectionGroup 368 { "" }
+		SelectionGroup 369 { "" }
+		SelectionGroup 370 { "" }
+		SelectionGroup 371 { "" }
+		SelectionGroup 372 { "" }
+		SelectionGroup 373 { "" }
+		SelectionGroup 374 { "" }
+		SelectionGroup 375 { "" }
+		SelectionGroup 376 { "" }
+		SelectionGroup 377 { "" }
+		SelectionGroup 378 { "" }
+		SelectionGroup 380 { "" }
+		SelectionGroup 381 { "" }
+		SelectionGroup 383 { "" }
+		SelectionGroup 384 { "" }
+		SelectionGroup 385 { "" }
+		SelectionGroup 386 { "" }
+		SelectionGroup 387 { "" }
+		SelectionGroup 388 { "" }
+		SelectionGroup 389 { "" }
+		SelectionGroup 390 { "" }
+		SelectionGroup 391 { "" }
+		SelectionGroup 392 { "" }
+		SelectionGroup 394 { "" }
+		SelectionGroup 395 { "" }
+		SelectionGroup 396 { "" }
+		SelectionGroup 401 { "" }
+		SelectionGroup 402 { "" }
+		SelectionGroup 403 { "" }
+		SelectionGroup 404 { "" }
+		SelectionGroup 405 { "" }
+	}
+	SelectionGroupNodeMapping
+	{
+		Node { ( 0 0 ) ( 1 ) } // brush (Brush)
+		Node { ( 0 1 ) ( 1 ) } // brush (Brush)
+		Node { ( 0 2 ) ( 1 ) } // brush (Brush)
+		Node { ( 0 3 ) ( 1 ) } // brush (Brush)
+		Node { ( 0 4 ) ( 1 ) } // brush (Brush)
+		Node { ( 0 5 ) ( 1 ) } // brush (Brush)
+		Node { ( 0 13 ) ( 6 ) } // brush (Brush)
+		Node { ( 0 14 ) ( 6 ) } // brush (Brush)
+		Node { ( 0 15 ) ( 6 ) } // brush (Brush)
+		Node { ( 0 17 ) ( 6 ) } // brush (Brush)
+		Node { ( 0 20 ) ( 5 ) } // brush (Brush)
+		Node { ( 0 21 ) ( 5 ) } // brush (Brush)
+		Node { ( 0 22 ) ( 5 ) } // brush (Brush)
+		Node { ( 0 23 ) ( 5 ) } // brush (Brush)
+		Node { ( 0 24 ) ( 5 ) } // brush (Brush)
+		Node { ( 0 25 ) ( 5 ) } // brush (Brush)
+		Node { ( 0 42 ) ( 11 ) } // brush (Brush)
+		Node { ( 0 43 ) ( 11 ) } // brush (Brush)
+		Node { ( 0 44 ) ( 11 ) } // brush (Brush)
+		Node { ( 0 45 ) ( 11 ) } // brush (Brush)
+		Node { ( 0 47 ) ( 12 34 ) } // brush (Brush)
+		Node { ( 0 48 ) ( 12 34 ) } // brush (Brush)
+		Node { ( 0 49 ) ( 12 34 ) } // brush (Brush)
+		Node { ( 0 50 ) ( 12 34 ) } // brush (Brush)
+		Node { ( 0 51 ) ( 12 34 ) } // brush (Brush)
+		Node { ( 0 52 ) ( 12 34 ) } // brush (Brush)
+		Node { ( 0 53 ) ( 13 ) } // brush (Brush)
+		Node { ( 0 54 ) ( 13 ) } // brush (Brush)
+		Node { ( 0 55 ) ( 13 ) } // brush (Brush)
+		Node { ( 0 56 ) ( 13 ) } // brush (Brush)
+		Node { ( 0 57 ) ( 13 ) } // brush (Brush)
+		Node { ( 0 58 ) ( 13 ) } // brush (Brush)
+		Node { ( 0 60 ) ( 15 ) } // brush (Brush)
+		Node { ( 0 61 ) ( 15 ) } // brush (Brush)
+		Node { ( 0 62 ) ( 15 ) } // brush (Brush)
+		Node { ( 0 63 ) ( 15 ) } // brush (Brush)
+		Node { ( 0 64 ) ( 15 ) } // brush (Brush)
+		Node { ( 0 65 ) ( 15 ) } // brush (Brush)
+		Node { ( 0 69 ) ( 108 ) } // brush (Brush)
+		Node { ( 0 70 ) ( 108 ) } // brush (Brush)
+		Node { ( 0 71 ) ( 108 ) } // brush (Brush)
+		Node { ( 0 72 ) ( 108 ) } // brush (Brush)
+		Node { ( 0 73 ) ( 108 ) } // brush (Brush)
+		Node { ( 0 74 ) ( 108 ) } // brush (Brush)
+		Node { ( 0 75 ) ( 108 ) } // brush (Brush)
+		Node { ( 0 76 ) ( 22 108 ) } // brush (Brush)
+		Node { ( 0 77 ) ( 22 108 ) } // brush (Brush)
+		Node { ( 0 78 ) ( 22 108 ) } // brush (Brush)
+		Node { ( 0 79 ) ( 22 108 ) } // brush (Brush)
+		Node { ( 0 80 ) ( 22 108 ) } // brush (Brush)
+		Node { ( 0 81 ) ( 22 108 ) } // brush (Brush)
+		Node { ( 0 82 ) ( 22 108 ) } // brush (Brush)
+		Node { ( 0 83 ) ( 26 25 ) } // brush (Brush)
+		Node { ( 0 84 ) ( 26 25 ) } // brush (Brush)
+		Node { ( 0 85 ) ( 26 25 ) } // brush (Brush)
+		Node { ( 0 86 ) ( 26 25 ) } // brush (Brush)
+		Node { ( 0 87 ) ( 26 25 ) } // brush (Brush)
+		Node { ( 0 88 ) ( 26 25 ) } // brush (Brush)
+		Node { ( 0 89 ) ( 24 25 ) } // brush (Brush)
+		Node { ( 0 90 ) ( 24 25 ) } // brush (Brush)
+		Node { ( 0 91 ) ( 24 25 ) } // brush (Brush)
+		Node { ( 0 92 ) ( 24 25 ) } // brush (Brush)
+		Node { ( 0 93 ) ( 25 ) } // brush (Brush)
+		Node { ( 0 94 ) ( 26 25 ) } // brush (Brush)
+		Node { ( 0 95 ) ( 24 25 ) } // brush (Brush)
+		Node { ( 0 96 ) ( 24 25 ) } // brush (Brush)
+		Node { ( 0 97 ) ( 24 25 ) } // brush (Brush)
+		Node { ( 0 98 ) ( 24 25 ) } // brush (Brush)
+		Node { ( 0 112 ) ( 75 ) } // brush (Brush)
+		Node { ( 0 113 ) ( 75 ) } // brush (Brush)
+		Node { ( 0 115 ) ( 75 ) } // brush (Brush)
+		Node { ( 0 118 ) ( 27 ) } // patch (Patch)
+		Node { ( 0 119 ) ( 27 ) } // patch (Patch)
+		Node { ( 0 120 ) ( 27 ) } // patch (Patch)
+		Node { ( 0 133 ) ( 29 ) } // patch (Patch)
+		Node { ( 0 134 ) ( 29 ) } // patch (Patch)
+		Node { ( 0 135 ) ( 29 ) } // patch (Patch)
+		Node { ( 0 137 ) ( 75 ) } // patch (Patch)
+		Node { ( 0 138 ) ( 31 68 ) } // patch (Patch)
+		Node { ( 0 139 ) ( 31 68 ) } // patch (Patch)
+		Node { ( 0 140 ) ( 31 68 ) } // patch (Patch)
+		Node { ( 0 141 ) ( 31 68 ) } // patch (Patch)
+		Node { ( 0 142 ) ( 31 68 ) } // patch (Patch)
+		Node { ( 0 143 ) ( 32 68 ) } // patch (Patch)
+		Node { ( 0 144 ) ( 32 68 ) } // patch (Patch)
+		Node { ( 0 145 ) ( 32 68 ) } // patch (Patch)
+		Node { ( 0 146 ) ( 32 68 ) } // patch (Patch)
+		Node { ( 0 147 ) ( 32 68 ) } // patch (Patch)
+		Node { ( 0 148 ) ( 33 68 ) } // patch (Patch)
+		Node { ( 0 149 ) ( 33 68 ) } // patch (Patch)
+		Node { ( 0 150 ) ( 33 68 ) } // patch (Patch)
+		Node { ( 0 151 ) ( 33 68 ) } // patch (Patch)
+		Node { ( 0 152 ) ( 33 68 ) } // patch (Patch)
+		Node { ( 0 153 ) ( 68 ) } // brush (Brush)
+		Node { ( 0 154 ) ( 68 ) } // brush (Brush)
+		Node { ( 0 155 ) ( 68 ) } // brush (Brush)
+		Node { ( 0 156 ) ( 68 ) } // brush (Brush)
+		Node { ( 0 158 ) ( 68 ) } // brush (Brush)
+		Node { ( 0 159 ) ( 68 ) } // brush (Brush)
+		Node { ( 0 160 ) ( 75 ) } // brush (Brush)
+		Node { ( 0 161 ) ( 34 ) } // brush (Brush)
+		Node { ( 0 162 ) ( 34 ) } // brush (Brush)
+		Node { ( 0 163 ) ( 34 ) } // brush (Brush)
+		Node { ( 0 164 ) ( 34 ) } // brush (Brush)
+		Node { ( 0 165 ) ( 34 ) } // brush (Brush)
+		Node { ( 0 166 ) ( 34 ) } // brush (Brush)
+		Node { ( 0 167 ) ( 62 ) } // brush (Brush)
+		Node { ( 0 168 ) ( 35 62 ) } // patch (Patch)
+		Node { ( 0 169 ) ( 35 62 ) } // patch (Patch)
+		Node { ( 0 170 ) ( 35 62 ) } // patch (Patch)
+		Node { ( 0 171 ) ( 62 ) } // brush (Brush)
+		Node { ( 0 177 ) ( 46 ) } // brush (Brush)
+		Node { ( 0 178 ) ( 46 ) } // brush (Brush)
+		Node { ( 0 179 ) ( 46 ) } // brush (Brush)
+		Node { ( 0 180 ) ( 46 ) } // brush (Brush)
+		Node { ( 0 181 ) ( 46 ) } // brush (Brush)
+		Node { ( 0 182 ) ( 46 ) } // brush (Brush)
+		Node { ( 0 183 ) ( 46 ) } // brush (Brush)
+		Node { ( 0 184 ) ( 46 ) } // brush (Brush)
+		Node { ( 0 185 ) ( 46 ) } // brush (Brush)
+		Node { ( 0 186 ) ( 46 ) } // brush (Brush)
+		Node { ( 0 187 ) ( 46 ) } // brush (Brush)
+		Node { ( 0 188 ) ( 46 ) } // brush (Brush)
+		Node { ( 0 189 ) ( 46 ) } // brush (Brush)
+		Node { ( 0 190 ) ( 46 ) } // brush (Brush)
+		Node { ( 0 191 ) ( 46 ) } // brush (Brush)
+		Node { ( 0 192 ) ( 46 ) } // brush (Brush)
+		Node { ( 0 194 ) ( 47 62 ) } // patch (Patch)
+		Node { ( 0 195 ) ( 47 62 ) } // patch (Patch)
+		Node { ( 0 196 ) ( 47 62 ) } // patch (Patch)
+		Node { ( 0 197 ) ( 62 ) } // brush (Brush)
+		Node { ( 0 198 ) ( 48 62 ) } // patch (Patch)
+		Node { ( 0 199 ) ( 48 62 ) } // patch (Patch)
+		Node { ( 0 200 ) ( 48 62 ) } // patch (Patch)
+		Node { ( 0 201 ) ( 62 ) } // brush (Brush)
+		Node { ( 0 202 ) ( 49 62 ) } // patch (Patch)
+		Node { ( 0 203 ) ( 49 62 ) } // patch (Patch)
+		Node { ( 0 204 ) ( 49 62 ) } // patch (Patch)
+		Node { ( 0 205 ) ( 62 ) } // brush (Brush)
+		Node { ( 0 206 ) ( 62 ) } // brush (Brush)
+		Node { ( 0 207 ) ( 55 62 ) } // patch (Patch)
+		Node { ( 0 208 ) ( 56 62 ) } // patch (Patch)
+		Node { ( 0 209 ) ( 56 62 ) } // patch (Patch)
+		Node { ( 0 210 ) ( 55 62 ) } // patch (Patch)
+		Node { ( 0 211 ) ( 55 62 ) } // patch (Patch)
+		Node { ( 0 212 ) ( 56 62 ) } // patch (Patch)
+		Node { ( 0 213 ) ( 62 ) } // brush (Brush)
+		Node { ( 0 214 ) ( 59 62 ) } // patch (Patch)
+		Node { ( 0 215 ) ( 59 62 ) } // patch (Patch)
+		Node { ( 0 216 ) ( 59 62 ) } // patch (Patch)
+		Node { ( 0 217 ) ( 62 ) } // brush (Brush)
+		Node { ( 0 218 ) ( 60 62 ) } // patch (Patch)
+		Node { ( 0 219 ) ( 60 62 ) } // patch (Patch)
+		Node { ( 0 220 ) ( 60 62 ) } // patch (Patch)
+		Node { ( 0 221 ) ( 62 ) } // brush (Brush)
+		Node { ( 0 225 ) ( 64 ) } // brush (Brush)
+		Node { ( 0 226 ) ( 64 ) } // brush (Brush)
+		Node { ( 0 227 ) ( 64 ) } // brush (Brush)
+		Node { ( 0 228 ) ( 64 ) } // brush (Brush)
+		Node { ( 0 229 ) ( 64 ) } // brush (Brush)
+		Node { ( 0 230 ) ( 64 ) } // brush (Brush)
+		Node { ( 0 231 ) ( 64 ) } // brush (Brush)
+		Node { ( 0 232 ) ( 64 ) } // brush (Brush)
+		Node { ( 0 233 ) ( 64 ) } // brush (Brush)
+		Node { ( 0 234 ) ( 64 ) } // brush (Brush)
+		Node { ( 0 235 ) ( 64 ) } // brush (Brush)
+		Node { ( 0 236 ) ( 65 ) } // brush (Brush)
+		Node { ( 0 237 ) ( 65 ) } // brush (Brush)
+		Node { ( 0 238 ) ( 65 ) } // brush (Brush)
+		Node { ( 0 239 ) ( 65 ) } // brush (Brush)
+		Node { ( 0 240 ) ( 65 ) } // brush (Brush)
+		Node { ( 0 241 ) ( 65 ) } // brush (Brush)
+		Node { ( 0 242 ) ( 65 ) } // brush (Brush)
+		Node { ( 0 243 ) ( 65 ) } // brush (Brush)
+		Node { ( 0 244 ) ( 65 ) } // brush (Brush)
+		Node { ( 0 245 ) ( 65 ) } // brush (Brush)
+		Node { ( 0 246 ) ( 65 ) } // brush (Brush)
+		Node { ( 0 250 ) ( 66 ) } // brush (Brush)
+		Node { ( 0 251 ) ( 66 ) } // brush (Brush)
+		Node { ( 0 252 ) ( 66 ) } // brush (Brush)
+		Node { ( 0 253 ) ( 66 ) } // brush (Brush)
+		Node { ( 0 254 ) ( 66 ) } // brush (Brush)
+		Node { ( 0 255 ) ( 66 ) } // brush (Brush)
+		Node { ( 0 256 ) ( 66 ) } // brush (Brush)
+		Node { ( 0 257 ) ( 66 ) } // brush (Brush)
+		Node { ( 0 258 ) ( 66 ) } // brush (Brush)
+		Node { ( 0 261 ) ( 90 ) } // brush (Brush)
+		Node { ( 0 262 ) ( 90 ) } // brush (Brush)
+		Node { ( 0 263 ) ( 90 ) } // brush (Brush)
+		Node { ( 0 264 ) ( 90 ) } // brush (Brush)
+		Node { ( 0 265 ) ( 90 ) } // brush (Brush)
+		Node { ( 0 266 ) ( 90 ) } // brush (Brush)
+		Node { ( 0 267 ) ( 90 ) } // brush (Brush)
+		Node { ( 0 268 ) ( 90 ) } // brush (Brush)
+		Node { ( 0 289 ) ( 67 ) } // patch (Patch)
+		Node { ( 0 290 ) ( 67 ) } // patch (Patch)
+		Node { ( 0 291 ) ( 67 ) } // patch (Patch)
+		Node { ( 0 292 ) ( 67 ) } // patch (Patch)
+		Node { ( 0 293 ) ( 67 ) } // patch (Patch)
+		Node { ( 0 339 ) ( 77 ) } // patch (Patch)
+		Node { ( 0 344 ) ( 98 ) } // brush (Brush)
+		Node { ( 0 347 ) ( 98 ) } // brush (Brush)
+		Node { ( 0 349 ) ( 77 ) } // patch (Patch)
+		Node { ( 0 350 ) ( 77 ) } // patch (Patch)
+		Node { ( 0 351 ) ( 77 ) } // patch (Patch)
+		Node { ( 0 352 ) ( 77 ) } // patch (Patch)
+		Node { ( 0 353 ) ( 77 ) } // patch (Patch)
+		Node { ( 0 369 ) ( 92 ) } // brush (Brush)
+		Node { ( 0 372 ) ( 99 ) } // brush (Brush)
+		Node { ( 0 373 ) ( 99 ) } // brush (Brush)
+		Node { ( 0 374 ) ( 99 ) } // brush (Brush)
+		Node { ( 0 375 ) ( 99 ) } // brush (Brush)
+		Node { ( 0 376 ) ( 99 ) } // brush (Brush)
+		Node { ( 0 377 ) ( 99 ) } // brush (Brush)
+		Node { ( 0 378 ) ( 83 99 ) } // patch (Patch)
+		Node { ( 0 379 ) ( 84 99 ) } // patch (Patch)
+		Node { ( 0 380 ) ( 83 99 ) } // patch (Patch)
+		Node { ( 0 381 ) ( 83 99 ) } // patch (Patch)
+		Node { ( 0 382 ) ( 85 99 ) } // patch (Patch)
+		Node { ( 0 383 ) ( 86 99 ) } // patch (Patch)
+		Node { ( 0 384 ) ( 87 99 ) } // patch (Patch)
+		Node { ( 0 385 ) ( 86 99 ) } // patch (Patch)
+		Node { ( 0 386 ) ( 87 99 ) } // patch (Patch)
+		Node { ( 0 387 ) ( 85 99 ) } // patch (Patch)
+		Node { ( 0 388 ) ( 85 99 ) } // patch (Patch)
+		Node { ( 0 389 ) ( 86 99 ) } // patch (Patch)
+		Node { ( 0 390 ) ( 87 99 ) } // patch (Patch)
+		Node { ( 0 391 ) ( 84 99 ) } // patch (Patch)
+		Node { ( 0 392 ) ( 84 99 ) } // patch (Patch)
+		Node { ( 0 393 ) ( 88 99 ) } // patch (Patch)
+		Node { ( 0 394 ) ( 88 99 ) } // patch (Patch)
+		Node { ( 0 395 ) ( 88 99 ) } // patch (Patch)
+		Node { ( 0 396 ) ( 392 ) } // brush (Brush)
+		Node { ( 0 397 ) ( 392 ) } // brush (Brush)
+		Node { ( 0 398 ) ( 392 ) } // brush (Brush)
+		Node { ( 0 399 ) ( 392 ) } // brush (Brush)
+		Node { ( 0 400 ) ( 392 ) } // brush (Brush)
+		Node { ( 0 401 ) ( 392 ) } // brush (Brush)
+		Node { ( 0 413 ) ( 100 ) } // patch (Patch)
+		Node { ( 0 414 ) ( 100 ) } // patch (Patch)
+		Node { ( 0 415 ) ( 100 ) } // patch (Patch)
+		Node { ( 0 416 ) ( 101 ) } // patch (Patch)
+		Node { ( 0 417 ) ( 101 ) } // patch (Patch)
+		Node { ( 0 418 ) ( 101 ) } // patch (Patch)
+		Node { ( 0 432 ) ( 105 106 ) } // brush (Brush)
+		Node { ( 0 433 ) ( 105 106 ) } // brush (Brush)
+		Node { ( 0 434 ) ( 106 ) } // brush (Brush)
+		Node { ( 0 435 ) ( 105 106 ) } // brush (Brush)
+		Node { ( 0 436 ) ( 107 106 ) } // brush (Brush)
+		Node { ( 0 437 ) ( 105 106 ) } // brush (Brush)
+		Node { ( 0 438 ) ( 105 106 ) } // brush (Brush)
+		Node { ( 0 439 ) ( 105 106 ) } // brush (Brush)
+		Node { ( 0 440 ) ( 105 106 ) } // brush (Brush)
+		Node { ( 0 441 ) ( 107 106 ) } // brush (Brush)
+		Node { ( 0 442 ) ( 107 106 ) } // brush (Brush)
+		Node { ( 0 443 ) ( 107 106 ) } // brush (Brush)
+		Node { ( 0 444 ) ( 107 106 ) } // brush (Brush)
+		Node { ( 0 445 ) ( 107 106 ) } // brush (Brush)
+		Node { ( 0 446 ) ( 107 106 ) } // brush (Brush)
+		Node { ( 0 447 ) ( 109 110 ) } // brush (Brush)
+		Node { ( 0 450 ) ( 117 ) } // brush (Brush)
+		Node { ( 0 451 ) ( 117 ) } // brush (Brush)
+		Node { ( 0 452 ) ( 117 ) } // brush (Brush)
+		Node { ( 0 453 ) ( 118 117 ) } // patch (Patch)
+		Node { ( 0 454 ) ( 120 117 ) } // patch (Patch)
+		Node { ( 0 455 ) ( 118 117 ) } // patch (Patch)
+		Node { ( 0 456 ) ( 119 117 ) } // patch (Patch)
+		Node { ( 0 457 ) ( 119 117 ) } // patch (Patch)
+		Node { ( 0 458 ) ( 119 117 ) } // patch (Patch)
+		Node { ( 0 459 ) ( 118 117 ) } // patch (Patch)
+		Node { ( 0 460 ) ( 120 117 ) } // patch (Patch)
+		Node { ( 0 461 ) ( 120 117 ) } // patch (Patch)
+		Node { ( 0 462 ) ( 392 ) } // brush (Brush)
+		Node { ( 0 463 ) ( 392 ) } // brush (Brush)
+		Node { ( 0 464 ) ( 392 ) } // brush (Brush)
+		Node { ( 0 470 ) ( 122 ) } // patch (Patch)
+		Node { ( 0 471 ) ( 122 ) } // patch (Patch)
+		Node { ( 0 472 ) ( 122 ) } // patch (Patch)
+		Node { ( 0 473 ) ( 122 ) } // patch (Patch)
+		Node { ( 0 474 ) ( 122 ) } // patch (Patch)
+		Node { ( 0 475 ) ( 123 ) } // patch (Patch)
+		Node { ( 0 476 ) ( 123 ) } // patch (Patch)
+		Node { ( 0 477 ) ( 123 ) } // patch (Patch)
+		Node { ( 0 478 ) ( 123 ) } // patch (Patch)
+		Node { ( 0 479 ) ( 123 ) } // patch (Patch)
+		Node { ( 0 482 ) ( 224 ) } // brush (Brush)
+		Node { ( 0 495 ) ( 162 ) } // patch (Patch)
+		Node { ( 0 496 ) ( 162 ) } // patch (Patch)
+		Node { ( 0 497 ) ( 162 ) } // patch (Patch)
+		Node { ( 0 498 ) ( 162 ) } // patch (Patch)
+		Node { ( 0 499 ) ( 162 ) } // patch (Patch)
+		Node { ( 0 500 ) ( 163 ) } // patch (Patch)
+		Node { ( 0 501 ) ( 163 ) } // patch (Patch)
+		Node { ( 0 502 ) ( 163 ) } // patch (Patch)
+		Node { ( 0 503 ) ( 163 ) } // patch (Patch)
+		Node { ( 0 504 ) ( 163 ) } // patch (Patch)
+		Node { ( 0 506 ) ( 166 ) } // patch (Patch)
+		Node { ( 0 507 ) ( 167 ) } // patch (Patch)
+		Node { ( 0 508 ) ( 167 ) } // patch (Patch)
+		Node { ( 0 509 ) ( 166 ) } // patch (Patch)
+		Node { ( 0 510 ) ( 166 ) } // patch (Patch)
+		Node { ( 0 511 ) ( 166 ) } // patch (Patch)
+		Node { ( 0 512 ) ( 166 ) } // patch (Patch)
+		Node { ( 0 513 ) ( 167 ) } // patch (Patch)
+		Node { ( 0 514 ) ( 167 ) } // patch (Patch)
+		Node { ( 0 515 ) ( 167 ) } // patch (Patch)
+		Node { ( 0 524 ) ( 224 ) } // patch (Patch)
+		Node { ( 0 529 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 530 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 531 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 532 ) ( 203 204 ) } // patch (Patch)
+		Node { ( 0 533 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 534 ) ( 203 204 ) } // patch (Patch)
+		Node { ( 0 535 ) ( 203 204 ) } // patch (Patch)
+		Node { ( 0 536 ) ( 203 204 ) } // patch (Patch)
+		Node { ( 0 537 ) ( 203 204 ) } // patch (Patch)
+		Node { ( 0 538 ) ( 203 204 ) } // patch (Patch)
+		Node { ( 0 539 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 540 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 541 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 542 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 543 ) ( 190 203 204 ) } // patch (Patch)
+		Node { ( 0 544 ) ( 190 203 204 ) } // patch (Patch)
+		Node { ( 0 545 ) ( 190 203 204 ) } // patch (Patch)
+		Node { ( 0 546 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 547 ) ( 190 203 204 ) } // brush (Brush)
+		Node { ( 0 548 ) ( 190 203 204 ) } // brush (Brush)
+		Node { ( 0 549 ) ( 190 203 204 ) } // brush (Brush)
+		Node { ( 0 550 ) ( 192 203 204 ) } // patch (Patch)
+		Node { ( 0 551 ) ( 192 203 204 ) } // patch (Patch)
+		Node { ( 0 552 ) ( 192 203 204 ) } // patch (Patch)
+		Node { ( 0 553 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 554 ) ( 192 203 204 ) } // brush (Brush)
+		Node { ( 0 555 ) ( 192 203 204 ) } // brush (Brush)
+		Node { ( 0 556 ) ( 192 203 204 ) } // brush (Brush)
+		Node { ( 0 557 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 558 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 559 ) ( 193 203 204 ) } // patch (Patch)
+		Node { ( 0 560 ) ( 193 203 204 ) } // patch (Patch)
+		Node { ( 0 561 ) ( 193 203 204 ) } // patch (Patch)
+		Node { ( 0 562 ) ( 193 203 204 ) } // brush (Brush)
+		Node { ( 0 563 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 564 ) ( 193 203 204 ) } // brush (Brush)
+		Node { ( 0 565 ) ( 193 203 204 ) } // brush (Brush)
+		Node { ( 0 566 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 567 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 568 ) ( 199 203 204 ) } // patch (Patch)
+		Node { ( 0 569 ) ( 196 203 204 ) } // patch (Patch)
+		Node { ( 0 570 ) ( 201 203 204 ) } // patch (Patch)
+		Node { ( 0 571 ) ( 201 203 204 ) } // patch (Patch)
+		Node { ( 0 572 ) ( 196 203 204 ) } // patch (Patch)
+		Node { ( 0 573 ) ( 199 203 204 ) } // patch (Patch)
+		Node { ( 0 574 ) ( 196 203 204 ) } // patch (Patch)
+		Node { ( 0 575 ) ( 199 203 204 ) } // patch (Patch)
+		Node { ( 0 576 ) ( 201 203 204 ) } // patch (Patch)
+		Node { ( 0 577 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 578 ) ( 196 203 204 ) } // brush (Brush)
+		Node { ( 0 579 ) ( 196 203 204 ) } // brush (Brush)
+		Node { ( 0 580 ) ( 196 203 204 ) } // brush (Brush)
+		Node { ( 0 581 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 582 ) ( 201 203 204 ) } // brush (Brush)
+		Node { ( 0 583 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 584 ) ( 201 203 204 ) } // brush (Brush)
+		Node { ( 0 585 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 586 ) ( 199 203 204 ) } // brush (Brush)
+		Node { ( 0 587 ) ( 199 203 204 ) } // brush (Brush)
+		Node { ( 0 588 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 589 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 590 ) ( 201 203 204 ) } // brush (Brush)
+		Node { ( 0 591 ) ( 199 203 204 ) } // brush (Brush)
+		Node { ( 0 592 ) ( 203 204 ) } // brush (Brush)
+		Node { ( 0 593 ) ( 204 ) } // brush (Brush)
+		Node { ( 0 594 ) ( 204 ) } // patch (Patch)
+		Node { ( 0 604 ) ( 205 ) } // patch (Patch)
+		Node { ( 0 607 ) ( 210 ) } // brush (Brush)
+		Node { ( 0 608 ) ( 210 ) } // patch (Patch)
+		Node { ( 0 609 ) ( 210 ) } // patch (Patch)
+		Node { ( 0 610 ) ( 210 ) } // patch (Patch)
+		Node { ( 0 611 ) ( 210 ) } // brush (Brush)
+		Node { ( 0 612 ) ( 210 ) } // brush (Brush)
+		Node { ( 0 613 ) ( 209 210 ) } // patch (Patch)
+		Node { ( 0 614 ) ( 209 210 ) } // patch (Patch)
+		Node { ( 0 615 ) ( 209 210 ) } // patch (Patch)
+		Node { ( 0 616 ) ( 209 210 ) } // patch (Patch)
+		Node { ( 0 617 ) ( 209 210 ) } // patch (Patch)
+		Node { ( 0 618 ) ( 209 210 ) } // patch (Patch)
+		Node { ( 0 623 ) ( 217 ) } // brush (Brush)
+		Node { ( 0 624 ) ( 217 ) } // brush (Brush)
+		Node { ( 0 625 ) ( 217 ) } // brush (Brush)
+		Node { ( 0 626 ) ( 217 ) } // brush (Brush)
+		Node { ( 0 627 ) ( 211 ) } // brush (Brush)
+		Node { ( 0 629 ) ( 211 ) } // patch (Patch)
+		Node { ( 0 630 ) ( 211 ) } // patch (Patch)
+		Node { ( 0 631 ) ( 211 ) } // patch (Patch)
+		Node { ( 0 633 ) ( 217 ) } // brush (Brush)
+		Node { ( 0 634 ) ( 212 ) } // patch (Patch)
+		Node { ( 0 635 ) ( 212 ) } // patch (Patch)
+		Node { ( 0 636 ) ( 212 ) } // patch (Patch)
+		Node { ( 0 640 ) ( 213 222 ) } // patch (Patch)
+		Node { ( 0 641 ) ( 213 222 ) } // patch (Patch)
+		Node { ( 0 642 ) ( 213 222 ) } // patch (Patch)
+		Node { ( 0 646 ) ( 214 221 ) } // patch (Patch)
+		Node { ( 0 647 ) ( 214 221 ) } // patch (Patch)
+		Node { ( 0 648 ) ( 214 221 ) } // patch (Patch)
+		Node { ( 0 653 ) ( 215 220 ) } // patch (Patch)
+		Node { ( 0 654 ) ( 216 219 ) } // patch (Patch)
+		Node { ( 0 655 ) ( 216 219 ) } // patch (Patch)
+		Node { ( 0 656 ) ( 215 220 ) } // patch (Patch)
+		Node { ( 0 657 ) ( 215 220 ) } // patch (Patch)
+		Node { ( 0 658 ) ( 216 219 ) } // patch (Patch)
+		Node { ( 0 659 ) ( 221 ) } // brush (Brush)
+		Node { ( 0 660 ) ( 221 ) } // brush (Brush)
+		Node { ( 0 661 ) ( 221 ) } // brush (Brush)
+		Node { ( 0 662 ) ( 221 ) } // brush (Brush)
+		Node { ( 0 663 ) ( 222 ) } // brush (Brush)
+		Node { ( 0 664 ) ( 222 ) } // brush (Brush)
+		Node { ( 0 665 ) ( 222 ) } // brush (Brush)
+		Node { ( 0 666 ) ( 222 ) } // brush (Brush)
+		Node { ( 0 667 ) ( 220 ) } // brush (Brush)
+		Node { ( 0 668 ) ( 220 ) } // brush (Brush)
+		Node { ( 0 669 ) ( 220 ) } // brush (Brush)
+		Node { ( 0 670 ) ( 220 ) } // brush (Brush)
+		Node { ( 0 671 ) ( 219 ) } // brush (Brush)
+		Node { ( 0 672 ) ( 219 ) } // brush (Brush)
+		Node { ( 0 673 ) ( 219 ) } // brush (Brush)
+		Node { ( 0 674 ) ( 219 ) } // brush (Brush)
+		Node { ( 0 686 ) ( 233 234 ) } // brush (Brush)
+		Node { ( 0 687 ) ( 233 234 ) } // brush (Brush)
+		Node { ( 0 688 ) ( 233 234 ) } // brush (Brush)
+		Node { ( 0 689 ) ( 233 234 ) } // brush (Brush)
+		Node { ( 0 690 ) ( 233 234 ) } // brush (Brush)
+		Node { ( 0 691 ) ( 233 234 ) } // brush (Brush)
+		Node { ( 0 692 ) ( 237 233 234 ) } // patch (Patch)
+		Node { ( 0 693 ) ( 235 233 234 ) } // patch (Patch)
+		Node { ( 0 694 ) ( 235 233 234 ) } // patch (Patch)
+		Node { ( 0 695 ) ( 235 233 234 ) } // patch (Patch)
+		Node { ( 0 696 ) ( 235 233 234 ) } // patch (Patch)
+		Node { ( 0 697 ) ( 235 233 234 ) } // patch (Patch)
+		Node { ( 0 698 ) ( 236 233 234 ) } // patch (Patch)
+		Node { ( 0 699 ) ( 236 233 234 ) } // patch (Patch)
+		Node { ( 0 700 ) ( 236 233 234 ) } // patch (Patch)
+		Node { ( 0 701 ) ( 237 233 234 ) } // patch (Patch)
+		Node { ( 0 702 ) ( 237 233 234 ) } // patch (Patch)
+		Node { ( 0 703 ) ( 237 233 234 ) } // patch (Patch)
+		Node { ( 0 704 ) ( 237 233 234 ) } // patch (Patch)
+		Node { ( 0 705 ) ( 236 233 234 ) } // patch (Patch)
+		Node { ( 0 706 ) ( 236 233 234 ) } // patch (Patch)
+		Node { ( 0 707 ) ( 238 ) } // patch (Patch)
+		Node { ( 0 708 ) ( 239 ) } // patch (Patch)
+		Node { ( 0 711 ) ( 240 241 242 ) } // patch (Patch)
+		Node { ( 0 719 ) ( 264 ) } // brush (Brush)
+		Node { ( 0 723 ) ( 264 ) } // brush (Brush)
+		Node { ( 0 724 ) ( 264 ) } // brush (Brush)
+		Node { ( 0 725 ) ( 264 ) } // brush (Brush)
+		Node { ( 0 726 ) ( 264 ) } // brush (Brush)
+		Node { ( 0 727 ) ( 264 ) } // brush (Brush)
+		Node { ( 0 728 ) ( 264 ) } // brush (Brush)
+		Node { ( 0 729 ) ( 264 ) } // brush (Brush)
+		Node { ( 0 730 ) ( 264 ) } // brush (Brush)
+		Node { ( 0 731 ) ( 264 ) } // brush (Brush)
+		Node { ( 0 732 ) ( 264 ) } // brush (Brush)
+		Node { ( 0 733 ) ( 264 ) } // brush (Brush)
+		Node { ( 0 734 ) ( 264 ) } // brush (Brush)
+		Node { ( 0 735 ) ( 264 ) } // brush (Brush)
+		Node { ( 0 736 ) ( 257 ) } // brush (Brush)
+		Node { ( 0 737 ) ( 255 257 ) } // patch (Patch)
+		Node { ( 0 738 ) ( 255 257 ) } // patch (Patch)
+		Node { ( 0 739 ) ( 256 257 ) } // patch (Patch)
+		Node { ( 0 740 ) ( 256 257 ) } // patch (Patch)
+		Node { ( 0 741 ) ( 256 257 ) } // patch (Patch)
+		Node { ( 0 742 ) ( 257 ) } // brush (Brush)
+		Node { ( 0 743 ) ( 259 258 ) } // patch (Patch)
+		Node { ( 0 744 ) ( 260 258 ) } // patch (Patch)
+		Node { ( 0 745 ) ( 259 258 ) } // patch (Patch)
+		Node { ( 0 746 ) ( 260 258 ) } // patch (Patch)
+		Node { ( 0 747 ) ( 260 258 ) } // patch (Patch)
+		Node { ( 0 748 ) ( 258 ) } // brush (Brush)
+		Node { ( 0 749 ) ( 258 ) } // brush (Brush)
+		Node { ( 0 750 ) ( 264 ) } // brush (Brush)
+		Node { ( 0 754 ) ( 311 ) } // brush (Brush)
+		Node { ( 0 755 ) ( 311 ) } // brush (Brush)
+		Node { ( 0 756 ) ( 315 ) } // brush (Brush)
+		Node { ( 0 757 ) ( 315 ) } // brush (Brush)
+		Node { ( 0 758 ) ( 316 315 ) } // patch (Patch)
+		Node { ( 0 759 ) ( 313 311 ) } // patch (Patch)
+		Node { ( 0 760 ) ( 313 311 ) } // patch (Patch)
+		Node { ( 0 761 ) ( 312 311 ) } // patch (Patch)
+		Node { ( 0 762 ) ( 314 315 ) } // patch (Patch)
+		Node { ( 0 763 ) ( 316 315 ) } // patch (Patch)
+		Node { ( 0 764 ) ( 312 311 ) } // patch (Patch)
+		Node { ( 0 765 ) ( 313 311 ) } // patch (Patch)
+		Node { ( 0 766 ) ( 316 315 ) } // patch (Patch)
+		Node { ( 0 767 ) ( 314 315 ) } // patch (Patch)
+		Node { ( 0 770 ) ( 319 ) } // patch (Patch)
+		Node { ( 0 771 ) ( 319 ) } // patch (Patch)
+		Node { ( 0 773 ) ( 320 ) } // patch (Patch)
+		Node { ( 0 774 ) ( 320 ) } // patch (Patch)
+		Node { ( 0 782 ) ( 326 ) } // patch (Patch)
+		Node { ( 0 783 ) ( 326 ) } // patch (Patch)
+		Node { ( 0 784 ) ( 326 ) } // patch (Patch)
+		Node { ( 0 785 ) ( 326 ) } // patch (Patch)
+		Node { ( 0 786 ) ( 326 ) } // patch (Patch)
+		Node { ( 0 787 ) ( 326 ) } // patch (Patch)
+		Node { ( 0 788 ) ( 326 ) } // patch (Patch)
+		Node { ( 0 789 ) ( 326 ) } // patch (Patch)
+		Node { ( 0 793 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 794 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 795 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 796 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 797 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 798 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 799 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 800 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 801 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 802 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 803 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 804 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 805 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 806 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 807 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 808 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 810 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 811 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 812 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 813 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 814 ) ( 325 ) } // brush (Brush)
+		Node { ( 0 829 ) ( 329 ) } // patch (Patch)
+		Node { ( 0 832 ) ( 333 ) } // brush (Brush)
+		Node { ( 0 833 ) ( 333 ) } // brush (Brush)
+		Node { ( 0 834 ) ( 333 ) } // brush (Brush)
+		Node { ( 0 835 ) ( 333 ) } // brush (Brush)
+		Node { ( 0 836 ) ( 333 ) } // brush (Brush)
+		Node { ( 0 837 ) ( 333 ) } // brush (Brush)
+		Node { ( 0 838 ) ( 329 ) } // patch (Patch)
+		Node { ( 0 839 ) ( 329 ) } // patch (Patch)
+		Node { ( 0 840 ) ( 329 ) } // patch (Patch)
+		Node { ( 0 841 ) ( 329 ) } // patch (Patch)
+		Node { ( 0 842 ) ( 330 ) } // patch (Patch)
+		Node { ( 0 843 ) ( 330 ) } // patch (Patch)
+		Node { ( 0 844 ) ( 330 ) } // patch (Patch)
+		Node { ( 0 845 ) ( 330 ) } // patch (Patch)
+		Node { ( 0 846 ) ( 330 ) } // patch (Patch)
+		Node { ( 0 847 ) ( 332 ) } // patch (Patch)
+		Node { ( 0 850 ) ( 332 ) } // patch (Patch)
+		Node { ( 0 854 ) ( 332 ) } // patch (Patch)
+		Node { ( 0 855 ) ( 332 ) } // patch (Patch)
+		Node { ( 0 856 ) ( 332 ) } // patch (Patch)
+		Node { ( 0 857 ) ( 334 ) } // brush (Brush)
+		Node { ( 0 858 ) ( 334 ) } // brush (Brush)
+		Node { ( 0 859 ) ( 334 ) } // brush (Brush)
+		Node { ( 0 860 ) ( 334 ) } // brush (Brush)
+		Node { ( 0 861 ) ( 334 ) } // brush (Brush)
+		Node { ( 0 862 ) ( 334 ) } // brush (Brush)
+		Node { ( 0 865 ) ( 335 336 341 ) } // patch (Patch)
+		Node { ( 0 866 ) ( 335 336 341 ) } // patch (Patch)
+		Node { ( 0 867 ) ( 335 336 341 ) } // patch (Patch)
+		Node { ( 0 868 ) ( 335 336 341 ) } // patch (Patch)
+		Node { ( 0 869 ) ( 335 336 341 ) } // patch (Patch)
+		Node { ( 0 870 ) ( 335 336 341 ) } // patch (Patch)
+		Node { ( 0 871 ) ( 336 341 ) } // brush (Brush)
+		Node { ( 0 872 ) ( 336 341 ) } // brush (Brush)
+		Node { ( 0 873 ) ( 336 341 ) } // brush (Brush)
+		Node { ( 0 874 ) ( 336 341 ) } // brush (Brush)
+		Node { ( 0 875 ) ( 336 341 ) } // brush (Brush)
+		Node { ( 0 876 ) ( 336 341 ) } // brush (Brush)
+		Node { ( 0 877 ) ( 339 341 ) } // patch (Patch)
+		Node { ( 0 878 ) ( 339 341 ) } // patch (Patch)
+		Node { ( 0 879 ) ( 339 341 ) } // patch (Patch)
+		Node { ( 0 880 ) ( 339 341 ) } // patch (Patch)
+		Node { ( 0 881 ) ( 339 341 ) } // patch (Patch)
+		Node { ( 0 882 ) ( 339 341 ) } // patch (Patch)
+		Node { ( 0 883 ) ( 340 341 ) } // patch (Patch)
+		Node { ( 0 884 ) ( 340 341 ) } // patch (Patch)
+		Node { ( 0 885 ) ( 340 341 ) } // patch (Patch)
+		Node { ( 0 886 ) ( 340 341 ) } // patch (Patch)
+		Node { ( 0 887 ) ( 340 341 ) } // patch (Patch)
+		Node { ( 0 888 ) ( 340 341 ) } // patch (Patch)
+		Node { ( 0 889 ) ( 343 344 ) } // brush (Brush)
+		Node { ( 0 890 ) ( 343 344 ) } // brush (Brush)
+		Node { ( 0 891 ) ( 343 344 ) } // brush (Brush)
+		Node { ( 0 892 ) ( 343 344 ) } // brush (Brush)
+		Node { ( 0 893 ) ( 343 344 ) } // brush (Brush)
+		Node { ( 0 894 ) ( 343 344 ) } // brush (Brush)
+		Node { ( 0 895 ) ( 342 343 344 ) } // patch (Patch)
+		Node { ( 0 896 ) ( 342 343 344 ) } // patch (Patch)
+		Node { ( 0 897 ) ( 345 344 ) } // patch (Patch)
+		Node { ( 0 898 ) ( 342 343 344 ) } // patch (Patch)
+		Node { ( 0 899 ) ( 342 343 344 ) } // patch (Patch)
+		Node { ( 0 900 ) ( 345 344 ) } // patch (Patch)
+		Node { ( 0 901 ) ( 342 343 344 ) } // patch (Patch)
+		Node { ( 0 902 ) ( 342 343 344 ) } // patch (Patch)
+		Node { ( 0 903 ) ( 345 344 ) } // patch (Patch)
+		Node { ( 0 904 ) ( 345 344 ) } // patch (Patch)
+		Node { ( 0 905 ) ( 346 344 ) } // patch (Patch)
+		Node { ( 0 906 ) ( 345 344 ) } // patch (Patch)
+		Node { ( 0 907 ) ( 346 344 ) } // patch (Patch)
+		Node { ( 0 908 ) ( 345 344 ) } // patch (Patch)
+		Node { ( 0 909 ) ( 346 344 ) } // patch (Patch)
+		Node { ( 0 910 ) ( 346 344 ) } // patch (Patch)
+		Node { ( 0 911 ) ( 346 344 ) } // patch (Patch)
+		Node { ( 0 912 ) ( 346 344 ) } // patch (Patch)
+		Node { ( 0 914 ) ( 347 ) } // patch (Patch)
+		Node { ( 0 915 ) ( 347 ) } // patch (Patch)
+		Node { ( 0 916 ) ( 347 ) } // patch (Patch)
+		Node { ( 0 917 ) ( 347 ) } // patch (Patch)
+		Node { ( 0 918 ) ( 347 ) } // patch (Patch)
+		Node { ( 0 919 ) ( 347 ) } // patch (Patch)
+		Node { ( 0 920 ) ( 350 ) } // patch (Patch)
+		Node { ( 0 921 ) ( 351 ) } // patch (Patch)
+		Node { ( 0 922 ) ( 350 ) } // patch (Patch)
+		Node { ( 0 923 ) ( 350 ) } // patch (Patch)
+		Node { ( 0 924 ) ( 351 ) } // patch (Patch)
+		Node { ( 0 925 ) ( 350 ) } // patch (Patch)
+		Node { ( 0 926 ) ( 350 ) } // patch (Patch)
+		Node { ( 0 927 ) ( 350 ) } // patch (Patch)
+		Node { ( 0 928 ) ( 351 ) } // patch (Patch)
+		Node { ( 0 929 ) ( 351 ) } // patch (Patch)
+		Node { ( 0 930 ) ( 351 ) } // patch (Patch)
+		Node { ( 0 931 ) ( 351 ) } // patch (Patch)
+		Node { ( 0 933 ) ( 352 353 ) } // brush (Brush)
+		Node { ( 0 934 ) ( 352 353 ) } // brush (Brush)
+		Node { ( 0 935 ) ( 352 353 ) } // brush (Brush)
+		Node { ( 0 936 ) ( 352 353 ) } // brush (Brush)
+		Node { ( 0 937 ) ( 352 353 ) } // brush (Brush)
+		Node { ( 0 938 ) ( 352 353 ) } // brush (Brush)
+		Node { ( 0 939 ) ( 354 352 353 ) } // patch (Patch)
+		Node { ( 0 940 ) ( 354 352 353 ) } // patch (Patch)
+		Node { ( 0 941 ) ( 354 352 353 ) } // patch (Patch)
+		Node { ( 0 942 ) ( 354 352 353 ) } // patch (Patch)
+		Node { ( 0 943 ) ( 355 353 ) } // patch (Patch)
+		Node { ( 0 944 ) ( 356 353 ) } // patch (Patch)
+		Node { ( 0 945 ) ( 356 353 ) } // patch (Patch)
+		Node { ( 0 946 ) ( 354 352 353 ) } // patch (Patch)
+		Node { ( 0 947 ) ( 356 353 ) } // patch (Patch)
+		Node { ( 0 948 ) ( 354 352 353 ) } // patch (Patch)
+		Node { ( 0 949 ) ( 355 353 ) } // patch (Patch)
+		Node { ( 0 950 ) ( 355 353 ) } // patch (Patch)
+		Node { ( 0 951 ) ( 355 353 ) } // patch (Patch)
+		Node { ( 0 952 ) ( 356 353 ) } // patch (Patch)
+		Node { ( 0 953 ) ( 356 353 ) } // patch (Patch)
+		Node { ( 0 954 ) ( 355 353 ) } // patch (Patch)
+		Node { ( 0 955 ) ( 355 353 ) } // patch (Patch)
+		Node { ( 0 956 ) ( 356 353 ) } // patch (Patch)
+		Node { ( 0 970 ) ( 380 ) } // patch (Patch)
+		Node { ( 0 971 ) ( 380 ) } // patch (Patch)
+		Node { ( 0 972 ) ( 380 ) } // patch (Patch)
+		Node { ( 0 973 ) ( 380 ) } // patch (Patch)
+		Node { ( 0 991 ) ( 381 ) } // patch (Patch)
+		Node { ( 0 992 ) ( 381 ) } // patch (Patch)
+		Node { ( 0 993 ) ( 381 ) } // patch (Patch)
+		Node { ( 0 994 ) ( 381 ) } // patch (Patch)
+		Node { ( 0 1009 ) ( 383 ) } // patch (Patch)
+		Node { ( 0 1010 ) ( 383 ) } // patch (Patch)
+		Node { ( 0 1011 ) ( 383 ) } // patch (Patch)
+		Node { ( 0 1012 ) ( 383 ) } // patch (Patch)
+		Node { ( 0 1025 ) ( 384 391 ) } // brush (Brush)
+		Node { ( 0 1026 ) ( 385 384 391 ) } // patch (Patch)
+		Node { ( 0 1027 ) ( 385 384 391 ) } // patch (Patch)
+		Node { ( 0 1028 ) ( 385 384 391 ) } // patch (Patch)
+		Node { ( 0 1029 ) ( 386 391 ) } // brush (Brush)
+		Node { ( 0 1030 ) ( 387 386 391 ) } // patch (Patch)
+		Node { ( 0 1031 ) ( 387 386 391 ) } // patch (Patch)
+		Node { ( 0 1032 ) ( 387 386 391 ) } // patch (Patch)
+		Node { ( 0 1033 ) ( 388 391 ) } // brush (Brush)
+		Node { ( 0 1034 ) ( 389 388 391 ) } // patch (Patch)
+		Node { ( 0 1035 ) ( 389 388 391 ) } // patch (Patch)
+		Node { ( 0 1036 ) ( 389 388 391 ) } // patch (Patch)
+		Node { ( 0 1037 ) ( 390 391 ) } // brush (Brush)
+		Node { ( 0 1041 ) ( 394 ) } // brush (Brush)
+		Node { ( 0 1042 ) ( 395 ) } // brush (Brush)
+		Node { ( 0 1043 ) ( 396 ) } // brush (Brush)
+		Node { ( 0 1050 ) ( 401 402 ) } // brush (Brush)
+		Node { ( 0 1051 ) ( 401 402 ) } // brush (Brush)
+		Node { ( 0 1052 ) ( 401 402 ) } // brush (Brush)
+		Node { ( 0 1053 ) ( 401 402 ) } // brush (Brush)
+		Node { ( 0 1054 ) ( 401 402 ) } // brush (Brush)
+		Node { ( 0 1055 ) ( 401 402 ) } // brush (Brush)
+		Node { ( 0 1056 ) ( 405 401 402 ) } // patch (Patch)
+		Node { ( 0 1057 ) ( 405 401 402 ) } // patch (Patch)
+		Node { ( 0 1058 ) ( 405 401 402 ) } // patch (Patch)
+		Node { ( 0 1059 ) ( 403 401 402 ) } // patch (Patch)
+		Node { ( 0 1060 ) ( 404 401 402 ) } // patch (Patch)
+		Node { ( 0 1061 ) ( 404 401 402 ) } // patch (Patch)
+		Node { ( 0 1062 ) ( 403 401 402 ) } // patch (Patch)
+		Node { ( 0 1063 ) ( 404 401 402 ) } // patch (Patch)
+		Node { ( 0 1064 ) ( 404 401 402 ) } // patch (Patch)
+		Node { ( 0 1065 ) ( 404 401 402 ) } // patch (Patch)
+		Node { ( 0 1066 ) ( 403 401 402 ) } // patch (Patch)
+		Node { ( 0 1067 ) ( 403 401 402 ) } // patch (Patch)
+		Node { ( 0 1068 ) ( 403 401 402 ) } // patch (Patch)
+		Node { ( 0 1069 ) ( 405 401 402 ) } // patch (Patch)
+		Node { ( 0 1070 ) ( 405 401 402 ) } // patch (Patch)
+		Node { ( 1 ) ( 1 ) } // entity (ambient_world)
+		Node { ( 2 ) ( 1 ) } // entity (Objectives)
+		Node { ( 3 ) ( 1 ) } // entity (CompassEasy)
+		Node { ( 4 ) ( 1 ) } // entity (LanternEasy)
+		Node { ( 5 ) ( 1 ) } // entity (SpyglassEasy)
+		Node { ( 6 ) ( 1 ) } // entity (HealthPotionsEasy)
+		Node { ( 7 ) ( 1 ) } // entity (SwordEasy)
+		Node { ( 8 ) ( 1 ) } // entity (BlackjackEasy)
+		Node { ( 9 ) ( 1 ) } // entity (BreathPotionsEasy)
+		Node { ( 10 ) ( 1 ) } // entity (FlashbombsEasy)
+		Node { ( 11 ) ( 1 ) } // entity (key_master)
+		Node { ( 12 ) ( 1 ) } // entity (ShopItems)
+		Node { ( 13 ) ( 1 ) } // entity (BroadheadsEasy)
+		Node { ( 14 ) ( 1 ) } // entity (BroadheadsHard)
+		Node { ( 15 ) ( 1 ) } // entity (BroadheadsExpert)
+		Node { ( 16 ) ( 1 ) } // entity (FireArrowsEasy)
+		Node { ( 17 ) ( 1 ) } // entity (FireArrowsHard)
+		Node { ( 18 ) ( 1 ) } // entity (FireArrowsExpert)
+		Node { ( 19 ) ( 1 ) } // entity (GasArrowsEasy)
+		Node { ( 20 ) ( 1 ) } // entity (GasArrowsHard)
+		Node { ( 21 ) ( 1 ) } // entity (GasArrowsExpert)
+		Node { ( 22 ) ( 1 ) } // entity (MossArrowsEasy)
+		Node { ( 23 ) ( 1 ) } // entity (MossArrowsExpert)
+		Node { ( 24 ) ( 1 ) } // entity (MossArrowsHard)
+		Node { ( 25 ) ( 1 ) } // entity (NoiseArrowsEasy)
+		Node { ( 26 ) ( 1 ) } // entity (NoiseArrowsHard)
+		Node { ( 27 ) ( 1 ) } // entity (NoiseArrowsExpert)
+		Node { ( 28 ) ( 1 ) } // entity (RopeArrowsEasy)
+		Node { ( 29 ) ( 1 ) } // entity (RopeArrowsHard)
+		Node { ( 30 ) ( 1 ) } // entity (RopeArrowsExpert)
+		Node { ( 31 ) ( 1 ) } // entity (WaterArrowsEasy)
+		Node { ( 32 ) ( 1 ) } // entity (WaterArrowsHard)
+		Node { ( 33 ) ( 1 ) } // entity (WaterArrowsExpert)
+		Node { ( 34 ) ( 1 ) } // entity (BlackjackHard)
+		Node { ( 35 ) ( 1 ) } // entity (BlackjackExpert)
+		Node { ( 36 ) ( 1 ) } // entity (SwordHard)
+		Node { ( 37 ) ( 1 ) } // entity (SwordExpert)
+		Node { ( 38 ) ( 1 ) } // entity (CompassHard)
+		Node { ( 39 ) ( 1 ) } // entity (CompassExpert)
+		Node { ( 40 ) ( 1 ) } // entity (LanternHard)
+		Node { ( 41 ) ( 1 ) } // entity (LanternExpert)
+		Node { ( 42 ) ( 1 ) } // entity (SpyglassHard)
+		Node { ( 43 ) ( 1 ) } // entity (SpyglassExpert)
+		Node { ( 44 ) ( 1 ) } // entity (FlashbombsHard)
+		Node { ( 45 ) ( 1 ) } // entity (FlashbombsExpert)
+		Node { ( 46 ) ( 1 ) } // entity (HealthPotionsHard)
+		Node { ( 47 ) ( 1 ) } // entity (HealthPotionsExpert)
+		Node { ( 48 ) ( 1 ) } // entity (BreathPotionsHard)
+		Node { ( 49 ) ( 1 ) } // entity (BreathPotionsExpert)
+		Node { ( 50 ) ( 1 ) } // entity (LockpickSnakeEasy)
+		Node { ( 51 ) ( 1 ) } // entity (LockpickTriangleEasy)
+		Node { ( 52 ) ( 1 ) } // entity (MinesEasy)
+		Node { ( 53 ) ( 1 ) } // entity (HolyWatersEasy)
+		Node { ( 54 ) ( 1 ) } // entity (FlashminesEasy)
+		Node { ( 55 ) ( 1 ) } // entity (LockpickSnakeHard)
+		Node { ( 56 ) ( 1 ) } // entity (LockpickSnakeExpert)
+		Node { ( 57 ) ( 1 ) } // entity (LockpickTriangleHard)
+		Node { ( 58 ) ( 1 ) } // entity (LockpickTriangleExpert)
+		Node { ( 59 ) ( 1 ) } // entity (FlashminesHard)
+		Node { ( 60 ) ( 1 ) } // entity (FlashminesExpert)
+		Node { ( 61 ) ( 1 ) } // entity (MinesHard)
+		Node { ( 62 ) ( 1 ) } // entity (MinesExpert)
+		Node { ( 63 ) ( 1 ) } // entity (HolyWatersHard)
+		Node { ( 64 ) ( 1 ) } // entity (HolyWatersExpert)
+		Node { ( 65 ) ( 1 ) } // entity (VineArrowsEasy)
+		Node { ( 66 ) ( 1 ) } // entity (VineArrowsHard)
+		Node { ( 67 ) ( 1 ) } // entity (VineArrowsExpert)
+		Node { ( 68 ) ( 1 ) } // entity (atdm_location_settings_1)
+		Node { ( 70 ) ( 10 ) } // entity (func_static_3)
+		Node { ( 73 ) ( 30 ) } // entity (func_static_8)
+		Node { ( 74 ) ( 30 ) } // entity (func_static_9)
+		Node { ( 75 ) ( 30 ) } // entity (func_static_10)
+		Node { ( 76 ) ( 30 ) } // entity (func_static_11)
+		Node { ( 77 ) ( 30 ) } // entity (func_static_12)
+		Node { ( 78 ) ( 30 ) } // entity (func_static_13)
+		Node { ( 79 ) ( 30 ) } // entity (func_static_14)
+		Node { ( 80 ) ( 30 ) } // entity (func_static_15)
+		Node { ( 81 ) ( 30 ) } // entity (func_static_16)
+		Node { ( 97 ) ( 10 ) } // entity (func_static_21)
+		Node { ( 101 ) ( 17 ) } // entity (func_static_26)
+		Node { ( 102 ) ( 17 ) } // entity (func_static_27)
+		Node { ( 103 ) ( 17 ) } // entity (func_static_28)
+		Node { ( 104 ) ( 17 ) } // entity (func_static_29)
+		Node { ( 105 ) ( 102 ) } // entity (func_static_42)
+		Node { ( 106 ) ( 102 ) } // entity (func_static_46)
+		Node { ( 107 ) ( 102 ) } // entity (func_static_47)
+		Node { ( 108 ) ( 102 ) } // entity (func_static_48)
+		Node { ( 109 ) ( 102 ) } // entity (func_static_49)
+		Node { ( 146 ) ( 90 ) } // entity (info_locationSeparator_2)
+		Node { ( 147 ) ( 90 ) } // entity (info_locationSeparator_3)
+		Node { ( 148 ) ( 90 ) } // entity (info_locationSeparator_4)
+		Node { ( 149 ) ( 90 ) } // entity (info_locationSeparator_5)
+		Node { ( 150 ) ( 90 ) } // entity (info_locationSeparator_6)
+		Node { ( 151 ) ( 90 ) } // entity (info_locationSeparator_7)
+		Node { ( 152 ) ( 90 ) } // entity (info_locationSeparator_8)
+		Node { ( 153 ) ( 90 ) } // entity (info_locationSeparator_9)
+		Node { ( 170 ) ( 98 ) } // entity (func_static_91)
+		Node { ( 171 ) ( 98 ) } // entity (func_static_92)
+		Node { ( 176 ) ( 92 ) } // entity (info_locationSeparator_10)
+		Node { ( 178 ) ( 392 ) } // entity (info_locationSeparator_11)
+		Node { ( 179 ) ( 392 ) } // entity (info_locationSeparator_13)
+		Node { ( 180 ) ( 392 ) } // entity (info_locationSeparator_15)
+		Node { ( 181 ) ( 392 ) } // entity (info_locationSeparator_16)
+		Node { ( 182 ) ( 392 ) } // entity (info_locationSeparator_17)
+		Node { ( 183 ) ( 392 ) } // entity (info_locationSeparator_18)
+		Node { ( 185 ) ( 103 ) } // entity (func_static_30)
+		Node { ( 186 ) ( 103 ) } // entity (func_static_31)
+		Node { ( 187 ) ( 103 ) } // entity (func_static_32)
+		Node { ( 188 ) ( 103 ) } // entity (func_static_33)
+		Node { ( 189 ) ( 104 ) } // entity (func_static_34)
+		Node { ( 190 ) ( 104 ) } // entity (func_static_35)
+		Node { ( 191 ) ( 104 ) } // entity (func_static_36)
+		Node { ( 192 ) ( 104 ) } // entity (func_static_37)
+		Node { ( 205 ) ( 111 ) } // entity (func_static_1093)
+		Node { ( 206 ) ( 111 ) } // entity (func_static_1094)
+		Node { ( 207 ) ( 111 ) } // entity (func_static_1180)
+		Node { ( 208 ) ( 111 ) } // entity (func_static_1181)
+		Node { ( 209 ) ( 111 ) } // entity (func_static_1182)
+		Node { ( 210 ) ( 392 ) } // entity (info_locationSeparator_19)
+		Node { ( 211 ) ( 392 ) } // entity (info_locationSeparator_20)
+		Node { ( 212 ) ( 392 ) } // entity (info_locationSeparator_21)
+		Node { ( 213 ) ( 243 ) } // entity (func_static_82)
+		Node { ( 214 ) ( 124 125 126 127 243 ) } // entity (atdm_lantern_hanging2_2)
+		Node { ( 215 ) ( 124 125 126 127 243 ) } // entity (func_static_83)
+		Node { ( 218 1167 ) ( 168 ) } // patch (Patch)
+		Node { ( 218 1168 ) ( 128 168 ) } // patch (Patch)
+		Node { ( 218 1169 ) ( 128 168 ) } // patch (Patch)
+		Node { ( 218 1170 ) ( 128 168 ) } // patch (Patch)
+		Node { ( 218 1171 ) ( 129 168 ) } // patch (Patch)
+		Node { ( 218 1172 ) ( 128 168 ) } // patch (Patch)
+		Node { ( 218 1173 ) ( 128 168 ) } // patch (Patch)
+		Node { ( 218 1174 ) ( 128 168 ) } // patch (Patch)
+		Node { ( 218 1175 ) ( 128 168 ) } // patch (Patch)
+		Node { ( 218 1176 ) ( 128 168 ) } // patch (Patch)
+		Node { ( 218 1177 ) ( 129 168 ) } // patch (Patch)
+		Node { ( 218 1178 ) ( 129 168 ) } // patch (Patch)
+		Node { ( 218 1179 ) ( 129 168 ) } // patch (Patch)
+		Node { ( 218 1180 ) ( 129 168 ) } // patch (Patch)
+		Node { ( 218 1181 ) ( 130 168 ) } // patch (Patch)
+		Node { ( 218 1182 ) ( 130 168 ) } // patch (Patch)
+		Node { ( 218 1183 ) ( 130 168 ) } // patch (Patch)
+		Node { ( 218 1184 ) ( 129 168 ) } // patch (Patch)
+		Node { ( 218 1185 ) ( 130 168 ) } // patch (Patch)
+		Node { ( 218 1186 ) ( 129 168 ) } // patch (Patch)
+		Node { ( 218 1187 ) ( 129 168 ) } // patch (Patch)
+		Node { ( 218 1188 ) ( 130 168 ) } // patch (Patch)
+		Node { ( 218 1189 ) ( 131 168 ) } // patch (Patch)
+		Node { ( 218 1190 ) ( 130 168 ) } // patch (Patch)
+		Node { ( 218 1191 ) ( 132 137 168 ) } // patch (Patch)
+		Node { ( 218 1192 ) ( 130 168 ) } // patch (Patch)
+		Node { ( 218 1193 ) ( 138 139 168 ) } // patch (Patch)
+		Node { ( 218 1194 ) ( 136 137 168 ) } // patch (Patch)
+		Node { ( 218 1195 ) ( 134 137 168 ) } // patch (Patch)
+		Node { ( 218 1196 ) ( 135 137 168 ) } // patch (Patch)
+		Node { ( 218 1197 ) ( 133 137 168 ) } // patch (Patch)
+		Node { ( 218 1198 ) ( 140 139 168 ) } // patch (Patch)
+		Node { ( 218 1199 ) ( 141 139 168 ) } // patch (Patch)
+		Node { ( 218 1200 ) ( 142 139 168 ) } // patch (Patch)
+		Node { ( 218 1201 ) ( 143 139 168 ) } // patch (Patch)
+		Node { ( 219 1202 ) ( 169 ) } // patch (Patch)
+		Node { ( 219 1203 ) ( 170 169 ) } // patch (Patch)
+		Node { ( 219 1204 ) ( 170 169 ) } // patch (Patch)
+		Node { ( 219 1205 ) ( 170 169 ) } // patch (Patch)
+		Node { ( 219 1206 ) ( 171 169 ) } // patch (Patch)
+		Node { ( 219 1207 ) ( 170 169 ) } // patch (Patch)
+		Node { ( 219 1208 ) ( 170 169 ) } // patch (Patch)
+		Node { ( 219 1209 ) ( 170 169 ) } // patch (Patch)
+		Node { ( 219 1210 ) ( 170 169 ) } // patch (Patch)
+		Node { ( 219 1211 ) ( 170 169 ) } // patch (Patch)
+		Node { ( 219 1212 ) ( 171 169 ) } // patch (Patch)
+		Node { ( 219 1213 ) ( 171 169 ) } // patch (Patch)
+		Node { ( 219 1214 ) ( 171 169 ) } // patch (Patch)
+		Node { ( 219 1215 ) ( 171 169 ) } // patch (Patch)
+		Node { ( 219 1216 ) ( 172 169 ) } // patch (Patch)
+		Node { ( 219 1217 ) ( 172 169 ) } // patch (Patch)
+		Node { ( 219 1218 ) ( 172 169 ) } // patch (Patch)
+		Node { ( 219 1219 ) ( 171 169 ) } // patch (Patch)
+		Node { ( 219 1220 ) ( 172 169 ) } // patch (Patch)
+		Node { ( 219 1221 ) ( 171 169 ) } // patch (Patch)
+		Node { ( 219 1222 ) ( 171 169 ) } // patch (Patch)
+		Node { ( 219 1223 ) ( 172 169 ) } // patch (Patch)
+		Node { ( 219 1224 ) ( 173 169 ) } // patch (Patch)
+		Node { ( 219 1225 ) ( 172 169 ) } // patch (Patch)
+		Node { ( 219 1226 ) ( 174 175 169 ) } // patch (Patch)
+		Node { ( 219 1227 ) ( 172 169 ) } // patch (Patch)
+		Node { ( 219 1228 ) ( 176 177 169 ) } // patch (Patch)
+		Node { ( 219 1229 ) ( 178 175 169 ) } // patch (Patch)
+		Node { ( 219 1230 ) ( 179 175 169 ) } // patch (Patch)
+		Node { ( 219 1231 ) ( 180 175 169 ) } // patch (Patch)
+		Node { ( 219 1232 ) ( 181 175 169 ) } // patch (Patch)
+		Node { ( 219 1233 ) ( 182 177 169 ) } // patch (Patch)
+		Node { ( 219 1234 ) ( 183 177 169 ) } // patch (Patch)
+		Node { ( 219 1235 ) ( 184 177 169 ) } // patch (Patch)
+		Node { ( 219 1236 ) ( 185 177 169 ) } // patch (Patch)
+		Node { ( 223 ) ( 205 ) } // entity (func_static_1165)
+		Node { ( 224 ) ( 205 ) } // entity (func_static_1167)
+		Node { ( 225 ) ( 205 ) } // entity (func_static_1168)
+		Node { ( 227 1237 ) ( 207 ) } // patch (Patch)
+		Node { ( 227 1238 ) ( 207 ) } // patch (Patch)
+		Node { ( 227 1239 ) ( 207 ) } // patch (Patch)
+		Node { ( 227 1240 ) ( 207 ) } // patch (Patch)
+		Node { ( 227 1241 ) ( 207 ) } // patch (Patch)
+		Node { ( 227 1242 ) ( 207 ) } // patch (Patch)
+		Node { ( 228 1243 ) ( 208 ) } // patch (Patch)
+		Node { ( 228 1244 ) ( 208 ) } // patch (Patch)
+		Node { ( 228 1245 ) ( 208 ) } // patch (Patch)
+		Node { ( 228 1246 ) ( 208 ) } // patch (Patch)
+		Node { ( 228 1247 ) ( 208 ) } // patch (Patch)
+		Node { ( 228 1248 ) ( 208 ) } // patch (Patch)
+		Node { ( 230 ) ( 238 ) } // entity (func_static_105)
+		Node { ( 231 ) ( 238 ) } // entity (func_static_106)
+		Node { ( 235 ) ( 244 ) } // entity (func_static_109)
+		Node { ( 236 ) ( 245 246 247 248 244 ) } // entity (func_static_110)
+		Node { ( 237 ) ( 245 246 247 248 244 ) } // entity (atdm_lantern_hanging2_3)
+		Node { ( 238 1249 ) ( 265 ) } // patch (Patch)
+		Node { ( 238 1250 ) ( 267 265 ) } // patch (Patch)
+		Node { ( 238 1251 ) ( 266 265 ) } // patch (Patch)
+		Node { ( 238 1252 ) ( 266 265 ) } // patch (Patch)
+		Node { ( 238 1253 ) ( 267 265 ) } // patch (Patch)
+		Node { ( 238 1254 ) ( 267 265 ) } // patch (Patch)
+		Node { ( 238 1255 ) ( 267 265 ) } // patch (Patch)
+		Node { ( 238 1256 ) ( 266 265 ) } // patch (Patch)
+		Node { ( 238 1257 ) ( 266 265 ) } // patch (Patch)
+		Node { ( 238 1258 ) ( 267 265 ) } // patch (Patch)
+		Node { ( 238 1259 ) ( 268 265 ) } // patch (Patch)
+		Node { ( 238 1260 ) ( 268 265 ) } // patch (Patch)
+		Node { ( 238 1261 ) ( 267 265 ) } // patch (Patch)
+		Node { ( 238 1262 ) ( 268 265 ) } // patch (Patch)
+		Node { ( 238 1263 ) ( 267 265 ) } // patch (Patch)
+		Node { ( 238 1264 ) ( 267 265 ) } // patch (Patch)
+		Node { ( 238 1265 ) ( 270 271 265 ) } // patch (Patch)
+		Node { ( 238 1266 ) ( 274 271 265 ) } // patch (Patch)
+		Node { ( 238 1267 ) ( 272 273 265 ) } // patch (Patch)
+		Node { ( 238 1268 ) ( 275 271 265 ) } // patch (Patch)
+		Node { ( 238 1269 ) ( 268 265 ) } // patch (Patch)
+		Node { ( 238 1270 ) ( 279 273 265 ) } // patch (Patch)
+		Node { ( 238 1271 ) ( 280 273 265 ) } // patch (Patch)
+		Node { ( 238 1272 ) ( 278 273 265 ) } // patch (Patch)
+		Node { ( 238 1273 ) ( 276 271 265 ) } // patch (Patch)
+		Node { ( 238 1274 ) ( 277 271 265 ) } // patch (Patch)
+		Node { ( 238 1275 ) ( 281 273 265 ) } // patch (Patch)
+		Node { ( 240 1276 ) ( 295 ) } // patch (Patch)
+		Node { ( 240 1277 ) ( 296 295 ) } // patch (Patch)
+		Node { ( 240 1278 ) ( 297 295 ) } // patch (Patch)
+		Node { ( 240 1279 ) ( 297 295 ) } // patch (Patch)
+		Node { ( 240 1280 ) ( 296 295 ) } // patch (Patch)
+		Node { ( 240 1281 ) ( 296 295 ) } // patch (Patch)
+		Node { ( 240 1282 ) ( 296 295 ) } // patch (Patch)
+		Node { ( 240 1283 ) ( 297 295 ) } // patch (Patch)
+		Node { ( 240 1284 ) ( 297 295 ) } // patch (Patch)
+		Node { ( 240 1285 ) ( 296 295 ) } // patch (Patch)
+		Node { ( 240 1286 ) ( 298 295 ) } // patch (Patch)
+		Node { ( 240 1287 ) ( 298 295 ) } // patch (Patch)
+		Node { ( 240 1288 ) ( 296 295 ) } // patch (Patch)
+		Node { ( 240 1289 ) ( 298 295 ) } // patch (Patch)
+		Node { ( 240 1290 ) ( 296 295 ) } // patch (Patch)
+		Node { ( 240 1291 ) ( 296 295 ) } // patch (Patch)
+		Node { ( 240 1292 ) ( 299 300 295 ) } // patch (Patch)
+		Node { ( 240 1293 ) ( 301 300 295 ) } // patch (Patch)
+		Node { ( 240 1294 ) ( 302 303 295 ) } // patch (Patch)
+		Node { ( 240 1295 ) ( 304 300 295 ) } // patch (Patch)
+		Node { ( 240 1296 ) ( 298 295 ) } // patch (Patch)
+		Node { ( 240 1297 ) ( 305 303 295 ) } // patch (Patch)
+		Node { ( 240 1298 ) ( 306 303 295 ) } // patch (Patch)
+		Node { ( 240 1299 ) ( 307 303 295 ) } // patch (Patch)
+		Node { ( 240 1300 ) ( 308 300 295 ) } // patch (Patch)
+		Node { ( 240 1301 ) ( 309 300 295 ) } // patch (Patch)
+		Node { ( 240 1302 ) ( 310 303 295 ) } // patch (Patch)
+		Node { ( 241 1303 ) ( 318 ) } // patch (Patch)
+		Node { ( 241 1304 ) ( 318 ) } // patch (Patch)
+		Node { ( 241 1305 ) ( 318 ) } // patch (Patch)
+		Node { ( 241 1306 ) ( 318 ) } // patch (Patch)
+		Node { ( 241 1307 ) ( 318 ) } // patch (Patch)
+		Node { ( 241 1308 ) ( 318 ) } // patch (Patch)
+		Node { ( 241 1309 ) ( 318 ) } // patch (Patch)
+		Node { ( 241 1310 ) ( 318 ) } // patch (Patch)
+		Node { ( 241 1311 ) ( 318 ) } // patch (Patch)
+		Node { ( 241 1312 ) ( 318 ) } // patch (Patch)
+		Node { ( 241 1313 ) ( 318 ) } // patch (Patch)
+		Node { ( 241 1314 ) ( 318 ) } // patch (Patch)
+		Node { ( 241 1315 ) ( 318 ) } // patch (Patch)
+		Node { ( 248 1316 ) ( 357 359 ) } // brush (Brush)
+		Node { ( 248 1317 ) ( 357 359 ) } // brush (Brush)
+		Node { ( 248 1318 ) ( 357 359 ) } // brush (Brush)
+		Node { ( 248 1319 ) ( 359 ) } // brush (Brush)
+		Node { ( 248 1320 ) ( 357 359 ) } // brush (Brush)
+		Node { ( 249 1321 ) ( 360 ) } // brush (Brush)
+		Node { ( 249 1322 ) ( 358 360 ) } // brush (Brush)
+		Node { ( 249 1323 ) ( 358 360 ) } // brush (Brush)
+		Node { ( 249 1324 ) ( 358 360 ) } // brush (Brush)
+		Node { ( 249 1325 ) ( 358 360 ) } // brush (Brush)
+		Node { ( 251 1326 ) ( 367 ) } // brush (Brush)
+		Node { ( 251 1327 ) ( 367 ) } // brush (Brush)
+		Node { ( 251 1328 ) ( 368 ) } // brush (Brush)
+		Node { ( 251 1329 ) ( 368 ) } // brush (Brush)
+		Node { ( 251 1330 ) ( 372 368 ) } // patch (Patch)
+		Node { ( 251 1331 ) ( 369 367 ) } // patch (Patch)
+		Node { ( 251 1332 ) ( 370 368 ) } // patch (Patch)
+		Node { ( 251 1333 ) ( 371 367 ) } // patch (Patch)
+		Node { ( 251 1334 ) ( 370 368 ) } // patch (Patch)
+		Node { ( 251 1335 ) ( 371 367 ) } // patch (Patch)
+		Node { ( 251 1336 ) ( 371 367 ) } // patch (Patch)
+		Node { ( 251 1337 ) ( 372 368 ) } // patch (Patch)
+		Node { ( 251 1338 ) ( 370 368 ) } // patch (Patch)
+		Node { ( 251 1339 ) ( 369 367 ) } // patch (Patch)
+		Node { ( 252 1340 ) ( 361 ) } // brush (Brush)
+		Node { ( 252 1341 ) ( 361 ) } // brush (Brush)
+		Node { ( 252 1342 ) ( 362 ) } // brush (Brush)
+		Node { ( 252 1343 ) ( 362 ) } // brush (Brush)
+		Node { ( 252 1344 ) ( 363 361 ) } // patch (Patch)
+		Node { ( 252 1345 ) ( 364 362 ) } // patch (Patch)
+		Node { ( 252 1346 ) ( 365 361 ) } // patch (Patch)
+		Node { ( 252 1347 ) ( 366 362 ) } // patch (Patch)
+		Node { ( 252 1348 ) ( 364 362 ) } // patch (Patch)
+		Node { ( 252 1349 ) ( 366 362 ) } // patch (Patch)
+		Node { ( 252 1350 ) ( 365 361 ) } // patch (Patch)
+		Node { ( 252 1351 ) ( 363 361 ) } // patch (Patch)
+		Node { ( 252 1352 ) ( 365 361 ) } // patch (Patch)
+		Node { ( 252 1353 ) ( 364 362 ) } // patch (Patch)
+		Node { ( 253 1354 ) ( 374 ) } // brush (Brush)
+		Node { ( 253 1355 ) ( 373 ) } // brush (Brush)
+		Node { ( 253 1356 ) ( 373 ) } // brush (Brush)
+		Node { ( 253 1357 ) ( 374 ) } // brush (Brush)
+		Node { ( 253 1358 ) ( 378 374 ) } // patch (Patch)
+		Node { ( 253 1359 ) ( 377 374 ) } // patch (Patch)
+		Node { ( 253 1360 ) ( 377 374 ) } // patch (Patch)
+		Node { ( 253 1361 ) ( 377 374 ) } // patch (Patch)
+		Node { ( 253 1362 ) ( 378 374 ) } // patch (Patch)
+		Node { ( 253 1363 ) ( 375 373 ) } // patch (Patch)
+		Node { ( 253 1364 ) ( 376 373 ) } // patch (Patch)
+		Node { ( 253 1365 ) ( 376 373 ) } // patch (Patch)
+		Node { ( 253 1366 ) ( 375 373 ) } // patch (Patch)
+		Node { ( 253 1367 ) ( 376 373 ) } // patch (Patch)
+		Node { ( 254 1368 ) ( 289 ) } // brush (Brush)
+		Node { ( 254 1369 ) ( 289 ) } // brush (Brush)
+		Node { ( 254 1370 ) ( 293 ) } // brush (Brush)
+		Node { ( 254 1371 ) ( 293 ) } // brush (Brush)
+		Node { ( 254 1372 ) ( 290 289 ) } // patch (Patch)
+		Node { ( 254 1373 ) ( 290 289 ) } // patch (Patch)
+		Node { ( 254 1374 ) ( 291 289 ) } // patch (Patch)
+		Node { ( 254 1375 ) ( 291 289 ) } // patch (Patch)
+		Node { ( 254 1376 ) ( 291 289 ) } // patch (Patch)
+		Node { ( 254 1377 ) ( 294 293 ) } // patch (Patch)
+		Node { ( 254 1378 ) ( 292 293 ) } // patch (Patch)
+		Node { ( 254 1379 ) ( 294 293 ) } // patch (Patch)
+		Node { ( 254 1380 ) ( 294 293 ) } // patch (Patch)
+		Node { ( 254 1381 ) ( 292 293 ) } // patch (Patch)
+		Node { ( 257 ) ( 394 ) } // entity (info_locationSeparator_12)
+		Node { ( 258 ) ( 395 ) } // entity (info_locationSeparator_14)
+		Node { ( 259 ) ( 396 ) } // entity (info_locationSeparator_22)
 	}
 	Layers
 	{
@@ -298,8 +1615,6 @@ DarkRadiant Map Information File Version 2
 		Node { 1 } // brush (Brush)
 		Node { 1 } // brush (Brush)
 		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 1 } // brush (Brush)
 		Node { 0 } // brush (Brush)
@@ -409,8 +1724,6 @@ DarkRadiant Map Information File Version 2
 		Node { 1 } // brush (Brush)
 		Node { 1 } // brush (Brush)
 		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
 		Node { 1 } // patch (Patch)
 		Node { 1 } // patch (Patch)
 		Node { 1 } // patch (Patch)
@@ -429,14 +1742,6 @@ DarkRadiant Map Information File Version 2
 		Node { 1 } // patch (Patch)
 		Node { 1 } // patch (Patch)
 		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
 		Node { 1 } // brush (Brush)
 		Node { 1 } // brush (Brush)
 		Node { 1 } // brush (Brush)
@@ -447,7 +1752,6 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 1 } // brush (Brush)
 		Node { 0 } // brush (Brush)
-		Node { 1 } // brush (Brush)
 		Node { 1 } // brush (Brush)
 		Node { 1 } // brush (Brush)
 		Node { 1 } // brush (Brush)
@@ -734,7 +2038,6 @@ DarkRadiant Map Information File Version 2
 		Node { 1 } // brush (Brush)
 		Node { 1 } // brush (Brush)
 		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
 		Node { 1 } // patch (Patch)
 		Node { 1 } // patch (Patch)
 		Node { 1 } // patch (Patch)
@@ -755,29 +2058,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 1 } // patch (Patch)
 		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
 		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
-		Node { 1 } // patch (Patch)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 1 } // brush (Brush)
@@ -1085,6 +2366,58 @@ DarkRadiant Map Information File Version 2
 		Node { 1 } // brush (Brush)
 		Node { 1 } // brush (Brush)
 		Node { 1 } // patch (Patch)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // brush (Brush)
 		Node { 0 } // entity (ambient_world)
 		Node { 0 } // entity (Objectives)
 		Node { 0 } // entity (CompassEasy)
@@ -1263,7 +2596,6 @@ DarkRadiant Map Information File Version 2
 		Node { 1 } // entity (func_static_68)
 		Node { 1 } // entity (func_static_69)
 		Node { 1 } // entity (atdm_torch_gothic_wall_2)
-		Node { 1 } // entity (atdm_torch_gothic_wall_3)
 		Node { 1 } // entity (atdm_torch_gothic_wall_4)
 		Node { 1 } // entity (atdm_mover_door_1)
 		Node { 1 } // brush (Brush)
@@ -1358,9 +2690,7 @@ DarkRadiant Map Information File Version 2
 		Node { 1 } // entity (info_locationSeparator_10)
 		Node { 1 } // entity (location_harbour_street)
 		Node { 1 } // entity (info_locationSeparator_11)
-		Node { 1 } // entity (info_locationSeparator_12)
 		Node { 1 } // entity (info_locationSeparator_13)
-		Node { 1 } // entity (info_locationSeparator_14)
 		Node { 1 } // entity (info_locationSeparator_15)
 		Node { 1 } // entity (info_locationSeparator_16)
 		Node { 1 } // entity (info_locationSeparator_17)
@@ -1654,1310 +2984,10 @@ DarkRadiant Map Information File Version 2
 		Node { 1 } // patch (Patch)
 		Node { 1 } // entity (func_static_120)
 		Node { 1 } // entity (func_static_121)
-	}
-	SelectionGroups
-	{
-		SelectionGroup 1 { "" }
-		SelectionGroup 5 { "" }
-		SelectionGroup 6 { "" }
-		SelectionGroup 10 { "" }
-		SelectionGroup 11 { "" }
-		SelectionGroup 12 { "" }
-		SelectionGroup 13 { "" }
-		SelectionGroup 15 { "" }
-		SelectionGroup 17 { "" }
-		SelectionGroup 22 { "" }
-		SelectionGroup 24 { "" }
-		SelectionGroup 25 { "" }
-		SelectionGroup 26 { "" }
-		SelectionGroup 27 { "" }
-		SelectionGroup 29 { "" }
-		SelectionGroup 30 { "" }
-		SelectionGroup 31 { "" }
-		SelectionGroup 32 { "" }
-		SelectionGroup 33 { "" }
-		SelectionGroup 34 { "" }
-		SelectionGroup 35 { "" }
-		SelectionGroup 46 { "" }
-		SelectionGroup 47 { "" }
-		SelectionGroup 48 { "" }
-		SelectionGroup 49 { "" }
-		SelectionGroup 55 { "" }
-		SelectionGroup 56 { "" }
-		SelectionGroup 59 { "" }
-		SelectionGroup 60 { "" }
-		SelectionGroup 62 { "" }
-		SelectionGroup 64 { "" }
-		SelectionGroup 65 { "" }
-		SelectionGroup 66 { "" }
-		SelectionGroup 67 { "" }
-		SelectionGroup 68 { "" }
-		SelectionGroup 75 { "" }
-		SelectionGroup 77 { "" }
-		SelectionGroup 82 { "" }
-		SelectionGroup 83 { "" }
-		SelectionGroup 84 { "" }
-		SelectionGroup 85 { "" }
-		SelectionGroup 86 { "" }
-		SelectionGroup 87 { "" }
-		SelectionGroup 88 { "" }
-		SelectionGroup 89 { "" }
-		SelectionGroup 90 { "" }
-		SelectionGroup 91 { "" }
-		SelectionGroup 92 { "" }
-		SelectionGroup 98 { "" }
-		SelectionGroup 99 { "" }
-		SelectionGroup 100 { "" }
-		SelectionGroup 101 { "" }
-		SelectionGroup 102 { "" }
-		SelectionGroup 103 { "" }
-		SelectionGroup 104 { "" }
-		SelectionGroup 105 { "" }
-		SelectionGroup 106 { "" }
-		SelectionGroup 107 { "" }
-		SelectionGroup 108 { "" }
-		SelectionGroup 109 { "" }
-		SelectionGroup 110 { "" }
-		SelectionGroup 111 { "" }
-		SelectionGroup 117 { "" }
-		SelectionGroup 118 { "" }
-		SelectionGroup 119 { "" }
-		SelectionGroup 120 { "" }
-		SelectionGroup 121 { "" }
-		SelectionGroup 122 { "" }
-		SelectionGroup 123 { "" }
-		SelectionGroup 124 { "" }
-		SelectionGroup 125 { "" }
-		SelectionGroup 126 { "" }
-		SelectionGroup 127 { "" }
-		SelectionGroup 128 { "" }
-		SelectionGroup 129 { "" }
-		SelectionGroup 130 { "" }
-		SelectionGroup 131 { "" }
-		SelectionGroup 132 { "" }
-		SelectionGroup 133 { "" }
-		SelectionGroup 134 { "" }
-		SelectionGroup 135 { "" }
-		SelectionGroup 136 { "" }
-		SelectionGroup 137 { "" }
-		SelectionGroup 138 { "" }
-		SelectionGroup 139 { "" }
-		SelectionGroup 140 { "" }
-		SelectionGroup 141 { "" }
-		SelectionGroup 142 { "" }
-		SelectionGroup 143 { "" }
-		SelectionGroup 162 { "" }
-		SelectionGroup 163 { "" }
-		SelectionGroup 166 { "" }
-		SelectionGroup 167 { "" }
-		SelectionGroup 168 { "" }
-		SelectionGroup 169 { "" }
-		SelectionGroup 170 { "" }
-		SelectionGroup 171 { "" }
-		SelectionGroup 172 { "" }
-		SelectionGroup 173 { "" }
-		SelectionGroup 174 { "" }
-		SelectionGroup 175 { "" }
-		SelectionGroup 176 { "" }
-		SelectionGroup 177 { "" }
-		SelectionGroup 178 { "" }
-		SelectionGroup 179 { "" }
-		SelectionGroup 180 { "" }
-		SelectionGroup 181 { "" }
-		SelectionGroup 182 { "" }
-		SelectionGroup 183 { "" }
-		SelectionGroup 184 { "" }
-		SelectionGroup 185 { "" }
-		SelectionGroup 190 { "" }
-		SelectionGroup 192 { "" }
-		SelectionGroup 193 { "" }
-		SelectionGroup 196 { "" }
-		SelectionGroup 199 { "" }
-		SelectionGroup 201 { "" }
-		SelectionGroup 203 { "" }
-		SelectionGroup 204 { "" }
-		SelectionGroup 205 { "" }
-		SelectionGroup 207 { "" }
-		SelectionGroup 208 { "" }
-		SelectionGroup 209 { "" }
-		SelectionGroup 210 { "" }
-		SelectionGroup 211 { "" }
-		SelectionGroup 212 { "" }
-		SelectionGroup 213 { "" }
-		SelectionGroup 214 { "" }
-		SelectionGroup 215 { "" }
-		SelectionGroup 216 { "" }
-		SelectionGroup 217 { "" }
-		SelectionGroup 219 { "" }
-		SelectionGroup 220 { "" }
-		SelectionGroup 221 { "" }
-		SelectionGroup 222 { "" }
-		SelectionGroup 224 { "" }
-		SelectionGroup 233 { "" }
-		SelectionGroup 234 { "" }
-		SelectionGroup 235 { "" }
-		SelectionGroup 236 { "" }
-		SelectionGroup 237 { "" }
-		SelectionGroup 238 { "" }
-		SelectionGroup 239 { "" }
-		SelectionGroup 240 { "" }
-		SelectionGroup 241 { "" }
-		SelectionGroup 242 { "" }
-		SelectionGroup 243 { "" }
-		SelectionGroup 244 { "" }
-		SelectionGroup 245 { "" }
-		SelectionGroup 246 { "" }
-		SelectionGroup 247 { "" }
-		SelectionGroup 248 { "" }
-		SelectionGroup 249 { "" }
-		SelectionGroup 251 { "" }
-		SelectionGroup 252 { "" }
-		SelectionGroup 253 { "" }
-		SelectionGroup 255 { "" }
-		SelectionGroup 256 { "" }
-		SelectionGroup 257 { "" }
-		SelectionGroup 258 { "" }
-		SelectionGroup 259 { "" }
-		SelectionGroup 260 { "" }
-		SelectionGroup 264 { "" }
-		SelectionGroup 265 { "" }
-		SelectionGroup 266 { "" }
-		SelectionGroup 267 { "" }
-		SelectionGroup 268 { "" }
-		SelectionGroup 270 { "" }
-		SelectionGroup 271 { "" }
-		SelectionGroup 272 { "" }
-		SelectionGroup 273 { "" }
-		SelectionGroup 274 { "" }
-		SelectionGroup 275 { "" }
-		SelectionGroup 276 { "" }
-		SelectionGroup 277 { "" }
-		SelectionGroup 278 { "" }
-		SelectionGroup 279 { "" }
-		SelectionGroup 280 { "" }
-		SelectionGroup 281 { "" }
-		SelectionGroup 289 { "" }
-		SelectionGroup 290 { "" }
-		SelectionGroup 291 { "" }
-		SelectionGroup 292 { "" }
-		SelectionGroup 293 { "" }
-		SelectionGroup 294 { "" }
-		SelectionGroup 295 { "" }
-		SelectionGroup 296 { "" }
-		SelectionGroup 297 { "" }
-		SelectionGroup 298 { "" }
-		SelectionGroup 299 { "" }
-		SelectionGroup 300 { "" }
-		SelectionGroup 301 { "" }
-		SelectionGroup 302 { "" }
-		SelectionGroup 303 { "" }
-		SelectionGroup 304 { "" }
-		SelectionGroup 305 { "" }
-		SelectionGroup 306 { "" }
-		SelectionGroup 307 { "" }
-		SelectionGroup 308 { "" }
-		SelectionGroup 309 { "" }
-		SelectionGroup 310 { "" }
-		SelectionGroup 311 { "" }
-		SelectionGroup 312 { "" }
-		SelectionGroup 313 { "" }
-		SelectionGroup 314 { "" }
-		SelectionGroup 315 { "" }
-		SelectionGroup 316 { "" }
-		SelectionGroup 318 { "" }
-		SelectionGroup 319 { "" }
-		SelectionGroup 320 { "" }
-		SelectionGroup 325 { "" }
-		SelectionGroup 326 { "" }
-		SelectionGroup 329 { "" }
-		SelectionGroup 330 { "" }
-		SelectionGroup 332 { "" }
-		SelectionGroup 333 { "" }
-		SelectionGroup 334 { "" }
-		SelectionGroup 335 { "" }
-		SelectionGroup 336 { "" }
-		SelectionGroup 339 { "" }
-		SelectionGroup 340 { "" }
-		SelectionGroup 341 { "" }
-		SelectionGroup 342 { "" }
-		SelectionGroup 343 { "" }
-		SelectionGroup 344 { "" }
-		SelectionGroup 345 { "" }
-		SelectionGroup 346 { "" }
-		SelectionGroup 347 { "" }
-		SelectionGroup 350 { "" }
-		SelectionGroup 351 { "" }
-		SelectionGroup 352 { "" }
-		SelectionGroup 353 { "" }
-		SelectionGroup 354 { "" }
-		SelectionGroup 355 { "" }
-		SelectionGroup 356 { "" }
-		SelectionGroup 357 { "" }
-		SelectionGroup 358 { "" }
-		SelectionGroup 359 { "" }
-		SelectionGroup 360 { "" }
-		SelectionGroup 361 { "" }
-		SelectionGroup 362 { "" }
-		SelectionGroup 363 { "" }
-		SelectionGroup 364 { "" }
-		SelectionGroup 365 { "" }
-		SelectionGroup 366 { "" }
-		SelectionGroup 367 { "" }
-		SelectionGroup 368 { "" }
-		SelectionGroup 369 { "" }
-		SelectionGroup 370 { "" }
-		SelectionGroup 371 { "" }
-		SelectionGroup 372 { "" }
-		SelectionGroup 373 { "" }
-		SelectionGroup 374 { "" }
-		SelectionGroup 375 { "" }
-		SelectionGroup 376 { "" }
-		SelectionGroup 377 { "" }
-		SelectionGroup 378 { "" }
-		SelectionGroup 380 { "" }
-		SelectionGroup 381 { "" }
-		SelectionGroup 383 { "" }
-	}
-	SelectionGroupNodeMapping
-	{
-		Node { ( 0 0 ) ( 1 ) } // brush (Brush)
-		Node { ( 0 1 ) ( 1 ) } // brush (Brush)
-		Node { ( 0 2 ) ( 1 ) } // brush (Brush)
-		Node { ( 0 3 ) ( 1 ) } // brush (Brush)
-		Node { ( 0 4 ) ( 1 ) } // brush (Brush)
-		Node { ( 0 5 ) ( 1 ) } // brush (Brush)
-		Node { ( 0 13 ) ( 6 ) } // brush (Brush)
-		Node { ( 0 14 ) ( 6 ) } // brush (Brush)
-		Node { ( 0 15 ) ( 6 ) } // brush (Brush)
-		Node { ( 0 17 ) ( 6 ) } // brush (Brush)
-		Node { ( 0 20 ) ( 5 ) } // brush (Brush)
-		Node { ( 0 21 ) ( 5 ) } // brush (Brush)
-		Node { ( 0 22 ) ( 5 ) } // brush (Brush)
-		Node { ( 0 23 ) ( 5 ) } // brush (Brush)
-		Node { ( 0 24 ) ( 5 ) } // brush (Brush)
-		Node { ( 0 25 ) ( 5 ) } // brush (Brush)
-		Node { ( 0 42 ) ( 11 ) } // brush (Brush)
-		Node { ( 0 43 ) ( 11 ) } // brush (Brush)
-		Node { ( 0 44 ) ( 11 ) } // brush (Brush)
-		Node { ( 0 45 ) ( 11 ) } // brush (Brush)
-		Node { ( 0 47 ) ( 12 34 ) } // brush (Brush)
-		Node { ( 0 48 ) ( 12 34 ) } // brush (Brush)
-		Node { ( 0 49 ) ( 12 34 ) } // brush (Brush)
-		Node { ( 0 50 ) ( 12 34 ) } // brush (Brush)
-		Node { ( 0 51 ) ( 12 34 ) } // brush (Brush)
-		Node { ( 0 52 ) ( 12 34 ) } // brush (Brush)
-		Node { ( 0 53 ) ( 13 ) } // brush (Brush)
-		Node { ( 0 54 ) ( 13 ) } // brush (Brush)
-		Node { ( 0 55 ) ( 13 ) } // brush (Brush)
-		Node { ( 0 56 ) ( 13 ) } // brush (Brush)
-		Node { ( 0 57 ) ( 13 ) } // brush (Brush)
-		Node { ( 0 58 ) ( 13 ) } // brush (Brush)
-		Node { ( 0 60 ) ( 15 ) } // brush (Brush)
-		Node { ( 0 61 ) ( 15 ) } // brush (Brush)
-		Node { ( 0 62 ) ( 15 ) } // brush (Brush)
-		Node { ( 0 63 ) ( 15 ) } // brush (Brush)
-		Node { ( 0 64 ) ( 15 ) } // brush (Brush)
-		Node { ( 0 65 ) ( 15 ) } // brush (Brush)
-		Node { ( 0 69 ) ( 108 ) } // brush (Brush)
-		Node { ( 0 70 ) ( 108 ) } // brush (Brush)
-		Node { ( 0 71 ) ( 108 ) } // brush (Brush)
-		Node { ( 0 72 ) ( 108 ) } // brush (Brush)
-		Node { ( 0 73 ) ( 108 ) } // brush (Brush)
-		Node { ( 0 74 ) ( 108 ) } // brush (Brush)
-		Node { ( 0 75 ) ( 108 ) } // brush (Brush)
-		Node { ( 0 76 ) ( 22 108 ) } // brush (Brush)
-		Node { ( 0 77 ) ( 22 108 ) } // brush (Brush)
-		Node { ( 0 78 ) ( 22 108 ) } // brush (Brush)
-		Node { ( 0 79 ) ( 22 108 ) } // brush (Brush)
-		Node { ( 0 80 ) ( 22 108 ) } // brush (Brush)
-		Node { ( 0 81 ) ( 22 108 ) } // brush (Brush)
-		Node { ( 0 82 ) ( 22 108 ) } // brush (Brush)
-		Node { ( 0 83 ) ( 26 25 ) } // brush (Brush)
-		Node { ( 0 84 ) ( 26 25 ) } // brush (Brush)
-		Node { ( 0 85 ) ( 26 25 ) } // brush (Brush)
-		Node { ( 0 86 ) ( 26 25 ) } // brush (Brush)
-		Node { ( 0 87 ) ( 26 25 ) } // brush (Brush)
-		Node { ( 0 88 ) ( 26 25 ) } // brush (Brush)
-		Node { ( 0 89 ) ( 24 25 ) } // brush (Brush)
-		Node { ( 0 90 ) ( 24 25 ) } // brush (Brush)
-		Node { ( 0 91 ) ( 24 25 ) } // brush (Brush)
-		Node { ( 0 92 ) ( 24 25 ) } // brush (Brush)
-		Node { ( 0 93 ) ( 25 ) } // brush (Brush)
-		Node { ( 0 94 ) ( 26 25 ) } // brush (Brush)
-		Node { ( 0 95 ) ( 24 25 ) } // brush (Brush)
-		Node { ( 0 96 ) ( 24 25 ) } // brush (Brush)
-		Node { ( 0 97 ) ( 24 25 ) } // brush (Brush)
-		Node { ( 0 98 ) ( 24 25 ) } // brush (Brush)
-		Node { ( 0 112 ) ( 75 ) } // brush (Brush)
-		Node { ( 0 113 ) ( 75 ) } // brush (Brush)
-		Node { ( 0 115 ) ( 75 ) } // brush (Brush)
-		Node { ( 0 118 ) ( 27 ) } // patch (Patch)
-		Node { ( 0 119 ) ( 27 ) } // patch (Patch)
-		Node { ( 0 120 ) ( 27 ) } // patch (Patch)
-		Node { ( 0 133 ) ( 29 ) } // patch (Patch)
-		Node { ( 0 134 ) ( 29 ) } // patch (Patch)
-		Node { ( 0 135 ) ( 29 ) } // patch (Patch)
-		Node { ( 0 137 ) ( 75 ) } // patch (Patch)
-		Node { ( 0 138 ) ( 31 68 ) } // patch (Patch)
-		Node { ( 0 139 ) ( 31 68 ) } // patch (Patch)
-		Node { ( 0 140 ) ( 31 68 ) } // patch (Patch)
-		Node { ( 0 141 ) ( 31 68 ) } // patch (Patch)
-		Node { ( 0 142 ) ( 31 68 ) } // patch (Patch)
-		Node { ( 0 143 ) ( 32 68 ) } // patch (Patch)
-		Node { ( 0 144 ) ( 32 68 ) } // patch (Patch)
-		Node { ( 0 145 ) ( 32 68 ) } // patch (Patch)
-		Node { ( 0 146 ) ( 32 68 ) } // patch (Patch)
-		Node { ( 0 147 ) ( 32 68 ) } // patch (Patch)
-		Node { ( 0 148 ) ( 33 68 ) } // patch (Patch)
-		Node { ( 0 149 ) ( 33 68 ) } // patch (Patch)
-		Node { ( 0 150 ) ( 33 68 ) } // patch (Patch)
-		Node { ( 0 151 ) ( 33 68 ) } // patch (Patch)
-		Node { ( 0 152 ) ( 33 68 ) } // patch (Patch)
-		Node { ( 0 153 ) ( 68 ) } // brush (Brush)
-		Node { ( 0 154 ) ( 68 ) } // brush (Brush)
-		Node { ( 0 155 ) ( 68 ) } // brush (Brush)
-		Node { ( 0 156 ) ( 68 ) } // brush (Brush)
-		Node { ( 0 158 ) ( 68 ) } // brush (Brush)
-		Node { ( 0 159 ) ( 68 ) } // brush (Brush)
-		Node { ( 0 160 ) ( 75 ) } // brush (Brush)
-		Node { ( 0 161 ) ( 34 ) } // brush (Brush)
-		Node { ( 0 162 ) ( 34 ) } // brush (Brush)
-		Node { ( 0 163 ) ( 34 ) } // brush (Brush)
-		Node { ( 0 164 ) ( 34 ) } // brush (Brush)
-		Node { ( 0 165 ) ( 34 ) } // brush (Brush)
-		Node { ( 0 166 ) ( 34 ) } // brush (Brush)
-		Node { ( 0 167 ) ( 62 ) } // brush (Brush)
-		Node { ( 0 168 ) ( 35 62 ) } // patch (Patch)
-		Node { ( 0 169 ) ( 35 62 ) } // patch (Patch)
-		Node { ( 0 170 ) ( 35 62 ) } // patch (Patch)
-		Node { ( 0 171 ) ( 62 ) } // brush (Brush)
-		Node { ( 0 177 ) ( 46 ) } // brush (Brush)
-		Node { ( 0 178 ) ( 46 ) } // brush (Brush)
-		Node { ( 0 179 ) ( 46 ) } // brush (Brush)
-		Node { ( 0 180 ) ( 46 ) } // brush (Brush)
-		Node { ( 0 181 ) ( 46 ) } // brush (Brush)
-		Node { ( 0 182 ) ( 46 ) } // brush (Brush)
-		Node { ( 0 183 ) ( 46 ) } // brush (Brush)
-		Node { ( 0 184 ) ( 46 ) } // brush (Brush)
-		Node { ( 0 185 ) ( 46 ) } // brush (Brush)
-		Node { ( 0 186 ) ( 46 ) } // brush (Brush)
-		Node { ( 0 187 ) ( 46 ) } // brush (Brush)
-		Node { ( 0 188 ) ( 46 ) } // brush (Brush)
-		Node { ( 0 189 ) ( 46 ) } // brush (Brush)
-		Node { ( 0 190 ) ( 46 ) } // brush (Brush)
-		Node { ( 0 191 ) ( 46 ) } // brush (Brush)
-		Node { ( 0 192 ) ( 46 ) } // brush (Brush)
-		Node { ( 0 194 ) ( 47 62 ) } // patch (Patch)
-		Node { ( 0 195 ) ( 47 62 ) } // patch (Patch)
-		Node { ( 0 196 ) ( 47 62 ) } // patch (Patch)
-		Node { ( 0 197 ) ( 62 ) } // brush (Brush)
-		Node { ( 0 198 ) ( 48 62 ) } // patch (Patch)
-		Node { ( 0 199 ) ( 48 62 ) } // patch (Patch)
-		Node { ( 0 200 ) ( 48 62 ) } // patch (Patch)
-		Node { ( 0 201 ) ( 62 ) } // brush (Brush)
-		Node { ( 0 202 ) ( 49 62 ) } // patch (Patch)
-		Node { ( 0 203 ) ( 49 62 ) } // patch (Patch)
-		Node { ( 0 204 ) ( 49 62 ) } // patch (Patch)
-		Node { ( 0 205 ) ( 62 ) } // brush (Brush)
-		Node { ( 0 206 ) ( 62 ) } // brush (Brush)
-		Node { ( 0 207 ) ( 55 62 ) } // patch (Patch)
-		Node { ( 0 208 ) ( 56 62 ) } // patch (Patch)
-		Node { ( 0 209 ) ( 56 62 ) } // patch (Patch)
-		Node { ( 0 210 ) ( 55 62 ) } // patch (Patch)
-		Node { ( 0 211 ) ( 55 62 ) } // patch (Patch)
-		Node { ( 0 212 ) ( 56 62 ) } // patch (Patch)
-		Node { ( 0 213 ) ( 62 ) } // brush (Brush)
-		Node { ( 0 214 ) ( 59 62 ) } // patch (Patch)
-		Node { ( 0 215 ) ( 59 62 ) } // patch (Patch)
-		Node { ( 0 216 ) ( 59 62 ) } // patch (Patch)
-		Node { ( 0 217 ) ( 62 ) } // brush (Brush)
-		Node { ( 0 218 ) ( 60 62 ) } // patch (Patch)
-		Node { ( 0 219 ) ( 60 62 ) } // patch (Patch)
-		Node { ( 0 220 ) ( 60 62 ) } // patch (Patch)
-		Node { ( 0 221 ) ( 62 ) } // brush (Brush)
-		Node { ( 0 225 ) ( 64 ) } // brush (Brush)
-		Node { ( 0 226 ) ( 64 ) } // brush (Brush)
-		Node { ( 0 227 ) ( 64 ) } // brush (Brush)
-		Node { ( 0 228 ) ( 64 ) } // brush (Brush)
-		Node { ( 0 229 ) ( 64 ) } // brush (Brush)
-		Node { ( 0 230 ) ( 64 ) } // brush (Brush)
-		Node { ( 0 231 ) ( 64 ) } // brush (Brush)
-		Node { ( 0 232 ) ( 64 ) } // brush (Brush)
-		Node { ( 0 233 ) ( 64 ) } // brush (Brush)
-		Node { ( 0 234 ) ( 64 ) } // brush (Brush)
-		Node { ( 0 235 ) ( 64 ) } // brush (Brush)
-		Node { ( 0 236 ) ( 65 ) } // brush (Brush)
-		Node { ( 0 237 ) ( 65 ) } // brush (Brush)
-		Node { ( 0 238 ) ( 65 ) } // brush (Brush)
-		Node { ( 0 239 ) ( 65 ) } // brush (Brush)
-		Node { ( 0 240 ) ( 65 ) } // brush (Brush)
-		Node { ( 0 241 ) ( 65 ) } // brush (Brush)
-		Node { ( 0 242 ) ( 65 ) } // brush (Brush)
-		Node { ( 0 243 ) ( 65 ) } // brush (Brush)
-		Node { ( 0 244 ) ( 65 ) } // brush (Brush)
-		Node { ( 0 245 ) ( 65 ) } // brush (Brush)
-		Node { ( 0 246 ) ( 65 ) } // brush (Brush)
-		Node { ( 0 250 ) ( 66 ) } // brush (Brush)
-		Node { ( 0 251 ) ( 66 ) } // brush (Brush)
-		Node { ( 0 252 ) ( 66 ) } // brush (Brush)
-		Node { ( 0 253 ) ( 66 ) } // brush (Brush)
-		Node { ( 0 254 ) ( 66 ) } // brush (Brush)
-		Node { ( 0 255 ) ( 66 ) } // brush (Brush)
-		Node { ( 0 256 ) ( 66 ) } // brush (Brush)
-		Node { ( 0 257 ) ( 66 ) } // brush (Brush)
-		Node { ( 0 258 ) ( 66 ) } // brush (Brush)
-		Node { ( 0 259 ) ( 66 ) } // brush (Brush)
-		Node { ( 0 260 ) ( 66 ) } // brush (Brush)
-		Node { ( 0 263 ) ( 90 ) } // brush (Brush)
-		Node { ( 0 264 ) ( 90 ) } // brush (Brush)
-		Node { ( 0 265 ) ( 90 ) } // brush (Brush)
-		Node { ( 0 266 ) ( 90 ) } // brush (Brush)
-		Node { ( 0 267 ) ( 90 ) } // brush (Brush)
-		Node { ( 0 268 ) ( 90 ) } // brush (Brush)
-		Node { ( 0 269 ) ( 90 ) } // brush (Brush)
-		Node { ( 0 270 ) ( 90 ) } // brush (Brush)
-		Node { ( 0 291 ) ( 67 ) } // patch (Patch)
-		Node { ( 0 292 ) ( 67 ) } // patch (Patch)
-		Node { ( 0 293 ) ( 67 ) } // patch (Patch)
-		Node { ( 0 294 ) ( 67 ) } // patch (Patch)
-		Node { ( 0 295 ) ( 67 ) } // patch (Patch)
-		Node { ( 0 341 ) ( 77 ) } // patch (Patch)
-		Node { ( 0 346 ) ( 98 ) } // brush (Brush)
-		Node { ( 0 349 ) ( 98 ) } // brush (Brush)
-		Node { ( 0 351 ) ( 77 ) } // patch (Patch)
-		Node { ( 0 352 ) ( 77 ) } // patch (Patch)
-		Node { ( 0 353 ) ( 77 ) } // patch (Patch)
-		Node { ( 0 354 ) ( 77 ) } // patch (Patch)
-		Node { ( 0 355 ) ( 77 ) } // patch (Patch)
-		Node { ( 0 371 ) ( 92 ) } // brush (Brush)
-		Node { ( 0 374 ) ( 99 ) } // brush (Brush)
-		Node { ( 0 375 ) ( 99 ) } // brush (Brush)
-		Node { ( 0 376 ) ( 99 ) } // brush (Brush)
-		Node { ( 0 377 ) ( 99 ) } // brush (Brush)
-		Node { ( 0 378 ) ( 99 ) } // brush (Brush)
-		Node { ( 0 379 ) ( 99 ) } // brush (Brush)
-		Node { ( 0 380 ) ( 99 ) } // brush (Brush)
-		Node { ( 0 381 ) ( 99 ) } // brush (Brush)
-		Node { ( 0 382 ) ( 82 99 ) } // patch (Patch)
-		Node { ( 0 383 ) ( 83 99 ) } // patch (Patch)
-		Node { ( 0 384 ) ( 84 99 ) } // patch (Patch)
-		Node { ( 0 385 ) ( 82 99 ) } // patch (Patch)
-		Node { ( 0 386 ) ( 82 99 ) } // patch (Patch)
-		Node { ( 0 387 ) ( 83 99 ) } // patch (Patch)
-		Node { ( 0 388 ) ( 83 99 ) } // patch (Patch)
-		Node { ( 0 389 ) ( 85 99 ) } // patch (Patch)
-		Node { ( 0 390 ) ( 86 99 ) } // patch (Patch)
-		Node { ( 0 391 ) ( 87 99 ) } // patch (Patch)
-		Node { ( 0 392 ) ( 86 99 ) } // patch (Patch)
-		Node { ( 0 393 ) ( 87 99 ) } // patch (Patch)
-		Node { ( 0 394 ) ( 85 99 ) } // patch (Patch)
-		Node { ( 0 395 ) ( 85 99 ) } // patch (Patch)
-		Node { ( 0 396 ) ( 86 99 ) } // patch (Patch)
-		Node { ( 0 397 ) ( 87 99 ) } // patch (Patch)
-		Node { ( 0 398 ) ( 84 99 ) } // patch (Patch)
-		Node { ( 0 399 ) ( 84 99 ) } // patch (Patch)
-		Node { ( 0 400 ) ( 88 99 ) } // patch (Patch)
-		Node { ( 0 401 ) ( 89 99 ) } // patch (Patch)
-		Node { ( 0 402 ) ( 89 99 ) } // patch (Patch)
-		Node { ( 0 403 ) ( 88 99 ) } // patch (Patch)
-		Node { ( 0 404 ) ( 89 99 ) } // patch (Patch)
-		Node { ( 0 405 ) ( 88 99 ) } // patch (Patch)
-		Node { ( 0 406 ) ( 91 ) } // brush (Brush)
-		Node { ( 0 407 ) ( 91 ) } // brush (Brush)
-		Node { ( 0 408 ) ( 91 ) } // brush (Brush)
-		Node { ( 0 409 ) ( 91 ) } // brush (Brush)
-		Node { ( 0 410 ) ( 91 ) } // brush (Brush)
-		Node { ( 0 411 ) ( 91 ) } // brush (Brush)
-		Node { ( 0 412 ) ( 91 ) } // brush (Brush)
-		Node { ( 0 413 ) ( 91 ) } // brush (Brush)
-		Node { ( 0 426 ) ( 100 ) } // patch (Patch)
-		Node { ( 0 427 ) ( 100 ) } // patch (Patch)
-		Node { ( 0 428 ) ( 100 ) } // patch (Patch)
-		Node { ( 0 429 ) ( 101 ) } // patch (Patch)
-		Node { ( 0 430 ) ( 101 ) } // patch (Patch)
-		Node { ( 0 431 ) ( 101 ) } // patch (Patch)
-		Node { ( 0 445 ) ( 105 106 ) } // brush (Brush)
-		Node { ( 0 446 ) ( 105 106 ) } // brush (Brush)
-		Node { ( 0 447 ) ( 106 ) } // brush (Brush)
-		Node { ( 0 448 ) ( 105 106 ) } // brush (Brush)
-		Node { ( 0 449 ) ( 107 106 ) } // brush (Brush)
-		Node { ( 0 450 ) ( 105 106 ) } // brush (Brush)
-		Node { ( 0 451 ) ( 105 106 ) } // brush (Brush)
-		Node { ( 0 452 ) ( 105 106 ) } // brush (Brush)
-		Node { ( 0 453 ) ( 105 106 ) } // brush (Brush)
-		Node { ( 0 454 ) ( 107 106 ) } // brush (Brush)
-		Node { ( 0 455 ) ( 107 106 ) } // brush (Brush)
-		Node { ( 0 456 ) ( 107 106 ) } // brush (Brush)
-		Node { ( 0 457 ) ( 107 106 ) } // brush (Brush)
-		Node { ( 0 458 ) ( 107 106 ) } // brush (Brush)
-		Node { ( 0 459 ) ( 107 106 ) } // brush (Brush)
-		Node { ( 0 460 ) ( 109 110 ) } // brush (Brush)
-		Node { ( 0 463 ) ( 117 ) } // brush (Brush)
-		Node { ( 0 464 ) ( 117 ) } // brush (Brush)
-		Node { ( 0 465 ) ( 117 ) } // brush (Brush)
-		Node { ( 0 466 ) ( 118 117 ) } // patch (Patch)
-		Node { ( 0 467 ) ( 120 117 ) } // patch (Patch)
-		Node { ( 0 468 ) ( 118 117 ) } // patch (Patch)
-		Node { ( 0 469 ) ( 119 117 ) } // patch (Patch)
-		Node { ( 0 470 ) ( 119 117 ) } // patch (Patch)
-		Node { ( 0 471 ) ( 119 117 ) } // patch (Patch)
-		Node { ( 0 472 ) ( 118 117 ) } // patch (Patch)
-		Node { ( 0 473 ) ( 120 117 ) } // patch (Patch)
-		Node { ( 0 474 ) ( 120 117 ) } // patch (Patch)
-		Node { ( 0 475 ) ( 121 ) } // brush (Brush)
-		Node { ( 0 476 ) ( 121 ) } // brush (Brush)
-		Node { ( 0 477 ) ( 121 ) } // brush (Brush)
-		Node { ( 0 483 ) ( 122 ) } // patch (Patch)
-		Node { ( 0 484 ) ( 122 ) } // patch (Patch)
-		Node { ( 0 485 ) ( 122 ) } // patch (Patch)
-		Node { ( 0 486 ) ( 122 ) } // patch (Patch)
-		Node { ( 0 487 ) ( 122 ) } // patch (Patch)
-		Node { ( 0 488 ) ( 123 ) } // patch (Patch)
-		Node { ( 0 489 ) ( 123 ) } // patch (Patch)
-		Node { ( 0 490 ) ( 123 ) } // patch (Patch)
-		Node { ( 0 491 ) ( 123 ) } // patch (Patch)
-		Node { ( 0 492 ) ( 123 ) } // patch (Patch)
-		Node { ( 0 495 ) ( 224 ) } // brush (Brush)
-		Node { ( 0 508 ) ( 162 ) } // patch (Patch)
-		Node { ( 0 509 ) ( 162 ) } // patch (Patch)
-		Node { ( 0 510 ) ( 162 ) } // patch (Patch)
-		Node { ( 0 511 ) ( 162 ) } // patch (Patch)
-		Node { ( 0 512 ) ( 162 ) } // patch (Patch)
-		Node { ( 0 513 ) ( 163 ) } // patch (Patch)
-		Node { ( 0 514 ) ( 163 ) } // patch (Patch)
-		Node { ( 0 515 ) ( 163 ) } // patch (Patch)
-		Node { ( 0 516 ) ( 163 ) } // patch (Patch)
-		Node { ( 0 517 ) ( 163 ) } // patch (Patch)
-		Node { ( 0 519 ) ( 166 ) } // patch (Patch)
-		Node { ( 0 520 ) ( 167 ) } // patch (Patch)
-		Node { ( 0 521 ) ( 167 ) } // patch (Patch)
-		Node { ( 0 522 ) ( 166 ) } // patch (Patch)
-		Node { ( 0 523 ) ( 166 ) } // patch (Patch)
-		Node { ( 0 524 ) ( 166 ) } // patch (Patch)
-		Node { ( 0 525 ) ( 166 ) } // patch (Patch)
-		Node { ( 0 526 ) ( 167 ) } // patch (Patch)
-		Node { ( 0 527 ) ( 167 ) } // patch (Patch)
-		Node { ( 0 528 ) ( 167 ) } // patch (Patch)
-		Node { ( 0 537 ) ( 224 ) } // patch (Patch)
-		Node { ( 0 542 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 543 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 544 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 545 ) ( 203 204 ) } // patch (Patch)
-		Node { ( 0 546 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 547 ) ( 203 204 ) } // patch (Patch)
-		Node { ( 0 548 ) ( 203 204 ) } // patch (Patch)
-		Node { ( 0 549 ) ( 203 204 ) } // patch (Patch)
-		Node { ( 0 550 ) ( 203 204 ) } // patch (Patch)
-		Node { ( 0 551 ) ( 203 204 ) } // patch (Patch)
-		Node { ( 0 552 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 553 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 554 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 555 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 556 ) ( 190 203 204 ) } // patch (Patch)
-		Node { ( 0 557 ) ( 190 203 204 ) } // patch (Patch)
-		Node { ( 0 558 ) ( 190 203 204 ) } // patch (Patch)
-		Node { ( 0 559 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 560 ) ( 190 203 204 ) } // brush (Brush)
-		Node { ( 0 561 ) ( 190 203 204 ) } // brush (Brush)
-		Node { ( 0 562 ) ( 190 203 204 ) } // brush (Brush)
-		Node { ( 0 563 ) ( 192 203 204 ) } // patch (Patch)
-		Node { ( 0 564 ) ( 192 203 204 ) } // patch (Patch)
-		Node { ( 0 565 ) ( 192 203 204 ) } // patch (Patch)
-		Node { ( 0 566 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 567 ) ( 192 203 204 ) } // brush (Brush)
-		Node { ( 0 568 ) ( 192 203 204 ) } // brush (Brush)
-		Node { ( 0 569 ) ( 192 203 204 ) } // brush (Brush)
-		Node { ( 0 570 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 571 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 572 ) ( 193 203 204 ) } // patch (Patch)
-		Node { ( 0 573 ) ( 193 203 204 ) } // patch (Patch)
-		Node { ( 0 574 ) ( 193 203 204 ) } // patch (Patch)
-		Node { ( 0 575 ) ( 193 203 204 ) } // brush (Brush)
-		Node { ( 0 576 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 577 ) ( 193 203 204 ) } // brush (Brush)
-		Node { ( 0 578 ) ( 193 203 204 ) } // brush (Brush)
-		Node { ( 0 579 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 580 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 581 ) ( 199 203 204 ) } // patch (Patch)
-		Node { ( 0 582 ) ( 196 203 204 ) } // patch (Patch)
-		Node { ( 0 583 ) ( 201 203 204 ) } // patch (Patch)
-		Node { ( 0 584 ) ( 201 203 204 ) } // patch (Patch)
-		Node { ( 0 585 ) ( 196 203 204 ) } // patch (Patch)
-		Node { ( 0 586 ) ( 199 203 204 ) } // patch (Patch)
-		Node { ( 0 587 ) ( 196 203 204 ) } // patch (Patch)
-		Node { ( 0 588 ) ( 199 203 204 ) } // patch (Patch)
-		Node { ( 0 589 ) ( 201 203 204 ) } // patch (Patch)
-		Node { ( 0 590 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 591 ) ( 196 203 204 ) } // brush (Brush)
-		Node { ( 0 592 ) ( 196 203 204 ) } // brush (Brush)
-		Node { ( 0 593 ) ( 196 203 204 ) } // brush (Brush)
-		Node { ( 0 594 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 595 ) ( 201 203 204 ) } // brush (Brush)
-		Node { ( 0 596 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 597 ) ( 201 203 204 ) } // brush (Brush)
-		Node { ( 0 598 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 599 ) ( 199 203 204 ) } // brush (Brush)
-		Node { ( 0 600 ) ( 199 203 204 ) } // brush (Brush)
-		Node { ( 0 601 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 602 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 603 ) ( 201 203 204 ) } // brush (Brush)
-		Node { ( 0 604 ) ( 199 203 204 ) } // brush (Brush)
-		Node { ( 0 605 ) ( 203 204 ) } // brush (Brush)
-		Node { ( 0 606 ) ( 204 ) } // brush (Brush)
-		Node { ( 0 607 ) ( 204 ) } // patch (Patch)
-		Node { ( 0 617 ) ( 205 ) } // patch (Patch)
-		Node { ( 0 620 ) ( 210 ) } // brush (Brush)
-		Node { ( 0 621 ) ( 210 ) } // patch (Patch)
-		Node { ( 0 622 ) ( 210 ) } // patch (Patch)
-		Node { ( 0 623 ) ( 210 ) } // patch (Patch)
-		Node { ( 0 624 ) ( 210 ) } // brush (Brush)
-		Node { ( 0 625 ) ( 210 ) } // brush (Brush)
-		Node { ( 0 626 ) ( 209 210 ) } // patch (Patch)
-		Node { ( 0 627 ) ( 209 210 ) } // patch (Patch)
-		Node { ( 0 628 ) ( 209 210 ) } // patch (Patch)
-		Node { ( 0 629 ) ( 209 210 ) } // patch (Patch)
-		Node { ( 0 630 ) ( 209 210 ) } // patch (Patch)
-		Node { ( 0 631 ) ( 209 210 ) } // patch (Patch)
-		Node { ( 0 636 ) ( 217 ) } // brush (Brush)
-		Node { ( 0 637 ) ( 217 ) } // brush (Brush)
-		Node { ( 0 638 ) ( 217 ) } // brush (Brush)
-		Node { ( 0 639 ) ( 217 ) } // brush (Brush)
-		Node { ( 0 640 ) ( 211 ) } // brush (Brush)
-		Node { ( 0 642 ) ( 211 ) } // patch (Patch)
-		Node { ( 0 643 ) ( 211 ) } // patch (Patch)
-		Node { ( 0 644 ) ( 211 ) } // patch (Patch)
-		Node { ( 0 646 ) ( 217 ) } // brush (Brush)
-		Node { ( 0 647 ) ( 212 ) } // patch (Patch)
-		Node { ( 0 648 ) ( 212 ) } // patch (Patch)
-		Node { ( 0 649 ) ( 212 ) } // patch (Patch)
-		Node { ( 0 653 ) ( 213 222 ) } // patch (Patch)
-		Node { ( 0 654 ) ( 213 222 ) } // patch (Patch)
-		Node { ( 0 655 ) ( 213 222 ) } // patch (Patch)
-		Node { ( 0 659 ) ( 214 221 ) } // patch (Patch)
-		Node { ( 0 660 ) ( 214 221 ) } // patch (Patch)
-		Node { ( 0 661 ) ( 214 221 ) } // patch (Patch)
-		Node { ( 0 666 ) ( 215 220 ) } // patch (Patch)
-		Node { ( 0 667 ) ( 216 219 ) } // patch (Patch)
-		Node { ( 0 668 ) ( 216 219 ) } // patch (Patch)
-		Node { ( 0 669 ) ( 215 220 ) } // patch (Patch)
-		Node { ( 0 670 ) ( 215 220 ) } // patch (Patch)
-		Node { ( 0 671 ) ( 216 219 ) } // patch (Patch)
-		Node { ( 0 672 ) ( 221 ) } // brush (Brush)
-		Node { ( 0 673 ) ( 221 ) } // brush (Brush)
-		Node { ( 0 674 ) ( 221 ) } // brush (Brush)
-		Node { ( 0 675 ) ( 221 ) } // brush (Brush)
-		Node { ( 0 676 ) ( 222 ) } // brush (Brush)
-		Node { ( 0 677 ) ( 222 ) } // brush (Brush)
-		Node { ( 0 678 ) ( 222 ) } // brush (Brush)
-		Node { ( 0 679 ) ( 222 ) } // brush (Brush)
-		Node { ( 0 680 ) ( 220 ) } // brush (Brush)
-		Node { ( 0 681 ) ( 220 ) } // brush (Brush)
-		Node { ( 0 682 ) ( 220 ) } // brush (Brush)
-		Node { ( 0 683 ) ( 220 ) } // brush (Brush)
-		Node { ( 0 684 ) ( 219 ) } // brush (Brush)
-		Node { ( 0 685 ) ( 219 ) } // brush (Brush)
-		Node { ( 0 686 ) ( 219 ) } // brush (Brush)
-		Node { ( 0 687 ) ( 219 ) } // brush (Brush)
-		Node { ( 0 699 ) ( 233 234 ) } // brush (Brush)
-		Node { ( 0 700 ) ( 233 234 ) } // brush (Brush)
-		Node { ( 0 701 ) ( 234 ) } // brush (Brush)
-		Node { ( 0 702 ) ( 233 234 ) } // brush (Brush)
-		Node { ( 0 703 ) ( 233 234 ) } // brush (Brush)
-		Node { ( 0 704 ) ( 233 234 ) } // brush (Brush)
-		Node { ( 0 705 ) ( 233 234 ) } // brush (Brush)
-		Node { ( 0 706 ) ( 237 233 234 ) } // patch (Patch)
-		Node { ( 0 707 ) ( 235 233 234 ) } // patch (Patch)
-		Node { ( 0 708 ) ( 235 233 234 ) } // patch (Patch)
-		Node { ( 0 709 ) ( 235 233 234 ) } // patch (Patch)
-		Node { ( 0 710 ) ( 235 233 234 ) } // patch (Patch)
-		Node { ( 0 711 ) ( 235 233 234 ) } // patch (Patch)
-		Node { ( 0 712 ) ( 236 233 234 ) } // patch (Patch)
-		Node { ( 0 713 ) ( 236 233 234 ) } // patch (Patch)
-		Node { ( 0 714 ) ( 236 233 234 ) } // patch (Patch)
-		Node { ( 0 715 ) ( 237 233 234 ) } // patch (Patch)
-		Node { ( 0 716 ) ( 237 233 234 ) } // patch (Patch)
-		Node { ( 0 717 ) ( 237 233 234 ) } // patch (Patch)
-		Node { ( 0 718 ) ( 237 233 234 ) } // patch (Patch)
-		Node { ( 0 719 ) ( 236 233 234 ) } // patch (Patch)
-		Node { ( 0 720 ) ( 236 233 234 ) } // patch (Patch)
-		Node { ( 0 721 ) ( 238 ) } // patch (Patch)
-		Node { ( 0 722 ) ( 239 ) } // patch (Patch)
-		Node { ( 0 726 ) ( 240 241 242 ) } // patch (Patch)
-		Node { ( 0 727 ) ( 249 ) } // brush (Brush)
-		Node { ( 0 728 ) ( 249 ) } // brush (Brush)
-		Node { ( 0 730 ) ( 249 ) } // brush (Brush)
-		Node { ( 0 731 ) ( 249 ) } // brush (Brush)
-		Node { ( 0 732 ) ( 249 ) } // brush (Brush)
-		Node { ( 0 733 ) ( 249 ) } // brush (Brush)
-		Node { ( 0 734 ) ( 251 249 ) } // patch (Patch)
-		Node { ( 0 735 ) ( 253 249 ) } // patch (Patch)
-		Node { ( 0 736 ) ( 251 249 ) } // patch (Patch)
-		Node { ( 0 737 ) ( 253 249 ) } // patch (Patch)
-		Node { ( 0 738 ) ( 253 249 ) } // patch (Patch)
-		Node { ( 0 739 ) ( 253 249 ) } // patch (Patch)
-		Node { ( 0 740 ) ( 251 249 ) } // patch (Patch)
-		Node { ( 0 741 ) ( 251 249 ) } // patch (Patch)
-		Node { ( 0 742 ) ( 252 249 ) } // patch (Patch)
-		Node { ( 0 743 ) ( 252 249 ) } // patch (Patch)
-		Node { ( 0 744 ) ( 252 249 ) } // patch (Patch)
-		Node { ( 0 745 ) ( 253 249 ) } // patch (Patch)
-		Node { ( 0 746 ) ( 252 249 ) } // patch (Patch)
-		Node { ( 0 747 ) ( 251 249 ) } // patch (Patch)
-		Node { ( 0 748 ) ( 252 249 ) } // patch (Patch)
-		Node { ( 0 755 ) ( 264 ) } // brush (Brush)
-		Node { ( 0 759 ) ( 264 ) } // brush (Brush)
-		Node { ( 0 760 ) ( 264 ) } // brush (Brush)
-		Node { ( 0 761 ) ( 264 ) } // brush (Brush)
-		Node { ( 0 762 ) ( 264 ) } // brush (Brush)
-		Node { ( 0 763 ) ( 264 ) } // brush (Brush)
-		Node { ( 0 764 ) ( 264 ) } // brush (Brush)
-		Node { ( 0 765 ) ( 264 ) } // brush (Brush)
-		Node { ( 0 766 ) ( 264 ) } // brush (Brush)
-		Node { ( 0 767 ) ( 264 ) } // brush (Brush)
-		Node { ( 0 768 ) ( 264 ) } // brush (Brush)
-		Node { ( 0 769 ) ( 264 ) } // brush (Brush)
-		Node { ( 0 770 ) ( 264 ) } // brush (Brush)
-		Node { ( 0 771 ) ( 264 ) } // brush (Brush)
-		Node { ( 0 772 ) ( 257 ) } // brush (Brush)
-		Node { ( 0 773 ) ( 255 257 ) } // patch (Patch)
-		Node { ( 0 774 ) ( 255 257 ) } // patch (Patch)
-		Node { ( 0 775 ) ( 256 257 ) } // patch (Patch)
-		Node { ( 0 776 ) ( 256 257 ) } // patch (Patch)
-		Node { ( 0 777 ) ( 256 257 ) } // patch (Patch)
-		Node { ( 0 778 ) ( 257 ) } // brush (Brush)
-		Node { ( 0 779 ) ( 259 258 ) } // patch (Patch)
-		Node { ( 0 780 ) ( 260 258 ) } // patch (Patch)
-		Node { ( 0 781 ) ( 259 258 ) } // patch (Patch)
-		Node { ( 0 782 ) ( 260 258 ) } // patch (Patch)
-		Node { ( 0 783 ) ( 260 258 ) } // patch (Patch)
-		Node { ( 0 784 ) ( 258 ) } // brush (Brush)
-		Node { ( 0 785 ) ( 258 ) } // brush (Brush)
-		Node { ( 0 786 ) ( 264 ) } // brush (Brush)
-		Node { ( 0 790 ) ( 311 ) } // brush (Brush)
-		Node { ( 0 791 ) ( 311 ) } // brush (Brush)
-		Node { ( 0 792 ) ( 315 ) } // brush (Brush)
-		Node { ( 0 793 ) ( 315 ) } // brush (Brush)
-		Node { ( 0 794 ) ( 316 315 ) } // patch (Patch)
-		Node { ( 0 795 ) ( 313 311 ) } // patch (Patch)
-		Node { ( 0 796 ) ( 313 311 ) } // patch (Patch)
-		Node { ( 0 797 ) ( 312 311 ) } // patch (Patch)
-		Node { ( 0 798 ) ( 314 315 ) } // patch (Patch)
-		Node { ( 0 799 ) ( 316 315 ) } // patch (Patch)
-		Node { ( 0 800 ) ( 312 311 ) } // patch (Patch)
-		Node { ( 0 801 ) ( 313 311 ) } // patch (Patch)
-		Node { ( 0 802 ) ( 316 315 ) } // patch (Patch)
-		Node { ( 0 803 ) ( 314 315 ) } // patch (Patch)
-		Node { ( 0 806 ) ( 319 ) } // patch (Patch)
-		Node { ( 0 807 ) ( 319 ) } // patch (Patch)
-		Node { ( 0 809 ) ( 320 ) } // patch (Patch)
-		Node { ( 0 810 ) ( 320 ) } // patch (Patch)
-		Node { ( 0 818 ) ( 326 ) } // patch (Patch)
-		Node { ( 0 819 ) ( 326 ) } // patch (Patch)
-		Node { ( 0 820 ) ( 326 ) } // patch (Patch)
-		Node { ( 0 821 ) ( 326 ) } // patch (Patch)
-		Node { ( 0 822 ) ( 326 ) } // patch (Patch)
-		Node { ( 0 823 ) ( 326 ) } // patch (Patch)
-		Node { ( 0 824 ) ( 326 ) } // patch (Patch)
-		Node { ( 0 825 ) ( 326 ) } // patch (Patch)
-		Node { ( 0 829 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 830 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 831 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 832 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 833 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 834 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 835 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 836 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 837 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 838 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 839 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 840 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 841 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 842 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 843 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 844 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 846 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 847 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 848 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 849 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 850 ) ( 325 ) } // brush (Brush)
-		Node { ( 0 865 ) ( 329 ) } // patch (Patch)
-		Node { ( 0 868 ) ( 333 ) } // brush (Brush)
-		Node { ( 0 869 ) ( 333 ) } // brush (Brush)
-		Node { ( 0 870 ) ( 333 ) } // brush (Brush)
-		Node { ( 0 871 ) ( 333 ) } // brush (Brush)
-		Node { ( 0 872 ) ( 333 ) } // brush (Brush)
-		Node { ( 0 873 ) ( 333 ) } // brush (Brush)
-		Node { ( 0 874 ) ( 329 ) } // patch (Patch)
-		Node { ( 0 875 ) ( 329 ) } // patch (Patch)
-		Node { ( 0 876 ) ( 329 ) } // patch (Patch)
-		Node { ( 0 877 ) ( 329 ) } // patch (Patch)
-		Node { ( 0 878 ) ( 330 ) } // patch (Patch)
-		Node { ( 0 879 ) ( 330 ) } // patch (Patch)
-		Node { ( 0 880 ) ( 330 ) } // patch (Patch)
-		Node { ( 0 881 ) ( 330 ) } // patch (Patch)
-		Node { ( 0 882 ) ( 330 ) } // patch (Patch)
-		Node { ( 0 883 ) ( 332 ) } // patch (Patch)
-		Node { ( 0 886 ) ( 332 ) } // patch (Patch)
-		Node { ( 0 890 ) ( 332 ) } // patch (Patch)
-		Node { ( 0 891 ) ( 332 ) } // patch (Patch)
-		Node { ( 0 892 ) ( 332 ) } // patch (Patch)
-		Node { ( 0 893 ) ( 334 ) } // brush (Brush)
-		Node { ( 0 894 ) ( 334 ) } // brush (Brush)
-		Node { ( 0 895 ) ( 334 ) } // brush (Brush)
-		Node { ( 0 896 ) ( 334 ) } // brush (Brush)
-		Node { ( 0 897 ) ( 334 ) } // brush (Brush)
-		Node { ( 0 898 ) ( 334 ) } // brush (Brush)
-		Node { ( 0 901 ) ( 335 336 341 ) } // patch (Patch)
-		Node { ( 0 902 ) ( 335 336 341 ) } // patch (Patch)
-		Node { ( 0 903 ) ( 335 336 341 ) } // patch (Patch)
-		Node { ( 0 904 ) ( 335 336 341 ) } // patch (Patch)
-		Node { ( 0 905 ) ( 335 336 341 ) } // patch (Patch)
-		Node { ( 0 906 ) ( 335 336 341 ) } // patch (Patch)
-		Node { ( 0 907 ) ( 336 341 ) } // brush (Brush)
-		Node { ( 0 908 ) ( 336 341 ) } // brush (Brush)
-		Node { ( 0 909 ) ( 336 341 ) } // brush (Brush)
-		Node { ( 0 910 ) ( 336 341 ) } // brush (Brush)
-		Node { ( 0 911 ) ( 336 341 ) } // brush (Brush)
-		Node { ( 0 912 ) ( 336 341 ) } // brush (Brush)
-		Node { ( 0 913 ) ( 339 341 ) } // patch (Patch)
-		Node { ( 0 914 ) ( 339 341 ) } // patch (Patch)
-		Node { ( 0 915 ) ( 339 341 ) } // patch (Patch)
-		Node { ( 0 916 ) ( 339 341 ) } // patch (Patch)
-		Node { ( 0 917 ) ( 339 341 ) } // patch (Patch)
-		Node { ( 0 918 ) ( 339 341 ) } // patch (Patch)
-		Node { ( 0 919 ) ( 340 341 ) } // patch (Patch)
-		Node { ( 0 920 ) ( 340 341 ) } // patch (Patch)
-		Node { ( 0 921 ) ( 340 341 ) } // patch (Patch)
-		Node { ( 0 922 ) ( 340 341 ) } // patch (Patch)
-		Node { ( 0 923 ) ( 340 341 ) } // patch (Patch)
-		Node { ( 0 924 ) ( 340 341 ) } // patch (Patch)
-		Node { ( 0 925 ) ( 343 344 ) } // brush (Brush)
-		Node { ( 0 926 ) ( 343 344 ) } // brush (Brush)
-		Node { ( 0 927 ) ( 343 344 ) } // brush (Brush)
-		Node { ( 0 928 ) ( 343 344 ) } // brush (Brush)
-		Node { ( 0 929 ) ( 343 344 ) } // brush (Brush)
-		Node { ( 0 930 ) ( 343 344 ) } // brush (Brush)
-		Node { ( 0 931 ) ( 342 343 344 ) } // patch (Patch)
-		Node { ( 0 932 ) ( 342 343 344 ) } // patch (Patch)
-		Node { ( 0 933 ) ( 345 344 ) } // patch (Patch)
-		Node { ( 0 934 ) ( 342 343 344 ) } // patch (Patch)
-		Node { ( 0 935 ) ( 342 343 344 ) } // patch (Patch)
-		Node { ( 0 936 ) ( 345 344 ) } // patch (Patch)
-		Node { ( 0 937 ) ( 342 343 344 ) } // patch (Patch)
-		Node { ( 0 938 ) ( 342 343 344 ) } // patch (Patch)
-		Node { ( 0 939 ) ( 345 344 ) } // patch (Patch)
-		Node { ( 0 940 ) ( 345 344 ) } // patch (Patch)
-		Node { ( 0 941 ) ( 346 344 ) } // patch (Patch)
-		Node { ( 0 942 ) ( 345 344 ) } // patch (Patch)
-		Node { ( 0 943 ) ( 346 344 ) } // patch (Patch)
-		Node { ( 0 944 ) ( 345 344 ) } // patch (Patch)
-		Node { ( 0 945 ) ( 346 344 ) } // patch (Patch)
-		Node { ( 0 946 ) ( 346 344 ) } // patch (Patch)
-		Node { ( 0 947 ) ( 346 344 ) } // patch (Patch)
-		Node { ( 0 948 ) ( 346 344 ) } // patch (Patch)
-		Node { ( 0 950 ) ( 347 ) } // patch (Patch)
-		Node { ( 0 951 ) ( 347 ) } // patch (Patch)
-		Node { ( 0 952 ) ( 347 ) } // patch (Patch)
-		Node { ( 0 953 ) ( 347 ) } // patch (Patch)
-		Node { ( 0 954 ) ( 347 ) } // patch (Patch)
-		Node { ( 0 955 ) ( 347 ) } // patch (Patch)
-		Node { ( 0 956 ) ( 350 ) } // patch (Patch)
-		Node { ( 0 957 ) ( 351 ) } // patch (Patch)
-		Node { ( 0 958 ) ( 350 ) } // patch (Patch)
-		Node { ( 0 959 ) ( 350 ) } // patch (Patch)
-		Node { ( 0 960 ) ( 351 ) } // patch (Patch)
-		Node { ( 0 961 ) ( 350 ) } // patch (Patch)
-		Node { ( 0 962 ) ( 350 ) } // patch (Patch)
-		Node { ( 0 963 ) ( 350 ) } // patch (Patch)
-		Node { ( 0 964 ) ( 351 ) } // patch (Patch)
-		Node { ( 0 965 ) ( 351 ) } // patch (Patch)
-		Node { ( 0 966 ) ( 351 ) } // patch (Patch)
-		Node { ( 0 967 ) ( 351 ) } // patch (Patch)
-		Node { ( 0 969 ) ( 352 353 ) } // brush (Brush)
-		Node { ( 0 970 ) ( 352 353 ) } // brush (Brush)
-		Node { ( 0 971 ) ( 352 353 ) } // brush (Brush)
-		Node { ( 0 972 ) ( 352 353 ) } // brush (Brush)
-		Node { ( 0 973 ) ( 352 353 ) } // brush (Brush)
-		Node { ( 0 974 ) ( 352 353 ) } // brush (Brush)
-		Node { ( 0 975 ) ( 354 352 353 ) } // patch (Patch)
-		Node { ( 0 976 ) ( 354 352 353 ) } // patch (Patch)
-		Node { ( 0 977 ) ( 354 352 353 ) } // patch (Patch)
-		Node { ( 0 978 ) ( 354 352 353 ) } // patch (Patch)
-		Node { ( 0 979 ) ( 355 353 ) } // patch (Patch)
-		Node { ( 0 980 ) ( 356 353 ) } // patch (Patch)
-		Node { ( 0 981 ) ( 356 353 ) } // patch (Patch)
-		Node { ( 0 982 ) ( 354 352 353 ) } // patch (Patch)
-		Node { ( 0 983 ) ( 356 353 ) } // patch (Patch)
-		Node { ( 0 984 ) ( 354 352 353 ) } // patch (Patch)
-		Node { ( 0 985 ) ( 355 353 ) } // patch (Patch)
-		Node { ( 0 986 ) ( 355 353 ) } // patch (Patch)
-		Node { ( 0 987 ) ( 355 353 ) } // patch (Patch)
-		Node { ( 0 988 ) ( 356 353 ) } // patch (Patch)
-		Node { ( 0 989 ) ( 356 353 ) } // patch (Patch)
-		Node { ( 0 990 ) ( 355 353 ) } // patch (Patch)
-		Node { ( 0 991 ) ( 355 353 ) } // patch (Patch)
-		Node { ( 0 992 ) ( 356 353 ) } // patch (Patch)
-		Node { ( 0 1006 ) ( 380 ) } // patch (Patch)
-		Node { ( 0 1007 ) ( 380 ) } // patch (Patch)
-		Node { ( 0 1008 ) ( 380 ) } // patch (Patch)
-		Node { ( 0 1009 ) ( 380 ) } // patch (Patch)
-		Node { ( 0 1027 ) ( 381 ) } // patch (Patch)
-		Node { ( 0 1028 ) ( 381 ) } // patch (Patch)
-		Node { ( 0 1029 ) ( 381 ) } // patch (Patch)
-		Node { ( 0 1030 ) ( 381 ) } // patch (Patch)
-		Node { ( 0 1045 ) ( 383 ) } // patch (Patch)
-		Node { ( 0 1046 ) ( 383 ) } // patch (Patch)
-		Node { ( 0 1047 ) ( 383 ) } // patch (Patch)
-		Node { ( 0 1048 ) ( 383 ) } // patch (Patch)
-		Node { ( 1 ) ( 1 ) } // entity (ambient_world)
-		Node { ( 2 ) ( 1 ) } // entity (Objectives)
-		Node { ( 3 ) ( 1 ) } // entity (CompassEasy)
-		Node { ( 4 ) ( 1 ) } // entity (LanternEasy)
-		Node { ( 5 ) ( 1 ) } // entity (SpyglassEasy)
-		Node { ( 6 ) ( 1 ) } // entity (HealthPotionsEasy)
-		Node { ( 7 ) ( 1 ) } // entity (SwordEasy)
-		Node { ( 8 ) ( 1 ) } // entity (BlackjackEasy)
-		Node { ( 9 ) ( 1 ) } // entity (BreathPotionsEasy)
-		Node { ( 10 ) ( 1 ) } // entity (FlashbombsEasy)
-		Node { ( 11 ) ( 1 ) } // entity (key_master)
-		Node { ( 12 ) ( 1 ) } // entity (ShopItems)
-		Node { ( 13 ) ( 1 ) } // entity (BroadheadsEasy)
-		Node { ( 14 ) ( 1 ) } // entity (BroadheadsHard)
-		Node { ( 15 ) ( 1 ) } // entity (BroadheadsExpert)
-		Node { ( 16 ) ( 1 ) } // entity (FireArrowsEasy)
-		Node { ( 17 ) ( 1 ) } // entity (FireArrowsHard)
-		Node { ( 18 ) ( 1 ) } // entity (FireArrowsExpert)
-		Node { ( 19 ) ( 1 ) } // entity (GasArrowsEasy)
-		Node { ( 20 ) ( 1 ) } // entity (GasArrowsHard)
-		Node { ( 21 ) ( 1 ) } // entity (GasArrowsExpert)
-		Node { ( 22 ) ( 1 ) } // entity (MossArrowsEasy)
-		Node { ( 23 ) ( 1 ) } // entity (MossArrowsExpert)
-		Node { ( 24 ) ( 1 ) } // entity (MossArrowsHard)
-		Node { ( 25 ) ( 1 ) } // entity (NoiseArrowsEasy)
-		Node { ( 26 ) ( 1 ) } // entity (NoiseArrowsHard)
-		Node { ( 27 ) ( 1 ) } // entity (NoiseArrowsExpert)
-		Node { ( 28 ) ( 1 ) } // entity (RopeArrowsEasy)
-		Node { ( 29 ) ( 1 ) } // entity (RopeArrowsHard)
-		Node { ( 30 ) ( 1 ) } // entity (RopeArrowsExpert)
-		Node { ( 31 ) ( 1 ) } // entity (WaterArrowsEasy)
-		Node { ( 32 ) ( 1 ) } // entity (WaterArrowsHard)
-		Node { ( 33 ) ( 1 ) } // entity (WaterArrowsExpert)
-		Node { ( 34 ) ( 1 ) } // entity (BlackjackHard)
-		Node { ( 35 ) ( 1 ) } // entity (BlackjackExpert)
-		Node { ( 36 ) ( 1 ) } // entity (SwordHard)
-		Node { ( 37 ) ( 1 ) } // entity (SwordExpert)
-		Node { ( 38 ) ( 1 ) } // entity (CompassHard)
-		Node { ( 39 ) ( 1 ) } // entity (CompassExpert)
-		Node { ( 40 ) ( 1 ) } // entity (LanternHard)
-		Node { ( 41 ) ( 1 ) } // entity (LanternExpert)
-		Node { ( 42 ) ( 1 ) } // entity (SpyglassHard)
-		Node { ( 43 ) ( 1 ) } // entity (SpyglassExpert)
-		Node { ( 44 ) ( 1 ) } // entity (FlashbombsHard)
-		Node { ( 45 ) ( 1 ) } // entity (FlashbombsExpert)
-		Node { ( 46 ) ( 1 ) } // entity (HealthPotionsHard)
-		Node { ( 47 ) ( 1 ) } // entity (HealthPotionsExpert)
-		Node { ( 48 ) ( 1 ) } // entity (BreathPotionsHard)
-		Node { ( 49 ) ( 1 ) } // entity (BreathPotionsExpert)
-		Node { ( 50 ) ( 1 ) } // entity (LockpickSnakeEasy)
-		Node { ( 51 ) ( 1 ) } // entity (LockpickTriangleEasy)
-		Node { ( 52 ) ( 1 ) } // entity (MinesEasy)
-		Node { ( 53 ) ( 1 ) } // entity (HolyWatersEasy)
-		Node { ( 54 ) ( 1 ) } // entity (FlashminesEasy)
-		Node { ( 55 ) ( 1 ) } // entity (LockpickSnakeHard)
-		Node { ( 56 ) ( 1 ) } // entity (LockpickSnakeExpert)
-		Node { ( 57 ) ( 1 ) } // entity (LockpickTriangleHard)
-		Node { ( 58 ) ( 1 ) } // entity (LockpickTriangleExpert)
-		Node { ( 59 ) ( 1 ) } // entity (FlashminesHard)
-		Node { ( 60 ) ( 1 ) } // entity (FlashminesExpert)
-		Node { ( 61 ) ( 1 ) } // entity (MinesHard)
-		Node { ( 62 ) ( 1 ) } // entity (MinesExpert)
-		Node { ( 63 ) ( 1 ) } // entity (HolyWatersHard)
-		Node { ( 64 ) ( 1 ) } // entity (HolyWatersExpert)
-		Node { ( 65 ) ( 1 ) } // entity (VineArrowsEasy)
-		Node { ( 66 ) ( 1 ) } // entity (VineArrowsHard)
-		Node { ( 67 ) ( 1 ) } // entity (VineArrowsExpert)
-		Node { ( 68 ) ( 1 ) } // entity (atdm_location_settings_1)
-		Node { ( 70 ) ( 10 ) } // entity (func_static_3)
-		Node { ( 73 ) ( 30 ) } // entity (func_static_8)
-		Node { ( 74 ) ( 30 ) } // entity (func_static_9)
-		Node { ( 75 ) ( 30 ) } // entity (func_static_10)
-		Node { ( 76 ) ( 30 ) } // entity (func_static_11)
-		Node { ( 77 ) ( 30 ) } // entity (func_static_12)
-		Node { ( 78 ) ( 30 ) } // entity (func_static_13)
-		Node { ( 79 ) ( 30 ) } // entity (func_static_14)
-		Node { ( 80 ) ( 30 ) } // entity (func_static_15)
-		Node { ( 81 ) ( 30 ) } // entity (func_static_16)
-		Node { ( 97 ) ( 10 ) } // entity (func_static_21)
-		Node { ( 101 ) ( 17 ) } // entity (func_static_26)
-		Node { ( 102 ) ( 17 ) } // entity (func_static_27)
-		Node { ( 103 ) ( 17 ) } // entity (func_static_28)
-		Node { ( 104 ) ( 17 ) } // entity (func_static_29)
-		Node { ( 105 ) ( 102 ) } // entity (func_static_42)
-		Node { ( 106 ) ( 102 ) } // entity (func_static_46)
-		Node { ( 107 ) ( 102 ) } // entity (func_static_47)
-		Node { ( 108 ) ( 102 ) } // entity (func_static_48)
-		Node { ( 109 ) ( 102 ) } // entity (func_static_49)
-		Node { ( 147 ) ( 90 ) } // entity (info_locationSeparator_2)
-		Node { ( 148 ) ( 90 ) } // entity (info_locationSeparator_3)
-		Node { ( 149 ) ( 90 ) } // entity (info_locationSeparator_4)
-		Node { ( 150 ) ( 90 ) } // entity (info_locationSeparator_5)
-		Node { ( 151 ) ( 90 ) } // entity (info_locationSeparator_6)
-		Node { ( 152 ) ( 90 ) } // entity (info_locationSeparator_7)
-		Node { ( 153 ) ( 90 ) } // entity (info_locationSeparator_8)
-		Node { ( 154 ) ( 90 ) } // entity (info_locationSeparator_9)
-		Node { ( 171 ) ( 98 ) } // entity (func_static_91)
-		Node { ( 172 ) ( 98 ) } // entity (func_static_92)
-		Node { ( 177 ) ( 92 ) } // entity (info_locationSeparator_10)
-		Node { ( 179 ) ( 91 ) } // entity (info_locationSeparator_11)
-		Node { ( 180 ) ( 91 ) } // entity (info_locationSeparator_12)
-		Node { ( 181 ) ( 91 ) } // entity (info_locationSeparator_13)
-		Node { ( 182 ) ( 91 ) } // entity (info_locationSeparator_14)
-		Node { ( 183 ) ( 91 ) } // entity (info_locationSeparator_15)
-		Node { ( 184 ) ( 91 ) } // entity (info_locationSeparator_16)
-		Node { ( 185 ) ( 91 ) } // entity (info_locationSeparator_17)
-		Node { ( 186 ) ( 91 ) } // entity (info_locationSeparator_18)
-		Node { ( 188 ) ( 103 ) } // entity (func_static_30)
-		Node { ( 189 ) ( 103 ) } // entity (func_static_31)
-		Node { ( 190 ) ( 103 ) } // entity (func_static_32)
-		Node { ( 191 ) ( 103 ) } // entity (func_static_33)
-		Node { ( 192 ) ( 104 ) } // entity (func_static_34)
-		Node { ( 193 ) ( 104 ) } // entity (func_static_35)
-		Node { ( 194 ) ( 104 ) } // entity (func_static_36)
-		Node { ( 195 ) ( 104 ) } // entity (func_static_37)
-		Node { ( 208 ) ( 111 ) } // entity (func_static_1093)
-		Node { ( 209 ) ( 111 ) } // entity (func_static_1094)
-		Node { ( 210 ) ( 111 ) } // entity (func_static_1180)
-		Node { ( 211 ) ( 111 ) } // entity (func_static_1181)
-		Node { ( 212 ) ( 111 ) } // entity (func_static_1182)
-		Node { ( 213 ) ( 121 ) } // entity (info_locationSeparator_19)
-		Node { ( 214 ) ( 121 ) } // entity (info_locationSeparator_20)
-		Node { ( 215 ) ( 121 ) } // entity (info_locationSeparator_21)
-		Node { ( 216 ) ( 243 ) } // entity (func_static_82)
-		Node { ( 217 ) ( 124 125 126 127 243 ) } // entity (atdm_lantern_hanging2_2)
-		Node { ( 218 ) ( 124 125 126 127 243 ) } // entity (func_static_83)
-		Node { ( 221 1151 ) ( 168 ) } // patch (Patch)
-		Node { ( 221 1152 ) ( 128 168 ) } // patch (Patch)
-		Node { ( 221 1153 ) ( 128 168 ) } // patch (Patch)
-		Node { ( 221 1154 ) ( 128 168 ) } // patch (Patch)
-		Node { ( 221 1155 ) ( 129 168 ) } // patch (Patch)
-		Node { ( 221 1156 ) ( 128 168 ) } // patch (Patch)
-		Node { ( 221 1157 ) ( 128 168 ) } // patch (Patch)
-		Node { ( 221 1158 ) ( 128 168 ) } // patch (Patch)
-		Node { ( 221 1159 ) ( 128 168 ) } // patch (Patch)
-		Node { ( 221 1160 ) ( 128 168 ) } // patch (Patch)
-		Node { ( 221 1161 ) ( 129 168 ) } // patch (Patch)
-		Node { ( 221 1162 ) ( 129 168 ) } // patch (Patch)
-		Node { ( 221 1163 ) ( 129 168 ) } // patch (Patch)
-		Node { ( 221 1164 ) ( 129 168 ) } // patch (Patch)
-		Node { ( 221 1165 ) ( 130 168 ) } // patch (Patch)
-		Node { ( 221 1166 ) ( 130 168 ) } // patch (Patch)
-		Node { ( 221 1167 ) ( 130 168 ) } // patch (Patch)
-		Node { ( 221 1168 ) ( 129 168 ) } // patch (Patch)
-		Node { ( 221 1169 ) ( 130 168 ) } // patch (Patch)
-		Node { ( 221 1170 ) ( 129 168 ) } // patch (Patch)
-		Node { ( 221 1171 ) ( 129 168 ) } // patch (Patch)
-		Node { ( 221 1172 ) ( 130 168 ) } // patch (Patch)
-		Node { ( 221 1173 ) ( 131 168 ) } // patch (Patch)
-		Node { ( 221 1174 ) ( 130 168 ) } // patch (Patch)
-		Node { ( 221 1175 ) ( 132 137 168 ) } // patch (Patch)
-		Node { ( 221 1176 ) ( 130 168 ) } // patch (Patch)
-		Node { ( 221 1177 ) ( 138 139 168 ) } // patch (Patch)
-		Node { ( 221 1178 ) ( 136 137 168 ) } // patch (Patch)
-		Node { ( 221 1179 ) ( 134 137 168 ) } // patch (Patch)
-		Node { ( 221 1180 ) ( 135 137 168 ) } // patch (Patch)
-		Node { ( 221 1181 ) ( 133 137 168 ) } // patch (Patch)
-		Node { ( 221 1182 ) ( 140 139 168 ) } // patch (Patch)
-		Node { ( 221 1183 ) ( 141 139 168 ) } // patch (Patch)
-		Node { ( 221 1184 ) ( 142 139 168 ) } // patch (Patch)
-		Node { ( 221 1185 ) ( 143 139 168 ) } // patch (Patch)
-		Node { ( 222 1186 ) ( 169 ) } // patch (Patch)
-		Node { ( 222 1187 ) ( 170 169 ) } // patch (Patch)
-		Node { ( 222 1188 ) ( 170 169 ) } // patch (Patch)
-		Node { ( 222 1189 ) ( 170 169 ) } // patch (Patch)
-		Node { ( 222 1190 ) ( 171 169 ) } // patch (Patch)
-		Node { ( 222 1191 ) ( 170 169 ) } // patch (Patch)
-		Node { ( 222 1192 ) ( 170 169 ) } // patch (Patch)
-		Node { ( 222 1193 ) ( 170 169 ) } // patch (Patch)
-		Node { ( 222 1194 ) ( 170 169 ) } // patch (Patch)
-		Node { ( 222 1195 ) ( 170 169 ) } // patch (Patch)
-		Node { ( 222 1196 ) ( 171 169 ) } // patch (Patch)
-		Node { ( 222 1197 ) ( 171 169 ) } // patch (Patch)
-		Node { ( 222 1198 ) ( 171 169 ) } // patch (Patch)
-		Node { ( 222 1199 ) ( 171 169 ) } // patch (Patch)
-		Node { ( 222 1200 ) ( 172 169 ) } // patch (Patch)
-		Node { ( 222 1201 ) ( 172 169 ) } // patch (Patch)
-		Node { ( 222 1202 ) ( 172 169 ) } // patch (Patch)
-		Node { ( 222 1203 ) ( 171 169 ) } // patch (Patch)
-		Node { ( 222 1204 ) ( 172 169 ) } // patch (Patch)
-		Node { ( 222 1205 ) ( 171 169 ) } // patch (Patch)
-		Node { ( 222 1206 ) ( 171 169 ) } // patch (Patch)
-		Node { ( 222 1207 ) ( 172 169 ) } // patch (Patch)
-		Node { ( 222 1208 ) ( 173 169 ) } // patch (Patch)
-		Node { ( 222 1209 ) ( 172 169 ) } // patch (Patch)
-		Node { ( 222 1210 ) ( 174 175 169 ) } // patch (Patch)
-		Node { ( 222 1211 ) ( 172 169 ) } // patch (Patch)
-		Node { ( 222 1212 ) ( 176 177 169 ) } // patch (Patch)
-		Node { ( 222 1213 ) ( 178 175 169 ) } // patch (Patch)
-		Node { ( 222 1214 ) ( 179 175 169 ) } // patch (Patch)
-		Node { ( 222 1215 ) ( 180 175 169 ) } // patch (Patch)
-		Node { ( 222 1216 ) ( 181 175 169 ) } // patch (Patch)
-		Node { ( 222 1217 ) ( 182 177 169 ) } // patch (Patch)
-		Node { ( 222 1218 ) ( 183 177 169 ) } // patch (Patch)
-		Node { ( 222 1219 ) ( 184 177 169 ) } // patch (Patch)
-		Node { ( 222 1220 ) ( 185 177 169 ) } // patch (Patch)
-		Node { ( 226 ) ( 205 ) } // entity (func_static_1165)
-		Node { ( 227 ) ( 205 ) } // entity (func_static_1167)
-		Node { ( 228 ) ( 205 ) } // entity (func_static_1168)
-		Node { ( 230 1221 ) ( 207 ) } // patch (Patch)
-		Node { ( 230 1222 ) ( 207 ) } // patch (Patch)
-		Node { ( 230 1223 ) ( 207 ) } // patch (Patch)
-		Node { ( 230 1224 ) ( 207 ) } // patch (Patch)
-		Node { ( 230 1225 ) ( 207 ) } // patch (Patch)
-		Node { ( 230 1226 ) ( 207 ) } // patch (Patch)
-		Node { ( 231 1227 ) ( 208 ) } // patch (Patch)
-		Node { ( 231 1228 ) ( 208 ) } // patch (Patch)
-		Node { ( 231 1229 ) ( 208 ) } // patch (Patch)
-		Node { ( 231 1230 ) ( 208 ) } // patch (Patch)
-		Node { ( 231 1231 ) ( 208 ) } // patch (Patch)
-		Node { ( 231 1232 ) ( 208 ) } // patch (Patch)
-		Node { ( 233 ) ( 238 ) } // entity (func_static_105)
-		Node { ( 234 ) ( 238 ) } // entity (func_static_106)
-		Node { ( 238 ) ( 244 ) } // entity (func_static_109)
-		Node { ( 239 ) ( 245 246 247 248 244 ) } // entity (func_static_110)
-		Node { ( 240 ) ( 245 246 247 248 244 ) } // entity (atdm_lantern_hanging2_3)
-		Node { ( 241 1233 ) ( 265 ) } // patch (Patch)
-		Node { ( 241 1234 ) ( 267 265 ) } // patch (Patch)
-		Node { ( 241 1235 ) ( 266 265 ) } // patch (Patch)
-		Node { ( 241 1236 ) ( 266 265 ) } // patch (Patch)
-		Node { ( 241 1237 ) ( 267 265 ) } // patch (Patch)
-		Node { ( 241 1238 ) ( 267 265 ) } // patch (Patch)
-		Node { ( 241 1239 ) ( 267 265 ) } // patch (Patch)
-		Node { ( 241 1240 ) ( 266 265 ) } // patch (Patch)
-		Node { ( 241 1241 ) ( 266 265 ) } // patch (Patch)
-		Node { ( 241 1242 ) ( 267 265 ) } // patch (Patch)
-		Node { ( 241 1243 ) ( 268 265 ) } // patch (Patch)
-		Node { ( 241 1244 ) ( 268 265 ) } // patch (Patch)
-		Node { ( 241 1245 ) ( 267 265 ) } // patch (Patch)
-		Node { ( 241 1246 ) ( 268 265 ) } // patch (Patch)
-		Node { ( 241 1247 ) ( 267 265 ) } // patch (Patch)
-		Node { ( 241 1248 ) ( 267 265 ) } // patch (Patch)
-		Node { ( 241 1249 ) ( 270 271 265 ) } // patch (Patch)
-		Node { ( 241 1250 ) ( 274 271 265 ) } // patch (Patch)
-		Node { ( 241 1251 ) ( 272 273 265 ) } // patch (Patch)
-		Node { ( 241 1252 ) ( 275 271 265 ) } // patch (Patch)
-		Node { ( 241 1253 ) ( 268 265 ) } // patch (Patch)
-		Node { ( 241 1254 ) ( 279 273 265 ) } // patch (Patch)
-		Node { ( 241 1255 ) ( 280 273 265 ) } // patch (Patch)
-		Node { ( 241 1256 ) ( 278 273 265 ) } // patch (Patch)
-		Node { ( 241 1257 ) ( 276 271 265 ) } // patch (Patch)
-		Node { ( 241 1258 ) ( 277 271 265 ) } // patch (Patch)
-		Node { ( 241 1259 ) ( 281 273 265 ) } // patch (Patch)
-		Node { ( 243 1260 ) ( 295 ) } // patch (Patch)
-		Node { ( 243 1261 ) ( 296 295 ) } // patch (Patch)
-		Node { ( 243 1262 ) ( 297 295 ) } // patch (Patch)
-		Node { ( 243 1263 ) ( 297 295 ) } // patch (Patch)
-		Node { ( 243 1264 ) ( 296 295 ) } // patch (Patch)
-		Node { ( 243 1265 ) ( 296 295 ) } // patch (Patch)
-		Node { ( 243 1266 ) ( 296 295 ) } // patch (Patch)
-		Node { ( 243 1267 ) ( 297 295 ) } // patch (Patch)
-		Node { ( 243 1268 ) ( 297 295 ) } // patch (Patch)
-		Node { ( 243 1269 ) ( 296 295 ) } // patch (Patch)
-		Node { ( 243 1270 ) ( 298 295 ) } // patch (Patch)
-		Node { ( 243 1271 ) ( 298 295 ) } // patch (Patch)
-		Node { ( 243 1272 ) ( 296 295 ) } // patch (Patch)
-		Node { ( 243 1273 ) ( 298 295 ) } // patch (Patch)
-		Node { ( 243 1274 ) ( 296 295 ) } // patch (Patch)
-		Node { ( 243 1275 ) ( 296 295 ) } // patch (Patch)
-		Node { ( 243 1276 ) ( 299 300 295 ) } // patch (Patch)
-		Node { ( 243 1277 ) ( 301 300 295 ) } // patch (Patch)
-		Node { ( 243 1278 ) ( 302 303 295 ) } // patch (Patch)
-		Node { ( 243 1279 ) ( 304 300 295 ) } // patch (Patch)
-		Node { ( 243 1280 ) ( 298 295 ) } // patch (Patch)
-		Node { ( 243 1281 ) ( 305 303 295 ) } // patch (Patch)
-		Node { ( 243 1282 ) ( 306 303 295 ) } // patch (Patch)
-		Node { ( 243 1283 ) ( 307 303 295 ) } // patch (Patch)
-		Node { ( 243 1284 ) ( 308 300 295 ) } // patch (Patch)
-		Node { ( 243 1285 ) ( 309 300 295 ) } // patch (Patch)
-		Node { ( 243 1286 ) ( 310 303 295 ) } // patch (Patch)
-		Node { ( 244 1287 ) ( 318 ) } // patch (Patch)
-		Node { ( 244 1288 ) ( 318 ) } // patch (Patch)
-		Node { ( 244 1289 ) ( 318 ) } // patch (Patch)
-		Node { ( 244 1290 ) ( 318 ) } // patch (Patch)
-		Node { ( 244 1291 ) ( 318 ) } // patch (Patch)
-		Node { ( 244 1292 ) ( 318 ) } // patch (Patch)
-		Node { ( 244 1293 ) ( 318 ) } // patch (Patch)
-		Node { ( 244 1294 ) ( 318 ) } // patch (Patch)
-		Node { ( 244 1295 ) ( 318 ) } // patch (Patch)
-		Node { ( 244 1296 ) ( 318 ) } // patch (Patch)
-		Node { ( 244 1297 ) ( 318 ) } // patch (Patch)
-		Node { ( 244 1298 ) ( 318 ) } // patch (Patch)
-		Node { ( 244 1299 ) ( 318 ) } // patch (Patch)
-		Node { ( 251 1300 ) ( 357 359 ) } // brush (Brush)
-		Node { ( 251 1301 ) ( 357 359 ) } // brush (Brush)
-		Node { ( 251 1302 ) ( 357 359 ) } // brush (Brush)
-		Node { ( 251 1303 ) ( 359 ) } // brush (Brush)
-		Node { ( 251 1304 ) ( 357 359 ) } // brush (Brush)
-		Node { ( 252 1305 ) ( 360 ) } // brush (Brush)
-		Node { ( 252 1306 ) ( 358 360 ) } // brush (Brush)
-		Node { ( 252 1307 ) ( 358 360 ) } // brush (Brush)
-		Node { ( 252 1308 ) ( 358 360 ) } // brush (Brush)
-		Node { ( 252 1309 ) ( 358 360 ) } // brush (Brush)
-		Node { ( 254 1310 ) ( 367 ) } // brush (Brush)
-		Node { ( 254 1311 ) ( 367 ) } // brush (Brush)
-		Node { ( 254 1312 ) ( 368 ) } // brush (Brush)
-		Node { ( 254 1313 ) ( 368 ) } // brush (Brush)
-		Node { ( 254 1314 ) ( 372 368 ) } // patch (Patch)
-		Node { ( 254 1315 ) ( 369 367 ) } // patch (Patch)
-		Node { ( 254 1316 ) ( 370 368 ) } // patch (Patch)
-		Node { ( 254 1317 ) ( 371 367 ) } // patch (Patch)
-		Node { ( 254 1318 ) ( 370 368 ) } // patch (Patch)
-		Node { ( 254 1319 ) ( 371 367 ) } // patch (Patch)
-		Node { ( 254 1320 ) ( 371 367 ) } // patch (Patch)
-		Node { ( 254 1321 ) ( 372 368 ) } // patch (Patch)
-		Node { ( 254 1322 ) ( 370 368 ) } // patch (Patch)
-		Node { ( 254 1323 ) ( 369 367 ) } // patch (Patch)
-		Node { ( 255 1324 ) ( 361 ) } // brush (Brush)
-		Node { ( 255 1325 ) ( 361 ) } // brush (Brush)
-		Node { ( 255 1326 ) ( 362 ) } // brush (Brush)
-		Node { ( 255 1327 ) ( 362 ) } // brush (Brush)
-		Node { ( 255 1328 ) ( 363 361 ) } // patch (Patch)
-		Node { ( 255 1329 ) ( 364 362 ) } // patch (Patch)
-		Node { ( 255 1330 ) ( 365 361 ) } // patch (Patch)
-		Node { ( 255 1331 ) ( 366 362 ) } // patch (Patch)
-		Node { ( 255 1332 ) ( 364 362 ) } // patch (Patch)
-		Node { ( 255 1333 ) ( 366 362 ) } // patch (Patch)
-		Node { ( 255 1334 ) ( 365 361 ) } // patch (Patch)
-		Node { ( 255 1335 ) ( 363 361 ) } // patch (Patch)
-		Node { ( 255 1336 ) ( 365 361 ) } // patch (Patch)
-		Node { ( 255 1337 ) ( 364 362 ) } // patch (Patch)
-		Node { ( 256 1338 ) ( 374 ) } // brush (Brush)
-		Node { ( 256 1339 ) ( 373 ) } // brush (Brush)
-		Node { ( 256 1340 ) ( 373 ) } // brush (Brush)
-		Node { ( 256 1341 ) ( 374 ) } // brush (Brush)
-		Node { ( 256 1342 ) ( 378 374 ) } // patch (Patch)
-		Node { ( 256 1343 ) ( 377 374 ) } // patch (Patch)
-		Node { ( 256 1344 ) ( 377 374 ) } // patch (Patch)
-		Node { ( 256 1345 ) ( 377 374 ) } // patch (Patch)
-		Node { ( 256 1346 ) ( 378 374 ) } // patch (Patch)
-		Node { ( 256 1347 ) ( 375 373 ) } // patch (Patch)
-		Node { ( 256 1348 ) ( 376 373 ) } // patch (Patch)
-		Node { ( 256 1349 ) ( 376 373 ) } // patch (Patch)
-		Node { ( 256 1350 ) ( 375 373 ) } // patch (Patch)
-		Node { ( 256 1351 ) ( 376 373 ) } // patch (Patch)
-		Node { ( 257 1352 ) ( 289 ) } // brush (Brush)
-		Node { ( 257 1353 ) ( 289 ) } // brush (Brush)
-		Node { ( 257 1354 ) ( 293 ) } // brush (Brush)
-		Node { ( 257 1355 ) ( 293 ) } // brush (Brush)
-		Node { ( 257 1356 ) ( 290 289 ) } // patch (Patch)
-		Node { ( 257 1357 ) ( 290 289 ) } // patch (Patch)
-		Node { ( 257 1358 ) ( 291 289 ) } // patch (Patch)
-		Node { ( 257 1359 ) ( 291 289 ) } // patch (Patch)
-		Node { ( 257 1360 ) ( 291 289 ) } // patch (Patch)
-		Node { ( 257 1361 ) ( 294 293 ) } // patch (Patch)
-		Node { ( 257 1362 ) ( 292 293 ) } // patch (Patch)
-		Node { ( 257 1363 ) ( 294 293 ) } // patch (Patch)
-		Node { ( 257 1364 ) ( 294 293 ) } // patch (Patch)
-		Node { ( 257 1365 ) ( 292 293 ) } // patch (Patch)
+		Node { 1 } // entity (info_locationSeparator_12)
+		Node { 1 } // entity (info_locationSeparator_14)
+		Node { 1 } // entity (info_locationSeparator_22)
+		Node { 1 } // entity (atdm_torch_gothic_wall_3)
 	}
 	SelectionSets
 	{
