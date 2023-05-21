@@ -1,0 +1,6 @@
+skin window_bars_curved_iron_flat
+{
+    model models/darkmod/architecture/fencing/window_bars_curved_48x80.ase
+
+    textures/darkmod/metal/flat/brush_steel_scratched01_dark textures/darkmod/metal/flat/iron_flat
+}
