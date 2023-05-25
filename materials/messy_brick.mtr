@@ -1,0 +1,9 @@
+textures/darkmod/stone/brick/bricks_messy0191
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/stone/brick/bricks_messy0191_ed
+    diffusemap      textures/darkmod/stone/brick/bricks_messy0191
+    bumpmap         textures/darkmod/stone/brick/bricks_messy0191_local
+}
