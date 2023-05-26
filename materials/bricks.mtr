@@ -7,3 +7,13 @@ textures/darkmod/stone/brick/bricks_messy0191
     diffusemap      textures/darkmod/stone/brick/bricks_messy0191
     bumpmap         textures/darkmod/stone/brick/bricks_messy0191_local
 }
+
+textures/darkmod/stone/brick/blocks_lt3
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/stone/brick/blocks_lt3_ed
+    diffusemap      textures/darkmod/stone/brick/blocks_lt3
+    bumpmap         textures/darkmod/stone/brick/blocks_lt3_local
+}
