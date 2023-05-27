@@ -16,6 +16,15 @@ textures/darkmod/door/wood/moorish02
     bumpmap         textures/darkmod/door/wood/moorish02_local
 }
 
+textures/darkmod/door/wood/moorish03
+{
+    stone
+
+    qer_editorimage textures/darkmod/door/wood/moorish03_ed
+    diffusemap      textures/darkmod/door/wood/moorish03
+    bumpmap         textures/darkmod/door/wood/moorish03_local
+}
+
 textures/darkmod/door/wood/moorish_coloured
 {
     stone
