@@ -1,6 +1,6 @@
 textures/darkmod/door/wood/moorish01
 {
-    stone
+    wood
 
     qer_editorimage textures/darkmod/door/wood/moorish01_ed
     diffusemap      textures/darkmod/door/wood/moorish01
@@ -9,7 +9,7 @@ textures/darkmod/door/wood/moorish01
 
 textures/darkmod/door/wood/moorish02
 {
-    stone
+    wood
 
     qer_editorimage textures/darkmod/door/wood/moorish02_ed
     diffusemap      textures/darkmod/door/wood/moorish02
@@ -18,16 +18,25 @@ textures/darkmod/door/wood/moorish02
 
 textures/darkmod/door/wood/moorish03
 {
-    stone
+    wood
 
     qer_editorimage textures/darkmod/door/wood/moorish03_ed
     diffusemap      textures/darkmod/door/wood/moorish03
     bumpmap         textures/darkmod/door/wood/moorish03_local
 }
 
+textures/darkmod/door/wood/moorish04
+{
+    wood
+
+    qer_editorimage textures/darkmod/door/wood/moorish04_ed
+    diffusemap      textures/darkmod/door/wood/moorish04
+    bumpmap         textures/darkmod/door/wood/moorish04_local
+}
+
 textures/darkmod/door/wood/moorish_coloured
 {
-    stone
+    wood
 
     qer_editorimage textures/darkmod/door/wood/moorish_coloured_ed
     diffusemap      textures/darkmod/door/wood/moorish_coloured

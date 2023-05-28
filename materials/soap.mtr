@@ -1,0 +1,9 @@
+textures/darkmod/other/soap
+{
+    description "ice"
+    slick // grayman #2409
+    
+	qer_editorimage textures/water_source/greengrey_plain_flat
+    diffusemap textures/water_source/greengrey_plain_flat
+
+}
