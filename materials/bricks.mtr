@@ -18,6 +18,16 @@ textures/darkmod/stone/brick/bricks_dirty
     bumpmap         textures/darkmod/stone/brick/bricks_dirty_local
 }
 
+textures/darkmod/stone/brick/bricks_lt3_messy
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/stone/brick/bricks_lt3_messy_ed
+    diffusemap      textures/darkmod/stone/brick/bricks_lt3_messy
+    bumpmap         textures/darkmod/stone/brick/bricks_lt3_messy_local
+}
+
 textures/darkmod/stone/brick/bricks_dirty02
 {
     stone
