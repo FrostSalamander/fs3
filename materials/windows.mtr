@@ -1,0 +1,26 @@
+textures/darkmod/window/moorish02_single
+{
+    wood
+
+    qer_editorimage textures/darkmod/window/moorish02_single_ed
+    diffusemap      textures/darkmod/window/moorish02_single
+    bumpmap         textures/darkmod/window/moorish02_single_local
+}
+
+textures/darkmod/window/moorish02_single_wide
+{
+    wood
+
+    qer_editorimage textures/darkmod/window/moorish02_single_wide_ed
+    diffusemap      textures/darkmod/window/moorish02_single_wide
+    bumpmap         textures/darkmod/window/moorish02_single_wide_local
+}
+
+textures/darkmod/window/moorish02_double
+{
+    wood
+
+    qer_editorimage textures/darkmod/window/moorish02_double_ed
+    diffusemap      textures/darkmod/window/moorish02_double
+    bumpmap         textures/darkmod/window/moorish02_double_local
+}

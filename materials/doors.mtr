@@ -34,6 +34,15 @@ textures/darkmod/door/wood/moorish04
     bumpmap         textures/darkmod/door/wood/moorish04_local
 }
 
+textures/darkmod/door/wood/moorish05
+{
+    wood
+
+    qer_editorimage textures/darkmod/door/wood/moorish05_ed
+    diffusemap      textures/darkmod/door/wood/moorish05
+    bumpmap         textures/darkmod/door/wood/moorish05_local
+}
+
 textures/darkmod/door/wood/moorish_coloured
 {
     wood
