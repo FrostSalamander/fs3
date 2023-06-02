@@ -1,0 +1,17 @@
+textures/darkmod/plaster/plaster_moorish01
+{
+    stone
+
+    qer_editorimage textures/darkmod/plaster/plaster_moorish01_ed
+    diffusemap      textures/darkmod/plaster/plaster_moorish01
+    bumpmap         textures/darkmod/plaster/plaster_moorish01_local
+}
+
+textures/darkmod/plaster/plaster_moorish02
+{
+    stone
+
+    qer_editorimage textures/darkmod/plaster/plaster_moorish02_ed
+    diffusemap      textures/darkmod/plaster/plaster_moorish02
+    bumpmap         textures/darkmod/plaster/plaster_moorish02_local
+}
