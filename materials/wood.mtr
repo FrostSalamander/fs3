@@ -1,0 +1,8 @@
+textures/darkmod/wood/reinforced/wood_reinforced01
+{
+    wood
+
+    qer_editorimage textures/darkmod/wood/reinforced/wood_reinforced01_ed
+    diffusemap      textures/darkmod/wood/reinforced/wood_reinforced01
+    bumpmap         textures/darkmod/wood/reinforced/wood_reinforced01_local
+}
