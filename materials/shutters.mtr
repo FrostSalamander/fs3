@@ -1,0 +1,8 @@
+textures/darkmod/window/shutter01
+{
+    wood
+
+    qer_editorimage textures/darkmod/window/shutter01_ed
+    diffusemap      textures/darkmod/window/shutter01
+    bumpmap         textures/darkmod/window/shutter01_local
+}
