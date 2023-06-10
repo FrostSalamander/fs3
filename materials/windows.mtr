@@ -33,3 +33,12 @@ textures/darkmod/window/moorish03
     diffusemap      textures/darkmod/window/moorish03
     bumpmap         textures/darkmod/window/moorish03_local
 }
+
+textures/darkmod/window/moorish04
+{
+    wood
+
+    qer_editorimage textures/darkmod/window/moorish04_ed
+    diffusemap      textures/darkmod/window/moorish04
+    bumpmap         textures/darkmod/window/moorish04_local
+}

@@ -15,3 +15,12 @@ textures/darkmod/wood/reinforced/wood_reinforced02
     diffusemap      textures/darkmod/wood/reinforced/wood_reinforced02
     bumpmap         textures/darkmod/wood/reinforced/wood_reinforced02_local
 }
+
+textures/darkmod/wood/wood_ornament01
+{
+    wood
+
+    qer_editorimage textures/darkmod/wood/wood_ornament01_ed
+    diffusemap      textures/darkmod/wood/wood_ornament01
+    bumpmap         textures/darkmod/wood/wood_ornament01_local
+}
