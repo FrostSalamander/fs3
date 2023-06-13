@@ -15,3 +15,12 @@ textures/darkmod/plaster/plaster_moorish02
     diffusemap      textures/darkmod/plaster/plaster_moorish02
     bumpmap         textures/darkmod/plaster/plaster_moorish02_local
 }
+
+textures/darkmod/plaster/plaster_moorish03
+{
+    stone
+
+    qer_editorimage textures/darkmod/plaster/plaster_moorish03_ed
+    diffusemap      textures/darkmod/plaster/plaster_moorish03
+    bumpmap         textures/darkmod/plaster/plaster_moorish03_local
+}
