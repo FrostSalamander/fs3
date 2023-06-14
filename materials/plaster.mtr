@@ -24,3 +24,30 @@ textures/darkmod/plaster/plaster_moorish03
     diffusemap      textures/darkmod/plaster/plaster_moorish03
     bumpmap         textures/darkmod/plaster/plaster_moorish03_local
 }
+
+textures/darkmod/plaster/plaster_loam01
+{
+    stone
+
+    qer_editorimage textures/darkmod/plaster/plaster_loam01_ed
+    diffusemap      textures/darkmod/plaster/plaster_loam01
+    bumpmap         textures/darkmod/plaster/plaster_loam01_local
+}
+
+textures/darkmod/plaster/plaster_loam02
+{
+    stone
+
+    qer_editorimage textures/darkmod/plaster/plaster_loam02_ed
+    diffusemap      textures/darkmod/plaster/plaster_loam02
+    bumpmap         textures/darkmod/plaster/plaster_loam02_local
+}
+
+textures/darkmod/plaster/plaster_loam03
+{
+    stone
+
+    qer_editorimage textures/darkmod/plaster/plaster_loam03_ed
+    diffusemap      textures/darkmod/plaster/plaster_loam03
+    bumpmap         textures/darkmod/plaster/plaster_loam03_local
+}
