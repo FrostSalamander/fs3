@@ -24,3 +24,24 @@ readables/lt3/ship_logbook
 	"gui_page1"	: "guis/readables/books/book_hand_ellianerelle.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt3/scroll_port
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Commander,"
+		""
+		"    Please ensure the safe arrival of the Shula.  The passenger Kanza will be met by two officers from intelligence who will escort him to intelligence headquarters on X street."
+		""
+		"Admiral Khalid"
+	}
+	"gui_page1"	: "guis/readables/scrolls/scroll_calig_summertime.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
