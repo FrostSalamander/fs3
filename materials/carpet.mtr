@@ -1,0 +1,13 @@
+textures/darkmod/carpet/rugs/rug01
+{
+    surftype15
+    description "carpet"
+
+    qer_editorimage textures/darkmod/carpet/rugs/rug01_ed
+	{
+     blend diffusemap
+       map textures/darkmod/carpet/rugs/rug01
+       alphaTest 0.5
+	}
+    bumpmap         textures/darkmod/carpet/rugs/rug01_local
+}
