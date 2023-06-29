@@ -1,0 +1,9 @@
+textures/darkmod/stone/flat/smooth/tile_moorish01
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/stone/flat/smooth/tile_moorish01_ed
+    diffusemap      textures/darkmod/stone/flat/smooth/tile_moorish01
+    bumpmap         textures/darkmod/stone/flat/smooth/tile_moorish01_local
+}
