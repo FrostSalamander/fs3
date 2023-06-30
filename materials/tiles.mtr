@@ -7,3 +7,13 @@ textures/darkmod/stone/flat/smooth/tile_moorish01
     diffusemap      textures/darkmod/stone/flat/smooth/tile_moorish01
     bumpmap         textures/darkmod/stone/flat/smooth/tile_moorish01_local
 }
+
+textures/darkmod/stone/flat/smooth/tile_moorish02
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/stone/flat/smooth/tile_moorish02_ed
+    diffusemap      textures/darkmod/stone/flat/smooth/tile_moorish02
+    bumpmap         textures/darkmod/stone/flat/smooth/tile_moorish02_local
+}
