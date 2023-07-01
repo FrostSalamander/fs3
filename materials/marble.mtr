@@ -7,3 +7,13 @@ textures/darkmod/stone/flat/marble01
     diffusemap      textures/darkmod/stone/flat/marble01
     bumpmap         textures/darkmod/stone/flat/marble01_local
 }
+
+textures/darkmod/stone/flat/marble02
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/stone/flat/marble02_ed
+    diffusemap      textures/darkmod/stone/flat/marble02
+    bumpmap         textures/darkmod/stone/flat/marble02_local
+}
