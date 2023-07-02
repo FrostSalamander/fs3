@@ -1,0 +1,16 @@
+void hideLoot(entity zone)
+{
+    $func_static_699.hide();
+}
+
+void showLoot(entity zone)
+{
+    $func_static_699.show();
+}
+
+
+// main - keep at bottom
+void main()
+{
+    sys.waitFrame();
+}
