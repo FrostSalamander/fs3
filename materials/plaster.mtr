@@ -69,3 +69,12 @@ textures/darkmod/plaster/plaster_loam04
     diffusemap      textures/darkmod/plaster/plaster_loam04
     bumpmap         textures/darkmod/plaster/plaster_loam04_local
 }
+
+textures/darkmod/plaster/plaster_loam05
+{
+    stone
+
+    qer_editorimage textures/darkmod/plaster/plaster_loam05_ed
+    diffusemap      textures/darkmod/plaster/plaster_loam05
+    bumpmap         textures/darkmod/plaster/plaster_loam05_local
+}
