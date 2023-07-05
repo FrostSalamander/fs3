@@ -37,3 +37,13 @@ textures/darkmod/stone/sculpted/tiling_1d/trim_moorish04
     diffusemap      textures/darkmod/stone/sculpted/tiling_1d/trim_moorish04
     bumpmap         textures/darkmod/stone/sculpted/tiling_1d/trim_moorish04_local
 }
+
+textures/darkmod/stone/sculpted/tiling_1d/trim_moorish05
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/stone/sculpted/tiling_1d/trim_moorish05_ed
+    diffusemap      textures/darkmod/stone/sculpted/tiling_1d/trim_moorish05
+    bumpmap         textures/darkmod/stone/sculpted/tiling_1d/trim_moorish05_local
+}

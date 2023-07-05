@@ -1,11 +1,39 @@
+string FAKE_ROOM = "fake_room";
+string FAKE_LIGHT = "fake_light";
+string FAKE_PAINTING = "fake_painting";
+string FAKE_TROPHY = "fake_trophy";
+string FAKE_PLATFORM = "fake_platform";
+string FAKE_CROWN = "fake_crown";
+string FAKE_PEDESTAL = "fake_pedestal";
+
+void hideEntity(string entityName)
+{
+    sys.getEntity(entityName).hide();
+}
+
+void showEntity(string entityName)
+{
+    sys.getEntity(entityName).show();
+}
+
 void hideLoot(entity zone)
 {
-    $func_static_699.hide();
+    hideEntity(FAKE_ROOM);
+    hideEntity(FAKE_LIGHT);
+    hideEntity(FAKE_PAINTING);
+    hideEntity(FAKE_TROPHY);
+    hideEntity(FAKE_CROWN);
+    hideEntity(FAKE_PEDESTAL);
 }
 
 void showLoot(entity zone)
 {
-    $func_static_699.show();
+    showEntity(FAKE_ROOM);
+    showEntity(FAKE_LIGHT);
+    showEntity(FAKE_PAINTING);
+    showEntity(FAKE_TROPHY);
+    showEntity(FAKE_CROWN);
+    showEntity(FAKE_PEDESTAL);
 }
 
 
