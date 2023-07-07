@@ -2,17 +2,17 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "453737" } 
-		KeyValue { "LastCameraAngle" "-19.8 180.484 0" } 
-		KeyValue { "LastCameraPosition" "-1373.31 187.147 488.891" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/plaster/plaster_loam05" } 
+		KeyValue { "EditTimeInSeconds" "454205" } 
+		KeyValue { "LastCameraAngle" "-29.1 345.184 0" } 
+		KeyValue { "LastCameraPosition" "-1597.27 159.577 319.533" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/sandstone_largeblocks01" } 
 	}
 	SelectionSets
 	{
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 453737 }
+		TotalSecondsEdited { 454205 }
 	}
 	Layers
 	{
@@ -7091,12 +7091,6 @@ DarkRadiant Map Information File Version 2
 		Node { 1 } // entity (func_static_699)
 		Node { 1 } // entity (func_static_701)
 		Node { 1 } // entity (atdm_lamp_electric_square_3_lit_2)
-		Node { 1 } // entity (func_static_784)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // entity (func_static_785)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
 		Node { 1 } // entity (func_static_786)
 		Node { 1 } // brush (Brush)
 		Node { 1 } // brush (Brush)
@@ -7139,6 +7133,32 @@ DarkRadiant Map Information File Version 2
 		Node { 1 } // brush (Brush)
 		Node { 1 } // brush (Brush)
 		Node { 1 } // brush (Brush)
+		Node { 1 } // entity (func_static_784)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // entity (func_static_785)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
+		Node { 1 } // patch (Patch)
 	}
 	SelectionGroups
 	{
@@ -8241,6 +8261,14 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 13510 { "" }
 		SelectionGroup 13511 { "" }
 		SelectionGroup 13512 { "" }
+		SelectionGroup 13516 { "" }
+		SelectionGroup 13519 { "" }
+		SelectionGroup 13520 { "" }
+		SelectionGroup 13521 { "" }
+		SelectionGroup 13522 { "" }
+		SelectionGroup 13523 { "" }
+		SelectionGroup 13524 { "" }
+		SelectionGroup 13525 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -12140,17 +12168,41 @@ DarkRadiant Map Information File Version 2
 		Node { ( 1270 ) ( 13484 ) } // entity (func_static_698)
 		Node { ( 1271 ) ( 13484 ) } // entity (func_static_699)
 		Node { ( 1272 ) ( 13484 ) } // entity (func_static_701)
-		Node { ( 1279 ) ( 13507 ) } // entity (func_static_756)
-		Node { ( 1280 ) ( 13507 ) } // entity (func_static_787)
-		Node { ( 1281 ) ( 13507 ) } // entity (func_static_742)
-		Node { ( 1282 ) ( 13508 ) } // entity (func_static_788)
-		Node { ( 1283 ) ( 13508 ) } // entity (func_static_789)
-		Node { ( 1284 ) ( 13509 ) } // entity (func_static_791)
-		Node { ( 1285 ) ( 13509 ) } // entity (func_static_793)
-		Node { ( 1286 ) ( 13508 ) } // entity (func_static_790)
-		Node { ( 1287 ) ( 13509 ) } // entity (func_static_792)
-		Node { ( 1289 ) ( 13507 ) } // entity (func_static_175)
-		Node { ( 1290 ) ( 13508 ) } // entity (func_static_794)
-		Node { ( 1291 ) ( 13509 ) } // entity (func_static_795)
+		Node { ( 1277 ) ( 13507 ) } // entity (func_static_756)
+		Node { ( 1278 ) ( 13507 ) } // entity (func_static_787)
+		Node { ( 1279 ) ( 13507 ) } // entity (func_static_742)
+		Node { ( 1280 ) ( 13508 ) } // entity (func_static_788)
+		Node { ( 1281 ) ( 13508 ) } // entity (func_static_789)
+		Node { ( 1282 ) ( 13509 ) } // entity (func_static_791)
+		Node { ( 1283 ) ( 13509 ) } // entity (func_static_793)
+		Node { ( 1284 ) ( 13508 ) } // entity (func_static_790)
+		Node { ( 1285 ) ( 13509 ) } // entity (func_static_792)
+		Node { ( 1287 ) ( 13507 ) } // entity (func_static_175)
+		Node { ( 1288 ) ( 13508 ) } // entity (func_static_794)
+		Node { ( 1289 ) ( 13509 ) } // entity (func_static_795)
+		Node { ( 1290 5810 ) ( 13516 13521 ) } // patch (Patch)
+		Node { ( 1290 5811 ) ( 13516 13521 ) } // patch (Patch)
+		Node { ( 1290 5812 ) ( 13516 13521 ) } // patch (Patch)
+		Node { ( 1290 5813 ) ( 13516 13521 ) } // patch (Patch)
+		Node { ( 1290 5814 ) ( 13516 13521 ) } // patch (Patch)
+		Node { ( 1290 5815 ) ( 13516 13521 ) } // patch (Patch)
+		Node { ( 1290 5816 ) ( 13520 13521 ) } // patch (Patch)
+		Node { ( 1290 5817 ) ( 13520 13521 ) } // patch (Patch)
+		Node { ( 1290 5818 ) ( 13520 13521 ) } // patch (Patch)
+		Node { ( 1290 5819 ) ( 13520 13521 ) } // patch (Patch)
+		Node { ( 1290 5820 ) ( 13519 13520 13521 ) } // patch (Patch)
+		Node { ( 1290 5821 ) ( 13520 13521 ) } // patch (Patch)
+		Node { ( 1291 5822 ) ( 13522 13523 ) } // patch (Patch)
+		Node { ( 1291 5823 ) ( 13522 13523 ) } // patch (Patch)
+		Node { ( 1291 5824 ) ( 13522 13523 ) } // patch (Patch)
+		Node { ( 1291 5825 ) ( 13522 13523 ) } // patch (Patch)
+		Node { ( 1291 5826 ) ( 13522 13523 ) } // patch (Patch)
+		Node { ( 1291 5827 ) ( 13522 13523 ) } // patch (Patch)
+		Node { ( 1291 5828 ) ( 13524 13523 ) } // patch (Patch)
+		Node { ( 1291 5829 ) ( 13524 13523 ) } // patch (Patch)
+		Node { ( 1291 5830 ) ( 13524 13523 ) } // patch (Patch)
+		Node { ( 1291 5831 ) ( 13524 13523 ) } // patch (Patch)
+		Node { ( 1291 5832 ) ( 13525 13524 13523 ) } // patch (Patch)
+		Node { ( 1291 5833 ) ( 13524 13523 ) } // patch (Patch)
 	}
 }
