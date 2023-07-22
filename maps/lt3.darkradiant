@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "514124" } 
-		KeyValue { "LastCameraAngle" "-13.5 10.944 0" } 
-		KeyValue { "LastCameraPosition" "-1547.22 204.849 608.648" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/rough_blocks02" } 
+		KeyValue { "EditTimeInSeconds" "514787" } 
+		KeyValue { "LastCameraAngle" "-31.8 208.944 0" } 
+		KeyValue { "LastCameraPosition" "-1377.98 548.984 246.547" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/flat/rough_circular_plug" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 514124 }
+		TotalSecondsEdited { 514787 }
 	}
 	Layers
 	{
@@ -7958,8 +7958,6 @@ DarkRadiant Map Information File Version 2
 		Node { 1 } // entity (func_static_870)
 		Node { 1 } // entity (func_static_872)
 		Node { 1 } // entity (func_static_873)
-		Node { 1 } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_8)
-		Node { 1 } // entity (func_static_874)
 		Node { 1 } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_9)
 		Node { 1 } // entity (func_static_875)
 		Node { 1 } // entity (func_static_876)
@@ -8041,6 +8039,9 @@ DarkRadiant Map Information File Version 2
 		Node { 1 } // entity (info_locationSeparator_92)
 		Node { 1 } // entity (info_locationSeparator_93)
 		Node { 1 } // entity (location_upper_house)
+		Node { 1 } // entity (func_static_874)
+		Node { 1 } // entity (func_static_906)
+		Node { 1 } // entity (func_static_907)
 	}
 	SelectionGroups
 	{
@@ -9247,7 +9248,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 13668 { "" }
 		SelectionGroup 13670 { "" }
 		SelectionGroup 13671 { "" }
-		SelectionGroup 13672 { "" }
 		SelectionGroup 13673 { "" }
 		SelectionGroup 13674 { "" }
 		SelectionGroup 13675 { "" }
@@ -13632,63 +13632,61 @@ DarkRadiant Map Information File Version 2
 		Node { ( 1388 ) ( 13668 13679 ) } // entity (func_static_870)
 		Node { ( 1389 ) ( 13670 ) } // entity (func_static_872)
 		Node { ( 1390 ) ( 13671 ) } // entity (func_static_873)
-		Node { ( 1391 ) ( 13672 ) } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_8)
-		Node { ( 1392 ) ( 13672 ) } // entity (func_static_874)
-		Node { ( 1393 ) ( 13673 ) } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_9)
-		Node { ( 1394 ) ( 13673 ) } // entity (func_static_875)
-		Node { ( 1395 ) ( 13674 ) } // entity (func_static_876)
-		Node { ( 1396 ) ( 13675 ) } // entity (func_static_877)
-		Node { ( 1397 ) ( 13676 ) } // entity (func_static_878)
-		Node { ( 1398 ) ( 13677 ) } // entity (func_static_871)
-		Node { ( 1399 ) ( 13678 ) } // entity (func_static_880)
-		Node { ( 1400 ) ( 13680 ) } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_10)
-		Node { ( 1401 ) ( 13680 ) } // entity (func_static_879)
-		Node { ( 1402 ) ( 13698 ) } // entity (func_static_881)
-		Node { ( 1403 ) ( 13699 ) } // entity (func_static_882)
-		Node { ( 1404 ) ( 13702 13696 ) } // entity (func_static_883)
-		Node { ( 1405 ) ( 13698 ) } // entity (func_static_884)
-		Node { ( 1406 ) ( 13695 13696 ) } // entity (func_static_885)
-		Node { ( 1407 ) ( 13695 13696 ) } // entity (func_static_886)
-		Node { ( 1408 ) ( 13701 ) } // entity (func_static_887)
-		Node { ( 1409 ) ( 13700 ) } // entity (func_static_888)
-		Node { ( 1410 ) ( 13703 ) } // entity (func_static_889)
-		Node { ( 1411 ) ( 13704 ) } // entity (func_static_890)
-		Node { ( 1412 ) ( 13705 ) } // entity (func_static_891)
-		Node { ( 1414 ) ( 13706 ) } // entity (func_static_893)
-		Node { ( 1415 ) ( 13706 ) } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_11)
-		Node { ( 1416 ) ( 13707 ) } // entity (func_static_894)
-		Node { ( 1417 ) ( 13707 ) } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_12)
-		Node { ( 1418 ) ( 13708 ) } // entity (func_static_211)
-		Node { ( 1419 ) ( 13708 ) } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_5)
-		Node { ( 1420 ) ( 13709 ) } // entity (func_static_895)
-		Node { ( 1421 ) ( 13709 ) } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_13)
-		Node { ( 1422 ) ( 13710 ) } // entity (func_static_896)
-		Node { ( 1423 ) ( 13710 ) } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_14)
-		Node { ( 1424 ) ( 13711 ) } // entity (func_static_897)
-		Node { ( 1425 ) ( 13711 ) } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_15)
-		Node { ( 1429 ) ( 13714 ) } // entity (func_static_901)
-		Node { ( 1430 ) ( 13715 ) } // entity (func_static_902)
-		Node { ( 1431 6537 ) ( 1689 ) } // patch (Patch)
-		Node { ( 1431 6538 ) ( 1689 ) } // patch (Patch)
-		Node { ( 1431 6539 ) ( 1689 ) } // patch (Patch)
-		Node { ( 1436 ) ( 13729 ) } // entity (atdm_mover_door_42)
-		Node { ( 1436 6546 ) ( 13719 ) } // patch (Patch)
-		Node { ( 1436 6547 ) ( 13717 13719 ) } // patch (Patch)
-		Node { ( 1436 6548 ) ( 13719 ) } // patch (Patch)
-		Node { ( 1436 6549 ) ( 13717 13719 ) } // patch (Patch)
-		Node { ( 1437 ) ( 13729 ) } // entity (atdm_mover_door_43)
-		Node { ( 1437 6552 ) ( 13722 ) } // patch (Patch)
-		Node { ( 1437 6553 ) ( 13722 ) } // patch (Patch)
-		Node { ( 1437 6554 ) ( 13723 13722 ) } // patch (Patch)
-		Node { ( 1437 6555 ) ( 13723 13722 ) } // patch (Patch)
-		Node { ( 1438 6557 ) ( 13726 ) } // patch (Patch)
-		Node { ( 1438 6558 ) ( 13726 ) } // patch (Patch)
-		Node { ( 1438 6559 ) ( 13727 13726 ) } // patch (Patch)
-		Node { ( 1438 6560 ) ( 13727 13726 ) } // patch (Patch)
-		Node { ( 1439 6561 ) ( 13724 ) } // patch (Patch)
-		Node { ( 1439 6562 ) ( 13725 13724 ) } // patch (Patch)
-		Node { ( 1439 6563 ) ( 13724 ) } // patch (Patch)
-		Node { ( 1439 6564 ) ( 13725 13724 ) } // patch (Patch)
+		Node { ( 1391 ) ( 13673 ) } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_9)
+		Node { ( 1392 ) ( 13673 ) } // entity (func_static_875)
+		Node { ( 1393 ) ( 13674 ) } // entity (func_static_876)
+		Node { ( 1394 ) ( 13675 ) } // entity (func_static_877)
+		Node { ( 1395 ) ( 13676 ) } // entity (func_static_878)
+		Node { ( 1396 ) ( 13677 ) } // entity (func_static_871)
+		Node { ( 1397 ) ( 13678 ) } // entity (func_static_880)
+		Node { ( 1398 ) ( 13680 ) } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_10)
+		Node { ( 1399 ) ( 13680 ) } // entity (func_static_879)
+		Node { ( 1400 ) ( 13698 ) } // entity (func_static_881)
+		Node { ( 1401 ) ( 13699 ) } // entity (func_static_882)
+		Node { ( 1402 ) ( 13702 13696 ) } // entity (func_static_883)
+		Node { ( 1403 ) ( 13698 ) } // entity (func_static_884)
+		Node { ( 1404 ) ( 13695 13696 ) } // entity (func_static_885)
+		Node { ( 1405 ) ( 13695 13696 ) } // entity (func_static_886)
+		Node { ( 1406 ) ( 13701 ) } // entity (func_static_887)
+		Node { ( 1407 ) ( 13700 ) } // entity (func_static_888)
+		Node { ( 1408 ) ( 13703 ) } // entity (func_static_889)
+		Node { ( 1409 ) ( 13704 ) } // entity (func_static_890)
+		Node { ( 1410 ) ( 13705 ) } // entity (func_static_891)
+		Node { ( 1412 ) ( 13706 ) } // entity (func_static_893)
+		Node { ( 1413 ) ( 13706 ) } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_11)
+		Node { ( 1414 ) ( 13707 ) } // entity (func_static_894)
+		Node { ( 1415 ) ( 13707 ) } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_12)
+		Node { ( 1416 ) ( 13708 ) } // entity (func_static_211)
+		Node { ( 1417 ) ( 13708 ) } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_5)
+		Node { ( 1418 ) ( 13709 ) } // entity (func_static_895)
+		Node { ( 1419 ) ( 13709 ) } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_13)
+		Node { ( 1420 ) ( 13710 ) } // entity (func_static_896)
+		Node { ( 1421 ) ( 13710 ) } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_14)
+		Node { ( 1422 ) ( 13711 ) } // entity (func_static_897)
+		Node { ( 1423 ) ( 13711 ) } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_15)
+		Node { ( 1427 ) ( 13714 ) } // entity (func_static_901)
+		Node { ( 1428 ) ( 13715 ) } // entity (func_static_902)
+		Node { ( 1429 6537 ) ( 1689 ) } // patch (Patch)
+		Node { ( 1429 6538 ) ( 1689 ) } // patch (Patch)
+		Node { ( 1429 6539 ) ( 1689 ) } // patch (Patch)
+		Node { ( 1434 ) ( 13729 ) } // entity (atdm_mover_door_42)
+		Node { ( 1434 6546 ) ( 13719 ) } // patch (Patch)
+		Node { ( 1434 6547 ) ( 13717 13719 ) } // patch (Patch)
+		Node { ( 1434 6548 ) ( 13719 ) } // patch (Patch)
+		Node { ( 1434 6549 ) ( 13717 13719 ) } // patch (Patch)
+		Node { ( 1435 ) ( 13729 ) } // entity (atdm_mover_door_43)
+		Node { ( 1435 6552 ) ( 13722 ) } // patch (Patch)
+		Node { ( 1435 6553 ) ( 13722 ) } // patch (Patch)
+		Node { ( 1435 6554 ) ( 13723 13722 ) } // patch (Patch)
+		Node { ( 1435 6555 ) ( 13723 13722 ) } // patch (Patch)
+		Node { ( 1436 6557 ) ( 13726 ) } // patch (Patch)
+		Node { ( 1436 6558 ) ( 13726 ) } // patch (Patch)
+		Node { ( 1436 6559 ) ( 13727 13726 ) } // patch (Patch)
+		Node { ( 1436 6560 ) ( 13727 13726 ) } // patch (Patch)
+		Node { ( 1437 6561 ) ( 13724 ) } // patch (Patch)
+		Node { ( 1437 6562 ) ( 13725 13724 ) } // patch (Patch)
+		Node { ( 1437 6563 ) ( 13724 ) } // patch (Patch)
+		Node { ( 1437 6564 ) ( 13725 13724 ) } // patch (Patch)
 	}
 	SelectionSets
 	{
