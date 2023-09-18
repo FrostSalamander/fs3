@@ -1,0 +1,6 @@
+textures/darkmod/nature/slime/lt3_slime
+{
+	qer_editorimage textures/darkmod/nature/slime/lt3_slime_ed
+    diffusemap textures/darkmod/nature/slime/lt3_slime
+    bumpmap textures/darkmod/nature/slime/lt3_slime_local
+}
