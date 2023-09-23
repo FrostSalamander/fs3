@@ -1,0 +1,8 @@
+skin table_tavern01_wtable
+{
+    model models/darkmod/furniture/tables/table_tavern01.lwo
+    model models/darkmod/furniture/shelves/tool_shelf.lwo
+
+    textures/darkmod/wood/boards/wood_brown_dull01       textures/darkmod/wood/boards/tiling_1d/wtable1b
+    textures/darkmod/wood/panels/wood_brown_dull01_panel textures/darkmod/wood/boards/tiling_1d/wtable1b
+}
