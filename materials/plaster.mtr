@@ -78,3 +78,57 @@ textures/darkmod/plaster/plaster_loam05
     diffusemap      textures/darkmod/plaster/plaster_loam05
     bumpmap         textures/darkmod/plaster/plaster_loam05_local
 }
+
+textures/darkmod/plaster/plaster_orange
+{
+    stone
+
+    qer_editorimage textures/darkmod/plaster/plaster_orange_ed
+    diffusemap      textures/darkmod/plaster/plaster_orange
+    bumpmap         textures/darkmod/plaster/plaster_orange_local
+}
+
+textures/darkmod/plaster/plaster_blue
+{
+    stone
+
+    qer_editorimage textures/darkmod/plaster/plaster_blue_ed
+    diffusemap      textures/darkmod/plaster/plaster_blue
+    bumpmap         textures/darkmod/plaster/plaster_blue_local
+}
+
+textures/darkmod/plaster/plaster_brown
+{
+    stone
+
+    qer_editorimage textures/darkmod/plaster/plaster_brown_ed
+    diffusemap      textures/darkmod/plaster/plaster_brown
+    bumpmap         textures/darkmod/plaster/plaster_brown_local
+}
+
+textures/darkmod/plaster/plaster_worn_rust
+{
+    stone
+
+    qer_editorimage textures/darkmod/plaster/plaster_worn_rust_ed
+    diffusemap      textures/darkmod/plaster/plaster_worn_rust
+    bumpmap         textures/darkmod/plaster/plaster_worn_rust_local
+}
+
+textures/darkmod/plaster/plaster_worn_bluegrey
+{
+    stone
+
+    qer_editorimage textures/darkmod/plaster/plaster_worn_bluegrey_ed
+    diffusemap      textures/darkmod/plaster/plaster_worn_bluegrey
+    bumpmap         textures/darkmod/plaster/plaster_worn_bluegrey_local
+}
+
+textures/darkmod/plaster/plaster_painted_worn
+{
+    stone
+
+    qer_editorimage textures/darkmod/plaster/plaster_painted_worn_ed
+    diffusemap      textures/darkmod/plaster/plaster_painted_worn
+    bumpmap         textures/darkmod/plaster/plaster_painted_worn_local
+}
