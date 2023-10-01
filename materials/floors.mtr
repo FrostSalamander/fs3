@@ -57,3 +57,13 @@ textures/darkmod/stone/floors/floors06
     diffusemap      textures/darkmod/stone/floors/floor06
     bumpmap         textures/darkmod/stone/floors/floor06_local
 }
+
+textures/darkmod/stone/floors/floors07
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/stone/floors/floor07_ed
+    diffusemap      textures/darkmod/stone/floors/floor07
+    bumpmap         textures/darkmod/stone/floors/floor07_local
+}

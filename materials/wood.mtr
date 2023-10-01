@@ -105,3 +105,12 @@ textures/darkmod/wood/wood_dark03
     diffusemap      textures/darkmod/wood/wood_dark03
     bumpmap         textures/darkmod/wood/wood_dark03_local
 }
+
+textures/darkmod/wood/wood_planks01
+{
+    wood
+
+    qer_editorimage textures/darkmod/wood/wood_planks01_ed
+    diffusemap      textures/darkmod/wood/wood_planks01
+    bumpmap         textures/darkmod/wood/wood_planks01_local
+}
