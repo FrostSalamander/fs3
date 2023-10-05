@@ -1,0 +1,9 @@
+textures/darkmod/stone/sculpted/tiling_1d/stucco_moorish01
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/stone/sculpted/tiling_1d/stucco_moorish01_ed
+    diffusemap      textures/darkmod/stone/sculpted/tiling_1d/stucco_moorish01
+    bumpmap         textures/darkmod/stone/sculpted/tiling_1d/stucco_moorish01_local
+}
