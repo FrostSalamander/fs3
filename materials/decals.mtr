@@ -1,0 +1,10 @@
+textures/darkmod/decals/arabic/market
+{
+	DECAL_MACRO
+	noimpact
+	
+	{
+		blend blend
+		map textures/darkmod/decals/arabic/arabic_market
+	}
+}
