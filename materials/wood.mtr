@@ -79,6 +79,15 @@ textures/darkmod/wood/wood_ornament06
     bumpmap         textures/darkmod/wood/wood_ornament06_local
 }
 
+textures/darkmod/wood/wood_ornament07
+{
+    wood
+
+    qer_editorimage textures/darkmod/wood/wood_ornament07_ed
+    diffusemap      textures/darkmod/wood/wood_ornament07
+    bumpmap         textures/darkmod/wood/wood_ornament07_local
+}
+
 textures/darkmod/wood/wood_dark01
 {
     wood
