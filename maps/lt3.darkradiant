@@ -2,14 +2,17 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "791146" } 
-		KeyValue { "LastCameraAngle" "-6.2 5.85887 0" } 
-		KeyValue { "LastCameraPosition" "-1043.35 76.492 -32.6621" } 
+		KeyValue { "EditTimeInSeconds" "791381" } 
+		KeyValue { "LastCameraAngle" "-6.6 91.0589 0" } 
+		KeyValue { "LastCameraPosition" "-974.095 -117.889 33.071" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/plaster/tan_cracked" } 
+	}
+	SelectionSets
+	{
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 791146 }
+		TotalSecondsEdited { 791381 }
 	}
 	Layers
 	{
@@ -14117,6 +14120,7 @@ DarkRadiant Map Information File Version 2
 		Node { 1 } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_21)
 		Node { 1 } // entity (func_static_1383)
 		Node { 1 } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_22)
+		Node { 3 } // entity (func_static_1379)
 	}
 	SelectionGroups
 	{
@@ -14581,7 +14585,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 1737 { "" }
 		SelectionGroup 1738 { "" }
 		SelectionGroup 1765 { "" }
-		SelectionGroup 1766 { "" }
 		SelectionGroup 1769 { "" }
 		SelectionGroup 1782 { "" }
 		SelectionGroup 3184 { "" }
@@ -21402,9 +21405,6 @@ DarkRadiant Map Information File Version 2
 		Node { ( 331 ) ( 1552 ) } // entity (func_static_173)
 		Node { ( 332 ) ( 1669 1670 ) } // entity (light_7)
 		Node { ( 333 ) ( 3358 ) } // entity (atdm_liquid_water_2)
-		Node { ( 344 ) ( 1766 ) } // entity (func_static_179)
-		Node { ( 345 ) ( 1766 ) } // entity (func_static_180)
-		Node { ( 346 ) ( 1766 ) } // entity (atdm_lantern_hanging2_6)
 		Node { ( 349 ) ( 1782 ) } // entity (func_static_434)
 		Node { ( 350 ) ( 1782 ) } // entity (light_torchflame_with_glare_7)
 		Node { ( 359 ) ( 3269 ) } // entity (func_static_198)
@@ -23847,8 +23847,5 @@ DarkRadiant Map Information File Version 2
 		Node { ( 2261 ) ( 15251 ) } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_21)
 		Node { ( 2262 ) ( 15252 ) } // entity (func_static_1383)
 		Node { ( 2263 ) ( 15252 ) } // entity (atdm_lamp_electric_outdoor_unattached_rusty_lit_22)
-	}
-	SelectionSets
-	{
 	}
 }
