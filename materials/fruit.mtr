@@ -1,0 +1,6 @@
+textures/darkmod/nature/fruit/lt3_orange
+{
+	qer_editorimage textures/darkmod/nature/fruit/fruit_orange_ed
+    diffusemap textures/darkmod/nature/fruit/fruit_orange
+    bumpmap textures/darkmod/nature/fruit/fruit_orange_local
+}
