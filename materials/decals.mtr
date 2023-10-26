@@ -8,3 +8,14 @@ textures/darkmod/decals/arabic/market
 		map textures/darkmod/decals/arabic/arabic_market
 	}
 }
+
+textures/darkmod/decals/arabic/to_mosque
+{
+	DECAL_MACRO
+	noimpact
+	
+	{
+		blend blend
+		map textures/darkmod/decals/arabic/to_mosque
+	}
+}

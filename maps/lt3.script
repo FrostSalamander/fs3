@@ -6,6 +6,13 @@ string FAKE_PLATFORM = "fake_platform";
 string FAKE_CROWN = "fake_crown";
 string FAKE_PEDESTAL = "fake_pedestal";
 
+string POPUP_TO_MOSQUE = "popup_to_mosque";
+
+void frob_mosque_sign()
+{
+    sys.trigger(sys.getEntity(POPUP_TO_MOSQUE));
+}
+
 void hideEntity(string entityName)
 {
     sys.getEntity(entityName).hide();
