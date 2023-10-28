@@ -67,3 +67,13 @@ textures/darkmod/stone/brick/blocks_lt3_smoothpale
     diffusemap      textures/darkmod/stone/brick/blocks_lt3_smoothpale
     bumpmap         textures/darkmod/stone/brick/blocks_lt3_smoothpale_local
 }
+
+textures/darkmod/stone/brick/bricks_lt3_sandstone01
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/stone/brick/bricks_lt3_sandstone01_ed
+    diffusemap      textures/darkmod/stone/brick/bricks_lt3_sandstone01
+    bumpmap         textures/darkmod/stone/brick/bricks_lt3_sandstone01_local
+}
