@@ -25,3 +25,31 @@ textures/darkmod/carpet/rugs/rug02
 	}
     bumpmap         textures/darkmod/carpet/rugs/rug02_local
 }
+
+textures/darkmod/carpet/rugs/rug03
+{
+    surftype15
+    description "carpet"
+
+    qer_editorimage textures/darkmod/carpet/rugs/rug03_ed
+	{
+     blend diffusemap
+       map textures/darkmod/carpet/rugs/rug03
+       alphaTest 0.5
+	}
+    bumpmap         textures/darkmod/carpet/rugs/rug03_local
+}
+
+textures/darkmod/carpet/rugs/rug04
+{
+    surftype15
+    description "carpet"
+
+    qer_editorimage textures/darkmod/carpet/rugs/rug04_ed
+	{
+     blend diffusemap
+       map textures/darkmod/carpet/rugs/rug04
+       alphaTest 0.5
+	}
+    bumpmap         textures/darkmod/carpet/rugs/rug04_local
+}

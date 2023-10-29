@@ -1,0 +1,6 @@
+skin pillow_persion
+{
+    model models/darkmod/decorative/pillow_decorative01.lwo
+
+    textures/darkmod/carpet/rugs/ornate_vines       textures/darkmod/carpet/rugs/rug04
+}
