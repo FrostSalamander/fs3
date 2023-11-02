@@ -80,6 +80,14 @@ textures/darkmod/door/wood/moorish09
     bumpmap         textures/darkmod/door/wood/moorish09_local
 }
 
+textures/darkmod/door/wood/moorish10
+{
+    wood
+
+    qer_editorimage textures/darkmod/door/wood/moorish10_ed
+    diffusemap      textures/darkmod/door/wood/moorish10
+    bumpmap         textures/darkmod/door/wood/moorish10_local
+}
 textures/darkmod/door/wood/moorish_square_single02
 {
     wood
