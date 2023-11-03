@@ -17,3 +17,15 @@ textures/darkmod/stone/flat/smooth/tile_moorish02
     diffusemap      textures/darkmod/stone/flat/smooth/tile_moorish02
     bumpmap         textures/darkmod/stone/flat/smooth/tile_moorish02_local
 }
+
+textures/darkmod/stone/flat/smooth/ceramic_tile_reddish01_lt3
+{
+
+    stone
+
+    qer_editorimage textures/darkmod/stone/flat/smooth_ceramic_tile_reddish01_ed
+    diffusemap      textures/darkmod/stone/flat/smooth_ceramic_tile_reddish01
+    specularmap     textures/darkmod/stone/flat/smooth_ceramic_tile_generic01_s
+
+
+}

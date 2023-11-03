@@ -42,3 +42,21 @@ textures/darkmod/window/moorish04
     diffusemap      textures/darkmod/window/moorish04
     bumpmap         textures/darkmod/window/moorish04_local
 }
+
+textures/darkmod/window/shutter01
+{
+    wood
+
+    qer_editorimage textures/darkmod/window/shutter01_ed
+    diffusemap      textures/darkmod/window/shutter01
+    bumpmap         textures/darkmod/window/shutter01_local
+}
+
+textures/darkmod/window/shutter02
+{
+    wood
+
+    qer_editorimage textures/darkmod/window/shutter02_ed
+    diffusemap      textures/darkmod/window/shutter02
+    bumpmap         textures/darkmod/window/shutter02_local
+}
