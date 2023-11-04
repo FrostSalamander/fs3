@@ -34,6 +34,15 @@ textures/darkmod/plaster/plaster_moorish04
     bumpmap         textures/darkmod/plaster/plaster_moorish04_local
 }
 
+textures/darkmod/plaster/plaster_moorish05
+{
+    stone
+
+    qer_editorimage textures/darkmod/plaster/plaster_moorish05_ed
+    diffusemap      textures/darkmod/plaster/plaster_moorish05
+    bumpmap         textures/darkmod/plaster/plaster_moorish05_local
+}
+
 textures/darkmod/plaster/plaster_loam01
 {
     stone

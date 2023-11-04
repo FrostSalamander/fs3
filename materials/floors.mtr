@@ -67,3 +67,33 @@ textures/darkmod/stone/floors/floors07
     diffusemap      textures/darkmod/stone/floors/floor07
     bumpmap         textures/darkmod/stone/floors/floor07_local
 }
+
+textures/darkmod/stone/floors/floors08
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/stone/floors/floor08_ed
+    diffusemap      textures/darkmod/stone/floors/floor08
+    bumpmap         textures/darkmod/stone/floors/floor08_local
+}
+
+textures/darkmod/stone/floors/floors09
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/stone/floors/floor09_ed
+    diffusemap      textures/darkmod/stone/floors/floor09
+    bumpmap         textures/darkmod/stone/floors/floor09_local
+}
+
+textures/darkmod/stone/floors/floors10
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/stone/floors/floor10_ed
+    diffusemap      textures/darkmod/stone/floors/floor10
+    bumpmap         textures/darkmod/stone/floors/floor10_local
+}
