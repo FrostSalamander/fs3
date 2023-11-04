@@ -53,3 +53,17 @@ textures/darkmod/moorpack/carpet/rug04
 	}
     bumpmap         textures/darkmod/moorpack/carpet/rug04_local
 }
+
+textures/darkmod/moorpack/carpet/rug05
+{
+    surftype15
+    description "carpet"
+
+    qer_editorimage textures/darkmod/moorpack/carpet/rug05_ed
+	{
+     blend diffusemap
+       map textures/darkmod/moorpack/carpet/rug05
+       alphaTest 0.5
+	}
+    bumpmap         textures/darkmod/moorpack/carpet/rug05_local
+}
