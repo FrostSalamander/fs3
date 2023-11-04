@@ -1,0 +1,19 @@
+textures/darkmod/moorpack/stone/marble/marble01
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/moorpack/stone/marble/marble01_ed
+    diffusemap      textures/darkmod/moorpack/stone/marble/marble01
+    bumpmap         textures/darkmod/moorpack/stone/marble/marble01_local
+}
+
+textures/darkmod/moorpack/stone/marble/marble02
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/moorpack/stone/marble/marble02_ed
+    diffusemap      textures/darkmod/moorpack/stone/marble/marble02
+    bumpmap         textures/darkmod/moorpack/stone/marble/marble02_local
+}
