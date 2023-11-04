@@ -1,0 +1,69 @@
+textures/darkmod/moorpack/trim/trim_moorish01
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/moorpack/trim/trim_moorish01_ed
+    diffusemap      textures/darkmod/moorpack/trim/trim_moorish01
+    bumpmap         textures/darkmod/moorpack/trim/trim_moorish01_local
+}
+
+textures/darkmod/moorpack/trim/trim_moorish02
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/moorpack/trim/trim_moorish02_ed
+    diffusemap      textures/darkmod/moorpack/trim/trim_moorish02
+    bumpmap         textures/darkmod/moorpack/trim/trim_moorish02_local
+}
+
+textures/darkmod/moorpack/trim/trim_moorish03
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/moorpack/trim/trim_moorish03_ed
+    diffusemap      textures/darkmod/moorpack/trim/trim_moorish03
+    bumpmap         textures/darkmod/moorpack/trim/trim_moorish03_local
+}
+
+textures/darkmod/moorpack/trim/trim_moorish04
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/moorpack/trim/trim_moorish04_ed
+    diffusemap      textures/darkmod/moorpack/trim/trim_moorish04
+    bumpmap         textures/darkmod/moorpack/trim/trim_moorish04_local
+}
+
+textures/darkmod/moorpack/trim/trim_moorish05
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/moorpack/trim/trim_moorish05_ed
+    diffusemap      textures/darkmod/moorpack/trim/trim_moorish05
+    bumpmap         textures/darkmod/moorpack/trim/trim_moorish05_local
+}
+
+textures/darkmod/moorpack/trim/trim_moorish06
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/moorpack/trim/trim_moorish06_ed
+    diffusemap      textures/darkmod/moorpack/trim/trim_moorish06
+    bumpmap         textures/darkmod/moorpack/trim/trim_moorish06_local
+}
+
+textures/darkmod/moorpack/trim/stucco_moorish01
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/moorpack/trim/stucco_moorish01_ed
+    diffusemap      textures/darkmod/moorpack/trim/stucco_moorish01
+    bumpmap         textures/darkmod/moorpack/trim/stucco_moorish01_local
+}
