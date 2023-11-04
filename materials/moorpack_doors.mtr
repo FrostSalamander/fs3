@@ -1,0 +1,107 @@
+textures/darkmod/moorpack/door/wood/moorish01
+{
+    wood
+
+    qer_editorimage textures/darkmod/moorpack/door/wood/moorish01_ed
+    diffusemap      textures/darkmod/moorpack/door/wood/moorish01
+    bumpmap         textures/darkmod/moorpack/door/wood/moorish01_local
+}
+
+textures/darkmod/moorpack/door/wood/moorish02
+{
+    wood
+
+    qer_editorimage textures/darkmod/moorpack/door/wood/moorish02_ed
+    diffusemap      textures/darkmod/moorpack/door/wood/moorish02
+    bumpmap         textures/darkmod/moorpack/door/wood/moorish02_local
+}
+
+textures/darkmod/moorpack/door/wood/moorish03
+{
+    wood
+
+    qer_editorimage textures/darkmod/moorpack/door/wood/moorish03_ed
+    diffusemap      textures/darkmod/moorpack/door/wood/moorish03
+    bumpmap         textures/darkmod/moorpack/door/wood/moorish03_local
+}
+
+textures/darkmod/moorpack/door/wood/moorish04
+{
+    wood
+
+    qer_editorimage textures/darkmod/moorpack/door/wood/moorish04_ed
+    diffusemap      textures/darkmod/moorpack/door/wood/moorish04
+    bumpmap         textures/darkmod/moorpack/door/wood/moorish04_local
+}
+
+textures/darkmod/moorpack/door/wood/moorish04_full
+{
+    wood
+
+    qer_editorimage textures/darkmod/moorpack/door/wood/moorish04_full_ed
+    diffusemap      textures/darkmod/moorpack/door/wood/moorish04_full
+    bumpmap         textures/darkmod/moorpack/door/wood/moorish04_full_local
+}
+
+textures/darkmod/moorpack/door/wood/moorish05
+{
+    wood
+
+    qer_editorimage textures/darkmod/moorpack/door/wood/moorish05_ed
+    diffusemap      textures/darkmod/moorpack/door/wood/moorish05
+    bumpmap         textures/darkmod/moorpack/door/wood/moorish05_local
+}
+
+textures/darkmod/moorpack/door/wood/moorish07
+{
+    wood
+
+    qer_editorimage textures/darkmod/moorpack/door/wood/moorish07_ed
+    diffusemap      textures/darkmod/moorpack/door/wood/moorish07
+    bumpmap         textures/darkmod/moorpack/door/wood/moorish07_local
+}
+
+textures/darkmod/moorpack/door/wood/moorish08
+{
+    wood
+
+    qer_editorimage textures/darkmod/moorpack/door/wood/moorish08_ed
+    diffusemap      textures/darkmod/moorpack/door/wood/moorish08
+    bumpmap         textures/darkmod/moorpack/door/wood/moorish08_local
+}
+
+textures/darkmod/moorpack/door/wood/moorish09
+{
+    wood
+
+    qer_editorimage textures/darkmod/moorpack/door/wood/moorish09_ed
+    diffusemap      textures/darkmod/moorpack/door/wood/moorish09
+    bumpmap         textures/darkmod/moorpack/door/wood/moorish09_local
+}
+
+textures/darkmod/moorpack/door/wood/moorish10
+{
+    wood
+
+    qer_editorimage textures/darkmod/moorpack/door/wood/moorish10_ed
+    diffusemap      textures/darkmod/moorpack/door/wood/moorish10
+    bumpmap         textures/darkmod/moorpack/door/wood/moorish10_local
+}
+
+textures/darkmod/moorpack/door/wood/moorish_square_single02
+{
+    wood
+
+    qer_editorimage textures/darkmod/moorpack/door/wood/moorish_square_single02_ed
+    diffusemap      textures/darkmod/moorpack/door/wood/moorish_square_single02
+    bumpmap         textures/darkmod/moorpack/door/wood/moorish_square_single02_local
+}
+
+textures/darkmod/moorpack/door/wood/moorish_coloured
+{
+    wood
+
+    qer_editorimage textures/darkmod/moorpack/door/wood/moorish_coloured_ed
+    diffusemap      textures/darkmod/moorpack/door/wood/moorish_coloured
+    bumpmap         textures/darkmod/moorpack/door/wood/moorish_coloured_local
+}
