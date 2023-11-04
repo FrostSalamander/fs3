@@ -1,0 +1,12 @@
+// This file contains existing TDM materials that have been modified for this FM
+
+// Change material type from tile to stone to reduce footstep noise
+textures/darkmod/stone/flat/smooth/ceramic_tile_reddish01_lt3
+{
+
+    stone
+
+    qer_editorimage textures/darkmod/stone/flat/smooth_ceramic_tile_reddish01_ed
+    diffusemap      textures/darkmod/stone/flat/smooth_ceramic_tile_reddish01
+    specularmap     textures/darkmod/stone/flat/smooth_ceramic_tile_generic01_s
+}

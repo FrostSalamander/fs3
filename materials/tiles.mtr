@@ -1,13 +1,3 @@
-textures/darkmod/stone/flat/smooth/ceramic_tile_reddish01_lt3
-{
-
-    stone
-
-    qer_editorimage textures/darkmod/stone/flat/smooth_ceramic_tile_reddish01_ed
-    diffusemap      textures/darkmod/stone/flat/smooth_ceramic_tile_reddish01
-    specularmap     textures/darkmod/stone/flat/smooth_ceramic_tile_generic01_s
-}
-
 textures/darkmod/moorpack/tiles/tile01
 {
     stone
