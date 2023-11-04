@@ -1,0 +1,9 @@
+textures/darkmod/moorpack/stone/cobblestones/cobbles01
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/moorpack/stone/cobblestones/cobbles01_ed
+    diffusemap      textures/darkmod/moorpack/stone/cobblestones/cobbles01
+    bumpmap         textures/darkmod/moorpack/stone/cobblestones/cobbles01_local
+}

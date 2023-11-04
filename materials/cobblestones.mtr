@@ -1,9 +1,0 @@
-textures/darkmod/stone/cobblestones/cobbles01
-{
-    stone
-    description	"vine_friendly"
-
-    qer_editorimage textures/darkmod/stone/cobblestones/cobbles01_ed
-    diffusemap      textures/darkmod/stone/cobblestones/cobbles01
-    bumpmap         textures/darkmod/stone/cobblestones/cobbles01_local
-}
