@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "927098" } 
-		KeyValue { "LastCameraAngle" "-20.4 281.701 0" } 
-		KeyValue { "LastCameraPosition" "-1532.16 -335.923 90.9263" } 
+		KeyValue { "EditTimeInSeconds" "927157" } 
+		KeyValue { "LastCameraAngle" "-7.4 86.701 0" } 
+		KeyValue { "LastCameraPosition" "-1525.02 -446.741 228.672" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/plaster/tiling_1d/plaster_dirty01_brown" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 927098 }
+		TotalSecondsEdited { 927157 }
 	}
 	SelectionSets
 	{
@@ -26527,8 +26527,6 @@ DarkRadiant Map Information File Version 2
 		Node { 3 } // entity (info_locationSeparator_147)
 		Node { 3 } // entity (location_market_attic)
 		Node { 3 } // entity (atdm_moveable_pallette_1)
-		Node { 3 } // entity (atdm_moveable_package_cube_2)
-		Node { 3 } // entity (atdm_moveable_package_cube_3)
 		Node { 3 } // entity (func_static_1655)
 		Node { 3 } // entity (atdm_moveable_holder_small_plus_candle3_1)
 	}
