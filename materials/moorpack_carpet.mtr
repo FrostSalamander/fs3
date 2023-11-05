@@ -54,6 +54,20 @@ textures/darkmod/moorpack/carpet/rug04
     bumpmap         textures/darkmod/moorpack/carpet/rug04_local
 }
 
+textures/darkmod/moorpack/carpet/rug04_notrans
+{
+    surftype15
+    description "carpet"
+
+    qer_editorimage textures/darkmod/moorpack/carpet/rug04_notrans_ed
+	{
+     blend diffusemap
+       map textures/darkmod/moorpack/carpet/rug04_notrans
+       alphaTest 0.5
+	}
+    bumpmap         textures/darkmod/moorpack/carpet/rug04_notrans_local
+}
+
 textures/darkmod/moorpack/carpet/rug05
 {
     surftype15
@@ -76,8 +90,22 @@ textures/darkmod/moorpack/carpet/rug06
     qer_editorimage textures/darkmod/moorpack/carpet/rug06_ed
 	{
      blend diffusemap
-       map textures/darkmod/moorpack/carpet/rug05
+       map textures/darkmod/moorpack/carpet/rug06
        alphaTest 0.5
 	}
     bumpmap         textures/darkmod/moorpack/carpet/rug06_local
+}
+
+textures/darkmod/moorpack/carpet/rug07
+{
+    surftype15
+    description "carpet"
+
+    qer_editorimage textures/darkmod/moorpack/carpet/rug07_ed
+	{
+     blend diffusemap
+       map textures/darkmod/moorpack/carpet/rug07
+       alphaTest 0.5
+	}
+    bumpmap         textures/darkmod/moorpack/carpet/rug07_local
 }
