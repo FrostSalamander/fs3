@@ -67,3 +67,13 @@ textures/darkmod/moorpack/trim/stucco_moorish01
     diffusemap      textures/darkmod/moorpack/trim/stucco_moorish01
     bumpmap         textures/darkmod/moorpack/trim/stucco_moorish01_local
 }
+
+textures/darkmod/moorpack/trim/stucco_moorish02
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/moorpack/trim/stucco_moorish02_ed
+    diffusemap      textures/darkmod/moorpack/trim/stucco_moorish02
+    bumpmap         textures/darkmod/moorpack/trim/stucco_moorish02_local
+}
