@@ -1,0 +1,14 @@
+entityDef lt3:brick
+{
+	"inherit"         "atdm:moveable_base" 
+	
+	"editor_usage"    "Custom use-on-frob item"
+	"editor_color"    "0.922 0.039 0.855" 
+
+	"mass"            "4"
+	"friction"        "0.8"
+	"solid"           "1"
+
+	"snd_bounce"      "tdm_impact_stone_hard"
+    "frobable"        "1"
+}
