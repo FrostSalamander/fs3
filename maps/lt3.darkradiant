@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "973501" } 
-		KeyValue { "LastCameraAngle" "-16.4 170.4 0" } 
-		KeyValue { "LastCameraPosition" "-2627.03 120.596 -350.902" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/moorpack/stone/brick/bricks_dirty02" } 
+		KeyValue { "EditTimeInSeconds" "974348" } 
+		KeyValue { "LastCameraAngle" "-22.4 128.4 0" } 
+		KeyValue { "LastCameraPosition" "-2729.14 232.788 -268.484" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/water_source/fs_water_stream_dark" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 973501 }
+		TotalSecondsEdited { 974348 }
 	}
 	SelectionSets
 	{
@@ -16795,12 +16795,6 @@ DarkRadiant Map Information File Version 2
 		Node { 3 } // entity (func_static_1698)
 		Node { 3 } // entity (func_static_1699)
 		Node { 3 } // patch (Patch)
-		Node { 1 } // entity (atdm_liquid_water_7)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
-		Node { 1 } // brush (Brush)
 		Node { 3 } // entity (light_33)
 		Node { 3 } // entity (light_34)
 		Node { 3 } // entity (light_35)
@@ -16867,6 +16861,13 @@ DarkRadiant Map Information File Version 2
 		Node { 3 } // entity (atdm_torch_metal_wall_17)
 		Node { 3 } // entity (atdm_torch_metal_wall_18)
 		Node { 3 } // entity (atdm_torch_metal_wall_19)
+		Node { 3 } // entity (atdm_liquid_water_7)
+		Node { 3 } // brush (Brush)
+		Node { 3 } // brush (Brush)
+		Node { 3 } // brush (Brush)
+		Node { 3 } // entity (atdm_torch_metal_wall_20)
+		Node { 3 } // entity (atdm_torch_metal_wall_21)
+		Node { 3 } // entity (atdm_torch_metal_wall_22)
 	}
 	SelectionGroups
 	{
@@ -19257,7 +19258,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 15983 { "" }
 		SelectionGroup 15984 { "" }
 		SelectionGroup 15985 { "" }
-		SelectionGroup 15988 { "" }
 		SelectionGroup 15989 { "" }
 		SelectionGroup 15990 { "" }
 		SelectionGroup 15991 { "" }
@@ -27273,32 +27273,27 @@ DarkRadiant Map Information File Version 2
 		Node { ( 2782 ) ( 16040 ) } // entity (lt3_brick_11)
 		Node { ( 2783 ) ( 16040 ) } // entity (lt3_brick_3)
 		Node { ( 2784 ) ( 16040 ) } // entity (lt3_brick_12)
-		Node { ( 2792 13968 ) ( 15988 ) } // brush (Brush)
-		Node { ( 2792 13969 ) ( 15988 ) } // brush (Brush)
-		Node { ( 2792 13970 ) ( 15988 ) } // brush (Brush)
-		Node { ( 2792 13971 ) ( 15988 ) } // brush (Brush)
-		Node { ( 2792 13972 ) ( 15988 ) } // brush (Brush)
-		Node { ( 2800 13973 ) ( 16014 ) } // brush (Brush)
-		Node { ( 2800 13974 ) ( 16013 16014 ) } // patch (Patch)
-		Node { ( 2800 13975 ) ( 16013 16014 ) } // patch (Patch)
-		Node { ( 2800 13976 ) ( 16013 16014 ) } // patch (Patch)
-		Node { ( 2807 ) ( 16032 ) } // entity (func_static_1704)
-		Node { ( 2808 ) ( 16032 ) } // entity (func_static_1705)
-		Node { ( 2809 ) ( 16032 ) } // entity (func_static_1706)
-		Node { ( 2810 ) ( 16032 ) } // entity (func_static_1707)
-		Node { ( 2811 ) ( 16033 ) } // entity (func_static_1708)
-		Node { ( 2812 ) ( 16033 ) } // entity (func_static_1709)
-		Node { ( 2813 ) ( 16033 ) } // entity (func_static_1710)
-		Node { ( 2814 ) ( 16033 ) } // entity (func_static_1711)
-		Node { ( 2815 ) ( 16034 ) } // entity (func_static_1712)
-		Node { ( 2816 ) ( 16034 ) } // entity (func_static_1713)
-		Node { ( 2817 ) ( 16034 ) } // entity (func_static_1714)
-		Node { ( 2818 ) ( 16034 ) } // entity (func_static_1715)
-		Node { ( 2819 ) ( 16035 ) } // entity (func_static_1717)
-		Node { ( 2820 ) ( 16035 ) } // entity (func_static_1718)
-		Node { ( 2821 13977 ) ( 16037 ) } // brush (Brush)
-		Node { ( 2821 13978 ) ( 16038 16037 ) } // patch (Patch)
-		Node { ( 2821 13979 ) ( 16038 16037 ) } // patch (Patch)
-		Node { ( 2821 13980 ) ( 16038 16037 ) } // patch (Patch)
+		Node { ( 2799 13968 ) ( 16014 ) } // brush (Brush)
+		Node { ( 2799 13969 ) ( 16013 16014 ) } // patch (Patch)
+		Node { ( 2799 13970 ) ( 16013 16014 ) } // patch (Patch)
+		Node { ( 2799 13971 ) ( 16013 16014 ) } // patch (Patch)
+		Node { ( 2806 ) ( 16032 ) } // entity (func_static_1704)
+		Node { ( 2807 ) ( 16032 ) } // entity (func_static_1705)
+		Node { ( 2808 ) ( 16032 ) } // entity (func_static_1706)
+		Node { ( 2809 ) ( 16032 ) } // entity (func_static_1707)
+		Node { ( 2810 ) ( 16033 ) } // entity (func_static_1708)
+		Node { ( 2811 ) ( 16033 ) } // entity (func_static_1709)
+		Node { ( 2812 ) ( 16033 ) } // entity (func_static_1710)
+		Node { ( 2813 ) ( 16033 ) } // entity (func_static_1711)
+		Node { ( 2814 ) ( 16034 ) } // entity (func_static_1712)
+		Node { ( 2815 ) ( 16034 ) } // entity (func_static_1713)
+		Node { ( 2816 ) ( 16034 ) } // entity (func_static_1714)
+		Node { ( 2817 ) ( 16034 ) } // entity (func_static_1715)
+		Node { ( 2818 ) ( 16035 ) } // entity (func_static_1717)
+		Node { ( 2819 ) ( 16035 ) } // entity (func_static_1718)
+		Node { ( 2820 13972 ) ( 16037 ) } // brush (Brush)
+		Node { ( 2820 13973 ) ( 16038 16037 ) } // patch (Patch)
+		Node { ( 2820 13974 ) ( 16038 16037 ) } // patch (Patch)
+		Node { ( 2820 13975 ) ( 16038 16037 ) } // patch (Patch)
 	}
 }
