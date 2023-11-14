@@ -61,6 +61,24 @@ textures/darkmod/moorpack/plaster/plaster_moorish07
     bumpmap         textures/darkmod/moorpack/plaster/plaster_moorish07_local
 }
 
+textures/darkmod/moorpack/plaster/plaster_moorish08
+{
+    stone
+
+    qer_editorimage textures/darkmod/moorpack/plaster/plaster_moorish08_ed
+    diffusemap      textures/darkmod/moorpack/plaster/plaster_moorish08
+    bumpmap         textures/darkmod/moorpack/plaster/plaster_moorish08_local
+}
+
+textures/darkmod/moorpack/plaster/plaster_moorish09
+{
+    stone
+
+    qer_editorimage textures/darkmod/moorpack/plaster/plaster_moorish09_ed
+    diffusemap      textures/darkmod/moorpack/plaster/plaster_moorish09
+    bumpmap         textures/darkmod/moorpack/plaster/plaster_moorish09_local
+}
+
 textures/darkmod/moorpack/plaster/plaster_loam01
 {
     stone
