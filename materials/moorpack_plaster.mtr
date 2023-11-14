@@ -133,6 +133,24 @@ textures/darkmod/moorpack/plaster/plaster_brown
     bumpmap         textures/darkmod/moorpack/plaster/plaster_brown_local
 }
 
+textures/darkmod/moorpack/plaster/plaster_cream
+{
+    stone
+
+    qer_editorimage textures/darkmod/moorpack/plaster/plaster_cream_ed
+    diffusemap      textures/darkmod/moorpack/plaster/plaster_cream
+    bumpmap         textures/darkmod/moorpack/plaster/plaster_cream_local
+}
+
+textures/darkmod/moorpack/plaster/plaster_light
+{
+    stone
+
+    qer_editorimage textures/darkmod/moorpack/plaster/plaster_light_ed
+    diffusemap      textures/darkmod/moorpack/plaster/plaster_light
+    bumpmap         textures/darkmod/moorpack/plaster/plaster_light_local
+}
+
 textures/darkmod/moorpack/plaster/plaster_worn_rust
 {
     stone
