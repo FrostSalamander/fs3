@@ -1,0 +1,8 @@
+textures/darkmod/moorpack/metal/metal01
+{
+    metal
+
+    qer_editorimage textures/darkmod/moorpack/metal/metal01_ed
+    diffusemap      textures/darkmod/moorpack/metal/metal01
+    bumpmap         textures/darkmod/moorpack/metal/metal01_local
+}
