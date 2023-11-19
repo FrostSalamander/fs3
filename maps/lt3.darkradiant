@@ -1,18 +1,15 @@
 DarkRadiant Map Information File Version 2
 {
-	MapProperties
-	{
-		KeyValue { "EditTimeInSeconds" "1045375" } 
-		KeyValue { "LastCameraAngle" "-2.4 86.165 0" } 
-		KeyValue { "LastCameraPosition" "-3116.18 972.202 46.8234" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/moorpack/floors/floors11" } 
-	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1045375 }
+		TotalSecondsEdited { 1045731 }
 	}
-	SelectionSets
+	MapProperties
 	{
+		KeyValue { "EditTimeInSeconds" "1045731" } 
+		KeyValue { "LastCameraAngle" "-13.6 69.965 0" } 
+		KeyValue { "LastCameraPosition" "-3140.97 981.134 56.6833" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/moorpack/plaster/plaster_moorish01" } 
 	}
 	SelectionGroups
 	{
@@ -1711,10 +1708,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 15037 { "" }
 		SelectionGroup 15038 { "" }
 		SelectionGroup 15044 { "" }
-		SelectionGroup 15045 { "" }
 		SelectionGroup 15046 { "" }
-		SelectionGroup 15047 { "" }
-		SelectionGroup 15048 { "" }
 		SelectionGroup 15049 { "" }
 		SelectionGroup 15050 { "" }
 		SelectionGroup 15051 { "" }
@@ -5902,84 +5896,55 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 7069 ) ( 15005 ) } // patch (Patch)
 		Node { ( 0 7070 ) ( 15005 ) } // brush (Brush)
 		Node { ( 0 7071 ) ( 15005 ) } // brush (Brush)
-		Node { ( 0 7083 ) ( 15046 15047 15045 ) } // patch (Patch)
-		Node { ( 0 7084 ) ( 15048 15047 15045 ) } // patch (Patch)
-		Node { ( 0 7085 ) ( 15048 15047 15045 ) } // patch (Patch)
-		Node { ( 0 7086 ) ( 15052 15053 15045 ) } // patch (Patch)
-		Node { ( 0 7087 ) ( 15052 15053 15045 ) } // patch (Patch)
-		Node { ( 0 7088 ) ( 15056 15053 15045 ) } // patch (Patch)
-		Node { ( 0 7089 ) ( 15051 15047 15045 ) } // patch (Patch)
-		Node { ( 0 7090 ) ( 15050 15047 15045 ) } // patch (Patch)
-		Node { ( 0 7091 ) ( 15049 15047 15045 ) } // patch (Patch)
-		Node { ( 0 7092 ) ( 15051 15047 15045 ) } // patch (Patch)
-		Node { ( 0 7093 ) ( 15050 15047 15045 ) } // patch (Patch)
-		Node { ( 0 7094 ) ( 15049 15047 15045 ) } // patch (Patch)
-		Node { ( 0 7095 ) ( 15050 15047 15045 ) } // patch (Patch)
-		Node { ( 0 7096 ) ( 15049 15047 15045 ) } // patch (Patch)
-		Node { ( 0 7097 ) ( 15051 15047 15045 ) } // patch (Patch)
-		Node { ( 0 7098 ) ( 15054 15053 15045 ) } // patch (Patch)
-		Node { ( 0 7099 ) ( 15055 15053 15045 ) } // patch (Patch)
-		Node { ( 0 7100 ) ( 15056 15053 15045 ) } // patch (Patch)
-		Node { ( 0 7101 ) ( 15058 15059 15045 ) } // patch (Patch)
-		Node { ( 0 7102 ) ( 15060 15059 15045 ) } // patch (Patch)
-		Node { ( 0 7103 ) ( 15055 15053 15045 ) } // patch (Patch)
-		Node { ( 0 7104 ) ( 15052 15053 15045 ) } // patch (Patch)
-		Node { ( 0 7105 ) ( 15057 15053 15045 ) } // patch (Patch)
-		Node { ( 0 7106 ) ( 15055 15053 15045 ) } // patch (Patch)
-		Node { ( 0 7107 ) ( 15054 15053 15045 ) } // patch (Patch)
-		Node { ( 0 7108 ) ( 15058 15059 15045 ) } // patch (Patch)
-		Node { ( 0 7109 ) ( 15063 15059 15045 ) } // patch (Patch)
-		Node { ( 0 7110 ) ( 15058 15059 15045 ) } // patch (Patch)
-		Node { ( 0 7111 ) ( 15056 15053 15045 ) } // patch (Patch)
-		Node { ( 0 7112 ) ( 15054 15053 15045 ) } // patch (Patch)
-		Node { ( 0 7113 ) ( 15061 15059 15045 ) } // patch (Patch)
-		Node { ( 0 7114 ) ( 15060 15059 15045 ) } // patch (Patch)
-		Node { ( 0 7115 ) ( 15064 15065 15045 ) } // patch (Patch)
-		Node { ( 0 7116 ) ( 15068 15065 15045 ) } // patch (Patch)
-		Node { ( 0 7117 ) ( 15060 15059 15045 ) } // patch (Patch)
-		Node { ( 0 7118 ) ( 15061 15059 15045 ) } // patch (Patch)
-		Node { ( 0 7119 ) ( 15062 15059 15045 ) } // patch (Patch)
-		Node { ( 0 7120 ) ( 15062 15059 15045 ) } // patch (Patch)
-		Node { ( 0 7121 ) ( 15061 15059 15045 ) } // patch (Patch)
-		Node { ( 0 7122 ) ( 15062 15059 15045 ) } // patch (Patch)
-		Node { ( 0 7123 ) ( 15066 15065 15045 ) } // patch (Patch)
-		Node { ( 0 7124 ) ( 15067 15065 15045 ) } // patch (Patch)
-		Node { ( 0 7125 ) ( 15064 15065 15045 ) } // patch (Patch)
-		Node { ( 0 7126 ) ( 15067 15065 15045 ) } // patch (Patch)
-		Node { ( 0 7127 ) ( 15068 15065 15045 ) } // patch (Patch)
-		Node { ( 0 7128 ) ( 15068 15065 15045 ) } // patch (Patch)
-		Node { ( 0 7129 ) ( 15069 15065 15045 ) } // patch (Patch)
-		Node { ( 0 7130 ) ( 15067 15065 15045 ) } // patch (Patch)
-		Node { ( 0 7131 ) ( 15066 15065 15045 ) } // patch (Patch)
-		Node { ( 0 7132 ) ( 15066 15065 15045 ) } // patch (Patch)
-		Node { ( 0 7133 ) ( 15064 15065 15045 ) } // patch (Patch)
-		Node { ( 0 7134 ) ( 15048 15047 15045 ) } // patch (Patch)
-		Node { ( 0 7135 ) ( 15045 ) } // patch (Patch)
-		Node { ( 0 7136 ) ( 15045 ) } // patch (Patch)
-		Node { ( 0 7137 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7138 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7139 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7140 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7141 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7142 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7143 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7144 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7145 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7146 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7147 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7148 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7149 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7150 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7151 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7152 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7153 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7154 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7155 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7156 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7157 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7158 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7159 ) ( 15045 ) } // brush (Brush)
-		Node { ( 0 7160 ) ( 15045 ) } // brush (Brush)
+		Node { ( 0 7083 ) ( 15046 ) } // patch (Patch)
+		Node { ( 0 7086 ) ( 15052 15053 ) } // patch (Patch)
+		Node { ( 0 7087 ) ( 15052 15053 ) } // patch (Patch)
+		Node { ( 0 7088 ) ( 15056 15053 ) } // patch (Patch)
+		Node { ( 0 7089 ) ( 15051 ) } // patch (Patch)
+		Node { ( 0 7090 ) ( 15050 ) } // patch (Patch)
+		Node { ( 0 7091 ) ( 15049 ) } // patch (Patch)
+		Node { ( 0 7092 ) ( 15051 ) } // patch (Patch)
+		Node { ( 0 7093 ) ( 15050 ) } // patch (Patch)
+		Node { ( 0 7094 ) ( 15049 ) } // patch (Patch)
+		Node { ( 0 7095 ) ( 15050 ) } // patch (Patch)
+		Node { ( 0 7096 ) ( 15049 ) } // patch (Patch)
+		Node { ( 0 7097 ) ( 15051 ) } // patch (Patch)
+		Node { ( 0 7098 ) ( 15054 15053 ) } // patch (Patch)
+		Node { ( 0 7099 ) ( 15055 15053 ) } // patch (Patch)
+		Node { ( 0 7100 ) ( 15056 15053 ) } // patch (Patch)
+		Node { ( 0 7101 ) ( 15058 15059 ) } // patch (Patch)
+		Node { ( 0 7102 ) ( 15060 15059 ) } // patch (Patch)
+		Node { ( 0 7103 ) ( 15055 15053 ) } // patch (Patch)
+		Node { ( 0 7104 ) ( 15052 15053 ) } // patch (Patch)
+		Node { ( 0 7105 ) ( 15057 15053 ) } // patch (Patch)
+		Node { ( 0 7106 ) ( 15055 15053 ) } // patch (Patch)
+		Node { ( 0 7107 ) ( 15054 15053 ) } // patch (Patch)
+		Node { ( 0 7108 ) ( 15058 15059 ) } // patch (Patch)
+		Node { ( 0 7109 ) ( 15063 15059 ) } // patch (Patch)
+		Node { ( 0 7110 ) ( 15058 15059 ) } // patch (Patch)
+		Node { ( 0 7111 ) ( 15056 15053 ) } // patch (Patch)
+		Node { ( 0 7112 ) ( 15054 15053 ) } // patch (Patch)
+		Node { ( 0 7113 ) ( 15061 15059 ) } // patch (Patch)
+		Node { ( 0 7114 ) ( 15060 15059 ) } // patch (Patch)
+		Node { ( 0 7115 ) ( 15064 15065 ) } // patch (Patch)
+		Node { ( 0 7116 ) ( 15068 15065 ) } // patch (Patch)
+		Node { ( 0 7117 ) ( 15060 15059 ) } // patch (Patch)
+		Node { ( 0 7118 ) ( 15061 15059 ) } // patch (Patch)
+		Node { ( 0 7119 ) ( 15062 15059 ) } // patch (Patch)
+		Node { ( 0 7120 ) ( 15062 15059 ) } // patch (Patch)
+		Node { ( 0 7121 ) ( 15061 15059 ) } // patch (Patch)
+		Node { ( 0 7122 ) ( 15062 15059 ) } // patch (Patch)
+		Node { ( 0 7123 ) ( 15066 15065 ) } // patch (Patch)
+		Node { ( 0 7124 ) ( 15067 15065 ) } // patch (Patch)
+		Node { ( 0 7125 ) ( 15064 15065 ) } // patch (Patch)
+		Node { ( 0 7126 ) ( 15067 15065 ) } // patch (Patch)
+		Node { ( 0 7127 ) ( 15068 15065 ) } // patch (Patch)
+		Node { ( 0 7128 ) ( 15068 15065 ) } // patch (Patch)
+		Node { ( 0 7129 ) ( 15069 15065 ) } // patch (Patch)
+		Node { ( 0 7130 ) ( 15067 15065 ) } // patch (Patch)
+		Node { ( 0 7131 ) ( 15066 15065 ) } // patch (Patch)
+		Node { ( 0 7132 ) ( 15066 15065 ) } // patch (Patch)
+		Node { ( 0 7133 ) ( 15064 15065 ) } // patch (Patch)
 		Node { ( 0 7195 ) ( 15087 15086 ) } // patch (Patch)
 		Node { ( 0 7196 ) ( 15087 15086 ) } // patch (Patch)
 		Node { ( 0 7198 ) ( 15089 15090 15091 ) } // patch (Patch)
@@ -29225,5 +29190,8 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
+	}
+	SelectionSets
+	{
 	}
 }
