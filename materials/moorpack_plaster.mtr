@@ -195,3 +195,12 @@ textures/darkmod/moorpack/plaster/plaster_painted_worn
     diffusemap      textures/darkmod/moorpack/plaster/plaster_painted_worn
     bumpmap         textures/darkmod/moorpack/plaster/plaster_painted_worn_local
 }
+
+textures/darkmod/moorpack/plaster/plaster_damaged02
+{
+    stone
+
+    qer_editorimage textures/darkmod/moorpack/plaster/plaster_damaged02_ed
+    diffusemap      textures/darkmod/moorpack/plaster/plaster_damaged02
+    bumpmap         textures/darkmod/moorpack/plaster/plaster_damaged02_local
+}

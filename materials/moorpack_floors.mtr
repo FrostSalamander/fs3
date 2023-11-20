@@ -77,3 +77,13 @@ textures/darkmod/moorpack/floors/floors11
     diffusemap      textures/darkmod/moorpack/floors/floor11
     bumpmap         textures/darkmod/moorpack/floors/floor11_local
 }
+
+textures/darkmod/moorpack/floors/floors12
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/moorpack/floors/floor12_ed
+    diffusemap      textures/darkmod/moorpack/floors/floor12
+    bumpmap         textures/darkmod/moorpack/floors/floor12_local
+}
