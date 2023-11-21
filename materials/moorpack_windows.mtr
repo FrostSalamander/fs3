@@ -69,3 +69,12 @@ textures/darkmod/moorpack/window/shutter03
     diffusemap      textures/darkmod/moorpack/window/shutter03
     bumpmap         textures/darkmod/moorpack/window/shutter03_local
 }
+
+textures/darkmod/moorpack/window/shutter04
+{
+    wood
+
+    qer_editorimage textures/darkmod/moorpack/window/shutter04_ed
+    diffusemap      textures/darkmod/moorpack/window/shutter04
+    bumpmap         textures/darkmod/moorpack/window/shutter04_local
+}

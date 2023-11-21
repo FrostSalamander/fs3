@@ -1,0 +1,8 @@
+textures/darkmod/moorpack/fabric/fabric01
+{
+    surftype15
+
+    qer_editorimage textures/darkmod/moorpack/fabric/fabric01_ed
+    diffusemap      textures/darkmod/moorpack/fabric/fabric01
+    bumpmap         textures/darkmod/moorpack/fabric/fabric01_local
+}
