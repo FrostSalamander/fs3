@@ -6,6 +6,9 @@ string FAKE_PLATFORM = "fake_platform";
 string FAKE_CROWN = "fake_crown";
 string FAKE_PEDESTAL = "fake_pedestal";
 
+string DISPLAY_CABINET_LID1 = "display_cabinet_lid_1";
+string DISPLAY_CABINET_LID2 = "display_cabinet_lid_2";
+
 string POPUP_TO_MOSQUE = "popup_to_mosque";
 
 void frob_mosque_sign()
@@ -41,6 +44,22 @@ void showLoot(entity zone)
     showEntity(FAKE_TROPHY);
     showEntity(FAKE_CROWN);
     showEntity(FAKE_PEDESTAL);
+}
+
+void setJewelleryCaseFrobable(float frobable)
+{
+    sys.getEntity(DISPLAY_CABINET_LID1).setFrobable(frobable);
+    sys.getEntity(DISPLAY_CABINET_LID2).setFrobable(frobable);
+}
+
+void setJewelleryCaseFrobableOn(entity zone)
+{
+    setJewelleryCaseFrobable(1);
+}
+
+void setJewelleryCaseFrobableOff(entity zone)
+{
+    setJewelleryCaseFrobable(0);
 }
 
 

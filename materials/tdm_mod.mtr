@@ -10,3 +10,16 @@ textures/darkmod/stone/flat/smooth/ceramic_tile_reddish01_lt3
     diffusemap      textures/darkmod/stone/flat/smooth_ceramic_tile_reddish01
     specularmap     textures/darkmod/stone/flat/smooth_ceramic_tile_generic01_s
 }
+
+textures/darkmod/stone/flat/tiles_burgundyandcream_lt3
+{
+
+    stone
+
+    qer_editorimage textures/darkmod/stone/flat/tiles_burgundyandcream_ed
+    diffusemap      textures/darkmod/stone/flat/tiles_burgundyandcream
+    bumpmap         textures/darkmod/stone/flat/tiles_burgundyandcream_local
+    specularmap     textures/darkmod/stone/flat/tiles_burgundyandcream_s
+
+
+}
