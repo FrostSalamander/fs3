@@ -8,10 +8,10 @@ readables/lt3/ship_logbook
 	}
 	"page1_left_body"	:
 	{
-		"06/01/1648"
+		"06/09"
 		""
-		"  In addition to our trade mission, we are to ensure the safe passage back to Mesayd of an individual called 'Kanza'."
-		"  It's not clear who he is, but he's obviously important as the order comes from the Admiral himself."
+		"  In addition to our successul trade mission, we ensured the safe passage back to Mesayd of an individual called 'Kanza', who we picked up in Highborough."
+		"  It's not clear who he is, but he's obviously important as the order came from the Admiral himself.  When asked about his position, he wasn't "
 	}
 	"page1_right_title"	:
 	{
@@ -20,6 +20,9 @@ readables/lt3/ship_logbook
 	"page1_right_body"	:
 	{
 		""
+		"very forthcoming.  I suspect he works for Naval Intelligence."
+		""
+		"   "
 	}
 	"gui_page1"	: "guis/readables/books/book_hand_ellianerelle.gui"
 	"snd_page_turn"	: "readable_page_turn"
@@ -38,10 +41,34 @@ readables/lt3/scroll_port
 	{
 		"Commander,"
 		""
-		"    Please ensure the safe arrival of the Shula.  The passenger Kanza will be met by two officers from intelligence who will escort him to intelligence headquarters on X street."
+		"    Please ensure the safe arrival of the Shula.  The passenger Kanza will be met by two officers from intelligence who will escort him to intelligence headquarters."
 		""
 		"Admiral Khalid"
 	}
 	"gui_page1"	: "guis/readables/scrolls/scroll_calig_summertime.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/lt3/note_herbal_enterprise
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		" "
+		"Farhad,"
+		""
+		"    Again allow me to offer my thanks for including me in your herbal enterprise.  This trip was even more lucrative than the last!  I have Asim's portion of the proceeds and I plan to meet him in the officer's lounge as soon as we disembark.  I hope you will join us there?"
+		""
+		"Your friend,"
+		""
+		"Samir"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_rapscallionpirate.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
