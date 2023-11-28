@@ -88,3 +88,23 @@ textures/darkmod/moorpack/tiles/tile09
     diffusemap      textures/darkmod/moorpack/tiles/tile09
     bumpmap         textures/darkmod/moorpack/tiles/tile09_local
 }
+
+textures/darkmod/moorpack/tiles/tile10
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/moorpack/tiles/tile10_ed
+    diffusemap      textures/darkmod/moorpack/tiles/tile10
+    bumpmap         textures/darkmod/moorpack/tiles/tile10_local
+}
+
+textures/darkmod/moorpack/tiles/tile11
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/moorpack/tiles/tile11_ed
+    diffusemap      textures/darkmod/moorpack/tiles/tile11
+    bumpmap         textures/darkmod/moorpack/tiles/tile11_local
+}
