@@ -6,3 +6,21 @@ textures/darkmod/moorpack/fabric/fabric01
     diffusemap      textures/darkmod/moorpack/fabric/fabric01
     bumpmap         textures/darkmod/moorpack/fabric/fabric01_local
 }
+
+textures/darkmod/moorpack/fabric/fabric02
+{
+    surftype15
+
+    qer_editorimage textures/darkmod/moorpack/fabric/fabric02_ed
+    diffusemap      textures/darkmod/moorpack/fabric/fabric02
+    bumpmap         textures/darkmod/moorpack/fabric/fabric02_local
+}
+
+textures/darkmod/moorpack/fabric/fabric03
+{
+    surftype15
+
+    qer_editorimage textures/darkmod/moorpack/fabric/fabric03_ed
+    diffusemap      textures/darkmod/moorpack/fabric/fabric03
+    bumpmap         textures/darkmod/moorpack/fabric/fabric03_local
+}

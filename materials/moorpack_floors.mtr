@@ -87,3 +87,33 @@ textures/darkmod/moorpack/floors/floors12
     diffusemap      textures/darkmod/moorpack/floors/floor12
     bumpmap         textures/darkmod/moorpack/floors/floor12_local
 }
+
+textures/darkmod/moorpack/floors/floors13
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/moorpack/floors/floor13_ed
+    diffusemap      textures/darkmod/moorpack/floors/floor13
+    bumpmap         textures/darkmod/moorpack/floors/floor13_local
+}
+
+textures/darkmod/moorpack/floors/floors14
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/moorpack/floors/floor14_ed
+    diffusemap      textures/darkmod/moorpack/floors/floor14
+    bumpmap         textures/darkmod/moorpack/floors/floor14_local
+}
+
+textures/darkmod/moorpack/floors/floors15
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/moorpack/floors/floor15_ed
+    diffusemap      textures/darkmod/moorpack/floors/floor15
+    bumpmap         textures/darkmod/moorpack/floors/floor15_local
+}
