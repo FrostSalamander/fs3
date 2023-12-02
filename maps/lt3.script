@@ -34,6 +34,8 @@ void hideLoot(entity zone)
     hideEntity(FAKE_TROPHY);
     hideEntity(FAKE_CROWN);
     hideEntity(FAKE_PEDESTAL);
+
+    sys.trigger($atdm_ai_moor02_1);
 }
 
 void showLoot(entity zone)
