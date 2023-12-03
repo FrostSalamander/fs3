@@ -16,36 +16,21 @@ void frob_mosque_sign()
     sys.trigger(sys.getEntity(POPUP_TO_MOSQUE));
 }
 
-void hideEntity(string entityName)
+void removeEntity(string entityName)
 {
-    sys.getEntity(entityName).hide();
-}
-
-void showEntity(string entityName)
-{
-    sys.getEntity(entityName).show();
+    sys.getEntity(entityName).remove();
 }
 
 void hideLoot(entity zone)
 {
-    hideEntity(FAKE_ROOM);
-    hideEntity(FAKE_LIGHT);
-    hideEntity(FAKE_PAINTING);
-    hideEntity(FAKE_TROPHY);
-    hideEntity(FAKE_CROWN);
-    hideEntity(FAKE_PEDESTAL);
+    removeEntity(FAKE_ROOM);
+    removeEntity(FAKE_LIGHT);
+    removeEntity(FAKE_PAINTING);
+    removeEntity(FAKE_TROPHY);
+    removeEntity(FAKE_CROWN);
+    removeEntity(FAKE_PEDESTAL);
 
     sys.trigger($atdm_ai_moor02_1);
-}
-
-void showLoot(entity zone)
-{
-    showEntity(FAKE_ROOM);
-    showEntity(FAKE_LIGHT);
-    showEntity(FAKE_PAINTING);
-    showEntity(FAKE_TROPHY);
-    showEntity(FAKE_CROWN);
-    showEntity(FAKE_PEDESTAL);
 }
 
 void setJewelleryCaseFrobable(float frobable)

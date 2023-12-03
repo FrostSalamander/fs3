@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1166781" } 
-		KeyValue { "LastCameraAngle" "-17.8 189.128 0" } 
-		KeyValue { "LastCameraPosition" "-1113.17 1134.86 379.733" } 
+		KeyValue { "EditTimeInSeconds" "1167727" } 
+		KeyValue { "LastCameraAngle" "-15 90.728 0" } 
+		KeyValue { "LastCameraPosition" "-1311.44 998.629 404.025" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/moorpack/stone/marble/marble01" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1166781 }
+		TotalSecondsEdited { 1167727 }
 	}
 	SelectionSets
 	{
@@ -811,9 +811,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 13426 { "" }
 		SelectionGroup 13432 { "" }
 		SelectionGroup 13433 { "" }
-		SelectionGroup 13434 { "" }
-		SelectionGroup 13435 { "" }
-		SelectionGroup 13436 { "" }
 		SelectionGroup 13438 { "" }
 		SelectionGroup 13446 { "" }
 		SelectionGroup 13447 { "" }
@@ -2784,6 +2781,14 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 16600 { "" }
 		SelectionGroup 16601 { "" }
 		SelectionGroup 16602 { "" }
+		SelectionGroup 16603 { "" }
+		SelectionGroup 16604 { "" }
+		SelectionGroup 16605 { "" }
+		SelectionGroup 16606 { "" }
+		SelectionGroup 16607 { "" }
+		SelectionGroup 16608 { "" }
+		SelectionGroup 16609 { "" }
+		SelectionGroup 16610 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -4262,27 +4267,26 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 3261 ) ( 13424 ) } // patch (Patch)
 		Node { ( 0 3262 ) ( 13424 ) } // patch (Patch)
 		Node { ( 0 3263 ) ( 13424 ) } // patch (Patch)
-		Node { ( 0 3275 ) ( 13434 ) } // brush (Brush)
-		Node { ( 0 3276 ) ( 13434 ) } // brush (Brush)
-		Node { ( 0 3277 ) ( 13434 ) } // patch (Patch)
-		Node { ( 0 3278 ) ( 13434 ) } // patch (Patch)
-		Node { ( 0 3279 ) ( 13434 ) } // patch (Patch)
-		Node { ( 0 3280 ) ( 13435 ) } // patch (Patch)
-		Node { ( 0 3281 ) ( 13435 ) } // patch (Patch)
-		Node { ( 0 3282 ) ( 13435 ) } // patch (Patch)
-		Node { ( 0 3283 ) ( 13435 ) } // patch (Patch)
-		Node { ( 0 3284 ) ( 13435 ) } // patch (Patch)
-		Node { ( 0 3285 ) ( 13436 ) } // patch (Patch)
-		Node { ( 0 3286 ) ( 13436 ) } // patch (Patch)
-		Node { ( 0 3287 ) ( 13436 ) } // patch (Patch)
-		Node { ( 0 3288 ) ( 13436 ) } // patch (Patch)
-		Node { ( 0 3289 ) ( 13436 ) } // patch (Patch)
-		Node { ( 0 3291 ) ( 13438 ) } // patch (Patch)
-		Node { ( 0 3292 ) ( 13438 ) } // brush (Brush)
-		Node { ( 0 3293 ) ( 13438 ) } // patch (Patch)
-		Node { ( 0 3294 ) ( 13438 ) } // patch (Patch)
-		Node { ( 0 3295 ) ( 13438 ) } // patch (Patch)
-		Node { ( 0 3296 ) ( 13438 ) } // patch (Patch)
+		Node { ( 0 3277 ) ( 16603 16608 ) } // patch (Patch)
+		Node { ( 0 3278 ) ( 16603 16608 ) } // patch (Patch)
+		Node { ( 0 3279 ) ( 16603 16608 ) } // patch (Patch)
+		Node { ( 0 3280 ) ( 16603 16608 ) } // patch (Patch)
+		Node { ( 0 3281 ) ( 16603 16608 ) } // patch (Patch)
+		Node { ( 0 3282 ) ( 16604 16607 ) } // patch (Patch)
+		Node { ( 0 3283 ) ( 16604 16607 ) } // patch (Patch)
+		Node { ( 0 3284 ) ( 16604 16607 ) } // patch (Patch)
+		Node { ( 0 3285 ) ( 16604 16607 ) } // patch (Patch)
+		Node { ( 0 3286 ) ( 16604 16607 ) } // patch (Patch)
+		Node { ( 0 3287 ) ( 16605 16606 ) } // patch (Patch)
+		Node { ( 0 3288 ) ( 16605 16606 ) } // patch (Patch)
+		Node { ( 0 3289 ) ( 16605 16606 ) } // patch (Patch)
+		Node { ( 0 3290 ) ( 16605 16606 ) } // patch (Patch)
+		Node { ( 0 3291 ) ( 13438 16605 16606 ) } // patch (Patch)
+		Node { ( 0 3292 ) ( 13438 16605 16606 ) } // brush (Brush)
+		Node { ( 0 3293 ) ( 13438 16605 16606 ) } // patch (Patch)
+		Node { ( 0 3294 ) ( 13438 16605 16606 ) } // patch (Patch)
+		Node { ( 0 3295 ) ( 13438 16605 16606 ) } // patch (Patch)
+		Node { ( 0 3296 ) ( 13438 16605 16606 ) } // patch (Patch)
 		Node { ( 0 3297 ) ( 13502 ) } // patch (Patch)
 		Node { ( 0 3298 ) ( 13447 13448 13502 ) } // patch (Patch)
 		Node { ( 0 3299 ) ( 13501 ) } // brush (Brush)
@@ -9194,6 +9198,11 @@ DarkRadiant Map Information File Version 2
 		Node { ( 1097 ) ( 15159 ) } // entity (fake_pedestal)
 		Node { ( 1098 ) ( 15159 ) } // entity (fake_crown)
 		Node { ( 1101 ) ( 15159 ) } // entity (fake_painting)
+		Node { ( 1102 ) ( 16610 ) } // entity (func_static_702)
+		Node { ( 1103 ) ( 16609 ) } // entity (func_static_703)
+		Node { ( 1104 ) ( 16608 ) } // entity (func_static_704)
+		Node { ( 1105 ) ( 16607 ) } // entity (func_static_705)
+		Node { ( 1106 ) ( 16606 ) } // entity (func_static_706)
 		Node { ( 1108 ) ( 13463 13464 ) } // entity (func_static_711)
 		Node { ( 1109 ) ( 13463 13464 ) } // entity (func_static_707)
 		Node { ( 1110 ) ( 13463 13464 ) } // entity (func_static_708)
@@ -9218,9 +9227,11 @@ DarkRadiant Map Information File Version 2
 		Node { ( 1131 ) ( 13478 ) } // entity (func_static_751)
 		Node { ( 1132 ) ( 13479 ) } // entity (func_static_748)
 		Node { ( 1133 ) ( 13479 ) } // entity (func_static_752)
+		Node { ( 1146 ) ( 16609 ) } // entity (func_static_753)
 		Node { ( 1146 12636 ) ( 13432 ) } // patch (Patch)
 		Node { ( 1146 12637 ) ( 13432 ) } // patch (Patch)
 		Node { ( 1146 12638 ) ( 13432 ) } // patch (Patch)
+		Node { ( 1147 ) ( 16610 ) } // entity (func_static_754)
 		Node { ( 1147 12641 ) ( 13433 ) } // patch (Patch)
 		Node { ( 1147 12642 ) ( 13433 ) } // patch (Patch)
 		Node { ( 1147 12643 ) ( 13433 ) } // patch (Patch)
@@ -31695,5 +31706,7 @@ DarkRadiant Map Information File Version 2
 		Node { 3 } // entity (func_static_2134)
 		Node { 3 } // entity (atdm_lamp_oil_wall_hanging_lit_28)
 		Node { 3 } // entity (func_static_2132)
+		Node { 3 } // entity (func_static_722)
+		Node { 3 } // entity (atdm_moveable_chair_wood_1_49)
 	}
 }
