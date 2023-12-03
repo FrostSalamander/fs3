@@ -72,3 +72,22 @@ readables/lt3/note_herbal_enterprise
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_rapscallionpirate.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt3/mage_note
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Hello Thief,"
+		""
+		"Enjoy your stay.  My associate will be along soon to... see to your wellbeing."
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_rapscallionpirate.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

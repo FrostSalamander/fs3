@@ -6,6 +6,10 @@ string FAKE_PLATFORM = "fake_platform";
 string FAKE_CROWN = "fake_crown";
 string FAKE_PEDESTAL = "fake_pedestal";
 
+string MAGE_THUG = "mage_thug";
+string MAGE_PRISON_CEILING = "mage_prison_ceiling";
+string MAGE_POOL_FLOOR = "mage_pool_floor";
+
 string DISPLAY_CABINET_LID1 = "display_cabinet_lid_1";
 string DISPLAY_CABINET_LID2 = "display_cabinet_lid_2";
 
@@ -21,7 +25,7 @@ void removeEntity(string entityName)
     sys.getEntity(entityName).remove();
 }
 
-void hideLoot(entity zone)
+void enterMagePrison(entity zone)
 {
     removeEntity(FAKE_ROOM);
     removeEntity(FAKE_LIGHT);
@@ -30,8 +34,19 @@ void hideLoot(entity zone)
     removeEntity(FAKE_CROWN);
     removeEntity(FAKE_PEDESTAL);
 
-    sys.trigger($atdm_ai_moor02_1);
+    sys.wait(2);
+
+    sys.trigger(sys.getEntity(MAGE_THUG));
+    sys.getEntity(MAGE_PRISON_CEILING).setSolid(1);
+    sys.getEntity(MAGE_POOL_FLOOR).setSolid(1);
 }
+
+void alertMageThug()
+{
+    sys.println("alerting AI");
+    sys.getEntity(MAGE_THUG).setAlertLevel(20);
+}
+
 
 void setJewelleryCaseFrobable(float frobable)
 {
