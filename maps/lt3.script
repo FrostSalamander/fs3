@@ -64,6 +64,18 @@ void setJewelleryCaseFrobableOff(entity zone)
     setJewelleryCaseFrobable(0);
 }
 
+void removePrisoner(entity ent_target, entity triggerEntity, entity ent_callscriptfunction)
+{
+     string name = triggerEntity.getName();
+
+     sys.println("triggerEntity name: " + name);
+
+     if (name == "prisoner1")
+     {
+        triggerEntity.remove();
+     }
+}
+
 
 // main - keep at bottom
 void main()
