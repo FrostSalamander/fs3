@@ -240,3 +240,12 @@ textures/darkmod/moorpack/wood/wood_planks02
     diffusemap      textures/darkmod/moorpack/wood/wood_planks02
     bumpmap         textures/darkmod/moorpack/wood/wood_planks02_local
 }
+
+textures/darkmod/moorpack/wood/panel01
+{
+    wood
+
+    qer_editorimage textures/darkmod/moorpack/wood/panel01_ed
+    diffusemap      textures/darkmod/moorpack/wood/panel01
+    bumpmap         textures/darkmod/moorpack/wood/panel01_local
+}

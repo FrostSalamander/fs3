@@ -77,3 +77,13 @@ textures/darkmod/moorpack/stone/brick/bricks_lt3_sandstone01
     diffusemap      textures/darkmod/moorpack/stone/brick/bricks_lt3_sandstone01
     bumpmap         textures/darkmod/moorpack/stone/brick/bricks_lt3_sandstone01_local
 }
+
+textures/darkmod/moorpack/stone/brick/bricks_lt3_old
+{
+    stone
+    description	"vine_friendly"
+
+    qer_editorimage textures/darkmod/moorpack/stone/brick/bricks_lt3_old_ed
+    diffusemap      textures/darkmod/moorpack/stone/brick/bricks_lt3_old
+    bumpmap         textures/darkmod/moorpack/stone/brick/bricks_lt3_old_local
+}
