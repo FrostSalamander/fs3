@@ -1,0 +1,6 @@
+skin sack_brown
+{
+    model models/darkmod/containers/sack_bent.lwo
+
+    tdm_sack03 sack1
+}
