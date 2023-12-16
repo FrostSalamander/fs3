@@ -12,3 +12,17 @@ eaxreverb "location_harbour_office" {
 eaxreverb "location_harbour_street" {
   preset CASTLE_COURTYARD
 }
+
+//////////////////
+// OFFICER HOUSES
+//////////////////
+
+eaxreverb "location_officer_lounge" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_officer_bathroomstairs" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_officer_kitchen" {
+  preset WOODEN_SMALLROOM
+}
