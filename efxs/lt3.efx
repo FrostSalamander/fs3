@@ -14,6 +14,13 @@ eaxreverb "location_harbour_street" {
 }
 
 //////////////////
+// MOSQUE AREA
+//////////////////
+eaxreverb "location_mosque_cafe" {
+  preset CASTLE_COURTYARD
+}
+
+//////////////////
 // OFFICER HOUSES
 //////////////////
 
