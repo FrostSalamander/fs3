@@ -2,17 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1319971" } 
-		KeyValue { "LastCameraAngle" "-12.6 315.8 0" } 
-		KeyValue { "LastCameraPosition" "-1133.49 584.261 398.587" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/bt_basewall2" } 
-	}
-	SelectionSets
-	{
+		KeyValue { "EditTimeInSeconds" "1323191" } 
+		KeyValue { "LastCameraAngle" "-42.4 14.4 0" } 
+		KeyValue { "LastCameraPosition" "-1134.37 712.872 417.625" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/plaster/tan_cracked" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1319971 }
+		TotalSecondsEdited { 1323191 }
 	}
 	Layers
 	{
@@ -21741,6 +21738,20 @@ DarkRadiant Map Information File Version 2
 		Node { 3 } // entity (path_corner_67)
 		Node { 3 } // entity (path_wait_63)
 		Node { 3 } // entity (path_wait_64)
+		Node { 3 } // entity (atdm_moveable_loot_jewellery_bracelet_01_1)
+		Node { 3 } // entity (func_static_2397)
+		Node { 3 } // entity (func_static_2398)
+		Node { 3 } // entity (atdm_target_set_frobable_3)
+		Node { 3 } // brush (Brush)
+		Node { 3 } // entity (atdm_target_set_frobable_4)
+		Node { 3 } // brush (Brush)
+		Node { 3 } // entity (func_static_2399)
+		Node { 3 } // entity (func_static_2402)
+		Node { 3 } // entity (func_static_2403)
+		Node { 3 } // entity (func_static_2404)
+		Node { 3 } // entity (officer_lounge_key)
+		Node { 3 } // entity (atdm_moveable_loot_purse_layingdown_1)
+		Node { 3 } // entity (func_static_2405)
 	}
 	SelectionGroups
 	{
@@ -35069,5 +35080,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 3905 17772 ) ( 17496 ) } // brush (Brush)
 		Node { ( 3905 17773 ) ( 17496 ) } // brush (Brush)
 		Node { ( 3906 ) ( 17497 ) } // entity (atdm_liquid_water_19)
+	}
+	SelectionSets
+	{
 	}
 }
