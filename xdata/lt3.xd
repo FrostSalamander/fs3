@@ -91,3 +91,30 @@ readables/lt3/mage_note
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_rapscallionpirate.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt3/cafe_owner_journal
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"    I wish these northern louts would stop coming here.  They are driving my usual customers away with their rowdy behaviour."
+		"    I know they are putting alcohol in their tea, but where are they getting it from?  There is none to be had in this entire city."
+		"  Meanwhile the guards do nothing about it.   They only get involved if a 'serious' crime is committed..."
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/books/book_calig_summertime.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
