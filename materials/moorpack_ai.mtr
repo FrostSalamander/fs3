@@ -1,0 +1,41 @@
+tdm_moor_robe01_purple
+{
+
+	surftype15
+	description "armor_chain"
+
+    noShadows
+
+    qer_editorimage	textures/darkmod/moorpack/ai/robe01_purple_ed
+
+	diffusemap textures/darkmod/moorpack/ai/robe01_purple
+	bumpmap models/md5/chars/guards/moor/robe01_local
+}
+
+tdm_moor_robe01_blue
+{
+
+	surftype15
+	description "armor_chain"
+
+    noShadows
+
+    qer_editorimage	textures/darkmod/moorpack/ai/robe01_blue_ed
+
+	diffusemap textures/darkmod/moorpack/ai/robe01_blue
+	bumpmap models/md5/chars/guards/moor/robe01_local
+}
+
+tdm_moor_robe01_green
+{
+
+	surftype15
+	description "armor_chain"
+
+    noShadows
+
+    qer_editorimage	textures/darkmod/moorpack/ai/robe01_green_ed
+
+	diffusemap textures/darkmod/moorpack/ai/robe01_green
+	bumpmap models/md5/chars/guards/moor/robe01_local
+}

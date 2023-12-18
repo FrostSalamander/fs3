@@ -1,0 +1,17 @@
+moor/moor_purple_robe
+{
+    model "tdm_ai_moor"
+    "tdm_moor_robe01" "tdm_moor_robe01_purple"
+}
+
+moor/moor_blue_robe
+{
+    model "tdm_ai_moor"
+    "tdm_moor_robe01" "tdm_moor_robe01_blue"
+}
+
+moor/moor_green_robe
+{
+    model "tdm_ai_moor"
+    "tdm_moor_robe01" "tdm_moor_robe01_green"
+}
