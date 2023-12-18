@@ -76,6 +76,11 @@ void removePrisoner(entity ent_target, entity triggerEntity, entity ent_callscri
      }
 }
 
+void waiterBark()
+{
+    $cafeWaiter.bark("snd_greeting");
+}
+
 
 // main - keep at bottom
 void main()
