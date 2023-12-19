@@ -1,0 +1,6 @@
+skin gold_bottle
+{
+    model models/darkmod/kitchen/bottle01.lwo
+
+    wbottle01 wbottle03
+}
