@@ -81,6 +81,11 @@ void waiterBark()
     $cafeWaiter.bark("snd_greeting");
 }
 
+void frobBottle(entity bottle)
+{
+    sys.trigger($trigger_count_bottle_message);
+    frob_item(bottle);
+}
 
 // main - keep at bottom
 void main()
