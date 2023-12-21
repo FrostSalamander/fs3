@@ -205,6 +205,24 @@ textures/darkmod/moorpack/wood/wood_ornament20
     bumpmap         textures/darkmod/moorpack/wood/wood_ornament20_local
 }
 
+textures/darkmod/moorpack/wood/wood_ornament21
+{
+    wood
+
+    qer_editorimage textures/darkmod/moorpack/wood/wood_ornament21_ed
+    diffusemap      textures/darkmod/moorpack/wood/wood_ornament21
+    bumpmap         textures/darkmod/moorpack/wood/wood_ornament21_local
+}
+
+textures/darkmod/moorpack/wood/wood_ornament22
+{
+    wood
+
+    qer_editorimage textures/darkmod/moorpack/wood/wood_ornament22_ed
+    diffusemap      textures/darkmod/moorpack/wood/wood_ornament22
+    bumpmap         textures/darkmod/moorpack/wood/wood_ornament22_local
+}
+
 textures/darkmod/moorpack/wood/wood_dark01
 {
     wood
