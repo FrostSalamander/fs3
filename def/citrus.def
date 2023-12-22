@@ -1,0 +1,11 @@
+entityDef lt3:moveable_food_citrus
+{
+
+	"inherit"			"atdm:moveable_food_healthy_base"
+	"model"				"models/map_specific/citrus.ase"
+	"mass"				"0.2"
+	"editor_usage"		"Edible citrus fruit.  This food heals 10 HP when eaten."
+	"snd_eaten"			"tdm_player_apple_crunch"
+
+    "heal_amount"       "10"
+}
