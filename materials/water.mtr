@@ -21,7 +21,8 @@ textures/water_source/fs_water_stream_dark
 
 	{
 		blend blend
-        map textures/darkmod/sfx/black_matt
+        //map textures/darkmod/sfx/black_matt
+		map _black
 		alpha 0.95
 	}
 }
