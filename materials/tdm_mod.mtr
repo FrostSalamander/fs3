@@ -23,3 +23,24 @@ textures/darkmod/stone/flat/tiles_burgundyandcream_lt3
 
 
 }
+
+// make twoSided
+textures/darkmod/decals/vegetation/hanging_horizontal_leaves_lt3
+{
+
+    surftype15
+    description "foliage"
+	noSelfShadow
+    twoSided
+
+    bumpmap         textures/darkmod/decals/vegetation/hanging_horizontal_leaves_local
+    specularmap     textures/darkmod/decals/vegetation/hanging_horizontal_leaves_s
+
+	{
+		blend diffusemap
+		map      textures/darkmod/decals/vegetation/hanging_horizontal_leaves
+		alphatest 0.5
+	}
+
+
+}
