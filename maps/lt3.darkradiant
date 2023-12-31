@@ -1,11 +1,15 @@
 DarkRadiant Map Information File Version 2
 {
+	MapEditTimings
+	{
+		TotalSecondsEdited { 1520679 }
+	}
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1519304" } 
-		KeyValue { "LastCameraAngle" "-3.2 111.654 0" } 
-		KeyValue { "LastCameraPosition" "-1170.3 60.4859 588.943" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/moorpack/wood/wood_ornament09" } 
+		KeyValue { "EditTimeInSeconds" "1520679" } 
+		KeyValue { "LastCameraAngle" "-23.8 34.254 0" } 
+		KeyValue { "LastCameraPosition" "-1827.36 -615.051 332.236" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/moorpack/wood/wood_ornament18" } 
 	}
 	Layers
 	{
@@ -24746,10 +24750,14 @@ DarkRadiant Map Information File Version 2
 		Node { 3 } // brush (Brush)
 		Node { 3 } // patch (Patch)
 		Node { 3 } // patch (Patch)
-	}
-	MapEditTimings
-	{
-		TotalSecondsEdited { 1519304 }
+		Node { 3 } // entity (func_static_2905)
+		Node { 3 } // entity (func_static_2906)
+		Node { 3 } // entity (func_static_2907)
+		Node { 3 } // brush (Brush)
+		Node { 3 } // brush (Brush)
+		Node { 3 } // brush (Brush)
+		Node { 3 } // brush (Brush)
+		Node { 3 } // brush (Brush)
 	}
 	SelectionGroups
 	{
