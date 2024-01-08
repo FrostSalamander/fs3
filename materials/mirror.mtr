@@ -1,0 +1,22 @@
+textures/washroom/frost_mirror
+{
+
+    noshadows
+    glass
+    qer_editorimage    textures/glass/mirror
+    {
+        blend    blend
+        mirrorRenderMap 1024    1024
+        map _scratch2
+        red   1 * Parm0
+        green 1 * Parm1
+        blue  1 * Parm2
+        alpha 1.0
+    }
+    {
+         blend filter
+         map textures/glass/mirror
+         translate    0.5, 0.5
+         scale        0.5, 0.5
+    }
+}
