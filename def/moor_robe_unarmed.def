@@ -1,0 +1,12 @@
+entityDef lt3:ai_moor_robe_unarmed
+{
+	"inherit"         "atdm:ai_moor" 
+
+    "def_vocal_set"   "atdm:ai_vocal_set_moor_unarmed_01"
+
+    "is_civilian"     "1"
+    "def_attach1"     "-"
+    "pos_attach1"     "-"
+
+    "sit_down_angle"  "0"
+}
