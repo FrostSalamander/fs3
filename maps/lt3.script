@@ -15,6 +15,9 @@ string DISPLAY_CABINET_LID2 = "display_cabinet_lid_2";
 
 string POPUP_TO_MOSQUE = "popup_to_mosque";
 
+string MOSQUE_OFFICE_LATCH = "mosque_office_latch";
+string MOSQUE_OFFICE_DOOR = "atdm_mover_door_115";
+
 void frob_mosque_sign()
 {
     sys.trigger(sys.getEntity(POPUP_TO_MOSQUE));
@@ -74,6 +77,40 @@ void removePrisoner(entity ent_target, entity triggerEntity, entity ent_callscri
      {
         triggerEntity.remove();
      }
+}
+
+void setLatchFrobable(float frobable)
+{
+    // don't bother with this if the door has been opened
+    if (sys.getEntity(MOSQUE_OFFICE_DOOR).IsLocked())
+    {
+        sys.getEntity(MOSQUE_OFFICE_LATCH).setFrobable(frobable);
+    }
+}
+
+void setLatchFrobableOn(entity zone)
+{
+    setLatchFrobable(1);
+}
+
+void setLatchFrobableOff(entity zone)
+{
+    setLatchFrobable(0);
+}
+
+void unlockMosqueOfficeDoor()
+{
+    entity latch = sys.getEntity(MOSQUE_OFFICE_LATCH);
+
+    latch.rotateTo('0 0 90');
+
+    sys.waitFor(latch);
+
+    latch.speed(12);
+    latch.move(EAST, 6);
+
+    sys.getEntity(MOSQUE_OFFICE_DOOR).Unlock();
+    latch.setFrobable(0);
 }
 
 void waiterBark()
