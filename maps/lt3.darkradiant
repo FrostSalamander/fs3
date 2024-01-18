@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1675561" } 
-		KeyValue { "LastCameraAngle" "-13.8 236.2 0" } 
-		KeyValue { "LastCameraPosition" "-3099.45 332.584 390.482" } 
+		KeyValue { "EditTimeInSeconds" "1675709" } 
+		KeyValue { "LastCameraAngle" "-16 93.3998 0" } 
+		KeyValue { "LastCameraPosition" "-3060.21 106.991 495.044" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/grey_largeblocks01" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1675561 }
+		TotalSecondsEdited { 1675709 }
 	}
 	Layers
 	{
@@ -27205,6 +27205,10 @@ DarkRadiant Map Information File Version 2
 		Node { 3 } // patch (Patch)
 		Node { 3 } // patch (Patch)
 		Node { 3 } // patch (Patch)
+		Node { 3 } // entity (info_locationSeparator_250)
+		Node { 3 } // entity (info_locationSeparator_251)
+		Node { 3 } // entity (info_locationSeparator_252)
+		Node { 3 } // entity (location_ministry_tower)
 	}
 	SelectionGroups
 	{
