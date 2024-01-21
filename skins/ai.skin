@@ -18,3 +18,14 @@ moor/moor_green_robe
     "tdm_moor_robe01" "tdm_moor_robe01_green"
     "models/md5/chars/chainmail_new"  "textures/darkmod/fabric/cloth_plain_creased_cyan_light"
 }
+
+moor/multicolor_moor
+{
+    "model" "tdm_ai_moor_guard"
+
+	"models/md5/chars/guards/proguard/proguard_cloth" "models/md5/chars/guards/proguard/proguard_multicolor"
+	"models/md5/chars/guards/proguard/proguard_armor" "models/md5/chars/guards/proguard/proguard_multicolor"
+	"tdm_npc_hand" "tdm_moor_hand"
+
+
+}

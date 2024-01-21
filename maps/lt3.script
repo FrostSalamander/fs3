@@ -15,8 +15,12 @@ string DISPLAY_CABINET_LID2 = "display_cabinet_lid_2";
 
 string POPUP_TO_MOSQUE = "popup_to_mosque";
 
+// Latched door entities
 string MOSQUE_OFFICE_LATCH = "mosque_office_latch";
 string MOSQUE_OFFICE_DOOR = "atdm_mover_door_115";
+
+string GATE_LATCH = "gate_latch";
+string GATE_DOOR = "atdm_mover_door_80";
 
 void frob_mosque_sign()
 {
@@ -79,38 +83,58 @@ void removePrisoner(entity ent_target, entity triggerEntity, entity ent_callscri
      }
 }
 
-void setLatchFrobable(float frobable)
+void setLatchFrobable(string latchName, string doorName, float frobable)
 {
     // don't bother with this if the door has been opened
-    if (sys.getEntity(MOSQUE_OFFICE_DOOR).IsLocked())
+    if (sys.getEntity(doorName).IsLocked())
     {
-        sys.getEntity(MOSQUE_OFFICE_LATCH).setFrobable(frobable);
+        sys.getEntity(latchName).setFrobable(frobable);
     }
 }
 
 void setLatchFrobableOn(entity zone)
 {
-    setLatchFrobable(1);
+    setLatchFrobable(MOSQUE_OFFICE_LATCH, MOSQUE_OFFICE_DOOR, 1);
 }
 
 void setLatchFrobableOff(entity zone)
 {
-    setLatchFrobable(0);
+    setLatchFrobable(MOSQUE_OFFICE_LATCH, MOSQUE_OFFICE_DOOR, 0);
 }
 
-void unlockMosqueOfficeDoor()
+void enterHarbourWallCentre(entity zone)
 {
-    entity latch = sys.getEntity(MOSQUE_OFFICE_LATCH);
+    setLatchFrobable(GATE_LATCH, GATE_DOOR, 1);
+}
 
-    latch.rotateTo('0 0 90');
+void exitHarbourWallCentre(entity zone)
+{
+    setLatchFrobable(GATE_LATCH, GATE_DOOR, 0);
+}
+
+void unlockLatch(string latchName, string doorName, vector latchRotateAngle, float slideAngle)
+{
+    entity latch = sys.getEntity(latchName);
+
+    latch.rotateTo(latchRotateAngle);
 
     sys.waitFor(latch);
 
     latch.speed(12);
-    latch.move(EAST, 6);
+    latch.move(slideAngle, 6);
 
-    sys.getEntity(MOSQUE_OFFICE_DOOR).Unlock();
+    sys.getEntity(doorName).Unlock();
     latch.setFrobable(0);
+}
+
+void unlockMosqueOfficeDoor()
+{
+    unlockLatch(MOSQUE_OFFICE_LATCH, MOSQUE_OFFICE_DOOR, '0 0 90', EAST);
+}
+
+void unlockGateDoor()
+{
+    unlockLatch(GATE_LATCH, GATE_DOOR, '90 0 0', NORTH);
 }
 
 void waiterBark()

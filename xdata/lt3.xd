@@ -118,3 +118,25 @@ readables/lt3/cafe_owner_journal
 	"gui_page1"	: "guis/readables/books/book_calig_summertime.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt3/soap_factory_invoice
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Al-Abad Soap Works"
+		"Invoice #1301"
+		""
+		"- Olive Oil 3 barrels"
+		"- Dried Sea Kelp 5 bags"
+		""
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_shoppinglist.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

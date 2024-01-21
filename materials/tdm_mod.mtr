@@ -20,6 +20,20 @@ textures/darkmod/stone/flat/tiles_burgundyandcream_lt3
     diffusemap      textures/darkmod/stone/flat/tiles_burgundyandcream
     bumpmap         textures/darkmod/stone/flat/tiles_burgundyandcream_local
     specularmap     textures/darkmod/stone/flat/tiles_burgundyandcream_s
+}
+
+textures/darkmod/stone/flat/tile_plain_diamond01_brown_dark_lt3
+{
+    stone
+
+    qer_editorimage textures/darkmod/stone/flat/tile_plain_diamond01_brown_dark_ed
+    {
+        blend diffusemap
+        map textures/darkmod/stone/flat/tile_plain_diamond01_brown
+        rgb 0.5 // Set the brightness to 50%
+    }
+    specularmap     textures/darkmod/stone/flat/tile_plain_diamond01_brown_s
+    bumpmap         textures/darkmod/stone/flat/tile_plain_diamond01_local
 
 
 }
