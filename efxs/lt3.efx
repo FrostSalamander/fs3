@@ -1,16 +1,119 @@
 Version 2
 
 //////////////
+// GALLEON
+//////////////
+eaxreverb "location_galleon_aft" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_galleon_lower_deck" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_galleon_hold" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_galleon_lower_store" {
+  preset WOODEN_CUPBOARD
+}
+eaxreverb "location_galleon_aft_stairs" {
+  preset WOODEN_SHORTPASSAGE
+}
+eaxreverb "location_galleon_stairs" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_galleon_officers" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_galleon_forecastle" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_galleon_captains_quarters" {
+  preset WOODEN_SMALLROOM
+}
+
+//////////////
 // HARBOUR
 //////////////
 eaxreverb "location_harbour" {
   preset MOUNTAINS
 }
+eaxreverb "location_harbour_street" {
+  preset CASTLE_COURTYARD
+}
+
+//////////////////////
+// HARBOUR WAREHOUSE
+//////////////////////
+eaxreverb "location_harbour_warehouse_lower" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_harbour_warehouse_steps" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_harbour_warehouse_upper" {
+  preset CASTLE_MEDIUMROOM
+}
+
+//////////////////////
+// NAVAL BUILDING
+//////////////////////
 eaxreverb "location_harbour_office" {
   preset CASTLE_MEDIUMROOM
 }
-eaxreverb "location_harbour_street" {
-  preset CASTLE_COURTYARD
+eaxreverb "location_harbour_office_stairs" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_harbour_wall_south" {
+  preset CASTLE_LONGPASSAGE
+}
+eaxreverb "location_harbour_wall_central_stairs" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "harbour_wall_centre1" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "harbour_wall_centre" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_harbour_wall_north_upper" {
+  preset CASTLE_LONGPASSAGE
+}
+eaxreverb "location_harbour_wall_north_lower" {
+  preset CASTLE_LONGPASSAGE
+}
+eaxreverb "location_harbour_wall_north_stairs" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_harbour_officers_lounge" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_officers_lounge_outside" {
+  preset CASTLE_LONGPASSAGE
+}
+eaxreverb "location_mosque_tunnel" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_mosque_tunnel2" {
+  preset CASTLE_LONGPASSAGE
+}
+eaxreverb "location_mosque_tunnel_junction" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_mosque_tunnel_stairs" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_mosque_tunnel_lounge" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_mosque_tunnel_transition" {
+  preset CASTLE_SMALLROOM
+}
+
+//////////
+// MOSQUE
+//////////
+eaxreverb "location_mosque_passage_upper" {
+  preset CASTLE_LONGPASSAGE
 }
 
 //////////////////

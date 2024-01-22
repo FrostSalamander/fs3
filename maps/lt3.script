@@ -19,8 +19,8 @@ string POPUP_TO_MOSQUE = "popup_to_mosque";
 string MOSQUE_OFFICE_LATCH = "mosque_office_latch";
 string MOSQUE_OFFICE_DOOR = "atdm_mover_door_115";
 
-string GATE_LATCH = "gate_latch";
-string GATE_DOOR = "atdm_mover_door_80";
+string GATE_LATCH = "gate_latch1";
+string GATE_DOOR = "atdm_mover_door_141";
 
 void frob_mosque_sign()
 {
@@ -134,7 +134,7 @@ void unlockMosqueOfficeDoor()
 
 void unlockGateDoor()
 {
-    unlockLatch(GATE_LATCH, GATE_DOOR, '90 0 0', NORTH);
+    unlockLatch(GATE_LATCH, GATE_DOOR, '-90 0 0', SOUTH);
 }
 
 void waiterBark()
