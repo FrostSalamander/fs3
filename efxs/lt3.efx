@@ -75,8 +75,26 @@ eaxreverb "harbour_wall_centre1" {
 eaxreverb "harbour_wall_centre" {
   preset CASTLE_SMALLROOM
 }
+eaxreverb "location_harbour_wall_central_stairs_floor1_steps" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_harbour_wall_central_stairs_floor1" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_harbour_wall_central_stairs_floor2_steps" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_harbour_wall_central_stairs_floor2" {
+  preset CASTLE_SMALLROOM
+}
 eaxreverb "location_harbour_wall_north_upper" {
   preset CASTLE_LONGPASSAGE
+}
+eaxreverb "location_harbour_wall_spiral1" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_harbour_wall_upper_entrance" {
+  preset CASTLE_SMALLROOM
 }
 eaxreverb "location_harbour_wall_north_lower" {
   preset CASTLE_LONGPASSAGE
