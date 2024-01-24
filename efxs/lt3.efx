@@ -127,18 +127,62 @@ eaxreverb "location_mosque_tunnel_transition" {
   preset CASTLE_SMALLROOM
 }
 
+//////////////////
+// MOSQUE AREA
+//////////////////
+eaxreverb "location_mosque_cafe" {
+  preset CASTLE_COURTYARD
+}
+
 //////////
 // MOSQUE
 //////////
 eaxreverb "location_mosque_passage_upper" {
   preset CASTLE_LONGPASSAGE
 }
+eaxreverb "location_mosque_office" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_mosque_side" {
+  preset CASTLE_LARGEROOM
+}
+eaxreverb "location_mosque_main" {
+  preset CASTLE_LARGEROOM
+}
+eaxreverb "location_mosque_library" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_mosque_stairs" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_mosque_stairs2" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_mosque_main_hall" {
+  preset CASTLE_HALL
+}
+eaxreverb "location_mosque_private_prayer_room" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_mosque_upper_entrance" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_mosque_balcony" {
+  preset CASTLE_LONGPASSAGE
+}
+
+///////////////////////////////////
+// MOSQUE VAULTS / TRANSITION AREA
+///////////////////////////////////
+eaxreverb "location_mosque_vaults_flooded" {
+  preset SMALLWATERROOM
+}
 
 //////////////////
-// MOSQUE AREA
+// FAR WEST AREA
 //////////////////
-eaxreverb "location_mosque_cafe" {
-  preset CASTLE_COURTYARD
+eaxreverb "location_city_far_west" {
+  preset OUTDOORS_VALLEY
 }
 
 //////////////////
@@ -152,5 +196,37 @@ eaxreverb "location_officer_bathroomstairs" {
   preset WOODEN_SMALLROOM
 }
 eaxreverb "location_officer_kitchen" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_upper_house" {
+  preset WOODEN_MEDIUMROOM
+}
+
+//////////////////////
+// WEST PART OF CITY
+//////////////////////
+eaxreverb "location_city_west" {
+  preset CITY_STREETS
+}
+
+////////////////
+// RESTAURANT
+////////////////
+eaxreverb "location_restaurant_upstairs" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_restaurant_upstairs" {
+  preset WOODEN_SHORTPASSAGE
+}
+eaxreverb "location_restaurant_hallway" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_restaurant_outside" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_restaurant_stairs" {
+  preset WOODEN_SHORTPASSAGE
+}
+eaxreverb "location_restaurant_groundfloor" {
   preset WOODEN_SMALLROOM
 }
