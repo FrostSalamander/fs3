@@ -134,6 +134,23 @@ eaxreverb "location_mosque_cafe" {
   preset CASTLE_COURTYARD
 }
 
+// covered area outside mage shop
+eaxreverb "location_west_passage" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_mosque_passage_lower" {
+  preset CASTLE_LONGPASSAGE
+}
+eaxreverb "location_shops" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_jewellery_shop" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_shops_tunnel" {
+  preset CASTLE_SHORTPASSAGE
+}
+
 //////////
 // MOSQUE
 //////////
@@ -177,7 +194,9 @@ eaxreverb "location_mosque_balcony" {
 eaxreverb "location_mosque_vaults_flooded" {
   preset SMALLWATERROOM
 }
-
+eaxreverb "location_mosque_vaults" {
+  preset CASTLE_SMALLROOM
+}
 //////////////////
 // FAR WEST AREA
 //////////////////
@@ -200,6 +219,31 @@ eaxreverb "location_officer_kitchen" {
 }
 eaxreverb "location_upper_house" {
   preset WOODEN_MEDIUMROOM
+}
+
+///////////////
+// MAGE HOUSE
+///////////////
+eaxreverb "location_mage_cell" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_mage_cell_hall" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_mage_cell2" {
+  preset CASTLE_CUPBOARD
+}
+eaxreverb "location_mage_cell3" {
+  preset CASTLE_CUPBOARD
+}
+eaxreverb "location_mage_spiral_stairs" {
+  preset WOODEN_LONGPASSAGE
+}
+eaxreverb "location_mage_shop_loft" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_mage_shop" {
+  preset CASTLE_SMALLROOM
 }
 
 //////////////////////
