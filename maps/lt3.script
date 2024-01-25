@@ -22,6 +22,10 @@ string MOSQUE_OFFICE_DOOR = "atdm_mover_door_115";
 string GATE_LATCH = "gate_latch1";
 string GATE_DOOR = "atdm_mover_door_141";
 
+string OFFICER_HOUSE_LATCH = "func_static_655";
+string OFFICER_HOUSE_DOOR = "atdm_mover_door_43";
+string OFFICER_HOUSE_DOOR2 = "atdm_mover_door_42";
+
 void frob_mosque_sign()
 {
     sys.trigger(sys.getEntity(POPUP_TO_MOSQUE));
@@ -83,13 +87,53 @@ void removePrisoner(entity ent_target, entity triggerEntity, entity ent_callscri
      }
 }
 
+// rotates and slides a door latch and unlocks the door
+void unlockLatch(string latchName, string doorName, string door2Name, vector latchRotateAngle, float slideAngle, float slideDistance)
+{
+    entity latch = sys.getEntity(latchName);
+    entity door = sys.getEntity(doorName);
+
+    latch.rotateTo(latchRotateAngle);
+
+    sys.waitFor(latch);
+
+    latch.speed(12);
+    latch.move(slideAngle, slideDistance);
+
+    door.Unlock();
+
+    // basically permanently disable the latch
+    latch.setFrobable(0);
+
+    // make the door frobable so it can be closed
+    door.setFrobable(1);
+
+    // support for double doorsa
+    if (!door2Name == "")
+    {
+        sys.getEntity(door2Name).setFrobable(1);
+    }
+}
+
+// Sets the frobability of the door latch and door.
+// They will be the opposite of each other to make the latch easier to frob.
 void setLatchFrobable(string latchName, string doorName, float frobable)
 {
     // don't bother with this if the door has been opened
     if (sys.getEntity(doorName).IsLocked())
     {
         sys.getEntity(latchName).setFrobable(frobable);
+        sys.getEntity(doorName).setFrobable(!frobable);
     }
+}
+
+/////////////////////////////////////
+// Mosque Office door/latch controls
+/////////////////////////////////////
+
+void unlockMosqueOfficeDoor()
+{
+    unlockLatch(MOSQUE_OFFICE_LATCH, MOSQUE_OFFICE_DOOR, "", '0 0 90', EAST, 6);
 }
 
 void setLatchFrobableOn(entity zone)
@@ -102,6 +146,29 @@ void setLatchFrobableOff(entity zone)
     setLatchFrobable(MOSQUE_OFFICE_LATCH, MOSQUE_OFFICE_DOOR, 0);
 }
 
+/////////////////////////////////////
+// Officer House door/latch controls
+/////////////////////////////////////
+void unlockOfficerDoor()
+{
+    unlockLatch(OFFICER_HOUSE_LATCH, OFFICER_HOUSE_DOOR, OFFICER_HOUSE_DOOR2, '-90 0 0', SOUTH, 4);
+}
+
+void enterOfficerLounge(entity zone)
+{
+    setLatchFrobable(OFFICER_HOUSE_LATCH, OFFICER_HOUSE_DOOR, 1);
+    setLatchFrobable(OFFICER_HOUSE_LATCH, OFFICER_HOUSE_DOOR2, 1);
+}
+
+void exitOfficerLounge(entity zone)
+{
+    setLatchFrobable(OFFICER_HOUSE_LATCH, OFFICER_HOUSE_DOOR, 0);
+    setLatchFrobable(OFFICER_HOUSE_LATCH, OFFICER_HOUSE_DOOR2, 0);
+}
+
+/////////////////////////////////////
+// Harbour Wall door/latch controls
+/////////////////////////////////////
 void enterHarbourWallCentre(entity zone)
 {
     setLatchFrobable(GATE_LATCH, GATE_DOOR, 1);
@@ -112,29 +179,9 @@ void exitHarbourWallCentre(entity zone)
     setLatchFrobable(GATE_LATCH, GATE_DOOR, 0);
 }
 
-void unlockLatch(string latchName, string doorName, vector latchRotateAngle, float slideAngle)
-{
-    entity latch = sys.getEntity(latchName);
-
-    latch.rotateTo(latchRotateAngle);
-
-    sys.waitFor(latch);
-
-    latch.speed(12);
-    latch.move(slideAngle, 6);
-
-    sys.getEntity(doorName).Unlock();
-    latch.setFrobable(0);
-}
-
-void unlockMosqueOfficeDoor()
-{
-    unlockLatch(MOSQUE_OFFICE_LATCH, MOSQUE_OFFICE_DOOR, '0 0 90', EAST);
-}
-
 void unlockGateDoor()
 {
-    unlockLatch(GATE_LATCH, GATE_DOOR, '-90 0 0', SOUTH);
+    unlockLatch(GATE_LATCH, GATE_DOOR, "", '-90 0 0', SOUTH, 6);
 }
 
 void waiterBark()
