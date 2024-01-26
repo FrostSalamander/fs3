@@ -1,6 +1,6 @@
 entityDef lt3:small_loot_bottle
 {
-	"inherit"         "atdm:moveable_loot_bottle" 
+	"inherit"         "atdm:loot_base" 
 
 	"model"           "models/darkmod/kitchen/bottle01.lwo"
     "skin"            "gold_bottle"
