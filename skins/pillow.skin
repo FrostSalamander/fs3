@@ -12,3 +12,9 @@ skin pillow_persion_rug07
     textures/darkmod/moorpack/carpet/rug04_notrans       textures/darkmod/moorpack/carpet/rug07
 }
 
+skin pillow_persion_white
+{
+    model models/map_specific/persian_pillow.ase
+
+    textures/darkmod/moorpack/carpet/rug04_notrans       textures/darkmod/fabric/cloth_plain_creased_white_dull
+}
