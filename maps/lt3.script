@@ -32,11 +32,13 @@ string OFFICER_HOUSE_LATCH = "func_static_655";
 string OFFICER_HOUSE_DOOR = "atdm_mover_door_43";
 string OFFICER_HOUSE_DOOR2 = "atdm_mover_door_42";
 
-
-// MERCHANT
+// MERCHANT HOUSE
 string MERCHANT_HOUSE_LATCH = "func_static_3434";
 string MERCHANT_HOUSE_DOOR = "atdm_mover_door_5";
 string MERCHANT_HOUSE_DOOR2 = "atdm_mover_door_22";
+
+string MERCHANT_KITCHEN_POT = "atdm_moveable_cookpot_1";
+string MERCHANT_SECRET_BUTTON = "atdm_mover_button_3";
 
 void frob_mosque_sign()
 {
@@ -99,6 +101,10 @@ void removePrisoner(entity ent_target, entity triggerEntity, entity ent_callscri
      }
 }
 
+/////////////////////////////////
+// Door Latch Control functions
+/////////////////////////////////
+
 // rotates and slides a door latch and unlocks the door
 void unlockLatch(string latchName, string doorName, string door2Name, vector latchRotateAngle, float slideAngle, float slideDistance)
 {
@@ -158,9 +164,9 @@ void setLatchFrobableOff(entity zone)
     setLatchFrobable(MOSQUE_OFFICE_LATCH, MOSQUE_OFFICE_DOOR, 0);
 }
 
-/////////////////////////////////////
-// Merchant door/latch controls
-/////////////////////////////////////
+///////////////////
+// Merchant House
+///////////////////
 void unlockMerchantDoor()
 {
     unlockLatch(MERCHANT_HOUSE_LATCH, MERCHANT_HOUSE_DOOR, MERCHANT_HOUSE_DOOR2, '0 90 0', EAST, 4);
@@ -176,6 +182,19 @@ void exitMerchantHouse(entity zone)
 {
     setLatchFrobable(MERCHANT_HOUSE_LATCH, MERCHANT_HOUSE_DOOR, 0);
     setLatchFrobable(MERCHANT_HOUSE_LATCH, MERCHANT_HOUSE_DOOR2, 0);
+}
+
+void enterMerchantHouseKitchen(entity zone)
+{
+    sys.getEntity(MERCHANT_KITCHEN_POT).setFrobable(1);
+    sys.getEntity(MERCHANT_SECRET_BUTTON).setFrobable(1);
+}
+
+// Prevent frobbing the pot and secret button through bedroom wall
+void exitMerchantHouseKitchen(entity zone)
+{
+    sys.getEntity(MERCHANT_KITCHEN_POT).setFrobable(0);
+    sys.getEntity(MERCHANT_SECRET_BUTTON).setFrobable(0);
 }
 
 /////////////////////////////////////
