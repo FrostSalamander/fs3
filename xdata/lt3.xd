@@ -140,3 +140,28 @@ readables/lt3/soap_factory_invoice
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_shoppinglist.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt3/journal_merchant
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		""
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

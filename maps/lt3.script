@@ -15,16 +15,28 @@ string DISPLAY_CABINET_LID2 = "display_cabinet_lid_2";
 
 string POPUP_TO_MOSQUE = "popup_to_mosque";
 
+//////////////////////////
 // Latched door entities
+//////////////////////////
+
+// MOSQUE OFFICE
 string MOSQUE_OFFICE_LATCH = "mosque_office_latch";
 string MOSQUE_OFFICE_DOOR = "atdm_mover_door_115";
 
+// NAVAL BUILDING BACK GATE
 string GATE_LATCH = "gate_latch1";
 string GATE_DOOR = "atdm_mover_door_141";
 
+// NAVAL OFFICER HOUSE
 string OFFICER_HOUSE_LATCH = "func_static_655";
 string OFFICER_HOUSE_DOOR = "atdm_mover_door_43";
 string OFFICER_HOUSE_DOOR2 = "atdm_mover_door_42";
+
+
+// MERCHANT
+string MERCHANT_HOUSE_LATCH = "func_static_3434";
+string MERCHANT_HOUSE_DOOR = "atdm_mover_door_5";
+string MERCHANT_HOUSE_DOOR2 = "atdm_mover_door_22";
 
 void frob_mosque_sign()
 {
@@ -144,6 +156,26 @@ void setLatchFrobableOn(entity zone)
 void setLatchFrobableOff(entity zone)
 {
     setLatchFrobable(MOSQUE_OFFICE_LATCH, MOSQUE_OFFICE_DOOR, 0);
+}
+
+/////////////////////////////////////
+// Merchant door/latch controls
+/////////////////////////////////////
+void unlockMerchantDoor()
+{
+    unlockLatch(MERCHANT_HOUSE_LATCH, MERCHANT_HOUSE_DOOR, MERCHANT_HOUSE_DOOR2, '0 90 0', EAST, 4);
+}
+
+void enterMerchantHouse(entity zone)
+{
+    setLatchFrobable(MERCHANT_HOUSE_LATCH, MERCHANT_HOUSE_DOOR, 1);
+    setLatchFrobable(MERCHANT_HOUSE_LATCH, MERCHANT_HOUSE_DOOR2, 1);
+}
+
+void exitMerchantHouse(entity zone)
+{
+    setLatchFrobable(MERCHANT_HOUSE_LATCH, MERCHANT_HOUSE_DOOR, 0);
+    setLatchFrobable(MERCHANT_HOUSE_LATCH, MERCHANT_HOUSE_DOOR2, 0);
 }
 
 /////////////////////////////////////
