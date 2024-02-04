@@ -106,10 +106,12 @@ void removePrisoner(entity ent_target, entity triggerEntity, entity ent_callscri
 /////////////////////////////////
 
 // rotates and slides a door latch and unlocks the door
-void unlockLatch(string latchName, string doorName, string door2Name, vector latchRotateAngle, float slideAngle, float slideDistance)
+// Assumes the latch is bound to the door, and if it's a double-door
+// setup there is an explicit frob_peer relationship set up.
+void unlockLatch(string latchName, vector latchRotateAngle, float slideAngle, float slideDistance)
 {
     entity latch = sys.getEntity(latchName);
-    entity door = sys.getEntity(doorName);
+    entity door = latch.getBindMaster();
 
     latch.rotateTo(latchRotateAngle);
 
@@ -126,10 +128,11 @@ void unlockLatch(string latchName, string doorName, string door2Name, vector lat
     // make the door frobable so it can be closed
     door.setFrobable(1);
 
-    // support for double doorsa
-    if (!door2Name == "")
+    // support for double doors
+    entity doubleDoor = door.getEntityKey("frob_peer");
+    if (doubleDoor)
     {
-        sys.getEntity(door2Name).setFrobable(1);
+        doubleDoor.setFrobable(1);
     }
 }
 
@@ -151,7 +154,7 @@ void setLatchFrobable(string latchName, string doorName, float frobable)
 
 void unlockMosqueOfficeDoor()
 {
-    unlockLatch(MOSQUE_OFFICE_LATCH, MOSQUE_OFFICE_DOOR, "", '0 0 90', EAST, 6);
+    unlockLatch(MOSQUE_OFFICE_LATCH, '0 0 90', EAST, 6);
 }
 
 void setLatchFrobableOn(entity zone)
@@ -169,7 +172,7 @@ void setLatchFrobableOff(entity zone)
 ///////////////////
 void unlockMerchantDoor()
 {
-    unlockLatch(MERCHANT_HOUSE_LATCH, MERCHANT_HOUSE_DOOR, MERCHANT_HOUSE_DOOR2, '0 90 0', EAST, 4);
+    unlockLatch(MERCHANT_HOUSE_LATCH, '0 90 0', EAST, 4);
 }
 
 void enterMerchantHouse(entity zone)
@@ -202,7 +205,7 @@ void exitMerchantHouseKitchen(entity zone)
 /////////////////////////////////////
 void unlockOfficerDoor()
 {
-    unlockLatch(OFFICER_HOUSE_LATCH, OFFICER_HOUSE_DOOR, OFFICER_HOUSE_DOOR2, '-90 0 0', SOUTH, 4);
+    unlockLatch(OFFICER_HOUSE_LATCH, '-90 0 0', SOUTH, 4);
 }
 
 void enterOfficerLounge(entity zone)
@@ -232,7 +235,7 @@ void exitHarbourWallCentre(entity zone)
 
 void unlockGateDoor()
 {
-    unlockLatch(GATE_LATCH, GATE_DOOR, "", '-90 0 0', SOUTH, 6);
+    unlockLatch(GATE_LATCH, '-90 0 0', SOUTH, 6);
 }
 
 void waiterBark()
