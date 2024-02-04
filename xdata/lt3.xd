@@ -152,7 +152,7 @@ readables/lt3/journal_merchant
 	}
 	"page1_left_body"	:
 	{
-		""
+		"Well, old Bickley wasn't kidding when he said there was a fortune to be made down here. A couple more years of this and I'll be able to retire!  I don't think Celia would be able to stand much longer, being cooped up in here.  Although most people are friendly here, we always seem to get the evil eye from officials and guards.  "
 	}
 	"page1_right_title"	:
 	{
@@ -160,8 +160,9 @@ readables/lt3/journal_merchant
 	}
 	"page1_right_body"	:
 	{
-		""
+		"It's probably because of all these mercenary types that have been coming down. Tarred with the same brush and all that..."
+		"    Anyways, I'm about ready for a trip back home. Although I'm fairly certain my hidden vault is still a secret, I'd be much more comfortable if my valuables were back in Bridgeport!"
 	}
-	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"gui_page1"	: "guis/readables/books/book_hand_andrew_script.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }

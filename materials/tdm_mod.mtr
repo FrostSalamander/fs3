@@ -34,8 +34,17 @@ textures/darkmod/stone/flat/tile_plain_diamond01_brown_dark_lt3
     }
     specularmap     textures/darkmod/stone/flat/tile_plain_diamond01_brown_s
     bumpmap         textures/darkmod/stone/flat/tile_plain_diamond01_local
+}
 
+textures/darkmod/stone/flat/tiles_checker_lts
+{
 
+    stone
+
+    qer_editorimage textures/darkmod/stone/flat/tiles_checker_ed
+    diffusemap      textures/darkmod/stone/flat/tiles_checker
+    bumpmap         textures/darkmod/stone/flat/tiles_checker_local
+    specularmap     textures/darkmod/stone/flat/tiles_checker_s
 }
 
 // make twoSided
