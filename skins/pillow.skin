@@ -1,18 +1,19 @@
-skin pillow_persion
+skin pillow_persian
 {
     model models/darkmod/decorative/pillow_decorative01.lwo
+    model models/map_specific/persian_pillow.ase
 
-    textures/darkmod/carpet/rugs/ornate_vines       textures/darkmod/carpet/rugs/rug04
+    textures/darkmod/moorpack/carpet/rug04_notrans       textures/darkmod/moorpack/carpet/rug11
 }
 
-skin pillow_persion_rug07
+skin pillow_persian_rug07
 {
     model models/map_specific/persian_pillow.ase
 
     textures/darkmod/moorpack/carpet/rug04_notrans       textures/darkmod/moorpack/carpet/rug07
 }
 
-skin pillow_persion_white
+skin pillow_persian_white
 {
     model models/map_specific/persian_pillow.ase
 
