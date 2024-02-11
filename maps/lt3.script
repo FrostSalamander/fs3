@@ -148,25 +148,6 @@ void setLatchFrobable(string latchName, string doorName, float frobable)
     }
 }
 
-/////////////////////////////////////
-// Mosque Office door/latch controls
-/////////////////////////////////////
-
-void unlockMosqueOfficeDoor()
-{
-    unlockLatch(MOSQUE_OFFICE_LATCH, '0 0 90', EAST, 6);
-}
-
-void setLatchFrobableOn(entity zone)
-{
-    setLatchFrobable(MOSQUE_OFFICE_LATCH, MOSQUE_OFFICE_DOOR, 1);
-}
-
-void setLatchFrobableOff(entity zone)
-{
-    setLatchFrobable(MOSQUE_OFFICE_LATCH, MOSQUE_OFFICE_DOOR, 0);
-}
-
 ///////////////////
 // Merchant House
 ///////////////////
@@ -200,43 +181,9 @@ void exitMerchantHouseKitchen(entity zone)
     sys.getEntity(MERCHANT_SECRET_BUTTON).setFrobable(0);
 }
 
-/////////////////////////////////////
-// Officer House door/latch controls
-/////////////////////////////////////
-void unlockOfficerDoor()
-{
-    unlockLatch(OFFICER_HOUSE_LATCH, '-90 0 0', SOUTH, 4);
-}
-
-void enterOfficerLounge(entity zone)
-{
-    setLatchFrobable(OFFICER_HOUSE_LATCH, OFFICER_HOUSE_DOOR, 1);
-    setLatchFrobable(OFFICER_HOUSE_LATCH, OFFICER_HOUSE_DOOR2, 1);
-}
-
-void exitOfficerLounge(entity zone)
-{
-    setLatchFrobable(OFFICER_HOUSE_LATCH, OFFICER_HOUSE_DOOR, 0);
-    setLatchFrobable(OFFICER_HOUSE_LATCH, OFFICER_HOUSE_DOOR2, 0);
-}
-
-/////////////////////////////////////
-// Harbour Wall door/latch controls
-/////////////////////////////////////
-void enterHarbourWallCentre(entity zone)
-{
-    setLatchFrobable(GATE_LATCH, GATE_DOOR, 1);
-}
-
-void exitHarbourWallCentre(entity zone)
-{
-    setLatchFrobable(GATE_LATCH, GATE_DOOR, 0);
-}
-
-void unlockGateDoor()
-{
-    unlockLatch(GATE_LATCH, '-90 0 0', SOUTH, 6);
-}
+//////////////////
+// Other stuff
+//////////////////
 
 void waiterBark()
 {
