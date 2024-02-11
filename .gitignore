@@ -1,7 +1,6 @@
 savegames
 *.dat
-*.aas32
-*.aas_rat
+*.aas*
 *.proc
 maps/*.cm
 *.bak
