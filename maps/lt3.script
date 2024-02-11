@@ -101,72 +101,9 @@ void removePrisoner(entity ent_target, entity triggerEntity, entity ent_callscri
      }
 }
 
-/////////////////////////////////
-// Door Latch Control functions
-/////////////////////////////////
-
-// rotates and slides a door latch and unlocks the door
-// Assumes the latch is bound to the door, and if it's a double-door
-// setup there is an explicit frob_peer relationship set up.
-void unlockLatch(string latchName, vector latchRotateAngle, float slideAngle, float slideDistance)
-{
-    entity latch = sys.getEntity(latchName);
-    entity door = latch.getBindMaster();
-
-    latch.rotateTo(latchRotateAngle);
-
-    sys.waitFor(latch);
-
-    latch.speed(12);
-    latch.move(slideAngle, slideDistance);
-
-    door.Unlock();
-
-    // basically permanently disable the latch
-    latch.setFrobable(0);
-
-    // make the door frobable so it can be closed
-    door.setFrobable(1);
-
-    // support for double doors
-    entity doubleDoor = door.getEntityKey("frob_peer");
-    if (doubleDoor)
-    {
-        doubleDoor.setFrobable(1);
-    }
-}
-
-// Sets the frobability of the door latch and door.
-// They will be the opposite of each other to make the latch easier to frob.
-void setLatchFrobable(string latchName, string doorName, float frobable)
-{
-    // don't bother with this if the door has been opened
-    if (sys.getEntity(doorName).IsLocked())
-    {
-        sys.getEntity(latchName).setFrobable(frobable);
-        sys.getEntity(doorName).setFrobable(!frobable);
-    }
-}
-
 ///////////////////
 // Merchant House
 ///////////////////
-void unlockMerchantDoor()
-{
-    unlockLatch(MERCHANT_HOUSE_LATCH, '0 90 0', EAST, 4);
-}
-
-void enterMerchantHouse(entity zone)
-{
-    setLatchFrobable(MERCHANT_HOUSE_LATCH, MERCHANT_HOUSE_DOOR, 1);
-    setLatchFrobable(MERCHANT_HOUSE_LATCH, MERCHANT_HOUSE_DOOR2, 1);
-}
-
-void exitMerchantHouse(entity zone)
-{
-    setLatchFrobable(MERCHANT_HOUSE_LATCH, MERCHANT_HOUSE_DOOR, 0);
-    setLatchFrobable(MERCHANT_HOUSE_LATCH, MERCHANT_HOUSE_DOOR2, 0);
-}
 
 void enterMerchantHouseKitchen(entity zone)
 {
