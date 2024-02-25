@@ -274,3 +274,46 @@ eaxreverb "location_restaurant_stairs" {
 eaxreverb "location_restaurant_groundfloor" {
   preset WOODEN_SMALLROOM
 }
+
+////////////////
+// MINISTRY
+////////////////
+eaxreverb "location_ministry_north_foyer" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_ministry_north_stairwell" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_ministry_first_floor_landing" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_ministry_first_floor_lounge" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_ministry_landing_stairs" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_ministry_hallway" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_ministry_restroom" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_ministry_toilet" {
+  preset CASTLE_CUPBOARD
+}
+eaxreverb "location_ministry_desks" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_ministry_practice_room" {
+  preset CASTLE_HALL
+}
+eaxreverb "location_ministry_equipment_room" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_ministry_ground_hallway" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_ministry_atrium" {
+  preset CASTLE_HALL
+}
