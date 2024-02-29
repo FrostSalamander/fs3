@@ -323,9 +323,33 @@ eaxreverb "location_ministry_ground_hallway" {
 eaxreverb "location_ministry_atrium" {
   preset CASTLE_HALL
 }
+eaxreverb "location_ministry_foyer" {
+  preset CASTLE_HALL
+}
 eaxreverb "location_ministry_tower_north" {
   preset CASTLE_HALL
 }
 eaxreverb "location_ministry_tower_south" {
   preset CASTLE_HALL
+}
+eaxreverb "location_ministry_lift0" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_ministry_lift_shaft" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_ministry_lift1" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_ministry_lift2" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_ministry_lift3" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_ministry_lift4" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_ministry_office" {
+  preset CASTLE_SMALLROOM
 }
