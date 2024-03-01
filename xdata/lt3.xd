@@ -166,3 +166,30 @@ readables/lt3/journal_merchant
 	"gui_page1"	: "guis/readables/books/book_hand_andrew_script.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt3/desk_book_combo
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"Jenson,"
+		""
+		"Don't forget to take those papers upstairs ASAP.  The key is in the safe, combination is 4981"
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/books/book_hand_andrew_script.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
