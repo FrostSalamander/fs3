@@ -308,7 +308,10 @@ eaxreverb "location_ministry_restroom" {
 eaxreverb "location_ministry_toilet" {
   preset CASTLE_CUPBOARD
 }
-eaxreverb "location_ministry_desks" {
+eaxreverb "location_ministry_desks1" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_ministry_desks2" {
   preset CASTLE_MEDIUMROOM
 }
 eaxreverb "location_ministry_practice_room" {
