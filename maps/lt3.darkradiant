@@ -5,14 +5,14 @@ DarkRadiant Map Information File Version 2
 	}
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1950598" } 
-		KeyValue { "LastCameraAngle" "-7 77.1999 0" } 
-		KeyValue { "LastCameraPosition" "-3469.22 573.253 -165.33" } 
+		KeyValue { "EditTimeInSeconds" "1951173" } 
+		KeyValue { "LastCameraAngle" "-8.6 108.4 0" } 
+		KeyValue { "LastCameraPosition" "-3118.84 614.126 -188.936" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/moorpack/carpet/rug01" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1950598 }
+		TotalSecondsEdited { 1951173 }
 	}
 	SelectionGroups
 	{
@@ -4676,6 +4676,11 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 19985 { "" }
 		SelectionGroup 19987 { "" }
 		SelectionGroup 19988 { "" }
+		SelectionGroup 19989 { "" }
+		SelectionGroup 19990 { "" }
+		SelectionGroup 19993 { "" }
+		SelectionGroup 19994 { "" }
+		SelectionGroup 19995 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -19588,13 +19593,24 @@ DarkRadiant Map Information File Version 2
 		Node { ( 5816 ) ( 19969 ) } // entity (desk2_drawer51)
 		Node { ( 5817 ) ( 19969 ) } // entity (desk2_drawer50)
 		Node { ( 5818 ) ( 19969 ) } // entity (desk2_drawer52)
-		Node { ( 5837 ) ( 19979 ) } // entity (safe_door)
-		Node { ( 5838 ) ( 19979 ) } // entity (SafeFrobControl)
-		Node { ( 5839 ) ( 19979 ) } // entity (func_static_3479)
-		Node { ( 5840 ) ( 19980 ) } // entity (atdm_safe_lock_wheel_7)
-		Node { ( 5841 ) ( 19980 ) } // entity (atdm_safe_lock_wheel_8)
-		Node { ( 5842 ) ( 19980 ) } // entity (atdm_safe_lock_3)
-		Node { ( 5843 ) ( 19980 ) } // entity (atdm_safe_lock_wheel_9)
+		Node { ( 5837 ) ( 19979 19994 19995 ) } // entity (safe_door)
+		Node { ( 5838 ) ( 19979 19994 19995 ) } // entity (SafeFrobControl)
+		Node { ( 5839 ) ( 19979 19994 19995 ) } // entity (func_static_3479)
+		Node { ( 5840 ) ( 19980 19994 19995 ) } // entity (atdm_safe_lock_wheel_7)
+		Node { ( 5841 ) ( 19980 19994 19995 ) } // entity (atdm_safe_lock_wheel_8)
+		Node { ( 5842 ) ( 19980 19994 19995 ) } // entity (atdm_safe_lock_3)
+		Node { ( 5843 ) ( 19980 19994 19995 ) } // entity (atdm_safe_lock_wheel_9)
+		Node { ( 5847 ) ( 19993 19995 ) } // entity (lift_key)
+		Node { ( 5848 ) ( 19989 19993 19995 ) } // entity (atdm_loot_currency_slip_25g_imperial_1)
+		Node { ( 5849 ) ( 19989 19993 19995 ) } // entity (atdm_loot_currency_slip_25g_imperial_2)
+		Node { ( 5850 ) ( 19989 19993 19995 ) } // entity (atdm_loot_currency_slip_25g_imperial_3)
+		Node { ( 5851 ) ( 19989 19993 19995 ) } // entity (atdm_loot_currency_slip_25g_imperial_4)
+		Node { ( 5852 ) ( 19990 19993 19995 ) } // entity (atdm_loot_currency_coin_10g_imperial_1)
+		Node { ( 5853 ) ( 19990 19993 19995 ) } // entity (atdm_loot_currency_coin_10g_imperial_2)
+		Node { ( 5854 ) ( 19990 19993 19995 ) } // entity (atdm_loot_currency_coin_10g_imperial_3)
+		Node { ( 5855 ) ( 19993 19995 ) } // entity (atdm_loot_currency_coin_10g_imperial_4)
+		Node { ( 5856 ) ( 19990 19993 19995 ) } // entity (atdm_loot_currency_coin_10g_imperial_5)
+		Node { ( 5857 ) ( 19993 19995 ) } // entity (atdm_loot_currency_ingot_075g_imperial_1)
 		Node { ( 5865 24565 ) ( 19983 19984 ) } // brush (Brush)
 		Node { ( 5865 24566 ) ( 19984 ) } // brush (Brush)
 		Node { ( 5865 24567 ) ( 19983 19984 ) } // brush (Brush)
