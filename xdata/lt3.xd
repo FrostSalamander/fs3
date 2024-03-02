@@ -168,28 +168,22 @@ readables/lt3/journal_merchant
 }
 
 
-readables/lt3/desk_book_combo
+readables/lt3/note_ministry_combo
 {
 	precache
 	"num_pages"	: "1"
-	"page1_left_title"	:
+	"page1_title"	:
 	{
 		""
 	}
-	"page1_left_body"	:
+	"page1_body"	:
 	{
-		"Jenson,"
+		"Samir,"
 		""
-		"Don't forget to take those papers upstairs ASAP.  The key is in the safe, combination is 728."
-	}
-	"page1_right_title"	:
-	{
+		"    After you finish your analysis, please take the documents that AMD brought from the north to Malik upstairs.  The key to the lift in in the safe with the Imperial currency.  The combination is 728. Please remember to replace the key."
 		""
+		"Farouk"
 	}
-	"page1_right_body"	:
-	{
-		""
-	}
-	"gui_page1"	: "guis/readables/books/book_hand_andrew_script.gui"
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_andrew_script.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
