@@ -15,6 +15,10 @@ string DISPLAY_CABINET_LID2 = "display_cabinet_lid_2";
 
 string POPUP_TO_MOSQUE = "popup_to_mosque";
 
+string CAMERA_TOPFLOOR = "camera_topfloor";
+string CAMERA_ATRIUM = "camera_atrium";
+string TARGET_CAMERAS = "target_callscriptfunction_cameras";
+
 //////////////////////////
 // Latched door entities
 //////////////////////////
@@ -131,6 +135,44 @@ void frobBottle(entity bottle)
 {
     sys.trigger($trigger_count_bottle_message);
     frob_item(bottle);
+}
+
+// The camers are either all on or they are all off.
+boolean areCamerasOff()
+{
+	float i;
+    entity cameraTarget = sys.getEntity(TARGET_CAMERAS);
+
+	for(i = 0; i < cameraTarget.numTargets(); i++)
+	{
+        entity e = cameraTarget.getTarget(i);
+        if (e.getSecurityCameraState() == 4)  // 4 = powered off
+        {
+            return true;
+        }
+    }
+    return false;
+}
+
+void cycleCameras()
+{
+    sys.println("Called cycleCameras");
+
+    if (areCamerasOff())
+    {
+        return;
+    }
+
+	float i;
+
+    entity cameraTarget = sys.getEntity(TARGET_CAMERAS);
+
+	for(i = 0; i < cameraTarget.numTargets(); i++)
+	{
+		entity e = cameraTarget.getTarget(i);
+        sys.println(e.getName());
+        sys.println(e.getSecurityCameraState());
+    }
 }
 
 // main - keep at bottom
