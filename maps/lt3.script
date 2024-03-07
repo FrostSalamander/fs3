@@ -46,63 +46,63 @@ string MERCHANT_SECRET_BUTTON = "atdm_mover_button_3";
 
 void frob_mosque_sign()
 {
-    sys.trigger(sys.getEntity(POPUP_TO_MOSQUE));
+	sys.trigger(sys.getEntity(POPUP_TO_MOSQUE));
 }
 
 void removeEntity(string entityName)
 {
-    sys.getEntity(entityName).remove();
+	sys.getEntity(entityName).remove();
 }
 
 void enterMagePrison(entity zone)
 {
-    removeEntity(FAKE_ROOM);
-    removeEntity(FAKE_LIGHT);
-    removeEntity(FAKE_PAINTING);
-    removeEntity(FAKE_TROPHY);
-    removeEntity(FAKE_CROWN);
-    removeEntity(FAKE_PEDESTAL);
+	removeEntity(FAKE_ROOM);
+	removeEntity(FAKE_LIGHT);
+	removeEntity(FAKE_PAINTING);
+	removeEntity(FAKE_TROPHY);
+	removeEntity(FAKE_CROWN);
+	removeEntity(FAKE_PEDESTAL);
 
-    sys.wait(2);
+	sys.wait(2);
 
-    sys.trigger(sys.getEntity(MAGE_THUG));
-    sys.getEntity(MAGE_PRISON_CEILING).setSolid(1);
-    sys.getEntity(MAGE_POOL_FLOOR).setSolid(1);
+	sys.trigger(sys.getEntity(MAGE_THUG));
+	sys.getEntity(MAGE_PRISON_CEILING).setSolid(1);
+	sys.getEntity(MAGE_POOL_FLOOR).setSolid(1);
 }
 
 void alertMageThug()
 {
-    sys.println("alerting AI");
-    sys.getEntity(MAGE_THUG).setAlertLevel(20);
+	sys.println("alerting AI");
+	sys.getEntity(MAGE_THUG).setAlertLevel(20);
 }
 
 
 void setJewelleryCaseFrobable(float frobable)
 {
-    sys.getEntity(DISPLAY_CABINET_LID1).setFrobable(frobable);
-    sys.getEntity(DISPLAY_CABINET_LID2).setFrobable(frobable);
+	sys.getEntity(DISPLAY_CABINET_LID1).setFrobable(frobable);
+	sys.getEntity(DISPLAY_CABINET_LID2).setFrobable(frobable);
 }
 
 void setJewelleryCaseFrobableOn(entity zone)
 {
-    setJewelleryCaseFrobable(1);
+	setJewelleryCaseFrobable(1);
 }
 
 void setJewelleryCaseFrobableOff(entity zone)
 {
-    setJewelleryCaseFrobable(0);
+	setJewelleryCaseFrobable(0);
 }
 
 void removePrisoner(entity ent_target, entity triggerEntity, entity ent_callscriptfunction)
 {
-     string name = triggerEntity.getName();
+	 string name = triggerEntity.getName();
 
-     sys.println("triggerEntity name: " + name);
+	 sys.println("triggerEntity name: " + name);
 
-     if (name == "prisoner1")
-     {
-        triggerEntity.remove();
-     }
+	 if (name == "prisoner1")
+	 {
+		triggerEntity.remove();
+	 }
 }
 
 ///////////////////
@@ -111,15 +111,15 @@ void removePrisoner(entity ent_target, entity triggerEntity, entity ent_callscri
 
 void enterMerchantHouseKitchen(entity zone)
 {
-    sys.getEntity(MERCHANT_KITCHEN_POT).setFrobable(1);
-    sys.getEntity(MERCHANT_SECRET_BUTTON).setFrobable(1);
+	sys.getEntity(MERCHANT_KITCHEN_POT).setFrobable(1);
+	sys.getEntity(MERCHANT_SECRET_BUTTON).setFrobable(1);
 }
 
 // Prevent frobbing the pot and secret button through bedroom wall
 void exitMerchantHouseKitchen(entity zone)
 {
-    sys.getEntity(MERCHANT_KITCHEN_POT).setFrobable(0);
-    sys.getEntity(MERCHANT_SECRET_BUTTON).setFrobable(0);
+	sys.getEntity(MERCHANT_KITCHEN_POT).setFrobable(0);
+	sys.getEntity(MERCHANT_SECRET_BUTTON).setFrobable(0);
 }
 
 //////////////////
@@ -128,55 +128,105 @@ void exitMerchantHouseKitchen(entity zone)
 
 void waiterBark()
 {
-    $cafeWaiter.bark("snd_greeting");
+	$cafeWaiter.bark("snd_greeting");
 }
 
 void frobBottle(entity bottle)
 {
-    sys.trigger($trigger_count_bottle_message);
-    frob_item(bottle);
+	sys.trigger($trigger_count_bottle_message);
+	frob_item(bottle);
+}
+
+boolean startsHidden(entity e)
+{
+	return ( e.getIntKey("hide") == 1 );
 }
 
 // The camers are either all on or they are all off.
 boolean areCamerasOff()
 {
 	float i;
-    entity cameraTarget = sys.getEntity(TARGET_CAMERAS);
+	entity cameraTarget = sys.getEntity(TARGET_CAMERAS);
 
 	for(i = 0; i < cameraTarget.numTargets(); i++)
 	{
-        entity e = cameraTarget.getTarget(i);
-        if (e.getSecurityCameraState() == 4)  // 4 = powered off
-        {
-            return true;
-        }
-    }
-    return false;
+		entity screen = cameraTarget.getTarget(i);
+		string cameraName = screen.getKey("cameraTarget");
+		entity camera = sys.getEntity(cameraName);
+
+		if ( camera.getSecurityCameraState() == 4 )  // 4 = powered off
+		{
+			return true;
+		}
+	}
+	return false;
+}
+
+boolean areScreensBothShowing()
+{
+	float i;
+	entity cameraTarget = sys.getEntity(TARGET_CAMERAS);
+
+	for(i = 0; i < cameraTarget.numTargets(); i++)
+	{
+		entity screen = cameraTarget.getTarget(i);
+		if ( screen.isHidden() )
+		{
+			return false;
+		}
+	}
+	return true;
 }
 
 void cycleCameras()
 {
-    sys.println("Called cycleCameras");
-
-    if (areCamerasOff())
-    {
-        return;
-    }
+	// Do nothing if the cameras are turned off
+	if (areCamerasOff())
+	{
+		return;
+	}
 
 	float i;
 
-    entity cameraTarget = sys.getEntity(TARGET_CAMERAS);
+	entity cameraTarget = sys.getEntity(TARGET_CAMERAS);
+	entity screen;
 
-	for(i = 0; i < cameraTarget.numTargets(); i++)
+	// This means the cameras were just powered on, so both screens will be NOT hidden
+	// hide the one with the 'hide = 1' spawnarg
+	if ( areScreensBothShowing() )
 	{
-		entity e = cameraTarget.getTarget(i);
-        sys.println(e.getName());
-        sys.println(e.getSecurityCameraState());
-    }
+		for(i = 0; i < cameraTarget.numTargets(); i++)
+		{
+			screen = cameraTarget.getTarget(i);
+
+			if ( startsHidden(screen) )
+			{
+				screen.hide();
+			}
+		}
+	}
+	else
+	{
+		// This likely means only one of the screens is hidden and we've been through this loop once,
+		// so just cycle through them
+		for(i = 0; i < cameraTarget.numTargets(); i++)
+		{
+			screen = cameraTarget.getTarget(i);
+
+			if ( screen.isHidden() )
+			{
+				screen.show();
+			}
+			else
+			{
+				screen.hide();
+			}
+		}
+	}
 }
 
 // main - keep at bottom
 void main()
 {
-    sys.waitFrame();
+	sys.waitFrame();
 }
