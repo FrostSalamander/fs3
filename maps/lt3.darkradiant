@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2014415" } 
-		KeyValue { "LastCameraAngle" "-15.8 186.212 0" } 
-		KeyValue { "LastCameraPosition" "-3554 604.426 -150.341" } 
+		KeyValue { "EditTimeInSeconds" "2014736" } 
+		KeyValue { "LastCameraAngle" "-14.2 179.012 0" } 
+		KeyValue { "LastCameraPosition" "-3565 589.268 -156.353" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/common/camera/camera3" } 
 	}
 	SelectionSets
@@ -12,7 +12,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2014415 }
+		TotalSecondsEdited { 2014736 }
 	}
 	SelectionGroups
 	{
@@ -4706,8 +4706,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 20102 { "" }
 		SelectionGroup 20105 { "" }
 		SelectionGroup 20113 { "" }
-		SelectionGroup 20117 { "" }
-		SelectionGroup 20118 { "" }
 		SelectionGroup 20119 { "" }
 		SelectionGroup 20120 { "" }
 		SelectionGroup 20123 { "" }
@@ -4757,8 +4755,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 20211 { "" }
 		SelectionGroup 20214 { "" }
 		SelectionGroup 20215 { "" }
-		SelectionGroup 20216 { "" }
-		SelectionGroup 20217 { "" }
+		SelectionGroup 20218 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -19962,13 +19959,13 @@ DarkRadiant Map Information File Version 2
 		Node { ( 5941 25036 ) ( 19796 19795 19787 ) } // patch (Patch)
 		Node { ( 5941 25037 ) ( 19798 19797 19787 ) } // patch (Patch)
 		Node { ( 5941 25038 ) ( 19785 19786 19787 ) } // patch (Patch)
-		Node { ( 5944 ) ( 20118 ) } // entity (camera_atrium_screen)
-		Node { ( 5945 ) ( 20117 20118 ) } // entity (camera1_screen)
+		Node { ( 5944 ) ( 20218 ) } // entity (camera_atrium_screen)
+		Node { ( 5945 ) ( 20218 ) } // entity (camera1_screen)
 		Node { ( 5945 25041 ) ( 20102 ) } // brush (Brush)
 		Node { ( 5945 25042 ) ( 20102 ) } // brush (Brush)
 		Node { ( 5945 25043 ) ( 20102 ) } // brush (Brush)
 		Node { ( 5945 25044 ) ( 20102 ) } // brush (Brush)
-		Node { ( 5949 ) ( 20117 20118 ) } // entity (camera_topfloor_screen)
+		Node { ( 5949 ) ( 20218 ) } // entity (camera_topfloor_screen)
 		Node { ( 5952 ) ( 20113 20123 ) } // entity (func_static_3637)
 		Node { ( 5953 ) ( 20113 20123 ) } // entity (func_static_3638)
 		Node { ( 5954 ) ( 20113 20123 ) } // entity (merchant_book_captain3)
@@ -20209,7 +20206,7 @@ DarkRadiant Map Information File Version 2
 		Node { ( 6132 ) ( 20215 ) } // entity (camera_trainingroom)
 		Node { ( 6133 ) ( 20215 ) } // entity (atdm_security_camera01_pivot01_2)
 		Node { ( 6134 ) ( 20215 ) } // entity (func_static_3714)
-		Node { ( 6135 ) ( 20216 20217 ) } // entity (camera_trainingroom_screen)
+		Node { ( 6135 ) ( 20218 ) } // entity (camera_trainingroom_screen)
 	}
 	Layers
 	{
@@ -51590,5 +51587,6 @@ DarkRadiant Map Information File Version 2
 		Node { 3 } // entity (func_static_3714)
 		Node { 3 } // entity (camera_trainingroom_screen)
 		Node { 3 } // patch (Patch)
+		Node { 3 } // entity (target_callscriptfunction_camera_power)
 	}
 }

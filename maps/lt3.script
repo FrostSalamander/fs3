@@ -18,6 +18,7 @@ string POPUP_TO_MOSQUE = "popup_to_mosque";
 string CAMERA_TOPFLOOR = "camera_topfloor";
 string CAMERA_ATRIUM = "camera_atrium";
 string TARGET_CAMERAS = "target_callscriptfunction_cameras";
+string TARGET_CAMERA_POWER = "target_callscriptfunction_camera_power";
 
 float currentCamera;
 
@@ -146,9 +147,10 @@ void frobBottle(entity bottle)
 //   It's a good way to have multiple screens without tanking performance as only one screen
 //   is displayed at a time
 //
-// REQUIREMENTS:
+// SETUP REQUIREMENTS:
 //   - a 'cycle cameras' button that targets a target_callscriptfunction entity (NOT using foreach)
-//   - the target_callscriptfunction entity must target each camera screen
+//   - a 'power' button that targets another target_callscriptfunction entity (NOT using foreach)
+//   - both the target_callscriptfunction entities must target each camera screen
 //   - All screens must have a unique int spawnarg called 'sequence'
 //   - All but one of the screens must be hidden at map start using the 'hide = 1' spawnarag
 //////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -167,8 +169,7 @@ boolean areCamerasOff()
 	for(i = 0; i < cameraTarget.numTargets(); i++)
 	{
 		entity screen = cameraTarget.getTarget(i);
-		string cameraName = screen.getKey("cameraTarget");
-		entity camera = sys.getEntity(cameraName);
+		entity camera = screen.getEntityKey("cameraTarget");
 
 		if ( camera.getSecurityCameraState() == 4 )  // 4 = powered off
 		{
@@ -176,6 +177,35 @@ boolean areCamerasOff()
 		}
 	}
 	return false;
+}
+
+// Toggles the cameras on and off.  We need this because if we just use
+// normal buttons, all screens will toggle on at once and tank performance
+void toggleCameras()
+{
+	float i;
+	entity target = sys.getEntity(TARGET_CAMERA_POWER);
+	boolean poweredOff = areCamerasOff();
+
+	for(i = 0; i < target.numTargets(); i++)
+	{
+		entity screen = target.getTarget(i);
+		entity camera = screen.getEntityKey("cameraTarget");
+
+		if (poweredOff)
+		{
+			// Turn the camera on but hide the screen
+			camera.On();
+			if ( startsHidden(screen))
+			{
+				screen.hide();
+			}
+		}
+		else
+		{
+			camera.Off();
+		}
+	}
 }
 
 // This acts as state.  If it returns true, the cameras were just powered on.
