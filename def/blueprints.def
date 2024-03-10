@@ -1,6 +1,6 @@
 entityDef lt3:blueprints
 {
-	"inherit"         "atdm:moveable_small_base" 
+	"inherit"         "func_static" 
 	
 	"editor_usage"    "Custom use-on-frob item"
 	"editor_color"    "0.922 0.039 0.855" 
