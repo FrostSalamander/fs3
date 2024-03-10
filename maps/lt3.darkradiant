@@ -1,18 +1,18 @@
 DarkRadiant Map Information File Version 2
 {
+	MapProperties
+	{
+		KeyValue { "EditTimeInSeconds" "2014415" } 
+		KeyValue { "LastCameraAngle" "-15.8 186.212 0" } 
+		KeyValue { "LastCameraPosition" "-3554 604.426 -150.341" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/common/camera/camera3" } 
+	}
 	SelectionSets
 	{
 	}
-	MapProperties
-	{
-		KeyValue { "EditTimeInSeconds" "2013958" } 
-		KeyValue { "LastCameraAngle" "-6.8 63.0123 0" } 
-		KeyValue { "LastCameraPosition" "-3104.9 397.364 -189.449" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/moorpack/plaster/plaster_light" } 
-	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2013958 }
+		TotalSecondsEdited { 2014415 }
 	}
 	SelectionGroups
 	{
@@ -4756,6 +4756,9 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 20210 { "" }
 		SelectionGroup 20211 { "" }
 		SelectionGroup 20214 { "" }
+		SelectionGroup 20215 { "" }
+		SelectionGroup 20216 { "" }
+		SelectionGroup 20217 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -20203,6 +20206,10 @@ DarkRadiant Map Information File Version 2
 		Node { ( 6125 ) ( 20214 ) } // entity (func_static_3710)
 		Node { ( 6126 ) ( 20214 ) } // entity (func_static_3712)
 		Node { ( 6127 ) ( 20214 ) } // entity (func_static_3711)
+		Node { ( 6132 ) ( 20215 ) } // entity (camera_trainingroom)
+		Node { ( 6133 ) ( 20215 ) } // entity (atdm_security_camera01_pivot01_2)
+		Node { ( 6134 ) ( 20215 ) } // entity (func_static_3714)
+		Node { ( 6135 ) ( 20216 20217 ) } // entity (camera_trainingroom_screen)
 	}
 	Layers
 	{
@@ -51578,5 +51585,10 @@ DarkRadiant Map Information File Version 2
 		Node { 3 } // entity (atdm_moveable_candle_tall2_1)
 		Node { 3 } // entity (light_104)
 		Node { 3 } // entity (light_105)
+		Node { 3 } // entity (camera_trainingroom)
+		Node { 3 } // entity (atdm_security_camera01_pivot01_2)
+		Node { 3 } // entity (func_static_3714)
+		Node { 3 } // entity (camera_trainingroom_screen)
+		Node { 3 } // patch (Patch)
 	}
 }

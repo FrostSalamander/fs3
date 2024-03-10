@@ -19,6 +19,8 @@ string CAMERA_TOPFLOOR = "camera_topfloor";
 string CAMERA_ATRIUM = "camera_atrium";
 string TARGET_CAMERAS = "target_callscriptfunction_cameras";
 
+float currentCamera;
+
 //////////////////////////
 // Latched door entities
 //////////////////////////
@@ -137,12 +139,26 @@ void frobBottle(entity bottle)
 	frob_item(bottle);
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// SECURITY CAMERA CODE
+// 
+//   This allows the player to cycle through multiple camera screens by pushing a button.
+//   It's a good way to have multiple screens without tanking performance as only one screen
+//   is displayed at a time
+//
+// REQUIREMENTS:
+//   - a 'cycle cameras' button that targets a target_callscriptfunction entity (NOT using foreach)
+//   - the target_callscriptfunction entity must target each camera screen
+//   - All screens must have a unique int spawnarg called 'sequence'
+//   - All but one of the screens must be hidden at map start using the 'hide = 1' spawnarag
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
 boolean startsHidden(entity e)
 {
 	return ( e.getIntKey("hide") == 1 );
 }
 
-// The camers are either all on or they are all off.
+// The cameras are either all on or they are all off.
 boolean areCamerasOff()
 {
 	float i;
@@ -162,7 +178,8 @@ boolean areCamerasOff()
 	return false;
 }
 
-boolean areScreensBothShowing()
+// This acts as state.  If it returns true, the cameras were just powered on.
+boolean areAllScreensShowing()
 {
 	float i;
 	entity cameraTarget = sys.getEntity(TARGET_CAMERAS);
@@ -189,13 +206,14 @@ void cycleCameras()
 	float i;
 
 	entity cameraTarget = sys.getEntity(TARGET_CAMERAS);
+	float numberOfCameras = cameraTarget.numTargets();
 	entity screen;
 
-	// This means the cameras were just powered on, so both screens will be NOT hidden
-	// hide the one with the 'hide = 1' spawnarg
-	if ( areScreensBothShowing() )
+	// This means the cameras were just powered on, so all screens will be NOT hidden
+	// hide the ones with the 'hide = 1' spawnarg
+	if ( areAllScreensShowing() )
 	{
-		for(i = 0; i < cameraTarget.numTargets(); i++)
+		for(i = 0; i < numberOfCameras; i++)
 		{
 			screen = cameraTarget.getTarget(i);
 
@@ -207,23 +225,44 @@ void cycleCameras()
 	}
 	else
 	{
-		// This likely means only one of the screens is hidden and we've been through this loop once,
-		// so just cycle through them
-		for(i = 0; i < cameraTarget.numTargets(); i++)
+		// Find the currently showing screen, hide it and record its sequence number
+		for(i = 0; i < numberOfCameras; i++)
 		{
 			screen = cameraTarget.getTarget(i);
 
-			if ( screen.isHidden() )
+			// Hide the screen that's currently being shown
+			if ( !screen.isHidden() )
+			{
+				// store the sequence of the currently showing camera
+				currentCamera = screen.getIntKey("sequence");
+				screen.hide();
+			}
+		}
+
+		// Show the next one in sequence
+		for(i = 0; i < numberOfCameras; i++)
+		{
+			screen = cameraTarget.getTarget(i);
+			float sequence = screen.getIntKey("sequence");
+			float nextCamera = currentCamera + 1;
+			
+			if ( nextCamera > numberOfCameras )
+			{
+				nextCamera = 1;
+			}
+
+			if (sequence == nextCamera)
 			{
 				screen.show();
-			}
-			else
-			{
-				screen.hide();
+				return;
 			}
 		}
 	}
 }
+
+/////////////////////////
+// END SECURITY CAMERA CODE
+/////////////////////////
 
 // main - keep at bottom
 void main()
