@@ -1,0 +1,8 @@
+entityDef lt3:security_camera
+{
+	"inherit"       "atdm:security_camera01_compact" 
+
+    "s_volume"      "-25"
+    "spotLight"     "0"
+    "sightTime"     "1.5"
+}
