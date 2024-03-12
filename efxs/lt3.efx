@@ -299,6 +299,24 @@ eaxreverb "location_ministry_second_floor_lounge" {
 eaxreverb "location_ministry_second_floor_hall" {
   preset CASTLE_SHORTPASSAGE
 }
+
+// MINISTRY 'OFFICE'
+eaxreverb "location_ministry_office_bottom" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_ministry_office_shelves" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_ministry_office_study" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_ministry_office_stairs" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_ministry_office_top" {
+  preset CASTLE_MEDIUMROOM
+}
+
 eaxreverb "location_ministry_landing_stairs" {
   preset CASTLE_SHORTPASSAGE
 }
@@ -356,6 +374,6 @@ eaxreverb "location_ministry_lift3" {
 eaxreverb "location_ministry_lift4" {
   preset CASTLE_SMALLROOM
 }
-eaxreverb "location_ministry_office" {
+eaxreverb "location_ministry_head_office" {
   preset CASTLE_SMALLROOM
 }

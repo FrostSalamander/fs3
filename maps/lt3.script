@@ -294,6 +294,11 @@ void cycleCameras()
 // END SECURITY CAMERA CODE
 /////////////////////////
 
+void removeGlass()
+{
+	$cracked_glass.remove();
+}
+
 // main - keep at bottom
 void main()
 {

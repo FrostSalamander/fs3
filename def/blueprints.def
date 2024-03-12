@@ -7,9 +7,10 @@ entityDef lt3:blueprints
 
 	//Model
 	"model"           "models/darkmod/readables/blueprints01.lwo"
-	"mass"            "10"
+	"mass"            "1"
 	"friction"        "0.7"
-	"solid"           "0"
+	"solid"           "1"
+	"frobable"        "1"
 
 	//Inventory stuff
 	"inv_name"        "Blueprints"
