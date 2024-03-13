@@ -11,7 +11,8 @@ entityDef lt3:report
 	"friction"        "0.7"
 	"solid"           "1"
 	"frobable"        "1"
-
+	"frob_distance"   "60"
+	
 	//Inventory stuff
 	"inv_name"        "Intelligence report"
 	"inv_icon"        "guis/assets/hud/inventory_icons/paper_icon" // GUI icon.

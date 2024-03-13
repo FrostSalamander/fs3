@@ -11,6 +11,7 @@ entityDef lt3:blueprints
 	"friction"        "0.7"
 	"solid"           "1"
 	"frobable"        "1"
+	"frob_distance"   "60"
 
 	//Inventory stuff
 	"inv_name"        "Blueprints"
