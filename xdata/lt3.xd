@@ -187,3 +187,29 @@ readables/lt3/note_ministry_combo
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_andrew_script.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt3/journal_mage
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		""
+		"    there's one... northern? Looks sneaky. Won't be the first however, nor the last..."
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/books/book_hand_ellianerelle.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
