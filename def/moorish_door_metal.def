@@ -1,0 +1,7 @@
+entityDef lt3:moorish_door_metal
+{
+	"inherit"         "lt3:moorish_door" 
+
+    "snd_open"        "metal_cabinet01_open"
+    "snd_close"       "metal_cabinet01_close"
+}

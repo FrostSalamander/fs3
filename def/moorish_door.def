@@ -1,0 +1,8 @@
+entityDef lt3:moorish_door
+{
+	"inherit"         "atdm:mover_door" 
+
+    "snd_locked"      "door_locked_03"
+    "snd_lock"        "silence"
+    "snd_unlock"      "silence"
+}

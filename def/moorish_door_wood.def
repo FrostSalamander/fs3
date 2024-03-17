@@ -1,0 +1,7 @@
+entityDef lt3:moorish_door_wood
+{
+	"inherit"         "lt3:moorish_door" 
+
+    "snd_open"        "chest_wood_open"
+    "snd_close"       "chest_wood_close"
+}
