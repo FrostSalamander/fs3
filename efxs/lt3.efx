@@ -99,6 +99,12 @@ eaxreverb "location_harbour_wall_upper_entrance" {
 eaxreverb "location_harbour_wall_north_lower" {
   preset CASTLE_LONGPASSAGE
 }
+eaxreverb "location_harbour_wall_planning_room" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_harbour_wall_planning_room_outside" {
+  preset MOUNTAINS
+}
 eaxreverb "location_harbour_wall_north_stairs" {
   preset CASTLE_SHORTPASSAGE
 }
@@ -106,7 +112,7 @@ eaxreverb "location_harbour_officers_lounge" {
   preset CASTLE_SMALLROOM
 }
 eaxreverb "location_officers_lounge_outside" {
-  preset CASTLE_LONGPASSAGE
+  preset MOUNTAINS
 }
 eaxreverb "location_mosque_tunnel" {
   preset CASTLE_SHORTPASSAGE
