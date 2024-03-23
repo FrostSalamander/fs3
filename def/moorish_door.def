@@ -5,4 +5,9 @@ entityDef lt3:moorish_door
     "snd_locked"      "door_locked_03"
     "snd_lock"        "silence"
     "snd_unlock"      "silence"
+
+    "rotate"          "120"
+
+    "frob_peer"       "-"
+    "frob_master"     "-"
 }
