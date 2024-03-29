@@ -228,6 +228,31 @@ eaxreverb "location_upper_house" {
 }
 
 ///////////////
+// DANBY HOUSE
+///////////////
+eaxreverb "location_danby_entrance" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_danby_livingroom" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_danby_poolhall" {
+  preset WOODEN_SHORTPASSAGE
+}
+eaxreverb "location_danby_pool" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_danby_pool_changeroom" {
+  preset CASTLE_CUPBOARD
+}
+eaxreverb "location_danby_crawlspace" {
+  preset CASTLE_CUPBOARD
+}
+eaxreverb "location_danby_bathroom" {
+  preset CASTLE_SMALLROOM
+}
+
+///////////////
 // MAGE HOUSE
 ///////////////
 eaxreverb "location_mage_cell" {
