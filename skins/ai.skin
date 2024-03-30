@@ -26,6 +26,24 @@ moor/multicolor_moor
 	"models/md5/chars/guards/proguard/proguard_cloth" "models/md5/chars/guards/proguard/proguard_multicolor"
 	"models/md5/chars/guards/proguard/proguard_armor" "models/md5/chars/guards/proguard/proguard_multicolor"
 	"tdm_npc_hand" "tdm_moor_hand"
+}
 
+moor/green_tunic_nochain_moor
+{
+	model "tdm_ai_moor_guard"
+     
+	"models/md5/chars/chainmail_new_shadowcasting" "models/md5/chars/guards/proguard/old_cloth"  //swaps chain for cloth
+	"models/md5/chars/chainmail_new" "models/md5/chars/guards/proguard/old_cloth_noshadows" //swaps chain for cloth
+	"models/md5/chars/guards/proguard/proguard_cloth" "models/md5/chars/guards/proguard/tunic_rough_greenish"
+	"models/md5/chars/guards/proguard/proguard_armor" "models/md5/chars/guards/proguard/tunic_rough_greenish"
+	"tdm_npc_hand" "tdm_moor_hand"
+}
 
+moor/redbrown_coat_moor
+{
+	model "tdm_ai_moor_guard"
+
+	"models/md5/chars/guards/proguard/proguard_cloth" "models/md5/chars/guards/proguard/proguard_redbrown_coat"
+	"models/md5/chars/guards/proguard/proguard_armor" "models/md5/chars/guards/proguard/proguard_redbrown_coat"
+	"tdm_npc_hand" "tdm_moor_hand"
 }
