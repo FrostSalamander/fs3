@@ -213,3 +213,24 @@ readables/lt3/journal_mage
 	"gui_page1"	: "guis/readables/books/book_hand_ellianerelle.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt3/note_farhad
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Kahlid,"
+		""
+		"  Our mysterious passenger is definitely not accustomed to sea travel. I managed to sneak a look inside his cabin while he was heaving his guts out over the side of the ship.  He had what looked like a set of engineering blueprints in his bag, as well as some kind of official looking report.  I think the captain is right and he's a spy."
+		""
+		"    Jamir"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_rapscallionpirate.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

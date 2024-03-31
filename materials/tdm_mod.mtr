@@ -47,6 +47,16 @@ textures/darkmod/stone/flat/tiles_checker_lts
     specularmap     textures/darkmod/stone/flat/tiles_checker_s
 }
 
+textures/darkmod/stone/flat/smooth/marble_pattern01_lts
+{
+    stone
+
+    qer_editorimage textures/darkmod/stone/flat/smooth_marble_pattern01_ed
+    diffusemap      textures/darkmod/stone/flat/smooth_marble_pattern01
+    specularmap     textures/darkmod/stone/flat/smooth_marble_pattern01_s
+	bumpmap			textures/darkmod/stone/flat/smooth_marble_pattern01_local
+}
+
 // make twoSided
 textures/darkmod/decals/vegetation/hanging_horizontal_leaves_lt3
 {
