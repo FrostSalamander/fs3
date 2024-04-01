@@ -135,6 +135,7 @@ readables/lt3/soap_factory_invoice
 		""
 		"- Olive Oil 3 barrels"
 		"- Dried Sea Kelp 5 bags"
+		"- Salt 2 boxes"
 		""
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_shoppinglist.gui"
