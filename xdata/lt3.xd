@@ -235,3 +235,24 @@ readables/lt3/note_farhad
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_rapscallionpirate.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt3/grenville_note
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Zayd,"
+		""
+		"  We're off to that new restaurant that opened up next door, so we don't expect dinner tonight.  Horace is taking me out for my birthday and I finally have a chance to show off that new necklace he gave me!"
+		""
+		"Joyce"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
