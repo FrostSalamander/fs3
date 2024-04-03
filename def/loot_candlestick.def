@@ -1,0 +1,13 @@
+lt3:moveable_loot_candlestick
+{
+	"inherit"			    "atdm:moveable_loot_base"
+	"editor_usage"			"ornate candlestick"
+	"model" 				"models/map_specific/scaled/candlestick_round_ornate_scaled1.ase"
+   	"inv_loot_type"			"2"	
+	"inv_loot_value"		"20"
+	"snd_bounce"			"tdm_impact_ceramiccup_01"
+	"mass"				    "0.2"
+	"bouncyness"			"0"
+	"inv_icon"				"guis/assets/hud/inventory_icons/loot_icon_candlestick"
+    "frob_action_script"    "frobCandlestick"
+}

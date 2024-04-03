@@ -50,6 +50,14 @@ string MERCHANT_SECRET_BUTTON = "atdm_mover_button_3";
 // MAGE HOUSE
 string MAGE_FIREPLACE_LEVER = "atdm_switch_translate_lever_1";
 
+void frobCandlestick(entity ent)
+{
+	entity candle = ent.getBindMaster();
+	candle.remove();
+
+	frob_item(ent);
+}
+
 void frob_mosque_sign()
 {
 	sys.trigger(sys.getEntity(POPUP_TO_MOSQUE));
