@@ -1,0 +1,10 @@
+textures/darkmod/metal/grate/grate_rusted_peeling_nontiling_lt3
+{
+
+    metal
+
+    qer_editorimage textures/darkmod/metal/grate/grate_rusted_peeling_nontiling_ed
+    diffusemap      textures/darkmod/metal/grate/grate_rusted_peeling_nontiling
+    bumpmap         textures/darkmod/metal/grate/grate_rusted_peeling_nontiling_local
+
+}
