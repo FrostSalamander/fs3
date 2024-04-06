@@ -1,0 +1,27 @@
+entityDef lt3:rune
+{
+	"inherit"         "atdm:moveable_base" 
+	
+	"editor_usage"    "Custom use-on-frob item"
+	"editor_color"    "0.922 0.039 0.855" 
+
+	//Model
+	"mass"            "0.5"
+	"friction"        "0.7"
+	"solid"           "1"
+	"frobable"        "1"
+	"frob_distance"   "60"
+	
+	//Inventory stuff
+	"inv_name"        "Rune"
+	"inv_icon"        "guis/assets/hud/inventory_icons/paper_icon" // GUI icon.
+	"inv_droppable"   "1"
+	"drop_to_hands"   "1"
+	"inv_category"    "Special"
+	"inv_stackable"   "0"
+	"usable"          "0"
+
+	//sound
+	"snd_acquire"     "tool_pickup"
+	"snd_bounce"      "rock_med01"	
+}
