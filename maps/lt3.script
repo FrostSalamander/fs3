@@ -50,6 +50,24 @@ string MERCHANT_SECRET_BUTTON = "atdm_mover_button_3";
 // MAGE HOUSE
 string MAGE_FIREPLACE_LEVER = "atdm_switch_translate_lever_1";
 
+void frobRune(entity ent)
+{
+	sys.println("frobbed rune.");
+
+	frob_item(ent);
+
+	// When an item goes into the player inventory, it remains on the map where it was picked up
+	// and is just hidden.  Because the rune emits a stim, we want to move the hidden entity out
+	// of the way.  In this case send it to the room with the other player inventory items.
+	ent.setWorldOrigin('596 -5043 16'); 
+}
+
+void useRune()
+{
+	sys.println("Used rune.");
+	sys.trigger($atdm_mover_door_sliding_10);
+}
+
 void frobCandlestick(entity ent)
 {
 	entity candle = ent.getBindMaster();

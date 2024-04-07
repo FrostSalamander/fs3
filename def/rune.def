@@ -9,17 +9,21 @@ entityDef lt3:rune
 	"mass"            "0.5"
 	"friction"        "0.7"
 	"solid"           "1"
-	"frobable"        "1"
 	"frob_distance"   "60"
-	
+
+	"frob_action_script"  "frobRune"
+
 	//Inventory stuff
 	"inv_name"        "Rune"
 	"inv_icon"        "guis/assets/hud/inventory_icons/paper_icon" // GUI icon.
+
 	"inv_droppable"   "1"
 	"drop_to_hands"   "1"
 	"inv_category"    "Special"
 	"inv_stackable"   "0"
-	"usable"          "0"
+
+	"usable"          "1"
+	"frobable"        "1"
 
 	//sound
 	"snd_acquire"     "tool_pickup"
