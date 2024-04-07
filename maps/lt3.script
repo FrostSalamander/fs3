@@ -20,52 +20,22 @@ string CAMERA_ATRIUM = "camera_atrium";
 string TARGET_CAMERAS = "target_callscriptfunction_cameras";
 string TARGET_CAMERA_POWER = "target_callscriptfunction_camera_power";
 
-float currentCamera;
-
-//////////////////////////
-// Latched door entities
-//////////////////////////
-
-// MOSQUE OFFICE
-string MOSQUE_OFFICE_LATCH = "mosque_office_latch";
-string MOSQUE_OFFICE_DOOR = "atdm_mover_door_115";
-
-// NAVAL BUILDING BACK GATE
-string GATE_LATCH = "gate_latch1";
-string GATE_DOOR = "atdm_mover_door_141";
-
-// NAVAL OFFICER HOUSE
-string OFFICER_HOUSE_LATCH = "func_static_655";
-string OFFICER_HOUSE_DOOR = "atdm_mover_door_43";
-string OFFICER_HOUSE_DOOR2 = "atdm_mover_door_42";
-
-// MERCHANT HOUSE
-string MERCHANT_HOUSE_LATCH = "func_static_3434";
-string MERCHANT_HOUSE_DOOR = "atdm_mover_door_5";
-string MERCHANT_HOUSE_DOOR2 = "atdm_mover_door_22";
-
+// Merchant house
 string MERCHANT_KITCHEN_POT = "atdm_moveable_cookpot_1";
 string MERCHANT_SECRET_BUTTON = "atdm_mover_button_3";
 
 // MAGE HOUSE
 string MAGE_FIREPLACE_LEVER = "atdm_switch_translate_lever_1";
 
-void frobRune(entity ent)
-{
-	sys.println("frobbed rune.");
+// Security camera
+float currentCamera;
 
-	frob_item(ent);
-
-	// When an item goes into the player inventory, it remains on the map where it was picked up
-	// and is just hidden.  Because the rune emits a stim, we want to move the hidden entity out
-	// of the way.  In this case send it to the room with the other player inventory items.
-	ent.setWorldOrigin('596 -5043 16'); 
-}
+// Mosque stuff
+string TRIGGER_MOSQUE_ARCHIVE_DOOR = "trigger_mosque_archive_door";
 
 void useRune()
 {
-	sys.println("Used rune.");
-	sys.trigger($atdm_mover_door_sliding_10);
+	sys.trigger(sys.getEntity(TRIGGER_MOSQUE_ARCHIVE_DOOR));
 }
 
 void frobCandlestick(entity ent)
