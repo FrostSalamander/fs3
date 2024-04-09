@@ -278,3 +278,25 @@ readables/lt3/restaurant_closed
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_print_carleton_caps.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt3/imam_note
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"    Greetings Mr. Rashad, and welcome to our mosque.  I'm certain that you will prosper here during your time as Imam."
+		"    If you haven't already had the chance, be certain to visit the archives, within which you will find our most sacred manuscripts.  Their value is incalculable, which is why you must familiarise yourself with a number of security measures.  Please speak to Salim about this first thing in the morning."
+		"  I look forward to our meeting next week."
+		""
+		"Grand Imam Nadir"
+		""
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_andrew_script.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

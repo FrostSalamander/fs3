@@ -33,6 +33,11 @@ float currentCamera;
 // Mosque stuff
 string TRIGGER_MOSQUE_ARCHIVE_DOOR = "trigger_mosque_archive_door";
 
+void enableGasTrap()
+{
+	$func_emitter_2.StimEnable(3, 1);
+}
+
 void useRune()
 {
 	sys.trigger(sys.getEntity(TRIGGER_MOSQUE_ARCHIVE_DOOR));
