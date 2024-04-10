@@ -300,3 +300,51 @@ readables/lt3/imam_note
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_andrew_script.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt3/note_salim
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Imam,"
+		""
+		"  Indeed there is a precaution that you need to take when visiting the archives.  Thankfully it is a simple one.  All that is required is you possess one of these runes which unlocks the door.  It works similar to a key.  Once inside the chamber, the door will close automatically and you can use the rune to get back out."
+		""
+		"Salim"
+	}
+	"gui_page1"	: "guis/readables/scrolls/scroll_hand_ellianerelle.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/lt3/salim_journale
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"    Well, I've been passed over for the Imam position again. What more do I need to do be recognized for my contributions?  Who is it who leads prayers when the Imam is away?  Who cleans the mosque?  Who makes preparations each morning? "
+		""
+		"Why has this Rashad been chosen?  He is a nobody."
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		"    This will be the last time I am overlooked.  I will guarantee it.  Rashad will make a clumsy error when visiting the archives and will not survive the poison gas.  The Grand Imam will have no choice but to name me as successor."
+	}
+	"gui_page1"	: "guis/readables/books/book_hand_ellianerelle.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}

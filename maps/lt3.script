@@ -33,8 +33,10 @@ float currentCamera;
 // Mosque stuff
 string TRIGGER_MOSQUE_ARCHIVE_DOOR = "trigger_mosque_archive_door";
 
-void enableGasTrap()
+void frobManuscript()
 {
+	$func_emitter_2.startSound("snd_gas", SND_CHANNEL_UNUSED, false);
+	sys.trigger($func_emitter_2);
 	$func_emitter_2.StimEnable(3, 1);
 }
 
