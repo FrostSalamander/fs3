@@ -21,7 +21,7 @@ entityDef lt3:rune
 	"inv_droppable"   "1"
 	"drop_to_hands"   "1"
 	"inv_category"    "Special"
-	"inv_stackable"   "0"
+	"inv_stackable"   "1"
 
 	"usable"          "1"
 	"frobable"        "1"

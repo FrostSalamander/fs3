@@ -333,9 +333,9 @@ readables/lt3/salim_journale
 	}
 	"page1_left_body"	:
 	{
-		"    Well, I've been passed over for the Imam position again. What more do I need to do be recognized for my contributions?  Who is it who leads prayers when the Imam is away?  Who cleans the mosque?  Who makes preparations each morning? "
-		""
-		"Why has this Rashad been chosen?  He is a nobody."
+		"   I've been passed over for the Imam position again! What more do I need to do be recognized for my contributions?  Who is it who leads prayers when the Imam is away?  Who cleans the mosque?  Who makes preparations each morning? "
+		"    Why has this Rashad been chosen?  He is a nobody."
+		"    This will be the last time I am overlooked."
 	}
 	"page1_right_title"	:
 	{
@@ -343,7 +343,8 @@ readables/lt3/salim_journale
 	}
 	"page1_right_body"	:
 	{
-		"    This will be the last time I am overlooked.  I will guarantee it.  Rashad will make a clumsy error when visiting the archives and will not survive the poison gas.  The Grand Imam will have no choice but to name me as successor."
+		"  I will guarantee it.  Rashad will 'forget' to disable the gas trap when visiting the archives. The Grand Imam will have no choice but to name me as successor."
+		"    Rashad might be in the archives already.  In a few minutes I will go and check..."
 	}
 	"gui_page1"	: "guis/readables/books/book_hand_ellianerelle.gui"
 	"snd_page_turn"	: "readable_page_turn"

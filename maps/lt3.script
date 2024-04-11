@@ -33,11 +33,21 @@ float currentCamera;
 // Mosque stuff
 string TRIGGER_MOSQUE_ARCHIVE_DOOR = "trigger_mosque_archive_door";
 
+string TRIGGER_GAS_TRAP = "trigger_relay_1";
+string GAS_TRAP_EMITTER = "func_emitter_2";
+
 void frobManuscript()
 {
-	$func_emitter_2.startSound("snd_gas", SND_CHANNEL_UNUSED, false);
-	sys.trigger($func_emitter_2);
-	$func_emitter_2.StimEnable(3, 1);
+	sys.trigger(sys.getEntity(TRIGGER_GAS_TRAP));
+}
+
+void triggerGasTrap()
+{
+	entity gasTrap = sys.getEntity(GAS_TRAP_EMITTER);
+
+	gasTrap.startSound("snd_gas", SND_CHANNEL_UNUSED, false);
+	sys.trigger(gasTrap);
+	gasTrap.StimEnable(3, 1);
 }
 
 void useRune()
