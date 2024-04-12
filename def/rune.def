@@ -39,4 +39,6 @@ entityDef lt3:rune_socket
 	"frobable"				"1"
 	"used_action_script"	"useRune"
 	"used_by"				"mosque_rune"
+	"used_by1"				"mosque_rune2"
+	"used_by2"				"mosque_rune3"
 }

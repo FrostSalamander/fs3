@@ -33,7 +33,9 @@ float currentCamera;
 // Mosque stuff
 string TRIGGER_MOSQUE_ARCHIVE_DOOR = "trigger_mosque_archive_door";
 
+string ARCHIVE_DOOR = "atdm_mover_door_sliding_10";
 string TRIGGER_GAS_TRAP = "trigger_relay_1";
+string GAS_TRAP_DOOR_CHANGE_TARGET = "atdm_target_changetarget_3";
 string GAS_TRAP_EMITTER = "func_emitter_2";
 
 void frobManuscript()
@@ -48,6 +50,9 @@ void triggerGasTrap()
 	gasTrap.startSound("snd_gas", SND_CHANNEL_UNUSED, false);
 	sys.trigger(gasTrap);
 	gasTrap.StimEnable(3, 1);
+
+	// disable the door rune lock
+	sys.getEntity(TRIGGER_MOSQUE_ARCHIVE_DOOR).removeTarget(sys.getEntity(ARCHIVE_DOOR));
 }
 
 void useRune()

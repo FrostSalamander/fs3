@@ -349,3 +349,25 @@ readables/lt3/salim_journale
 	"gui_page1"	: "guis/readables/books/book_hand_ellianerelle.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt3/note_salim_trash
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Imam,"
+		""
+		"  Indeed there is a precaution that you need to take when visiting the archives.  Firstly you must possess one of these runes which unlocks the door.  It works similar to a key.  Once inside the chamber, the door will close automatically and you can use the rune to get back out.   "
+		"    Secondly, you must disable the gas trap.  You can do this by tugging on a red book on the upper shelves. If you hear a click sound, the trap has been disabled."
+		""
+		"Salim"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
