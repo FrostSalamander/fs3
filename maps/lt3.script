@@ -51,11 +51,14 @@ void triggerGasTrap()
 	sys.trigger(gasTrap);
 	gasTrap.StimEnable(3, 1);
 
+	// close the door if it's still open
+	sys.getEntity(ARCHIVE_DOOR).Close();
+
 	// disable the door rune lock
 	sys.getEntity(TRIGGER_MOSQUE_ARCHIVE_DOOR).removeTarget(sys.getEntity(ARCHIVE_DOOR));
 }
 
-void useRune()
+void triggerArchiveDoor()
 {
 	sys.trigger(sys.getEntity(TRIGGER_MOSQUE_ARCHIVE_DOOR));
 }
