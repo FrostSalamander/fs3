@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2324876" } 
-		KeyValue { "LastCameraAngle" "-79.8 89.7912 0" } 
-		KeyValue { "LastCameraPosition" "-1773.52 -162.459 -135.238" } 
+		KeyValue { "EditTimeInSeconds" "2325351" } 
+		KeyValue { "LastCameraAngle" "-26.2 178.791 0" } 
+		KeyValue { "LastCameraPosition" "-2084.36 -116.676 -439.412" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/rough_blocks_limestone2" } 
 	}
 	SelectionSets
@@ -12,7 +12,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2324876 }
+		TotalSecondsEdited { 2325351 }
 	}
 	Layers
 	{
@@ -33993,12 +33993,8 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
 		Node { 0 } // entity (func_static_4180)
-		Node { 0 } // entity (lt3_small_loot_bottle_4)
 		Node { 0 } // entity (crate_shipping_long_01frobcontrol)
 		Node { 0 } // brush (Brush)
-		Node { 0 } // entity (atdm_moveable_loot_gold_decanter_4)
-		Node { 0 } // entity (atdm_moveable_loot_bottle_3)
-		Node { 0 } // entity (atdm_moveable_loot_bottle_4)
 		Node { 0 } // entity (func_static_4178)
 		Node { 0 } // patch (Patch)
 		Node { 0 } // entity (func_static_4181)
@@ -34039,6 +34035,16 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_4207)
 		Node { 0 } // entity (func_static_4208)
 		Node { 0 } // entity (speaker_9)
+		Node { 0 } // entity (crate_shipping_long_01frobcontrol1)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (crate_shipping_long_01_lid1)
+		Node { 0 } // entity (crate_shipping_long_3)
+		Node { 0 } // entity (func_static_4209)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // entity (lt3_small_loot_bottle_6)
+		Node { 0 } // entity (atdm_moveable_loot_wine_glass_2)
+		Node { 0 } // entity (atdm_moveable_loot_wine_glass_3)
+		Node { 0 } // entity (atdm_moveable_loot_wine_glass_4)
 	}
 	SelectionGroups
 	{
@@ -39159,6 +39165,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 21023 { "" }
 		SelectionGroup 21024 { "" }
 		SelectionGroup 21026 { "" }
+		SelectionGroup 21028 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -55788,44 +55795,46 @@ DarkRadiant Map Information File Version 2
 		Node { ( 6952 26937 ) ( 20967 ) } // patch (Patch)
 		Node { ( 6953 26938 ) ( 21008 ) } // patch (Patch)
 		Node { ( 6954 26939 ) ( 21007 ) } // patch (Patch)
-		Node { ( 6973 ) ( 21017 ) } // entity (crate_shipping_long_01frobcontrol)
-		Node { ( 6974 ) ( 21017 ) } // entity (atdm_moveable_loot_gold_decanter_4)
-		Node { ( 6975 ) ( 21017 ) } // entity (atdm_moveable_loot_bottle_3)
-		Node { ( 6976 ) ( 21017 ) } // entity (atdm_moveable_loot_bottle_4)
-		Node { ( 6977 ) ( 21017 ) } // entity (func_static_4178)
-		Node { ( 6978 26984 ) ( 21016 ) } // brush (Brush)
-		Node { ( 6978 26985 ) ( 21016 ) } // brush (Brush)
-		Node { ( 6978 26986 ) ( 21016 ) } // brush (Brush)
-		Node { ( 6978 26987 ) ( 21016 ) } // brush (Brush)
-		Node { ( 6978 26988 ) ( 21016 ) } // brush (Brush)
-		Node { ( 6978 26989 ) ( 21016 ) } // brush (Brush)
-		Node { ( 6981 ) ( 21018 ) } // entity (func_static_4161)
-		Node { ( 6982 ) ( 21018 ) } // entity (func_static_4182)
-		Node { ( 6983 ) ( 21018 ) } // entity (func_static_4184)
-		Node { ( 6984 ) ( 21018 ) } // entity (func_static_4185)
-		Node { ( 6985 ) ( 21018 ) } // entity (func_static_4186)
-		Node { ( 6986 ) ( 21018 ) } // entity (func_static_4187)
-		Node { ( 6987 ) ( 21018 ) } // entity (func_static_4188)
-		Node { ( 6988 ) ( 21018 ) } // entity (func_static_4183)
-		Node { ( 6989 ) ( 21019 ) } // entity (func_static_4189)
-		Node { ( 6990 ) ( 21019 ) } // entity (func_static_4190)
-		Node { ( 6991 ) ( 21019 ) } // entity (func_static_4191)
-		Node { ( 6992 ) ( 21019 ) } // entity (func_static_4192)
-		Node { ( 6993 ) ( 21019 ) } // entity (func_static_4193)
-		Node { ( 6994 ) ( 21019 ) } // entity (func_static_4194)
-		Node { ( 6995 ) ( 21019 ) } // entity (func_static_4195)
-		Node { ( 6996 ) ( 21019 ) } // entity (func_static_4196)
-		Node { ( 6997 ) ( 21020 ) } // entity (func_static_4197)
-		Node { ( 6998 ) ( 21020 ) } // entity (func_static_4198)
-		Node { ( 6999 ) ( 21020 ) } // entity (func_static_4199)
-		Node { ( 7000 ) ( 21020 ) } // entity (func_static_4200)
-		Node { ( 7001 ) ( 21020 ) } // entity (func_static_4201)
-		Node { ( 7002 ) ( 21020 ) } // entity (func_static_4202)
-		Node { ( 7003 ) ( 21020 ) } // entity (func_static_4203)
-		Node { ( 7004 ) ( 21020 ) } // entity (func_static_4204)
-		Node { ( 7005 ) ( 21021 ) } // entity (func_static_4205)
-		Node { ( 7006 ) ( 21022 ) } // entity (func_static_4206)
-		Node { ( 7007 ) ( 21023 ) } // entity (func_static_4207)
-		Node { ( 7008 ) ( 21024 ) } // entity (func_static_4208)
+		Node { ( 6972 ) ( 21017 ) } // entity (crate_shipping_long_01frobcontrol)
+		Node { ( 6973 ) ( 21017 ) } // entity (func_static_4178)
+		Node { ( 6974 26984 ) ( 21016 ) } // brush (Brush)
+		Node { ( 6974 26985 ) ( 21016 ) } // brush (Brush)
+		Node { ( 6974 26986 ) ( 21016 ) } // brush (Brush)
+		Node { ( 6974 26987 ) ( 21016 ) } // brush (Brush)
+		Node { ( 6974 26988 ) ( 21016 ) } // brush (Brush)
+		Node { ( 6974 26989 ) ( 21016 ) } // brush (Brush)
+		Node { ( 6977 ) ( 21018 ) } // entity (func_static_4161)
+		Node { ( 6978 ) ( 21018 ) } // entity (func_static_4182)
+		Node { ( 6979 ) ( 21018 ) } // entity (func_static_4184)
+		Node { ( 6980 ) ( 21018 ) } // entity (func_static_4185)
+		Node { ( 6981 ) ( 21018 ) } // entity (func_static_4186)
+		Node { ( 6982 ) ( 21018 ) } // entity (func_static_4187)
+		Node { ( 6983 ) ( 21018 ) } // entity (func_static_4188)
+		Node { ( 6984 ) ( 21018 ) } // entity (func_static_4183)
+		Node { ( 6985 ) ( 21019 ) } // entity (func_static_4189)
+		Node { ( 6986 ) ( 21019 ) } // entity (func_static_4190)
+		Node { ( 6987 ) ( 21019 ) } // entity (func_static_4191)
+		Node { ( 6988 ) ( 21019 ) } // entity (func_static_4192)
+		Node { ( 6989 ) ( 21019 ) } // entity (func_static_4193)
+		Node { ( 6990 ) ( 21019 ) } // entity (func_static_4194)
+		Node { ( 6991 ) ( 21019 ) } // entity (func_static_4195)
+		Node { ( 6992 ) ( 21019 ) } // entity (func_static_4196)
+		Node { ( 6993 ) ( 21020 ) } // entity (func_static_4197)
+		Node { ( 6994 ) ( 21020 ) } // entity (func_static_4198)
+		Node { ( 6995 ) ( 21020 ) } // entity (func_static_4199)
+		Node { ( 6996 ) ( 21020 ) } // entity (func_static_4200)
+		Node { ( 6997 ) ( 21020 ) } // entity (func_static_4201)
+		Node { ( 6998 ) ( 21020 ) } // entity (func_static_4202)
+		Node { ( 6999 ) ( 21020 ) } // entity (func_static_4203)
+		Node { ( 7000 ) ( 21020 ) } // entity (func_static_4204)
+		Node { ( 7001 ) ( 21021 ) } // entity (func_static_4205)
+		Node { ( 7002 ) ( 21022 ) } // entity (func_static_4206)
+		Node { ( 7003 ) ( 21023 ) } // entity (func_static_4207)
+		Node { ( 7004 ) ( 21024 ) } // entity (func_static_4208)
+		Node { ( 7006 ) ( 21028 ) } // entity (crate_shipping_long_01frobcontrol1)
+		Node { ( 7007 ) ( 21028 ) } // entity (crate_shipping_long_01_lid1)
+		Node { ( 7008 ) ( 21028 ) } // entity (crate_shipping_long_3)
+		Node { ( 7009 ) ( 21028 ) } // entity (func_static_4209)
+		Node { ( 7010 ) ( 21028 ) } // entity (lt3_small_loot_bottle_6)
 	}
 }
