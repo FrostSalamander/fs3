@@ -307,8 +307,45 @@ eaxreverb "location_restaurant_groundfloor" {
 }
 
 ////////////////
+// SOAP FACTORY
+////////////////
+eaxreverb "location_soapfactory_groundfloor" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_soapfactory_vaultstairs" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_soapfactory_vaults" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_crypt" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_winemaker" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_vineyard" {
+  preset OUTDOORS_BACKYARD
+}
+eaxreverb "location_soapfactory_upper_stairs" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_soapfactory_upper_hall" {
+  preset WOODEN_SHORTPASSAGE
+}
+eaxreverb "location_soapfactory_workshop" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_soapfactory_office" {
+  preset WOODEN_SMALLROOM
+}
+
+////////////////
 // MINISTRY
 ////////////////
+eaxreverb "location_ministry_basement" {
+  preset CASTLE_SMALLROOM
+}
 eaxreverb "location_ministry_north_foyer" {
   preset CASTLE_SMALLROOM
 }
