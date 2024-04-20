@@ -133,6 +133,50 @@ eaxreverb "location_mosque_tunnel_transition" {
   preset CASTLE_SMALLROOM
 }
 
+//////////////////////////
+// MERCHANT SPENCER HOUSE
+//////////////////////////
+eaxreverb "location_house_merchant" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_house_merchant_bedroom" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_house_merchant_kitchen" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_house_merchant_office" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_house_merchant_bathroom" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_house_merchant_hall" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_house_merchant_secretroom" {
+  preset CASTLE_CUPBOARD
+}
+
+//////////////////////////
+// BEHIND NAVAL_BUILDING
+//////////////////////////
+eaxreverb "location_behind_fort" {
+  preset CASTLE_COURTYARD
+}
+eaxreverb "location_behind_fort_openarea" {
+  preset CASTLE_COURTYARD
+}
+eaxreverb "location_ground_tunnel1" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_ground_tunnel2" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_ground_tunnel" {
+  preset CASTLE_SHORTPASSAGE
+}
+
 //////////////////
 // MOSQUE AREA
 //////////////////
@@ -203,6 +247,7 @@ eaxreverb "location_mosque_vaults_flooded" {
 eaxreverb "location_mosque_vaults" {
   preset CASTLE_SMALLROOM
 }
+
 //////////////////
 // FAR WEST AREA
 //////////////////
@@ -213,7 +258,6 @@ eaxreverb "location_city_far_west" {
 //////////////////
 // OFFICER HOUSES
 //////////////////
-
 eaxreverb "location_officer_lounge" {
   preset WOODEN_MEDIUMROOM
 }
@@ -226,6 +270,33 @@ eaxreverb "location_officer_kitchen" {
 eaxreverb "location_upper_house" {
   preset WOODEN_MEDIUMROOM
 }
+
+///////////////////
+// GRENVILLE HOUSE
+///////////////////
+eaxreverb "location_grenville_mainfloor" {
+  preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_grenville_kitchen" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_grenville_storage" {
+  preset CASTLE_CUPBOARD
+}
+eaxreverb "location_grenville_stairs" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_grenville_bedroom" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_grenville_bathroom" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_market_attic" {
+  preset CASTLE_CUPBOARD
+}
+
+
 
 ///////////////
 // DANBY HOUSE
@@ -309,6 +380,9 @@ eaxreverb "location_restaurant_groundfloor" {
 ////////////////
 // SOAP FACTORY
 ////////////////
+eaxreverb "location_factory_canal" {
+  preset OUTDOORS_VALLEY
+}
 eaxreverb "location_soapfactory_groundfloor" {
   preset CASTLE_MEDIUMROOM
 }

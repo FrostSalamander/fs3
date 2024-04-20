@@ -8,6 +8,7 @@ fs_desert_awakening
 	omnidirectional
 	looping
 	no_efx
+	volume -30
 	leadin sound/ambient/ambience/silence.ogg
 
 	// credit: Desert Awakening by TimTaj: https://timtaj.com

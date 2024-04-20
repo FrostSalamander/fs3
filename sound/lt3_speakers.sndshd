@@ -28,6 +28,7 @@ fs_cicada_quiet_buzz_loop_01
 	omnidirectional
 	sound/speakers/cicada_quiet_buzz_loop_01.ogg
 	no_efx
+	volume 30
 }
 
 fs_cicada_loud_buzz_loop_01
