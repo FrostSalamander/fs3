@@ -1,0 +1,62 @@
+fs_desert_awakening
+{
+
+	editor_displayFolder	map_specific/ambience_zoned
+
+	description "Made by Frost_Salamander"
+	global
+	omnidirectional
+	looping
+	no_efx
+	leadin sound/ambient/ambience/silence.ogg
+
+	// credit: Desert Awakening by TimTaj: https://timtaj.com
+	sound/ambient/desert_awakening.ogg
+}
+
+fs_duduk_desert
+{
+
+	editor_displayFolder	map_specific/ambience_zoned
+
+	description "Made by Frost_Salamander"
+	global
+	omnidirectional
+	looping
+	no_efx
+	leadin sound/ambient/ambience/silence.ogg
+
+	// credit: Duduk in The Desert by TimTaj: https://timtaj.com
+	sound/ambient/duduk_in_the_desert.ogg
+}
+
+fs_middle_eastern_violin
+{
+
+	editor_displayFolder	map_specific/ambience_zoned
+
+	description "Made by Frost_Salamander"
+	global
+	omnidirectional
+	looping
+	no_efx
+	leadin sound/ambient/ambience/silence.ogg
+
+	// credit: Middle Eastern Violin by TimTaj: https://timtaj.com
+	sound/ambient/middle_eastern_violin.ogg
+}
+
+fs_middle_eastern_oud
+{
+	editor_displayFolder	map_specific/ambience_zoned
+
+	description "Made by Frost_Salamander"
+	global
+	omnidirectional
+	looping
+	no_efx
+	leadin sound/ambient/ambience/silence.ogg
+
+	// credit: Middle Eastern Oud by TimTaj: https://timtaj.com
+	sound/ambient/middle_eastern_oud.ogg
+}

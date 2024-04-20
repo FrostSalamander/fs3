@@ -14,3 +14,12 @@ Ambiance_Cicadas_Loop_01.wav by Nox_Sound -- https://freesound.org/s/515055/ -- 
 crickets cicadas hot day buzzing in trees residential street loud nice start Montreal, Canada.flac by kyles -- https://freesound.org/s/452456/ -- License: Creative Commons 0
 180813 Cicada, close harsh buzzing, heat bug, summer TORONTO.flac by TRP -- https://freesound.org/s/571090/ -- License: Creative Commons 0
 Cicada.1.45.wav by john9 -- https://freesound.org/s/215171/ -- License: Attribution 4.0
+Summer Village Atmosphere at Night(Dog Barking, Cicadas).wav by The_Runner_01 -- https://freesound.org/s/553784/ -- License: Creative Commons 0
+
+Ambient Music Credits:
+
+Desert Awakening by TimTaj: https://timtaj.com (https://timtaj.com/background-music/desert-awakening)
+Duduk in The Desert by TimTaj: https://timtaj.com (https://timtaj.com/background-music/duduk-in-the-desert)
+Middle Eastern Violin by TimTaj: https://timtaj.com (https://timtaj.com/royalty-free-music/middle-eastern-violin)
+Middle Eastern Oud by TimTaj: https://timtaj.com (https://timtaj.com/royalty-free-music/middle-eastern-oud)
+

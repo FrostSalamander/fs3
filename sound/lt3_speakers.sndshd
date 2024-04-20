@@ -1,0 +1,47 @@
+fs_seagulls
+{
+	editor_displayFolder  map_specific
+	omnidirectional
+	sound/speakers/seagulls.ogg
+	no_efx
+}
+
+fs_cicadas_loop_01
+{
+	editor_displayFolder  map_specific
+	omnidirectional
+	sound/speakers/cicadas_loop_01.ogg
+	no_efx
+}
+
+fs_cicada_buzz_01
+{
+	editor_displayFolder  map_specific
+	omnidirectional
+	sound/speakers/cicada_buzz_01.ogg
+	no_efx
+}
+
+fs_cicada_quiet_buzz_loop_01
+{
+	editor_displayFolder  map_specific
+	omnidirectional
+	sound/speakers/cicada_quiet_buzz_loop_01.ogg
+	no_efx
+}
+
+fs_cicada_loud_buzz_loop_01
+{
+	editor_displayFolder  map_specific
+	omnidirectional
+	sound/speakers/cicada_loud_buzz_loop_01.ogg
+	no_efx
+}
+
+fs_summer_village
+{
+	editor_displayFolder  map_specific
+	omnidirectional
+	sound/speakers/summer_village.ogg
+	no_efx
+}
