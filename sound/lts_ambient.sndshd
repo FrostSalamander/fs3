@@ -42,6 +42,7 @@ fs_middle_eastern_violin
 	omnidirectional
 	looping
 	no_efx
+	volume -35
 	leadin sound/ambient/ambience/silence.ogg
 
 	// credit: Middle Eastern Violin by TimTaj: https://timtaj.com
@@ -57,6 +58,7 @@ fs_middle_eastern_oud
 	omnidirectional
 	looping
 	no_efx
+	volume -20
 	leadin sound/ambient/ambience/silence.ogg
 
 	// credit: Middle Eastern Oud by TimTaj: https://timtaj.com
@@ -77,4 +79,36 @@ fs_middle_east_desert
 
 	// credit: Middle East Desert by TimTaj: https://timtaj.com
 	sound/ambient/middle_east_desert.ogg
+}
+
+fs_arab_world
+{
+	editor_displayFolder	map_specific/ambience_zoned
+
+	description "Made by Frost_Salamander"
+	global
+	omnidirectional
+	looping
+	no_efx
+	volume -25
+	leadin sound/ambient/ambience/silence.ogg
+
+	// credit: Arab World by TimTaj: https://timtaj.com
+	sound/ambient/arab_world.ogg
+}
+
+fs_islamic_way
+{
+	editor_displayFolder	map_specific/ambience_zoned
+
+	description "Made by Frost_Salamander"
+	global
+	omnidirectional
+	looping
+	no_efx
+	volume -15
+	leadin sound/ambient/ambience/silence.ogg
+
+	// credit: Islamic Way by Serge Quadrado: https://freemusicarchive.org/music/serge-quadrado/islamic/islamic-way/
+	sound/ambient/islamic_way.ogg
 }

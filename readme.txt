@@ -23,3 +23,10 @@ Duduk in The Desert by TimTaj: https://timtaj.com (https://timtaj.com/background
 Middle Eastern Violin by TimTaj: https://timtaj.com (https://timtaj.com/royalty-free-music/middle-eastern-violin)
 Middle Eastern Oud by TimTaj: https://timtaj.com (https://timtaj.com/royalty-free-music/middle-eastern-oud)
 Middle East Desert bt TimTaj: https://timtaj.com (https://timtaj.com/background-music/middle-east-desert)
+Arab World by TimTaj: https://timtaj.com (https://timtaj.com/background-music/arab-world)
+
+The following are distributed under CC BY-NC 4.0 license: https://creativecommons.org/licenses/by-nc/4.0
+and the following changes were made in order to make them compatible with TDM:
+- converted to OGG format using 160kbps bitrate, 44100 Khz
+
+Islamic Way by Serge Quadrado: https://freemusicarchive.org/music/serge-quadrado/islamic/islamic-way/

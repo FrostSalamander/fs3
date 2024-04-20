@@ -176,6 +176,10 @@ eaxreverb "location_ground_tunnel2" {
 eaxreverb "location_ground_tunnel" {
   preset CASTLE_SHORTPASSAGE
 }
+eaxreverb "location_overpass" {
+  preset CASTLE_LONGPASSAGE
+}
+
 
 //////////////////
 // MOSQUE AREA
@@ -388,6 +392,9 @@ eaxreverb "location_factory_canal" {
 }
 eaxreverb "location_soapfactory_groundfloor" {
   preset CASTLE_MEDIUMROOM
+}
+eaxreverb "location_soapfactory_groundfloor_hall" {
+  preset CASTLE_SHORTPASSAGE
 }
 eaxreverb "location_soapfactory_vaultstairs" {
   preset CASTLE_SHORTPASSAGE
