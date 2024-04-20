@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2368523" } 
-		KeyValue { "LastCameraAngle" "-16.6 235.241 0" } 
-		KeyValue { "LastCameraPosition" "-1486.46 231.533 567.734" } 
+		KeyValue { "EditTimeInSeconds" "2369275" } 
+		KeyValue { "LastCameraAngle" "4.4 14.241 0" } 
+		KeyValue { "LastCameraPosition" "-1746.31 -68.576 220.041" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/bt_basewall2" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2368523 }
+		TotalSecondsEdited { 2369275 }
 	}
 	Layers
 	{
@@ -35088,6 +35088,8 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (info_locationSeparator_368)
 		Node { 0 } // entity (location_grenville_bedroom)
 		Node { 0 } // entity (location_grenville_bathroom)
+		Node { 0 } // entity (location_mosque_salim_office)
+		Node { 0 } // entity (location_restaurant_office)
 	}
 	SelectionGroups
 	{

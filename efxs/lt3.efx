@@ -210,6 +210,9 @@ eaxreverb "location_mosque_passage_upper" {
 eaxreverb "location_mosque_office" {
   preset CASTLE_SMALLROOM
 }
+eaxreverb "location_mosque_salim_office" {
+  preset CASTLE_SMALLROOM
+}
 eaxreverb "location_mosque_side" {
   preset CASTLE_LARGEROOM
 }
