@@ -29,3 +29,11 @@ fs_cicada_quiet_buzz_loop_01
 	sound/speakers/cicada_quiet_buzz_loop_01.ogg
 	no_efx
 }
+
+fs_cicada_loud_buzz_loop_01
+{
+	editor_displayFolder  map_specific
+	omnidirectional
+	sound/speakers/cicada_loud_buzz_loop_01.ogg
+	no_efx
+}
