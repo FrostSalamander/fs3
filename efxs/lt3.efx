@@ -198,6 +198,9 @@ eaxreverb "location_mosque_passage_lower" {
 eaxreverb "location_shops" {
   preset CASTLE_MEDIUMROOM
 }
+eaxreverb "location_shops_exit" {
+  preset CASTLE_SMALLROOM
+}
 eaxreverb "location_jewellery_shop" {
   preset CASTLE_SMALLROOM
 }
@@ -351,8 +354,14 @@ eaxreverb "location_mage_spiral_stairs" {
 eaxreverb "location_mage_shop_loft" {
   preset CASTLE_SMALLROOM
 }
+eaxreverb "location_mage_shop_stairs" {
+  preset WOODEN_SHORTPASSAGE
+}
 eaxreverb "location_mage_shop" {
   preset CASTLE_SMALLROOM
+}
+eaxreverb "location_mage_fireplace" {
+  preset CASTLE_CUPBOARD
 }
 
 //////////////////////
@@ -495,6 +504,12 @@ eaxreverb "location_ministry_equipment_room" {
 }
 eaxreverb "location_ministry_ground_hallway" {
   preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_ministry_security_office" {
+  preset CASTLE_SMALLROOM
+}
+eaxreverb "location_ministry_vents" {
+  preset PIPE_SMALL
 }
 eaxreverb "location_ministry_atrium" {
   preset CASTLE_HALL

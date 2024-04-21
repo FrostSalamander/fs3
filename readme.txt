@@ -27,6 +27,10 @@ Arab World by TimTaj: https://timtaj.com (https://timtaj.com/background-music/ar
 
 The following are distributed under CC BY-NC 4.0 license: https://creativecommons.org/licenses/by-nc/4.0
 and the following changes were made in order to make them compatible with TDM:
-- converted to OGG format using 160kbps bitrate, 44100 Khz
+- converted to OGG format using 160 Kbps bitrate, 44100 KHz, Stereo 2.0
 
 Islamic Way by Serge Quadrado: https://freemusicarchive.org/music/serge-quadrado/islamic/islamic-way/
+Muslim Sorrow by Serge Quadrado: https://freemusicarchive.org/music/serge-quadrado/islamic/muslim-sorrow-1/
+Sad Sufi by Serge Quadrado: https://freemusicarchive.org/music/serge-quadrado/islamic/sad-sufi-1/
+Somewhere in Punjab by Serge Quadrado: https://freemusicarchive.org/music/serge-quadrado/islamic/somewhere-in-punjab-1/
+Prophet Story by Serge Quadrado: https://freemusicarchive.org/music/serge-quadrado/islamic/prophet-story-1/

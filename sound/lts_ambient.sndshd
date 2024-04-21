@@ -112,3 +112,67 @@ fs_islamic_way
 	// credit: Islamic Way by Serge Quadrado: https://freemusicarchive.org/music/serge-quadrado/islamic/islamic-way/
 	sound/ambient/islamic_way.ogg
 }
+
+fs_muslim_sorrow
+{
+	editor_displayFolder	map_specific/ambience_zoned
+
+	description "Made by Frost_Salamander"
+	global
+	omnidirectional
+	looping
+	no_efx
+	volume -15
+	leadin sound/ambient/ambience/silence.ogg
+
+	// credit: Muslim Sorrow by Serge Quadrado: https://freemusicarchive.org/music/serge-quadrado/islamic/muslim-sorrow-1/
+	sound/ambient/muslim_sorrow.ogg
+}
+
+fs_sad_sufi
+{
+	editor_displayFolder	map_specific/ambience_zoned
+
+	description "Made by Frost_Salamander"
+	global
+	omnidirectional
+	looping
+	no_efx
+	volume -15
+	leadin sound/ambient/ambience/silence.ogg
+
+	// credit: Sad Sufi by Serge Quadrado: https://freemusicarchive.org/music/serge-quadrado/islamic/sad-sufi-1/
+	sound/ambient/sad_sufi.ogg
+}
+
+fs_somewhere_in_punjab
+{
+	editor_displayFolder	map_specific/ambience_zoned
+
+	description "Made by Frost_Salamander"
+	global
+	omnidirectional
+	looping
+	no_efx
+	volume -15
+	leadin sound/ambient/ambience/silence.ogg
+
+	// credit: Somewhere in Punjab by Serge Quadrado: https://freemusicarchive.org/music/serge-quadrado/islamic/somewhere-in-punjab-1/
+	sound/ambient/somewhere_in_punjab.ogg
+}
+
+fs_prophet_story
+{
+	editor_displayFolder	map_specific/ambience_zoned
+
+	description "Made by Frost_Salamander"
+	global
+	omnidirectional
+	looping
+	no_efx
+	volume -15
+	leadin sound/ambient/ambience/silence.ogg
+
+	// credit: Prophet Story by Serge Quadrado: https://freemusicarchive.org/music/serge-quadrado/islamic/prophet-story-1/
+	sound/ambient/prophet_story.ogg
+}
