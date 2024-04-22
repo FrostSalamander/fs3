@@ -399,6 +399,9 @@ eaxreverb "location_restaurant_groundfloor" {
 eaxreverb "location_factory_canal" {
   preset OUTDOORS_VALLEY
 }
+eaxreverb "location_canal_under_mosque" {
+  preset SMALLWATERROOM
+}
 eaxreverb "location_soapfactory_groundfloor" {
   preset CASTLE_MEDIUMROOM
 }

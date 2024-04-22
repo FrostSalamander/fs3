@@ -65,6 +65,7 @@ textures/darkmod/decals/vegetation/hanging_horizontal_leaves_lt3
     description "foliage"
 	noSelfShadow
     twoSided
+    ladder
 
     bumpmap         textures/darkmod/decals/vegetation/hanging_horizontal_leaves_local
     specularmap     textures/darkmod/decals/vegetation/hanging_horizontal_leaves_s
