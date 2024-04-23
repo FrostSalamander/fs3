@@ -435,6 +435,9 @@ eaxreverb "location_soapfactory_workshop" {
 eaxreverb "location_soapfactory_office" {
   preset WOODEN_SMALLROOM
 }
+eaxreverb "location_tunnel" {
+  preset PIPE_LARGE
+}
 
 ////////////////
 // MINISTRY
