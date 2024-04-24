@@ -117,9 +117,6 @@ eaxreverb "location_officers_lounge_outside" {
 eaxreverb "location_mosque_tunnel" {
   preset CASTLE_SHORTPASSAGE
 }
-eaxreverb "location_mosque_tunnel2" {
-  preset CASTLE_LONGPASSAGE
-}
 eaxreverb "location_mosque_tunnel_junction" {
   preset CASTLE_SMALLROOM
 }
