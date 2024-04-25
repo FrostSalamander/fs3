@@ -1,0 +1,6 @@
+skin scimitar_gold
+{
+    model models/darkmod/weapons/scimitar.lwo
+
+    tdm_cutlass01 textures/darkmod/metal/flat/gold01
+}

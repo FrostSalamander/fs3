@@ -1,0 +1,12 @@
+atdm:lts_loot_scimitar
+{
+
+	"inherit"			    "atdm:loot_base"
+	"editor_usage"			"Ornate scimitar; static."
+	"model" 				"models/darkmod/weapons/scimitar.lwo"
+    "skin"                  "scimitar_gold"
+	"inv_loot_value"		"225"
+	"inv_loot_type"			"3"
+
+	"inv_icon"        "guis/assets/hud/inventory_icons/loot_scimitar"
+}

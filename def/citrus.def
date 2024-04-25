@@ -1,11 +1,20 @@
 entityDef lt3:moveable_food_citrus
 {
 
-	"inherit"			"atdm:moveable_food_healthy_base"
+	"inherit"			"atdm:playertools_heal_item"
 	"model"				"models/map_specific/citrus.ase"
 	"mass"				"0.2"
 	"editor_usage"		"Edible citrus fruit.  This food heals 10 HP when eaten."
-	"snd_eaten"			"tdm_player_apple_crunch"
+	"snd_swallow"		"tdm_player_apple_crunch"
 
     "heal_amount"       "10"
+
+	//Inventory stuff
+	"inv_name"        "Citrus Fruit"
+	"inv_icon"        "guis/assets/hud/inventory_icons/citrus_fruit"
+
+	"inv_droppable"   "1"
+	"drop_to_hands"   "1"
+	"inv_category"    "Food"
+	"inv_stackable"   "1"
 }
