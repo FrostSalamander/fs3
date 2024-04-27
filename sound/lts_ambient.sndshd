@@ -138,7 +138,7 @@ fs_sad_sufi
 	omnidirectional
 	looping
 	no_efx
-	volume -15
+	volume -20
 	leadin sound/ambient/ambience/silence.ogg
 
 	// credit: Sad Sufi by Serge Quadrado: https://freemusicarchive.org/music/serge-quadrado/islamic/sad-sufi-1/

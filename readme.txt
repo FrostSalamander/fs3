@@ -3,6 +3,8 @@ LT3
 
 Credits:
 
+Loading screen font (freeware): https://www.fontspace.com/a-awal-ramadhan-font-f45458
+
 One or more textures bundled with this project have been created with images from Textures.com. These images may not be redistributed by default. Please visit www.textures.com for more information.
 
 Sounds:
