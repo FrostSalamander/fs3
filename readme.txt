@@ -3,9 +3,19 @@ LT3
 
 Credits:
 
-Loading screen font (freeware): https://www.fontspace.com/a-awal-ramadhan-font-f45458
-
 One or more textures bundled with this project have been created with images from Textures.com. These images may not be redistributed by default. Please visit www.textures.com for more information.
+
+Caravel model from Dragofer: https://forums.thedarkmod.com/index.php?/topic/17084-dragofers-stuff/
+
+Polyhaven CC0 Asset Pack 02 Gothic from Wellingtoncrab: https://forums.thedarkmod.com/index.php?/topic/21564-polyhaven-cc0-asset-packs/
+
+Public Domain Paintings from Amadeus and Wellingtoncrab: https://github.com/thedarkmodcommunity/cc0-paintings-tapestries
+
+'Royal' Moor Skins by Amadeus
+
+Coloured Robe Moor Skins by Frost_Salamander
+
+Loading screen font (freeware): https://www.fontspace.com/a-awal-ramadhan-font-f45458
 
 Sounds:
 
