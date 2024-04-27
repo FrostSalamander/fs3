@@ -1,4 +1,4 @@
 Title: The Lieutenant 3: Foreign Affairs
-Description: TBD
+Description: The Lieutenant travels to Moor country to pursue an adversary
 Version: [VERSION]
 Author: Frost_Salamander
