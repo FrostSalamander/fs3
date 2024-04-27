@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2413653" } 
-		KeyValue { "LastCameraAngle" "-3 55.2 0" } 
-		KeyValue { "LastCameraPosition" "-2648.65 759.056 -434.719" } 
+		KeyValue { "EditTimeInSeconds" "2414157" } 
+		KeyValue { "LastCameraAngle" "-8.8 235.2 0" } 
+		KeyValue { "LastCameraPosition" "-2862.71 -92.4591 -460.335" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/moorpack/stone/brick/blocks_lt3_smoothpale" } 
 	}
 	SelectionSets
@@ -22095,14 +22095,6 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
-		Node { 0 } // entity (atdm_froblock_1)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // entity (atdm_froblock_2)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // entity (func_static_1832)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // entity (func_static_1833)
-		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (func_static_1799)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
@@ -22172,34 +22164,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (location_jewellery_shop)
 		Node { 0 } // entity (func_static_1850)
 		Node { 0 } // entity (atdm_moveable_chair_dining_2_red_2)
-		Node { 0 } // entity (func_static_1851)
-		Node { 0 } // entity (func_static_1848)
-		Node { 0 } // entity (atdm_moveable_holder_small_plus_candle2_3)
-		Node { 0 } // entity (atdm_moveable_scroll_rolled_up_1)
-		Node { 0 } // entity (atdm_moveable_scroll_rolled_up_2)
-		Node { 0 } // entity (atdm_moveable_scroll_rolled_up_3)
-		Node { 0 } // entity (atdm_moveable_scroll_rolled_up_5)
-		Node { 0 } // entity (atdm_moveable_scroll_rolled_up_4)
-		Node { 0 } // entity (func_static_1852)
-		Node { 0 } // entity (atdm_moveable_bowl_small_1)
-		Node { 0 } // entity (func_static_1849)
-		Node { 0 } // entity (func_static_1856)
-		Node { 0 } // entity (func_static_1853)
-		Node { 0 } // entity (BlottingPad3)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // entity (func_static_1855)
-		Node { 0 } // entity (func_static_1857)
-		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (func_static_1854)
-		Node { 0 } // entity (notice1)
 		Node { 0 } // entity (func_static_1858)
 		Node { 0 } // entity (display_cabinet_lid_1)
 		Node { 0 } // entity (display_cabinet_set_frobable_1)
@@ -35551,10 +35516,15 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (lt3_moveable_food_citrus_10)
 		Node { 0 } // entity (func_static_2429)
 		Node { 0 } // entity (func_static_2419)
+		Node { 0 } // entity (func_static_1832)
+		Node { 0 } // entity (atdm_switch_translate_lever_3)
+		Node { 0 } // entity (atdm_moveable_holder_round_plus_candle3_8)
+		Node { 0 } // entity (func_static_1833)
+		Node { 0 } // entity (func_static_1848)
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2413653 }
+		TotalSecondsEdited { 2414157 }
 	}
 	SelectionGroups
 	{
@@ -35996,6 +35966,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 21360 { "" }
 		SelectionGroup 21508 { "" }
 		SelectionGroup 21562 { "" }
+		SelectionGroup 21564 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -37796,7 +37767,9 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 5254 ) ( 20632 20633 ) } // brush (Brush)
 		Node { ( 0 5255 ) ( 20632 20633 ) } // brush (Brush)
 		Node { ( 0 5256 ) ( 20632 20633 ) } // brush (Brush)
-		Node { ( 7409 ) ( 21562 ) } // entity (func_static_4488)
-		Node { ( 7410 ) ( 21562 ) } // entity (atdm_switch_translate_lever_2)
+		Node { ( 7388 ) ( 21562 ) } // entity (func_static_4488)
+		Node { ( 7389 ) ( 21562 ) } // entity (atdm_switch_translate_lever_2)
+		Node { ( 7395 ) ( 21564 ) } // entity (func_static_1832)
+		Node { ( 7396 ) ( 21564 ) } // entity (atdm_switch_translate_lever_3)
 	}
 }

@@ -42,7 +42,7 @@ fs_middle_eastern_violin
 	omnidirectional
 	looping
 	no_efx
-	volume -35
+	volume -20
 	leadin sound/ambient/ambience/silence.ogg
 
 	// credit: Middle Eastern Violin by TimTaj: https://timtaj.com
