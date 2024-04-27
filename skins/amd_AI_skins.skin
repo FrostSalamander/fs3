@@ -1,0 +1,77 @@
+skin proguard/royal_moor
+{
+	model "tdm_ai_proguard_use"
+
+	"models/md5/chars/chainmail_new_shadowcasting" "models/md5/chars/guards/proguard/old_cloth"  //swaps chain for cloth
+	"models/md5/chars/chainmail_new" "models/md5/chars/guards/proguard/old_cloth_noshadows" //swaps chain for cloth
+	"models/md5/chars/guards/proguard/proguard_cloth" "textures/darkmod/fabric/noble_blue"
+	"models/md5/chars/guards/proguard/proguard_armor" "textures/darkmod/fabric/noble_blue"
+	"tdm_npc_hand" "tdm_moor_hand"
+}
+
+skin royal_moor
+{
+	model "tdm_ai_moor"
+	
+	
+	"models/md5/chars/chainmail_new" "textures/darkmod/fabric/fine_flannel" //swaps chain for cloth	
+	"tdm_moor_robe01" 	"textures/darkmod/fabric/noble_blue"
+	
+}
+
+skin royal_mage
+{
+	model "tdm_ai_mage01"
+
+	"mage01_symbols"  "textures/common/nodraw"
+	
+	"models/md5/chars/thief/wrap" "textures/darkmod/fabric/noble_blue"
+	"mage01_top"      "textures/darkmod/fabric/noble_blue"
+	"mage01_bottom"   "textures/darkmod/fabric/noble_blue"
+	"tdm_npc_hand"    "tdm_moor_hand"
+	
+}
+
+skin royal_mage_symbols
+{
+	model "tdm_ai_mage01"
+
+	
+	"models/md5/chars/thief/wrap" "textures/darkmod/fabric/noble_blue"
+	"mage01_top"      "textures/darkmod/fabric/noble_blue"
+	"mage01_bottom"   "textures/darkmod/fabric/noble_blue"
+	"tdm_npc_hand"    "tdm_moor_hand"
+	
+}
+
+skin royal_mage_red
+{
+	model "tdm_ai_mage01"
+
+	"mage01_symbols"  "textures/common/nodraw"
+	
+	"models/md5/chars/thief/wrap" "textures/darkmod/fabric/red_fabric"
+	"mage01_top"      "textures/darkmod/fabric/red_fabric"
+	"mage01_bottom"   "textures/darkmod/fabric/red_fabric"
+	"tdm_npc_hand"    "tdm_moor_hand"
+	
+}
+
+skin royal_mage_red_symbols
+{
+	model "tdm_ai_mage01"
+	
+	"models/md5/chars/thief/wrap" "textures/darkmod/fabric/red_fabric"
+	"mage01_top"      "textures/darkmod/fabric/red_fabric"
+	"mage01_bottom"   "textures/darkmod/fabric/red_fabric"
+	"tdm_npc_hand"    "tdm_moor_hand"
+}
+
+skin proguard/leather_armor_moor
+{
+
+	"models/md5/chars/chainmail_new_shadowcasting" "models/md5/chars/guards/proguard/old_cloth"  //swaps chain for cloth
+	"models/md5/chars/chainmail_new" "textures/darkmod/fabric/fine_flannel" //swaps chain for cloth
+	"models/md5/chars/guards/proguard/proguard_armor" "textures/darkmod/fabric/silk_fabric"
+	"tdm_npc_hand" "tdm_moor_hand"
+}

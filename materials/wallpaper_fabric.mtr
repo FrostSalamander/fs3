@@ -1,0 +1,95 @@
+
+
+textures/darkmod/fabric/noble_blue
+{
+    surftype15
+    description "cloth"
+
+    qer_editorimage textures/darkmod/fabric/noble_blue_ed
+    diffusemap      textures/darkmod/fabric/noble_blue_d
+    bumpmap textures/darkmod/fabric/noble_blue_local
+    {
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend      add
+        map        textures/darkmod/fabric/noble_blue_d
+        rgb         0.15 * parm11
+    }
+
+}
+
+
+
+textures/darkmod/fabric/red_fabric
+{
+    surftype15
+    description "cloth"
+
+    qer_editorimage textures/darkmod/fabric/red_fabric_ed
+    diffusemap      textures/darkmod/fabric/red_fabric_d
+    bumpmap textures/darkmod/fabric/red_fabric_local
+    {
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend      add
+        map        textures/darkmod/fabric/red_fabric_d
+        rgb         0.15 * parm11
+    }
+
+}
+
+textures/darkmod/fabric/silk_fabric
+{
+    surftype15
+    description "cloth"
+
+    qer_editorimage textures/darkmod/fabric/silk_fabric_ed
+    diffusemap      textures/darkmod/fabric/silk_fabric_d
+    bumpmap textures/darkmod/fabric/silk_fabric_local
+    {
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend      add
+        map        textures/darkmod/fabric/silk_fabric_d
+        rgb         0.15 * parm11
+    }
+
+}
+
+textures/darkmod/fabric/fine_flannel
+{
+    surftype15
+    description "cloth"
+
+    qer_editorimage textures/darkmod/fabric/fine_flannel_ed
+    diffusemap      textures/darkmod/fabric/fine_flannel_d
+    bumpmap textures/darkmod/fabric/fine_flannel_local
+    {
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend      add
+        map        textures/darkmod/fabric/fine_flannel_d
+        rgb         0.15 * parm11
+    }
+
+}
