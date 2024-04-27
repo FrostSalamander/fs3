@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1" format="portable">
+  <layers>
+    <layer id="0" name="Default"/>
+  </layers>
+  <selectionGroups>
+    <selectionGroup id="2" name=""/>
+  </selectionGroups>
+  <selectionSets/>
+  <properties>
+    <property key="EditTimeInSeconds" value="26331"/>
+    <property key="LastCameraAngle" value="-19 64.5739 0"/>
+    <property key="LastCameraPosition" value="-122.767 1470.55 120.083"/>
+    <property key="LastShaderClipboardMaterial" value="tdm_collision_wood"/>
+  </properties>
+  <entity number="0">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="cabinet_gothic_01"/>
+      <keyValue key="model" value="models/darkmod/furniture/cabinet_gothic_01.ase"/>
+      <keyValue key="origin" value="37.5769 1578.42 0"/>
+      <keyValue key="rotation" value="1 0 0 0 1 0 0 0 1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="1">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="atdm:mover_door"/>
+      <keyValue key="name" value="cabinet_gothic_01_topright"/>
+      <keyValue key="frob_master" value="cabinet_gothic_01_topleft"/>
+      <keyValue key="frob_peer" value="cabinet_gothic_01_topleft"/>
+      <keyValue key="immune_to_target_setfrobable" value="1"/>
+      <keyValue key="model" value="models/darkmod/furniture/cabinet_gothic_01_topright.ase"/>
+      <keyValue key="move_time" value="1.4"/>
+      <keyValue key="open_peer" value="cabinet_gothic_01_topleft"/>
+      <keyValue key="origin" value="71.5769 1557.42 62.25"/>
+      <keyValue key="rotate" value="0 110 0"/>
+      <keyValue key="rotation" value="1 0 0 0 1 0 0 0 1"/>
+      <keyValue key="snd_close" value="chest_wood_close"/>
+      <keyValue key="snd_move" value="chest_wood_open"/>
+      <keyValue key="snd_open" value="nosound"/>
+      <keyValue key="stop_when_blocked" value="0"/>
+      <keyValue key="target0" value="cabinet_gothic_01_FrobControlTop"/>
+      <keyValue key="trigger_on_close" value="1"/>
+      <keyValue key="trigger_on_open" value="1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="2">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="atdm:mover_door"/>
+      <keyValue key="name" value="cabinet_gothic_01_topleft"/>
+      <keyValue key="frob_peer" value="cabinet_gothic_01_topright"/>
+      <keyValue key="immune_to_target_setfrobable" value="1"/>
+      <keyValue key="lock_peer" value="cabinet_gothic_01_topright"/>
+      <keyValue key="model" value="models/darkmod/furniture/cabinet_gothic_01_topleft.ase"/>
+      <keyValue key="move_time" value="1.25"/>
+      <keyValue key="open_peer" value="cabinet_gothic_01_topright"/>
+      <keyValue key="origin" value="3.5769 1557.42 62.25"/>
+      <keyValue key="rotate" value="0 -110 0"/>
+      <keyValue key="rotation" value="1 0 0 0 1 0 0 0 1"/>
+      <keyValue key="snd_close" value="nosound"/>
+      <keyValue key="snd_move" value="chest_wood_open"/>
+      <keyValue key="snd_open" value="door_open_12"/>
+      <keyValue key="stop_when_blocked" value="0"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="3">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="atdm:mover_door"/>
+      <keyValue key="name" value="cabinet_gothic_01_bottomleft"/>
+      <keyValue key="frob_peer" value="cabinet_gothic_01_bottomright"/>
+      <keyValue key="immune_to_target_setfrobable" value="1"/>
+      <keyValue key="lock_peer" value="cabinet_gothic_01_bottomright"/>
+      <keyValue key="model" value="models/darkmod/furniture/cabinet_gothic_01_bottomleft.ase"/>
+      <keyValue key="move_time" value="1.25"/>
+      <keyValue key="open_peer" value="cabinet_gothic_01_bottomright"/>
+      <keyValue key="origin" value="3.5769 1557.42 14"/>
+      <keyValue key="rotate" value="0 -110 0"/>
+      <keyValue key="rotation" value="1 0 0 0 1 0 0 0 1"/>
+      <keyValue key="snd_close" value="nosound"/>
+      <keyValue key="snd_move" value="chest_wood_open"/>
+      <keyValue key="snd_open" value="door_open_12"/>
+      <keyValue key="stop_when_blocked" value="0"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="4">
+    <primitives>
+      <brush number="0">
+        <faces>
+          <face>
+            <plane x="0" y="0" z="1.000000" d="-39.000000"/>
+            <textureProjection xx="0.125000" yx="0" tx="-168.250000" xy="0" yy="0.125000" ty="21.500000"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="-15.000000"/>
+            <textureProjection xx="0.125000" yx="0" tx="10.500000" xy="0" yy="0.125000" ty="10.000000"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="1.000000" y="0" z="0" d="-45.000000"/>
+            <textureProjection xx="0.125000" yx="0" tx="-168.250000" xy="0" yy="0.125000" ty="10.250000"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="0" z="-1.000000" d="-8.000000"/>
+            <textureProjection xx="0.125000" yx="0" tx="-168.250000" xy="0" yy="0.125000" ty="10.875000"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="-23.000000"/>
+            <textureProjection xx="0.125000" yx="0" tx="21.125000" xy="0" yy="0.125000" ty="10.125000"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-1.000000" y="0" z="0" d="-26.000000"/>
+            <textureProjection xx="0.125000" yx="0" tx="200.250000" xy="0" yy="0.125000" ty="10.125000"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+    </primitives>
+    <keyValues>
+      <keyValue key="classname" value="atdm:target_set_frobable"/>
+      <keyValue key="name" value="cabinet_gothic_01_FrobControlTop"/>
+      <keyValue key="model" value="cabinet_gothic_01_FrobControlTop"/>
+      <keyValue key="origin" value="28 1583 71"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="5">
+    <primitives>
+      <brush number="0">
+        <faces>
+          <face>
+            <plane x="0" y="0" z="1.000000" d="-34.000000"/>
+            <textureProjection xx="0.125000" yx="0" tx="-168.250000" xy="0" yy="0.125000" ty="21.375000"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="-15.000000"/>
+            <textureProjection xx="0.125000" yx="0" tx="10.500000" xy="0" yy="0.125000" ty="4.000000"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="1.000000" y="0" z="0" d="-45.000000"/>
+            <textureProjection xx="0.125000" yx="0" tx="-168.250000" xy="0" yy="0.125000" ty="4.250000"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="0" z="-1.000000" d="-8.000000"/>
+            <textureProjection xx="0.125000" yx="0" tx="-168.250000" xy="0" yy="0.125000" ty="10.875000"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="-23.000000"/>
+            <textureProjection xx="0.125000" yx="0" tx="21.125000" xy="0" yy="0.125000" ty="4.125000"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-1.000000" y="0" z="0" d="-26.000000"/>
+            <textureProjection xx="0.125000" yx="0" tx="200.250000" xy="0" yy="0.125000" ty="4.125000"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+    </primitives>
+    <keyValues>
+      <keyValue key="classname" value="atdm:target_set_frobable"/>
+      <keyValue key="name" value="cabinet_gothic_01_FrobControlBottom"/>
+      <keyValue key="model" value="cabinet_gothic_01_FrobControlBottom"/>
+      <keyValue key="origin" value="28 1583 23"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="6">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="atdm:mover_door"/>
+      <keyValue key="name" value="cabinet_gothic_01_bottomright"/>
+      <keyValue key="frob_master" value="cabinet_gothic_01_bottomleft"/>
+      <keyValue key="frob_peer" value="cabinet_gothic_01_bottomleft"/>
+      <keyValue key="immune_to_target_setfrobable" value="1"/>
+      <keyValue key="model" value="models/darkmod/furniture/cabinet_gothic_01_bottomright.ase"/>
+      <keyValue key="move_time" value="1.4"/>
+      <keyValue key="open_peer" value="cabinet_gothic_01_bottomleft"/>
+      <keyValue key="origin" value="71.5769 1557.42 14"/>
+      <keyValue key="rotate" value="0 110 0"/>
+      <keyValue key="rotation" value="1 0 0 0 1 0 0 0 1"/>
+      <keyValue key="snd_close" value="chest_wood_close"/>
+      <keyValue key="snd_move" value="chest_wood_open"/>
+      <keyValue key="snd_open" value="nosound"/>
+      <keyValue key="stop_when_blocked" value="0"/>
+      <keyValue key="target0" value="cabinet_gothic_01_FrobControlBottom"/>
+      <keyValue key="trigger_on_close" value="1"/>
+      <keyValue key="trigger_on_open" value="1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+</map>

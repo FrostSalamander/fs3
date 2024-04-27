@@ -1,0 +1,53 @@
+endtable_victorian_01a
+{
+
+//	qer_editorimage	models/darkmod/props/textures/endtable_victorian_01a_d_ed
+	wood
+
+	diffusemap	models/darkmod/props/textures/endtable_victorian_01a_d
+	bumpmap		models/darkmod/props/textures/endtable_victorian_01a_local
+    specularmap models/darkmod/props/textures/endtable_victorian_01a_s
+
+    {
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         models/darkmod/props/textures/endtable_victorian_01a_d
+        rgb         0.15 * parm11
+    }
+
+
+}
+
+
+endtable_victorian_02a
+{
+
+//	qer_editorimage	models/darkmod/props/textures/endtable_victorian_02a_d_ed
+	wood
+	noshadows
+
+	diffusemap	models/darkmod/props/textures/endtable_victorian_02a_d
+	bumpmap		models/darkmod/props/textures/endtable_victorian_02a_local
+    specularmap models/darkmod/props/textures/endtable_victorian_02a_s
+
+    {
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         models/darkmod/props/textures/endtable_victorian_02a_d
+        rgb         0.15 * parm11
+    }
+
+
+}

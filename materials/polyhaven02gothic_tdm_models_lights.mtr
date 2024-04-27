@@ -1,0 +1,53 @@
+lantern_wooden_hand_01a
+{
+
+//    qer_editorimage	models/darkmod/props/textures/lantern_wooden_hand01a_ed
+	wood
+	nonsolid
+    noshadows
+
+    { blend    diffusemap
+      map models/darkmod/props/textures/lantern_wooden_hand01a_d
+      rgb .8
+      }
+
+
+
+    specularmap models/darkmod/props/textures/lantern_wooden_hand01a_s
+	bumpmap		models/darkmod/props/textures/lantern_wooden_hand01a_local
+
+    		    {
+    		        if ( parm11 > 0 )
+    		        blend       gl_dst_color, gl_one
+    		        map         _white
+    		        rgb         0.40 * parm11
+    		    }
+    		    {
+    		        if ( parm11 > 0 )
+    		        blend       add
+    		        map         models/darkmod/props/textures/lantern_wooden_hand01a_d
+    		        rgb         0.15 * parm11
+    }
+
+
+	
+
+
+}
+
+lantern_wooden_hand_01_glassa
+{
+
+
+	translucent
+	
+        glass
+	qer_editorimage textures/darkmod/window/lamp_glass_unlit_ed
+	{
+		blend   filter //gl_one, gl_dst_alpha
+		map	textures/darkmod/window/lamp_glass_unlit
+		rgb 1
+	}
+
+
+}

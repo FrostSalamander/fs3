@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1" format="portable">
+  <layers>
+    <layer id="0" name="Default"/>
+  </layers>
+  <selectionGroups>
+    <selectionGroup id="2" name=""/>
+  </selectionGroups>
+  <selectionSets/>
+  <properties>
+    <property key="EditTimeInSeconds" value="26263"/>
+    <property key="LastCameraAngle" value="7.7 240.674 0"/>
+    <property key="LastCameraPosition" value="-363.179 546.824 41.0176"/>
+    <property key="LastShaderClipboardMaterial" value="tdm_collision_wood"/>
+  </properties>
+  <entity number="0">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="grandfatherclock_victorian_01"/>
+      <keyValue key="model" value="models/darkmod/furniture/grandfatherclock_victorian_01.ase"/>
+      <keyValue key="origin" value="-413 461 40.7033"/>
+      <keyValue key="rotation" value="-1 0 0 0 -1 0 0 0 1"/>
+      <keyValue key="shaderparm7" value="2"/>
+      <keyValue key="shaderparm8" value="0"/>
+      <keyValue key="target0" value="HourChime1"/>
+      <keyValue key="target1" value="HourChime2"/>
+      <keyValue key="target2" value="HourChime3"/>
+      <keyValue key="target3" value="Chime1"/>
+      <keyValue key="target4" value="Chime2"/>
+      <keyValue key="target5" value="Chime3"/>
+      <keyValue key="target6" value="Chime4"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups>
+      <selectionGroup id="2"/>
+    </selectionGroups>
+    <selectionSets/>
+  </entity>
+  <entity number="1">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="speaker"/>
+      <keyValue key="name" value="grandfather_clock_1"/>
+      <keyValue key="origin" value="-422.5 478.5 45.5"/>
+      <keyValue key="s_looping" value="1"/>
+      <keyValue key="s_maxdistance" value="6.000000"/>
+      <keyValue key="s_shader" value="clock_tick01_loop"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups>
+      <selectionGroup id="2"/>
+    </selectionGroups>
+    <selectionSets/>
+  </entity>
+  <entity number="2">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="speaker"/>
+      <keyValue key="name" value="HourChime1"/>
+      <keyValue key="origin" value="-423 479 106"/>
+      <keyValue key="s_shader" value="chime_hour"/>
+      <keyValue key="s_waitfortrigger" value="1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups>
+      <selectionGroup id="2"/>
+    </selectionGroups>
+    <selectionSets/>
+  </entity>
+  <entity number="3">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="speaker"/>
+      <keyValue key="name" value="HourChime2"/>
+      <keyValue key="origin" value="-423 479 86"/>
+      <keyValue key="s_shader" value="chime_hour"/>
+      <keyValue key="s_waitfortrigger" value="1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups>
+      <selectionGroup id="2"/>
+    </selectionGroups>
+    <selectionSets/>
+  </entity>
+  <entity number="4">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="speaker"/>
+      <keyValue key="name" value="HourChime3"/>
+      <keyValue key="origin" value="-423 479 66"/>
+      <keyValue key="s_shader" value="chime_hour"/>
+      <keyValue key="s_waitfortrigger" value="1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups>
+      <selectionGroup id="2"/>
+    </selectionGroups>
+    <selectionSets/>
+  </entity>
+  <entity number="5">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="speaker"/>
+      <keyValue key="name" value="Chime1"/>
+      <keyValue key="origin" value="-405 479 106"/>
+      <keyValue key="s_shader" value="chime_15"/>
+      <keyValue key="s_waitfortrigger" value="1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups>
+      <selectionGroup id="2"/>
+    </selectionGroups>
+    <selectionSets/>
+  </entity>
+  <entity number="6">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="speaker"/>
+      <keyValue key="name" value="Chime3"/>
+      <keyValue key="origin" value="-405 479 66"/>
+      <keyValue key="s_shader" value="chime_45"/>
+      <keyValue key="s_waitfortrigger" value="1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups>
+      <selectionGroup id="2"/>
+    </selectionGroups>
+    <selectionSets/>
+  </entity>
+  <entity number="7">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="speaker"/>
+      <keyValue key="name" value="Chime2"/>
+      <keyValue key="origin" value="-405 479 86"/>
+      <keyValue key="s_shader" value="chime_30"/>
+      <keyValue key="s_waitfortrigger" value="1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups>
+      <selectionGroup id="2"/>
+    </selectionGroups>
+    <selectionSets/>
+  </entity>
+  <entity number="8">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="speaker"/>
+      <keyValue key="name" value="Chime4"/>
+      <keyValue key="origin" value="-405 479 46"/>
+      <keyValue key="s_shader" value="chime_60"/>
+      <keyValue key="s_waitfortrigger" value="1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups>
+      <selectionGroup id="2"/>
+    </selectionGroups>
+    <selectionSets/>
+  </entity>
+  <entity number="9">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="light"/>
+      <keyValue key="name" value="light_197"/>
+      <keyValue key="_color" value="0.082 0.082 0.082"/>
+      <keyValue key="light_center" value="0 -8 0"/>
+      <keyValue key="light_radius" value="12 8 10.5"/>
+      <keyValue key="nodiffuse" value="0"/>
+      <keyValue key="noshadows" value="1"/>
+      <keyValue key="nospecular" value="0"/>
+      <keyValue key="origin" value="-413 467.5 83"/>
+      <keyValue key="parallel" value="0"/>
+      <keyValue key="rotation" value="-1 0 0 0 -1 0 0 0 1"/>
+      <keyValue key="texture" value="lights/falloff_exp2"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups>
+      <selectionGroup id="2"/>
+    </selectionGroups>
+    <selectionSets/>
+  </entity>
+  <entity number="10">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_rotating"/>
+      <keyValue key="name" value="grandfatherclock_victorian_01_minute"/>
+      <keyValue key="origin" value="-413 464.25 83.125"/>
+      <keyValue key="rotation" value="-0.866025 0 -0.5 0 -1 0 -0.5 0 0.866025"/>
+      <keyValue key="model" value="models/darkmod/furniture/grandfatherclock_victorian_01_minute.ase"/>
+      <keyValue key="x_axis" value="0"/>
+      <keyValue key="y_axis" value="1"/>
+      <keyValue key="speed" value="-.1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups>
+      <selectionGroup id="2"/>
+    </selectionGroups>
+    <selectionSets/>
+  </entity>
+  <entity number="11">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_rotating"/>
+      <keyValue key="name" value="grandfatherclock_victorian_01_hour"/>
+      <keyValue key="origin" value="-413 464.125 83.125"/>
+      <keyValue key="rotation" value="0.642788 0 -0.766045 0 -1 0 -0.766045 0 -0.642788"/>
+      <keyValue key="model" value="models/darkmod/furniture/grandfatherclock_victorian_01_hour.ase"/>
+      <keyValue key="y_axis" value="1"/>
+      <keyValue key="speed" value=".0083333333"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups>
+      <selectionGroup id="2"/>
+    </selectionGroups>
+    <selectionSets/>
+  </entity>
+</map>

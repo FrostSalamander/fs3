@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1" format="portable">
+  <layers>
+    <layer id="0" name="Default"/>
+  </layers>
+  <selectionGroups>
+    <selectionGroup id="38" name=""/>
+    <selectionGroup id="39" name=""/>
+    <selectionGroup id="40" name=""/>
+    <selectionGroup id="41" name=""/>
+    <selectionGroup id="42" name=""/>
+    <selectionGroup id="43" name=""/>
+    <selectionGroup id="44" name=""/>
+    <selectionGroup id="45" name=""/>
+    <selectionGroup id="46" name=""/>
+    <selectionGroup id="47" name=""/>
+    <selectionGroup id="49" name=""/>
+    <selectionGroup id="51" name=""/>
+    <selectionGroup id="54" name=""/>
+    <selectionGroup id="55" name=""/>
+    <selectionGroup id="60" name=""/>
+    <selectionGroup id="66" name=""/>
+    <selectionGroup id="67" name=""/>
+    <selectionGroup id="68" name=""/>
+    <selectionGroup id="69" name=""/>
+    <selectionGroup id="70" name=""/>
+    <selectionGroup id="71" name=""/>
+    <selectionGroup id="72" name=""/>
+    <selectionGroup id="74" name=""/>
+    <selectionGroup id="75" name=""/>
+    <selectionGroup id="76" name=""/>
+    <selectionGroup id="77" name=""/>
+    <selectionGroup id="80" name=""/>
+    <selectionGroup id="81" name=""/>
+    <selectionGroup id="85" name=""/>
+    <selectionGroup id="86" name=""/>
+    <selectionGroup id="87" name=""/>
+    <selectionGroup id="88" name=""/>
+    <selectionGroup id="89" name=""/>
+    <selectionGroup id="90" name=""/>
+    <selectionGroup id="91" name=""/>
+    <selectionGroup id="92" name=""/>
+    <selectionGroup id="93" name=""/>
+    <selectionGroup id="94" name=""/>
+    <selectionGroup id="95" name=""/>
+    <selectionGroup id="96" name=""/>
+    <selectionGroup id="97" name=""/>
+    <selectionGroup id="98" name=""/>
+    <selectionGroup id="99" name=""/>
+    <selectionGroup id="100" name=""/>
+    <selectionGroup id="101" name=""/>
+  </selectionGroups>
+  <selectionSets/>
+  <properties>
+    <property key="EditTimeInSeconds" value="28689"/>
+    <property key="LastCameraAngle" value="-24.9 168.679 0"/>
+    <property key="LastCameraPosition" value="374.32 -388.982 -60.6835"/>
+    <property key="LastShaderClipboardMaterial" value="textures/common/tdm_nodrawsolid_liquid"/>
+  </properties>
+  <entity number="0">
+    <primitives>
+      <brush number="0">
+        <faces>
+          <face>
+            <plane x="0" y="0" z="1.000000" d="327.000000"/>
+            <textureProjection xx="0.007812" yx="0" tx="-1.625000" xy="0" yy="0.007812" ty="0.000000"/>
+            <material name="textures/common/tdm_nodrawsolid_squeakboard"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="-248.000000"/>
+            <textureProjection xx="0.007812" yx="0" tx="0.000000" xy="0" yy="0.007812" ty="0.197266"/>
+            <material name="textures/common/tdm_nodrawsolid_squeakboard"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="1.000000" y="0" z="0" d="112.000000"/>
+            <textureProjection xx="0.007812" yx="0" tx="-0.625000" xy="0" yy="0.007812" ty="0.103516"/>
+            <material name="textures/common/tdm_nodrawsolid_squeakboard"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="0" z="-1.000000" d="-339.000000"/>
+            <textureProjection xx="0.007812" yx="0" tx="-0.625000" xy="0" yy="0.007812" ty="0.000000"/>
+            <material name="textures/common/tdm_nodrawsolid_squeakboard"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="-480.000000"/>
+            <textureProjection xx="0.007812" yx="0" tx="-0.000000" xy="0" yy="0.007812" ty="0.103516"/>
+            <material name="textures/common/tdm_nodrawsolid_squeakboard"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-1.000000" y="0" z="0" d="-248.000000"/>
+            <textureProjection xx="0.007812" yx="0" tx="0.625000" xy="0" yy="0.007812" ty="0.103516"/>
+            <material name="textures/common/tdm_nodrawsolid_squeakboard"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+      <brush number="1">
+        <faces>
+          <face>
+            <plane x="0" y="0.210838" z="0.977521" d="267.361579"/>
+            <textureProjection xx="0.007813" yx="0" tx="-0.000000" xy="0.000000" yy="0.007813" ty="-0.589537"/>
+            <material name="textures/common/tdm_nodrawsolid_squeakboard"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="-452.000000"/>
+            <textureProjection xx="0.007813" yx="0" tx="-0.000000" xy="0" yy="0.007812" ty="0.101563"/>
+            <material name="textures/common/tdm_nodrawsolid_squeakboard"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="1.000000" y="0" z="0" d="112.000000"/>
+            <textureProjection xx="0.007812" yx="0" tx="-0.625000" xy="-0.000000" yy="0.007812" ty="0.101563"/>
+            <material name="textures/common/tdm_nodrawsolid_squeakboard"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-0.210838" z="-0.977521" d="-279.091834"/>
+            <textureProjection xx="0.007812" yx="0" tx="-0.000000" xy="-0.000000" yy="0.007812" ty="-0.569771"/>
+            <material name="textures/common/tdm_nodrawsolid_squeakboard"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="248.000000"/>
+            <textureProjection xx="0.007813" yx="0" tx="0" xy="0" yy="0.007813" ty="0.195312"/>
+            <material name="textures/common/tdm_nodrawsolid_squeakboard"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-1.000000" y="0" z="0" d="-248.000000"/>
+            <textureProjection xx="0.007812" yx="0" tx="0.625000" xy="0.000000" yy="0.007812" ty="0.101562"/>
+            <material name="textures/common/tdm_nodrawsolid_squeakboard"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+    </primitives>
+    <keyValues>
+      <keyValue key="classname" value="worldspawn"/>
+      <keyValue key="difficulty0Name" value="-Nostalgia-"/>
+      <keyValue key="difficulty1Name" value="-Sorrow-"/>
+      <keyValue key="difficulty2Name" value="-Penitence-"/>
+      <keyValue key="editor_dr_stim_1000" value="sell_item"/>
+      <keyValue key="shop_skip" value="1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="1">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="func_static_81"/>
+      <keyValue key="model" value="models/darkmod/architecture/pier_modular_wooden_ramp_01.ase"/>
+      <keyValue key="origin" value="-236 250 -496"/>
+      <keyValue key="rotation" value="1 0 0 0 1 0 0 0 1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="2">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="func_static_183"/>
+      <keyValue key="model" value="models/darkmod/architecture/pier_modular_wooden_section_03.ase"/>
+      <keyValue key="origin" value="-236 226 -496"/>
+      <keyValue key="rotation" value="1 0 0 0 1 0 0 0 1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="3">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="func_static_184"/>
+      <keyValue key="model" value="models/darkmod/architecture/pier_modular_wooden_section_02.ase"/>
+      <keyValue key="origin" value="-236 58 -496"/>
+      <keyValue key="rotation" value="1 0 0 0 1 0 0 0 1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="4">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="func_static_185"/>
+      <keyValue key="model" value="models/darkmod/architecture/pier_modular_wooden_section_01.ase"/>
+      <keyValue key="origin" value="-236 -110 -496"/>
+      <keyValue key="rotation" value="1 0 0 0 1 0 0 0 1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="5">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="func_static_186"/>
+      <keyValue key="model" value="models/darkmod/architecture/pier_modular_wooden_gate_02.ase"/>
+      <keyValue key="origin" value="-242 -306 -532"/>
+      <keyValue key="rotation" value="1 0 0 0 1 0 0 0 1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="6">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="func_static_188"/>
+      <keyValue key="model" value="models/darkmod/architecture/pier_modular_wooden_gate_01.ase"/>
+      <keyValue key="origin" value="-112 56 -508"/>
+      <keyValue key="rotation" value="-1 0 0 0 -1 0 0 0 1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="7">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="func_static_190"/>
+      <keyValue key="model" value="models/darkmod/architecture/pier_modular_wooden_looseplank_02.ase"/>
+      <keyValue key="origin" value="-128 484 -365.302"/>
+      <keyValue key="rotation" value="0.99976 -0.0217661 -0.00262055 0.0217032 0.965734 0.258626 -0.00309853 -0.25862 0.965974"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="8">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="func_static_191"/>
+      <keyValue key="model" value="models/darkmod/architecture/pier_modular_wooden_looseplank_07.ase"/>
+      <keyValue key="origin" value="-100 466 -370.985"/>
+      <keyValue key="rotation" value="0.998474 0.0552269 0 -0.0546725 0.988451 0.141335 0.00780549 -0.141119 0.989962"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="9">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="func_static_192"/>
+      <keyValue key="model" value="models/darkmod/architecture/pier_modular_wooden_looseplank_04.ase"/>
+      <keyValue key="origin" value="-120 506 -361.476"/>
+      <keyValue key="rotation" value="0.995418 -0.095543 -0.00376113 0.0938164 0.968319 0.231423 -0.0184689 -0.230716 0.972846"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="10">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="func_static_193"/>
+      <keyValue key="model" value="models/darkmod/architecture/pier_modular_wooden_looseplank_08.ase"/>
+      <keyValue key="origin" value="-120 542 -355.858"/>
+      <keyValue key="rotation" value="1 0 0 0 0.969996 0.243122 0 -0.243122 0.969996"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="11">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="func_static_194"/>
+      <keyValue key="model" value="models/darkmod/architecture/pier_modular_wooden_section_04.ase"/>
+      <keyValue key="origin" value="-236 -300 -498"/>
+      <keyValue key="rotation" value="1 0 0 0 1 0 0 0 1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="12">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="func_static_187"/>
+      <keyValue key="model" value="models/darkmod/architecture/pier_modular_wooden_support_02.ase"/>
+      <keyValue key="origin" value="-116 -622 -530"/>
+      <keyValue key="rotation" value="1 0 0 0 1 0 0 0 1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="13">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="func_static_195"/>
+      <keyValue key="model" value="models/darkmod/architecture/pier_modular_wooden_pole_01.ase"/>
+      <keyValue key="origin" value="-130 -848 -559.125"/>
+      <keyValue key="rotation" value="1 0 0 0 1 0 0 0 1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="14">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="func_static_196"/>
+      <keyValue key="model" value="models/darkmod/architecture/pier_modular_wooden_pole_02.ase"/>
+      <keyValue key="origin" value="-130 -950 -577.125"/>
+      <keyValue key="rotation" value="1 0 0 0 1 0 0 0 1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="15">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="func_static_197"/>
+      <keyValue key="model" value="models/darkmod/architecture/pier_modular_wooden_pole_03.ase"/>
+      <keyValue key="origin" value="-234 -804 -535.125"/>
+      <keyValue key="rotation" value="1 0 0 0 1 0 0 0 1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="16">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="func_static_199"/>
+      <keyValue key="model" value="models/darkmod/nature/rocks/rubble_medium_2.ase"/>
+      <keyValue key="origin" value="-266 -454 -546"/>
+      <keyValue key="rotation" value="0.928208 0.372063 0 -0.372063 0.928208 0 0 0 1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+</map>

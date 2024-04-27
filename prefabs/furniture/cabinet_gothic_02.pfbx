@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map version="1" format="portable">
+  <layers>
+    <layer id="0" name="Default"/>
+  </layers>
+  <selectionGroups>
+    <selectionGroup id="2" name=""/>
+  </selectionGroups>
+  <selectionSets/>
+  <properties>
+    <property key="EditTimeInSeconds" value="26303"/>
+    <property key="LastCameraAngle" value="-42.4 73.2739 0"/>
+    <property key="LastCameraPosition" value="-203.769 1540.55 75.2827"/>
+    <property key="LastShaderClipboardMaterial" value="tdm_collision_wood"/>
+  </properties>
+  <entity number="0">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="func_static"/>
+      <keyValue key="name" value="func_static_30"/>
+      <keyValue key="model" value="models/darkmod/furniture/cabinet_gothic_02.ase"/>
+      <keyValue key="origin" value="-192 1586 0"/>
+      <keyValue key="rotation" value="1 0 0 0 1 0 0 0 1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="1">
+    <primitives>
+      <brush number="0">
+        <faces>
+          <face>
+            <plane x="0" y="0" z="1.000000" d="-4.500000"/>
+            <textureProjection xx="-0.015625" yx="0" tx="143.166122" xy="0" yy="-0.015625" ty="-3.414062"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="-12.998577"/>
+            <textureProjection xx="0.015625" yx="0" tx="131.406250" xy="0" yy="0.015625" ty="124.109375"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-1.000000" y="0" z="0" d="-10.000577"/>
+            <textureProjection xx="0.015625" yx="0" tx="143.173935" xy="0" yy="0.015625" ty="124.109375"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="0" z="-1.000000" d="-4.500000"/>
+            <textureProjection xx="-0.015625" yx="0" tx="143.173935" xy="0" yy="-0.015625" ty="131.414062"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="-10.001423"/>
+            <textureProjection xx="0.015625" yx="0" tx="-3.414062" xy="0" yy="0.015625" ty="124.109375"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="1.000000" y="0" z="0" d="-34.999424"/>
+            <textureProjection xx="0.015625" yx="0" tx="-15.189553" xy="0" yy="0.015625" ty="124.109375"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+    </primitives>
+    <keyValues>
+      <keyValue key="classname" value="atdm:target_set_frobable"/>
+      <keyValue key="name" value="cabinet_gothic_02_drawerhi_frobcontrol"/>
+      <keyValue key="model" value="cabinet_gothic_02_drawerhi_frobcontrol"/>
+      <keyValue key="origin" value="-204.5 1587.13 48"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="2">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="atdm:mover_door_sliding"/>
+      <keyValue key="name" value="cabinet_gothic_02_drawerhi"/>
+      <keyValue key="accel_time" value="0.4"/>
+      <keyValue key="frob_distance" value="75"/>
+      <keyValue key="immune_to_target_setfrobable" value="1"/>
+      <keyValue key="model" value="models/darkmod/furniture/cabinet_gothic_02_drawerhi.ase"/>
+      <keyValue key="move_time" value=".75"/>
+      <keyValue key="origin" value="-192 1574 48"/>
+      <keyValue key="rotation" value="1 0 0 0 1 0 0 0 1"/>
+      <keyValue key="skin" value="desk_old"/>
+      <keyValue key="snd_close" value="frob_drawer_closed"/>
+      <keyValue key="snd_move" value="frob_drawer_move"/>
+      <keyValue key="snd_open" value="frob_drawer_opened"/>
+      <keyValue key="snd_opened" value="nosound"/>
+      <keyValue key="target0" value="cabinet_gothic_02_drawerhi_frobcontrol"/>
+      <keyValue key="translate" value="0 -16 0"/>
+      <keyValue key="trigger_on_close" value="1"/>
+      <keyValue key="trigger_on_open" value="1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="3">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="atdm:mover_door_sliding"/>
+      <keyValue key="name" value="cabinet_gothic_02_drawermid"/>
+      <keyValue key="accel_time" value="0.4"/>
+      <keyValue key="frob_distance" value="75"/>
+      <keyValue key="immune_to_target_setfrobable" value="1"/>
+      <keyValue key="model" value="models/darkmod/furniture/cabinet_gothic_02_drawermid.ase"/>
+      <keyValue key="move_time" value=".75"/>
+      <keyValue key="origin" value="-192 1573.5 32"/>
+      <keyValue key="rotation" value="1 0 0 0 1 0 0 0 1"/>
+      <keyValue key="skin" value="desk_old"/>
+      <keyValue key="snd_close" value="frob_drawer_closed"/>
+      <keyValue key="snd_move" value="frob_drawer_move"/>
+      <keyValue key="snd_open" value="frob_drawer_opened"/>
+      <keyValue key="snd_opened" value="nosound"/>
+      <keyValue key="target0" value="cabinet_gothic_02_drawermid_frobcontrol"/>
+      <keyValue key="translate" value="0 -16 0"/>
+      <keyValue key="trigger_on_close" value="1"/>
+      <keyValue key="trigger_on_open" value="1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="4">
+    <primitives/>
+    <keyValues>
+      <keyValue key="classname" value="atdm:mover_door_sliding"/>
+      <keyValue key="name" value="cabinet_gothic_02_drawerlow"/>
+      <keyValue key="accel_time" value="0.4"/>
+      <keyValue key="frob_distance" value="75"/>
+      <keyValue key="immune_to_target_setfrobable" value="1"/>
+      <keyValue key="model" value="models/darkmod/furniture/cabinet_gothic_02_drawerlow.ase"/>
+      <keyValue key="move_time" value=".75"/>
+      <keyValue key="origin" value="-192 1573.88 16.5"/>
+      <keyValue key="rotation" value="1 0 0 0 1 0 0 0 1"/>
+      <keyValue key="skin" value="desk_old"/>
+      <keyValue key="snd_close" value="frob_drawer_closed"/>
+      <keyValue key="snd_move" value="frob_drawer_move"/>
+      <keyValue key="snd_open" value="frob_drawer_opened"/>
+      <keyValue key="snd_opened" value="nosound"/>
+      <keyValue key="target0" value="cabinet_gothic_02_drawerlow_frobcontrol"/>
+      <keyValue key="translate" value="0 -16 0"/>
+      <keyValue key="trigger_on_close" value="1"/>
+      <keyValue key="trigger_on_open" value="1"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="5">
+    <primitives>
+      <brush number="0">
+        <faces>
+          <face>
+            <plane x="0" y="0" z="1.000000" d="-4.500000"/>
+            <textureProjection xx="-0.015625" yx="0" tx="143.166122" xy="0" yy="-0.015625" ty="-3.414062"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="-12.998577"/>
+            <textureProjection xx="0.015625" yx="0" tx="131.406250" xy="0" yy="0.015625" ty="123.867188"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-1.000000" y="0" z="0" d="-10.000577"/>
+            <textureProjection xx="0.015625" yx="0" tx="143.173935" xy="0" yy="0.015625" ty="123.867188"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="0" z="-1.000000" d="-4.500000"/>
+            <textureProjection xx="-0.015625" yx="0" tx="143.173935" xy="0" yy="-0.015625" ty="131.414062"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="-10.001423"/>
+            <textureProjection xx="0.015625" yx="0" tx="-3.414062" xy="0" yy="0.015625" ty="123.867188"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="1.000000" y="0" z="0" d="-34.999424"/>
+            <textureProjection xx="0.015625" yx="0" tx="-15.189553" xy="0" yy="0.015625" ty="123.867188"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+    </primitives>
+    <keyValues>
+      <keyValue key="classname" value="atdm:target_set_frobable"/>
+      <keyValue key="name" value="cabinet_gothic_02_drawermid_frobcontrol"/>
+      <keyValue key="model" value="cabinet_gothic_02_drawermid_frobcontrol"/>
+      <keyValue key="origin" value="-204.5 1587.13 32.5"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+  <entity number="6">
+    <primitives>
+      <brush number="0">
+        <faces>
+          <face>
+            <plane x="0" y="0" z="1.000000" d="-4.500000"/>
+            <textureProjection xx="-0.015625" yx="0" tx="143.166122" xy="0" yy="-0.015625" ty="-3.414062"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="-1.000000" z="0" d="-12.998577"/>
+            <textureProjection xx="0.015625" yx="0" tx="131.406250" xy="0" yy="0.015625" ty="123.625000"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="-1.000000" y="0" z="0" d="-10.000577"/>
+            <textureProjection xx="0.015625" yx="0" tx="143.173935" xy="0" yy="0.015625" ty="123.625000"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="0" z="-1.000000" d="-4.500000"/>
+            <textureProjection xx="-0.015625" yx="0" tx="143.173935" xy="0" yy="-0.015625" ty="131.414062"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="0" y="1.000000" z="0" d="-10.001423"/>
+            <textureProjection xx="0.015625" yx="0" tx="-3.414062" xy="0" yy="0.015625" ty="123.625000"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+          <face>
+            <plane x="1.000000" y="0" z="0" d="-34.999424"/>
+            <textureProjection xx="0.015625" yx="0" tx="-15.189553" xy="0" yy="0.015625" ty="123.625000"/>
+            <material name="textures/common/clip"/>
+            <contentsFlag value="0"/>
+          </face>
+        </faces>
+        <layers>
+          <layer id="0"/>
+        </layers>
+        <selectionGroups/>
+        <selectionSets/>
+      </brush>
+    </primitives>
+    <keyValues>
+      <keyValue key="classname" value="atdm:target_set_frobable"/>
+      <keyValue key="name" value="cabinet_gothic_02_drawerlow_frobcontrol"/>
+      <keyValue key="model" value="cabinet_gothic_02_drawerlow_frobcontrol"/>
+      <keyValue key="origin" value="-204.5 1587.13 17"/>
+    </keyValues>
+    <layers>
+      <layer id="0"/>
+    </layers>
+    <selectionGroups/>
+    <selectionSets/>
+  </entity>
+</map>

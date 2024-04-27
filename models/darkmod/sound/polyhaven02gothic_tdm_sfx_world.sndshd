@@ -1,0 +1,39 @@
+frob_drawer_closed
+{
+
+	editor_displayFolder	sfx/world/containers
+
+	description "Made by drewb50"
+	no_dups
+
+	sound/sfx/world/containers/frob_drawer_close01.ogg
+
+
+}
+
+frob_drawer_move
+{
+
+	editor_displayFolder	sfx/world/containers
+
+	description "Made by drewb50"
+	no_dups
+
+	sound/sfx/world/containers/frob_drawer_close02.ogg
+	sound/sfx/world/containers/frob_drawer_open01.ogg
+
+
+}
+
+frob_drawer_opened
+{
+
+	editor_displayFolder	sfx/world/containers
+
+	description "Made by drewb50"
+	no_dups
+
+	sound/sfx/world/containers/frob_drawer_open02.ogg
+
+
+}
