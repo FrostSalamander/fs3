@@ -34,7 +34,6 @@ fs_duduk_desert
 
 fs_middle_eastern_violin
 {
-
 	editor_displayFolder	map_specific/ambience_zoned
 
 	description "Made by Frost_Salamander"
@@ -175,4 +174,20 @@ fs_prophet_story
 
 	// credit: Prophet Story by Serge Quadrado: https://freemusicarchive.org/music/serge-quadrado/islamic/prophet-story-1/
 	sound/ambient/prophet_story.ogg
+}
+
+fs_muslim
+{
+	editor_displayFolder	map_specific/ambience_zoned
+
+	description "Made by Frost_Salamander"
+	global
+	omnidirectional
+	looping
+	no_efx
+	volume -15
+	leadin sound/ambient/ambience/silence.ogg
+
+	// credit: Muslim by Serge Quadrado: https://freemusicarchive.org/music/serge-quadrado/islamic/muslim/
+	sound/ambient/muslim.ogg
 }

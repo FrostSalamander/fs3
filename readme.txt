@@ -46,3 +46,4 @@ Muslim Sorrow by Serge Quadrado: https://freemusicarchive.org/music/serge-quadra
 Sad Sufi by Serge Quadrado: https://freemusicarchive.org/music/serge-quadrado/islamic/sad-sufi-1/
 Somewhere in Punjab by Serge Quadrado: https://freemusicarchive.org/music/serge-quadrado/islamic/somewhere-in-punjab-1/
 Prophet Story by Serge Quadrado: https://freemusicarchive.org/music/serge-quadrado/islamic/prophet-story-1/
+Muslim by Serge Quadrado: https://freemusicarchive.org/music/serge-quadrado/islamic/muslim/

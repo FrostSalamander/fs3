@@ -137,13 +137,13 @@
  */
 
 /// Menu music after startup (not in-game)
-#define MM_MENU_SOUND_CMD "music fs_middle_eastern_violin;"
+#define MM_MENU_SOUND_CMD "music fs_muslim;"
 
 /// Played in main menu when in-game (ESCaping out of the game)
-#define MM_INGAME_MENU_SOUND_CMD "music fs_middle_eastern_violin;"
+#define MM_INGAME_MENU_SOUND_CMD "music fs_muslim;"
 
 /// Played during non-video briefing
-#define MM_BRIEFING_SOUND_CMD "music fs_middle_eastern_violin;"
+#define MM_BRIEFING_SOUND_CMD "music fs_muslim;"
 
 /// Played after completing a mission
 //#define MM_MISSION_SUCCESS_SOUND_CMD "music mission_complete;"
