@@ -1,0 +1,35 @@
+skin caravel_medium_closed
+{
+	model models/darkmod/nautical/caravel.lwo
+
+textures/common/nodraw textures/darkmod/metal/grate/brass_mesh
+textures/common/shadow2 tdm_ship_door_ns
+}
+
+
+skin caravel_medium_open
+{
+	model models/darkmod/nautical/caravel.lwo
+
+}
+
+
+skin caravel_dark_closed
+{
+	model models/darkmod/nautical/caravel.lwo
+
+textures/common/nodraw textures/darkmod/metal/grate/brass_mesh
+textures/common/shadow2 tdm_ship_door_ns
+textures/darkmod/wood/boards/ship_hull_medium textures/darkmod/wood/boards/ship_hull_dark
+textures/darkmod/wood/boards/ship_hull_medium_noshadows textures/darkmod/wood/boards/ship_hull_dark_noshadows
+}
+
+
+skin caravel_dark_open
+{
+	model models/darkmod/nautical/caravel.lwo
+
+textures/darkmod/wood/boards/ship_hull_medium textures/darkmod/wood/boards/ship_hull_dark
+textures/darkmod/wood/boards/ship_hull_medium_noshadows textures/darkmod/wood/boards/ship_hull_dark_noshadows
+}
+

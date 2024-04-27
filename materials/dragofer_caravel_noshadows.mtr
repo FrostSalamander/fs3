@@ -1,0 +1,138 @@
+tdm_ship_door_ns
+{
+	qer_editorimage	models/darkmod/props/textures/ship_door_d_ed
+	wood
+	noshadows
+
+	diffusemap	models/darkmod/props/textures/ship_door_d
+//	bumpmap		models/darkmod/props/textures/ship_door_local
+
+	{
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         models/darkmod/props/textures/ship_door_d
+        rgb         0.15 * parm11
+    }
+
+	// TDM Ambient Method Related 
+	{							
+		if (global5 == 1)		
+		blend add				
+		map				models/darkmod/props/textures/ship_door_d		
+		scale			1, 1		
+		red				global2	
+		green			global3	
+		blue			global4	
+	}							
+	{							
+		if (global5 == 2)		
+		blend add				
+		program	ambientEnvironment.vfp	
+		vertexParm		0		1, 1, 1, 1		// UV Scales for Diffuse and Bump	
+		vertexParm		1		1, 1, 1, 1	// (X,Y) UV Scale for specular		
+		vertexParm		2		global2, global3, global4, 1	
+																
+		fragmentMap		0		cubeMap env/gen1				
+		fragmentMap		1		_flat			// Bump				
+		fragmentMap		2		models/darkmod/props/textures/ship_door_d			// Diffuse			
+		fragmentMap		3		_black			// Specular			
+	}
+}
+
+
+gen_ornate_iron01_dark_ns
+{
+	metal
+	noshadows
+
+    qer_editorimage textures/darkmod/metal/flat/gen_ornate_iron01_tiling_1d_ed
+    { blend    diffusemap	
+    map    textures/darkmod/metal/flat/gen_ornate_iron01_tiling_1d
+    rgb .6
+    }
+        bumpmap            textures/darkmod/metal/flat/gen_ornate_iron01_local
+	specularmap  textures/darkmod/metal/flat/gen_ornate_iron01_tiling_1d_ed
+    {
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map         textures/darkmod/metal/flat/gen_ornate_iron01_tiling_1d
+        rgb         0.15 * parm11
+    }
+
+	// TDM Ambient Method Related 
+	{							
+		if (global5 == 1)		
+		blend add				
+		map				textures/darkmod/metal/flat/gen_ornate_iron01_tiling_1d		
+		scale			1, 1		
+		red				global2	
+		green			global3	
+		blue			global4	
+	}							
+
+}
+
+
+cloth_coarse_cream_dirty_ns
+{
+
+	noshadows
+
+    surftype15
+    description "cloth coarse dull and dirty, cream, derived from longbanner to produce blank banner or use as coarse general fabric."
+
+    qer_editorimage  textures/darkmod/fabric/cloth_coarse_cream_dirty_ed
+    diffusemap      textures/darkmod/fabric/cloth_coarse_cream_dirty
+    bumpmap  addnormals(models/darkmod/props/textures/longbanner_local, heightmap(models/darkmod/props/textures/old_cloth_h.tga, 3 ) )
+    {
+        if ( parm11 > 0 )
+        blend       gl_dst_color, gl_one
+        map         _white
+        rgb         0.40 * parm11
+    }
+    {
+        if ( parm11 > 0 )
+        blend       add
+        map          textures/darkmod/fabric/cloth_coarse_cream_dirty
+        rgb         0.15 * parm11
+    }
+
+	// TDM Ambient Method Related 
+	{							
+		if (global5 == 1)		
+		blend add				
+		map				textures/darkmod/fabric/cloth_coarse_cream_dirty		
+		scale			1, 1		
+		red				global2	
+		green			global3	
+		blue			global4	
+	}							
+	{							
+		if (global5 == 2)		
+		blend add				
+		program	ambientEnvironment.vfp	
+		vertexParm		0		1, 1, 1, 1		// UV Scales for Diffuse and Bump	
+		vertexParm		1		1, 1, 1, 1	// (X,Y) UV Scale for specular		
+		vertexParm		2		global2, global3, global4, 1	
+																
+		fragmentMap		0		cubeMap env/gen1				
+		fragmentMap		1		_flat			// Bump				
+		fragmentMap		2		textures/darkmod/fabric/cloth_coarse_cream_dirty			// Diffuse			
+		fragmentMap		3		_black			// Specular			
+	}
+	
+								
+	
+}
