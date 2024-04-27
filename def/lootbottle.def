@@ -6,7 +6,8 @@ entityDef lt3:small_loot_bottle
     "skin"            "gold_bottle"
 
     "inv_category"    "Special"
-    "inv_loot_value"  "50"
+   	"inv_loot_type"			"2"	
+	"inv_loot_value"		"50"
 
     "secret"          "1"
 
