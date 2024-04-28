@@ -371,3 +371,30 @@ readables/lt3/note_salim_trash
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt3/journal_dudley
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"    For goodness sakes! Frances is up in arms about my decision to stay in Mesayd for another year, and now she won't even talk to me!  I've even had to cancel our evening out to that new restaurant with the Grenvilles."
+		"  Ever since the Grenvilles announced that they are returning to Bridgeport Frances has been in a sulk.  I suppose losing her only friend in Joyce isn't ideal."
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		"    I have suggested she try to get along with the Spencers, but she can't see past the fact they are mere commoners, despite Frederick's self-made wealth."
+		"    If only she'd let me into the pool area I could maybe talk some sense into her..."
+	}
+	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
