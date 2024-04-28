@@ -1,23 +1,3 @@
-textures/darkmod/moorpack/stone/brick/bricks_messy0191
-{
-    stone
-    description	"vine_friendly"
-
-    qer_editorimage textures/darkmod/moorpack/stone/brick/bricks_messy0191_ed
-    diffusemap      textures/darkmod/moorpack/stone/brick/bricks_messy0191
-    bumpmap         textures/darkmod/moorpack/stone/brick/bricks_messy0191_local
-}
-
-textures/darkmod/moorpack/stone/brick/bricks_dirty
-{
-    stone
-    description	"vine_friendly"
-
-    qer_editorimage textures/darkmod/moorpack/stone/brick/bricks_dirty_ed
-    diffusemap      textures/darkmod/moorpack/stone/brick/bricks_dirty
-    bumpmap         textures/darkmod/moorpack/stone/brick/bricks_dirty_local
-}
-
 textures/darkmod/moorpack/stone/brick/bricks_lt3_messy
 {
     stone
@@ -26,16 +6,6 @@ textures/darkmod/moorpack/stone/brick/bricks_lt3_messy
     qer_editorimage textures/darkmod/moorpack/stone/brick/bricks_lt3_messy_ed
     diffusemap      textures/darkmod/moorpack/stone/brick/bricks_lt3_messy
     bumpmap         textures/darkmod/moorpack/stone/brick/bricks_lt3_messy_local
-}
-
-textures/darkmod/moorpack/stone/brick/bricks_dirty02
-{
-    stone
-    description	"vine_friendly"
-
-    qer_editorimage textures/darkmod/moorpack/stone/brick/bricks_dirty02_ed
-    diffusemap      textures/darkmod/moorpack/stone/brick/bricks_dirty02
-    bumpmap         textures/darkmod/moorpack/stone/brick/bricks_dirty02_local
 }
 
 textures/darkmod/moorpack/stone/brick/blocks_lt3
