@@ -7,15 +7,6 @@ textures/darkmod/moorpack/window/moorish02_single
     bumpmap         textures/darkmod/moorpack/window/moorish02_single_local
 }
 
-textures/darkmod/moorpack/window/moorish02_single_wide
-{
-    wood
-
-    qer_editorimage textures/darkmod/moorpack/window/moorish02_single_wide_ed
-    diffusemap      textures/darkmod/moorpack/window/moorish02_single_wide
-    bumpmap         textures/darkmod/moorpack/window/moorish02_single_wide_local
-}
-
 textures/darkmod/moorpack/window/moorish02_double
 {
     wood
