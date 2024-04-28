@@ -97,15 +97,6 @@ textures/darkmod/moorpack/plaster/plaster_loam02
     bumpmap         textures/darkmod/moorpack/plaster/plaster_loam02_local
 }
 
-textures/darkmod/moorpack/plaster/plaster_loam03
-{
-    stone
-
-    qer_editorimage textures/darkmod/moorpack/plaster/plaster_loam03_ed
-    diffusemap      textures/darkmod/moorpack/plaster/plaster_loam03
-    bumpmap         textures/darkmod/moorpack/plaster/plaster_loam03_local
-}
-
 textures/darkmod/moorpack/plaster/plaster_loam04
 {
     stone
@@ -131,24 +122,6 @@ textures/darkmod/moorpack/plaster/plaster_loam06
     qer_editorimage textures/darkmod/moorpack/plaster/plaster_loam06_ed
     diffusemap      textures/darkmod/moorpack/plaster/plaster_loam06
     bumpmap         textures/darkmod/moorpack/plaster/plaster_loam06_local
-}
-
-textures/darkmod/moorpack/plaster/plaster_orange
-{
-    stone
-
-    qer_editorimage textures/darkmod/moorpack/plaster/plaster_orange_ed
-    diffusemap      textures/darkmod/moorpack/plaster/plaster_orange
-    bumpmap         textures/darkmod/moorpack/plaster/plaster_orange_local
-}
-
-textures/darkmod/moorpack/plaster/plaster_blue
-{
-    stone
-
-    qer_editorimage textures/darkmod/moorpack/plaster/plaster_blue_ed
-    diffusemap      textures/darkmod/moorpack/plaster/plaster_blue
-    bumpmap         textures/darkmod/moorpack/plaster/plaster_blue_local
 }
 
 textures/darkmod/moorpack/plaster/plaster_brown
@@ -187,15 +160,6 @@ textures/darkmod/moorpack/plaster/plaster_worn_rust
     bumpmap         textures/darkmod/moorpack/plaster/plaster_worn_rust_local
 }
 
-textures/darkmod/moorpack/plaster/plaster_worn_bluegrey
-{
-    stone
-
-    qer_editorimage textures/darkmod/moorpack/plaster/plaster_worn_bluegrey_ed
-    diffusemap      textures/darkmod/moorpack/plaster/plaster_worn_bluegrey
-    bumpmap         textures/darkmod/moorpack/plaster/plaster_worn_bluegrey_local
-}
-
 textures/darkmod/moorpack/plaster/plaster_painted_worn
 {
     stone
@@ -212,13 +176,4 @@ textures/darkmod/moorpack/plaster/plaster_damaged02
     qer_editorimage textures/darkmod/moorpack/plaster/plaster_damaged02_ed
     diffusemap      textures/darkmod/moorpack/plaster/plaster_damaged02
     bumpmap         textures/darkmod/moorpack/plaster/plaster_damaged02_local
-}
-
-textures/darkmod/moorpack/plaster/plaster_whitedirty01
-{
-    stone
-
-    qer_editorimage textures/darkmod/moorpack/plaster/plaster_whitedirty01_ed
-    diffusemap      textures/darkmod/moorpack/plaster/plaster_whitedirty01
-    bumpmap         textures/darkmod/moorpack/plaster/plaster_whitedirty01_local
 }
