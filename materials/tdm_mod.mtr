@@ -4,56 +4,60 @@
 textures/darkmod/stone/flat/smooth/ceramic_tile_reddish01_lt3
 {
 
-    stone
+	stone
 
-    qer_editorimage textures/darkmod/stone/flat/smooth_ceramic_tile_reddish01_ed
-    diffusemap      textures/darkmod/stone/flat/smooth_ceramic_tile_reddish01
-    specularmap     textures/darkmod/stone/flat/smooth_ceramic_tile_generic01_s
+	qer_editorimage textures/darkmod/stone/flat/smooth_ceramic_tile_reddish01_ed
+	diffusemap      textures/darkmod/stone/flat/smooth_ceramic_tile_reddish01
+	specularmap     textures/darkmod/stone/flat/smooth_ceramic_tile_generic01_s
 }
 
+// Change material type from tile to stone to reduce footstep noise
 textures/darkmod/stone/flat/tiles_burgundyandcream_lt3
 {
 
-    stone
+	stone
 
-    qer_editorimage textures/darkmod/stone/flat/tiles_burgundyandcream_ed
-    diffusemap      textures/darkmod/stone/flat/tiles_burgundyandcream
-    bumpmap         textures/darkmod/stone/flat/tiles_burgundyandcream_local
-    specularmap     textures/darkmod/stone/flat/tiles_burgundyandcream_s
+	qer_editorimage textures/darkmod/stone/flat/tiles_burgundyandcream_ed
+	diffusemap      textures/darkmod/stone/flat/tiles_burgundyandcream
+	bumpmap         textures/darkmod/stone/flat/tiles_burgundyandcream_local
+	specularmap     textures/darkmod/stone/flat/tiles_burgundyandcream_s
 }
 
+// Change material type from tile to stone to reduce footstep noise
 textures/darkmod/stone/flat/tile_plain_diamond01_brown_dark_lt3
 {
-    stone
+	stone
 
-    qer_editorimage textures/darkmod/stone/flat/tile_plain_diamond01_brown_dark_ed
-    {
-        blend diffusemap
-        map textures/darkmod/stone/flat/tile_plain_diamond01_brown
-        rgb 0.5 // Set the brightness to 50%
-    }
-    specularmap     textures/darkmod/stone/flat/tile_plain_diamond01_brown_s
-    bumpmap         textures/darkmod/stone/flat/tile_plain_diamond01_local
+	qer_editorimage textures/darkmod/stone/flat/tile_plain_diamond01_brown_dark_ed
+	{
+		blend diffusemap
+		map textures/darkmod/stone/flat/tile_plain_diamond01_brown
+		rgb 0.5 // Set the brightness to 50%
+	}
+	specularmap     textures/darkmod/stone/flat/tile_plain_diamond01_brown_s
+	bumpmap         textures/darkmod/stone/flat/tile_plain_diamond01_local
 }
 
+// Change material type from tile to stone to reduce footstep noise
 textures/darkmod/stone/flat/tiles_checker_lts
 {
 
-    stone
+	stone
 
-    qer_editorimage textures/darkmod/stone/flat/tiles_checker_ed
-    diffusemap      textures/darkmod/stone/flat/tiles_checker
-    bumpmap         textures/darkmod/stone/flat/tiles_checker_local
-    specularmap     textures/darkmod/stone/flat/tiles_checker_s
+	qer_editorimage textures/darkmod/stone/flat/tiles_checker_ed
+	diffusemap      textures/darkmod/stone/flat/tiles_checker
+	bumpmap         textures/darkmod/stone/flat/tiles_checker_local
+	specularmap     textures/darkmod/stone/flat/tiles_checker_s
 }
 
+// Change material type from tile to stone to reduce footstep noise
 textures/darkmod/stone/flat/smooth/marble_pattern01_lts
 {
-    stone
+	stone
 
-    qer_editorimage textures/darkmod/stone/flat/smooth_marble_pattern01_ed
-    diffusemap      textures/darkmod/stone/flat/smooth_marble_pattern01
-    specularmap     textures/darkmod/stone/flat/smooth_marble_pattern01_s
+	qer_editorimage textures/darkmod/stone/flat/smooth_marble_pattern01_ed
+	diffusemap      textures/darkmod/stone/flat/smooth_marble_pattern01
+	specularmap     textures/darkmod/stone/flat/smooth_marble_pattern01_s
 	bumpmap			textures/darkmod/stone/flat/smooth_marble_pattern01_local
 }
 
@@ -61,14 +65,14 @@ textures/darkmod/stone/flat/smooth/marble_pattern01_lts
 textures/darkmod/decals/vegetation/hanging_horizontal_leaves_lt3
 {
 
-    surftype15
-    description "foliage"
+	surftype15
+	description "foliage"
 	noSelfShadow
-    twoSided
-    ladder
+	twoSided
+	ladder
 
-    bumpmap         textures/darkmod/decals/vegetation/hanging_horizontal_leaves_local
-    specularmap     textures/darkmod/decals/vegetation/hanging_horizontal_leaves_s
+	bumpmap         textures/darkmod/decals/vegetation/hanging_horizontal_leaves_local
+	specularmap     textures/darkmod/decals/vegetation/hanging_horizontal_leaves_s
 
 	{
 		blend diffusemap
@@ -77,4 +81,20 @@ textures/darkmod/decals/vegetation/hanging_horizontal_leaves_lt3
 	}
 
 
+}
+
+// Change material type from tile to stone to reduce footstep noise
+textures/darkmod/stone/flat/smooth/marble_greenish_lt3
+{
+
+	stone
+
+	qer_editorimage textures/darkmod/stone/flat/smooth_marble_greenish_ed
+	diffusemap      textures/darkmod/stone/flat/smooth_marble_greenish
+
+	{
+		blend specularmap
+		map _white
+		rgb 0.2
+	}
 }
