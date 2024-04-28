@@ -1,13 +1,3 @@
-textures/darkmod/moorpack/floors/floors01
-{
-    stone
-    description	"vine_friendly"
-
-    qer_editorimage textures/darkmod/moorpack/floors/floor01_ed
-    diffusemap      textures/darkmod/moorpack/floors/floor01
-    bumpmap         textures/darkmod/moorpack/floors/floor01_local
-}
-
 textures/darkmod/moorpack/floors/floors02
 {
     stone
@@ -28,16 +18,6 @@ textures/darkmod/moorpack/floors/floors03
     bumpmap         textures/darkmod/moorpack/floors/floor03_local
 }
 
-textures/darkmod/moorpack/floors/floors04
-{
-    stone
-    description	"vine_friendly"
-
-    qer_editorimage textures/darkmod/moorpack/floors/floor04_ed
-    diffusemap      textures/darkmod/moorpack/floors/floor04
-    bumpmap         textures/darkmod/moorpack/floors/floor04_local
-}
-
 textures/darkmod/moorpack/floors/floors05
 {
     stone
@@ -46,16 +26,6 @@ textures/darkmod/moorpack/floors/floors05
     qer_editorimage textures/darkmod/moorpack/floors/floor05_ed
     diffusemap      textures/darkmod/moorpack/floors/floor05
     bumpmap         textures/darkmod/moorpack/floors/floor05_local
-}
-
-textures/darkmod/moorpack/floors/floors06
-{
-    stone
-    description	"vine_friendly"
-
-    qer_editorimage textures/darkmod/moorpack/floors/floor06_ed
-    diffusemap      textures/darkmod/moorpack/floors/floor06
-    bumpmap         textures/darkmod/moorpack/floors/floor06_local
 }
 
 textures/darkmod/moorpack/floors/floors07
@@ -86,16 +56,6 @@ textures/darkmod/moorpack/floors/floors12
     qer_editorimage textures/darkmod/moorpack/floors/floor12_ed
     diffusemap      textures/darkmod/moorpack/floors/floor12
     bumpmap         textures/darkmod/moorpack/floors/floor12_local
-}
-
-textures/darkmod/moorpack/floors/floors13
-{
-    stone
-    description	"vine_friendly"
-
-    qer_editorimage textures/darkmod/moorpack/floors/floor13_ed
-    diffusemap      textures/darkmod/moorpack/floors/floor13
-    bumpmap         textures/darkmod/moorpack/floors/floor13_local
 }
 
 textures/darkmod/moorpack/floors/floors14
