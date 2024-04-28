@@ -6,14 +6,18 @@ maps/lt3/mission_briefing
  {
    "Lieutenant,"
    ""
-   "  You are to be commended for your handling of the events in Highborough. Although things perhaps got a little bit messy, the people I answer to seem to be pleased with the outcome."
-   "  It now seems like we have some follow up work to do.  You may recall there was a Moor working as a cook in the Watford Hotel who goes by the name 'Beni'.  We have been watching him for some time and have good reason to believe he's a spy."
-   "  A couple of days ago it was discovered that a military fort outside of Highborough had been infiltrated and plans for a siege engine were stolen.  This Beni character just"
+   "  You are to be commended for your handling of the events in Highborough. Although things got a little bit messy, the people I answer to seem to be pleased with the outcome."
+   "  It now seems like we have some follow up work to do.  You may recall there was a Moor working as a cook in the Watford Hotel who went by the name 'Beni'.  We have been watching him for some time and have good reason to believe he's a spy."
+   "  A couple of days ago it was discovered that a military fort outside of Highborough had been infiltrated and plans for a siege engine were stolen.  Perhaps not coincidentally,"
  }
  "page2_body" :
  {
-   "boarded a trading ship bound for Mesayd yesterday afternoon.  The correspondence you disovered as part of your investigation into Coates all but proves the link between him and the Moor capital."
-   "  You need to follow Beni to Mesayd and infiltrate the harbour.  From there, find out what Beni was doing in Highborough and perform any required damage control.  Prepare to leave immediately."
+   "this Beni character just boarded a trading ship bound for Mesayd yesterday afternoon.  The correspondence you discovered as part of your investigation into Coates all but proves the link between him and the Moor capital."
+   "  You need to follow Beni to Mesayd and infiltrate the harbour.  From there, find out what Beni was doing in Highborough and perform any required damage control."
+   ""
+   "  Prepare to leave immediately."
+   ""
+   "The Director"
  }
 
 }
