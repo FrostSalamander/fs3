@@ -1,5 +1,4 @@
 $rev = "0.1"
-$revSuffix="_v$rev"
 $timestamp = Get-Date -Format "dd/MM/yyyy HH:mm"
 
 $devFolderName = 'lt3'
