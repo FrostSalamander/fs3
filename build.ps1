@@ -1,4 +1,4 @@
-$rev = "0.1"
+$rev = "1.0-beta"
 $timestamp = Get-Date -Format "dd/MM/yyyy HH:mm"
 
 $devFolderName = 'lt3'
