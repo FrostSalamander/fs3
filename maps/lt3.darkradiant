@@ -2,17 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2433064" } 
-		KeyValue { "LastCameraAngle" "-44.4 232.6 0" } 
-		KeyValue { "LastCameraPosition" "-1479.03 507.018 406.345" } 
+		KeyValue { "EditTimeInSeconds" "2433701" } 
+		KeyValue { "LastCameraAngle" "-8.4 98.6 0" } 
+		KeyValue { "LastCameraPosition" "-2207 679.167 33.7371" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/rough_blocks_limestone2" } 
-	}
-	SelectionSets
-	{
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2433064 }
+		TotalSecondsEdited { 2433701 }
 	}
 	SelectionGroups
 	{
@@ -41521,5 +41518,10 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (func_static_5037)
 		Node { 0 } // patch (Patch)
+		Node { 0 } // entity (path_corner_159)
+		Node { 0 } // entity (path_wait_163)
+	}
+	SelectionSets
+	{
 	}
 }
