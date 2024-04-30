@@ -2,7 +2,6 @@ entityDef lt3:security_camera
 {
 	"inherit"       "atdm:security_camera01_compact" 
 
-    "s_volume"      "-25"
     "snd_moving"    "silence"
 
     "spotLight"     "0"
