@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2434371" } 
-		KeyValue { "LastCameraAngle" "-10.6 324 0" } 
-		KeyValue { "LastCameraPosition" "-2485.29 -379.823 4.61403" } 
+		KeyValue { "EditTimeInSeconds" "2434406" } 
+		KeyValue { "LastCameraAngle" "-19.4 359.6 0" } 
+		KeyValue { "LastCameraPosition" "-1979.14 -628.785 230.132" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/moorpack/plaster/plaster_brown" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2434371 }
+		TotalSecondsEdited { 2434406 }
 	}
 	SelectionSets
 	{
@@ -566,6 +566,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 21965 { "" }
 		SelectionGroup 21966 { "" }
 		SelectionGroup 21967 { "" }
+		SelectionGroup 21968 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -1470,6 +1471,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 11571 ) ( 21574 21575 ) } // brush (Brush)
 		Node { ( 0 11572 ) ( 21576 ) } // brush (Brush)
 		Node { ( 0 11573 ) ( 21576 ) } // brush (Brush)
+		Node { ( 4131 ) ( 21968 ) } // entity (func_static_2891)
+		Node { ( 4132 ) ( 21968 ) } // entity (func_static_2890)
 		Node { ( 6451 ) ( 21597 ) } // entity (func_static_4022)
 		Node { ( 6452 ) ( 21597 ) } // entity (atdm_liquid_water_2)
 		Node { ( 6453 ) ( 21597 ) } // entity (atdm_liquid_water_18)
