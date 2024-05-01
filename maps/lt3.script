@@ -20,9 +20,11 @@ string CAMERA_ATRIUM = "camera_atrium";
 string TARGET_CAMERAS = "target_callscriptfunction_cameras";
 string TARGET_CAMERA_POWER = "target_callscriptfunction_camera_power";
 
-// Merchant house
+// Spencer house
 string MERCHANT_KITCHEN_POT = "atdm_moveable_cookpot_1";
 string MERCHANT_SECRET_BUTTON = "atdm_mover_button_3";
+string SPENCER_VAULT_PAINTING = "atdm_loot_painting_2";
+
 
 // MAGE HOUSE
 string MAGE_FIREPLACE_LEVER = "atdm_switch_translate_lever_1";
@@ -147,6 +149,16 @@ void exitMerchantHouseKitchen(entity zone)
 {
 	sys.getEntity(MERCHANT_KITCHEN_POT).setFrobable(0);
 	sys.getEntity(MERCHANT_SECRET_BUTTON).setFrobable(0);
+}
+
+void enterSpencerVault(entity name)
+{
+	sys.getEntity(SPENCER_VAULT_PAINTING).setFrobable(1);
+}
+
+void exitSpencerVault(entity name)
+{
+	sys.getEntity(SPENCER_VAULT_PAINTING).setFrobable(0);
 }
 
 ///////////////////
