@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2442066" } 
-		KeyValue { "LastCameraAngle" "-25.6 152.682 0" } 
-		KeyValue { "LastCameraPosition" "-874.764 142.917 581.811" } 
+		KeyValue { "EditTimeInSeconds" "2442278" } 
+		KeyValue { "LastCameraAngle" "-49.6 353.282 0" } 
+		KeyValue { "LastCameraPosition" "-3081.03 1054.83 -198.548" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/bt_basewall2" } 
 	}
 	SelectionSets
@@ -12,7 +12,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2442066 }
+		TotalSecondsEdited { 2442278 }
 	}
 	SelectionGroups
 	{
@@ -572,6 +572,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 21988 { "" }
 		SelectionGroup 21989 { "" }
 		SelectionGroup 21993 { "" }
+		SelectionGroup 21996 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -5556,6 +5557,11 @@ DarkRadiant Map Information File Version 2
 		Node { ( 7922 ) ( 21993 ) } // entity (atdm_latch_door_02_S_bracketD1)
 		Node { ( 7923 ) ( 21993 ) } // entity (atdm_latch_door_02_S_bracketB1)
 		Node { ( 7924 ) ( 21993 ) } // entity (atdm_latch_door_02_S_bracketC1)
+		Node { ( 7925 ) ( 21996 ) } // entity (atdm_latch_door_02_E_lock1)
+		Node { ( 7926 ) ( 21996 ) } // entity (atdm_latch_door_02_E_bracketA1)
+		Node { ( 7927 ) ( 21996 ) } // entity (atdm_latch_door_02_E_bracketB1)
+		Node { ( 7928 ) ( 21996 ) } // entity (atdm_latch_door_02_E_bracketD1)
+		Node { ( 7929 ) ( 21996 ) } // entity (atdm_latch_door_02_E_bracketC1)
 	}
 	Layers
 	{
@@ -41498,5 +41504,10 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (atdm_latch_door_02_S_bracketD1)
 		Node { 0 } // entity (atdm_latch_door_02_S_bracketB1)
 		Node { 0 } // entity (atdm_latch_door_02_S_bracketC1)
+		Node { 0 } // entity (atdm_latch_door_02_E_lock1)
+		Node { 0 } // entity (atdm_latch_door_02_E_bracketA1)
+		Node { 0 } // entity (atdm_latch_door_02_E_bracketB1)
+		Node { 0 } // entity (atdm_latch_door_02_E_bracketD1)
+		Node { 0 } // entity (atdm_latch_door_02_E_bracketC1)
 	}
 }
