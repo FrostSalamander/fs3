@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2442499" } 
-		KeyValue { "LastCameraAngle" "-8.2 30.682 0" } 
-		KeyValue { "LastCameraPosition" "1324.15 -1060.7 -159.112" } 
+		KeyValue { "EditTimeInSeconds" "2442842" } 
+		KeyValue { "LastCameraAngle" "-11.2 176.482 0" } 
+		KeyValue { "LastCameraPosition" "-1130.87 602.993 410.493" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/bt_basewall2" } 
 	}
 	SelectionSets
@@ -12,7 +12,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2442499 }
+		TotalSecondsEdited { 2442842 }
 	}
 	SelectionGroups
 	{
@@ -573,6 +573,13 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 21989 { "" }
 		SelectionGroup 21993 { "" }
 		SelectionGroup 21996 { "" }
+		SelectionGroup 21997 { "" }
+		SelectionGroup 21998 { "" }
+		SelectionGroup 21999 { "" }
+		SelectionGroup 22000 { "" }
+		SelectionGroup 22001 { "" }
+		SelectionGroup 22002 { "" }
+		SelectionGroup 22003 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -1436,6 +1443,9 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 5048 ) ( 21944 ) } // patch (Patch)
 		Node { ( 0 5049 ) ( 21944 ) } // patch (Patch)
 		Node { ( 0 5050 ) ( 21944 ) } // patch (Patch)
+		Node { ( 0 6705 ) ( 22003 ) } // brush (Brush)
+		Node { ( 0 6706 ) ( 22000 22001 ) } // brush (Brush)
+		Node { ( 0 6707 ) ( 22002 ) } // brush (Brush)
 		Node { ( 0 11486 ) ( 21577 ) } // brush (Brush)
 		Node { ( 0 11487 ) ( 21577 ) } // brush (Brush)
 		Node { ( 0 11488 ) ( 21577 ) } // brush (Brush)
@@ -1444,6 +1454,18 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 11491 ) ( 21574 21575 ) } // brush (Brush)
 		Node { ( 0 11492 ) ( 21576 ) } // brush (Brush)
 		Node { ( 0 11493 ) ( 21576 ) } // brush (Brush)
+		Node { ( 3313 ) ( 22003 ) } // entity (func_static_2345)
+		Node { ( 3315 ) ( 22002 ) } // entity (atdm_lamp_oil_standing_copper_lit_1)
+		Node { ( 3357 ) ( 21999 22001 ) } // entity (func_static_2364)
+		Node { ( 3423 ) ( 21997 21999 22001 ) } // entity (func_static_2397)
+		Node { ( 3424 ) ( 21997 21999 22001 ) } // entity (func_static_2398)
+		Node { ( 3425 ) ( 21997 21999 22001 ) } // entity (atdm_target_set_frobable_3)
+		Node { ( 3426 ) ( 21998 22000 22001 ) } // entity (func_static_2399)
+		Node { ( 3427 ) ( 21998 22000 22001 ) } // entity (func_static_2402)
+		Node { ( 3428 ) ( 21998 22000 22001 ) } // entity (func_static_2403)
+		Node { ( 3429 ) ( 21998 22000 22001 ) } // entity (func_static_2404)
+		Node { ( 3430 ) ( 21998 22000 22001 ) } // entity (atdm_moveable_loot_purse_layingdown_1)
+		Node { ( 3431 ) ( 21998 22000 22001 ) } // entity (func_static_2405)
 		Node { ( 4115 ) ( 21968 ) } // entity (func_static_2891)
 		Node { ( 4116 ) ( 21968 ) } // entity (func_static_2890)
 		Node { ( 6426 ) ( 21597 ) } // entity (func_static_4022)
