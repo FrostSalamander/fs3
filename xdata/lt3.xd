@@ -86,7 +86,11 @@ readables/lt3/mage_note
 	{
 		"Hello Thief,"
 		""
-		"Enjoy your stay.  My associate will be along soon to... see to your wellbeing."
+		"  Were you expecting relief from the hot night with a cool bath? Or more likely, a way in to my house?  Do you wish to help yourself to my valuables?  Well, at least one of those things I will grant you."
+		""
+		"  If it's not obvious to your uneducated mind, you've fallen into my trap.  A simple illusion is all it takes to fool your ilk."
+		""
+		"  Enjoy your stay.  My associate will be along soon to... see to your wellbeing."
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_rapscallionpirate.gui"
 	"snd_page_turn"	: "readable_page_turn"
