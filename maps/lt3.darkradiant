@@ -2,17 +2,17 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2444233" } 
-		KeyValue { "LastCameraAngle" "-27.8 261.682 0" } 
-		KeyValue { "LastCameraPosition" "-1601.36 873.817 412.079" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/common/monster_clip" } 
+		KeyValue { "EditTimeInSeconds" "2444473" } 
+		KeyValue { "LastCameraAngle" "3.8 259.482 0" } 
+		KeyValue { "LastCameraPosition" "-1167.96 677.847 416.396" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/metal/flat/gold01_ns" } 
 	}
 	SelectionSets
 	{
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2444233 }
+		TotalSecondsEdited { 2444473 }
 	}
 	SelectionGroups
 	{
@@ -583,6 +583,9 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 22004 { "" }
 		SelectionGroup 22005 { "" }
 		SelectionGroup 22006 { "" }
+		SelectionGroup 22007 { "" }
+		SelectionGroup 22008 { "" }
+		SelectionGroup 22010 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -1477,6 +1480,9 @@ DarkRadiant Map Information File Version 2
 		Node { ( 4008 ) ( 22005 ) } // entity (func_static_2826)
 		Node { ( 4113 ) ( 21968 ) } // entity (func_static_2891)
 		Node { ( 4114 ) ( 21968 ) } // entity (func_static_2890)
+		Node { ( 4859 ) ( 22008 ) } // entity (light_87)
+		Node { ( 4865 ) ( 22007 22008 ) } // entity (func_static_3378)
+		Node { ( 4866 ) ( 22007 22008 ) } // entity (func_static_3379)
 		Node { ( 6424 ) ( 21597 ) } // entity (func_static_4022)
 		Node { ( 6425 ) ( 21597 ) } // entity (atdm_liquid_water_2)
 		Node { ( 6426 ) ( 21597 ) } // entity (atdm_liquid_water_18)
@@ -5593,6 +5599,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 7924 ) ( 21996 ) } // entity (atdm_latch_door_02_E_bracketB1)
 		Node { ( 7925 ) ( 21996 ) } // entity (atdm_latch_door_02_E_bracketD1)
 		Node { ( 7926 ) ( 21996 ) } // entity (atdm_latch_door_02_E_bracketC1)
+		Node { ( 7933 ) ( 22010 ) } // entity (func_static_1498)
+		Node { ( 7934 ) ( 22010 ) } // entity (func_static_1501)
 	}
 	Layers
 	{
@@ -41546,5 +41554,10 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (atdm_moveable_crate03_3)
 		Node { 0 } // entity (func_static_1057)
 		Node { 0 } // entity (atdm_readable_mobile_paper01_1)
+		Node { 0 } // entity (func_static_1494)
+		Node { 0 } // entity (light_88)
+		Node { 0 } // entity (func_static_1498)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (func_static_1501)
 	}
 }

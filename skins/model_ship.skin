@@ -1,0 +1,7 @@
+model_brig_gold
+{
+
+	model "models/darkmod/decorative/model_brig_high.lwo"
+
+    "tdm_ship_common_wood_noshadows" "textures/darkmod/metal/flat/gold01_ns"
+}
