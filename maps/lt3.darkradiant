@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2445088" } 
-		KeyValue { "LastCameraAngle" "-25.6 278.882 0" } 
-		KeyValue { "LastCameraPosition" "5413.34 251.31 -209.731" } 
+		KeyValue { "EditTimeInSeconds" "2445124" } 
+		KeyValue { "LastCameraAngle" "-3.4 250.682 0" } 
+		KeyValue { "LastCameraPosition" "5686.68 -421.745 1875.69" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/decals/signs/naval_plaque" } 
 	}
 	SelectionSets
@@ -12,7 +12,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2445088 }
+		TotalSecondsEdited { 2445124 }
 	}
 	Layers
 	{
