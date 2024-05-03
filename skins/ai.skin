@@ -19,6 +19,12 @@ moor/moor_green_robe
     "models/md5/chars/chainmail_new"  "textures/darkmod/fabric/cloth_plain_creased_cyan_light"
 }
 
+moor/moor_yellow_robe
+{
+    model "tdm_ai_moor"
+    "models/md5/chars/chainmail_new"  "textures/darkmod/fabric/cloth_plain_creased_cyan_light"
+}
+
 moor/multicolor_moor
 {
     "model" "tdm_ai_moor_guard"
