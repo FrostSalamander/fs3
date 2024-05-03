@@ -19,3 +19,14 @@ textures/darkmod/decals/arabic/to_mosque
 		map textures/darkmod/decals/arabic/to_mosque
 	}
 }
+
+ textures/darkmod/decals/signs/naval_plaque
+ {
+ 	DECAL_MACRO
+ 	noimpact
+ 	
+ 	{
+ 		blend blend
+ 		map textures/darkmod/decals/signs/naval_plaque
+ 	}
+ }
