@@ -1,0 +1,12 @@
+atdm:lt3_loot_model_ship
+{
+
+	"inherit"			    "atdm:loot_base"
+	"editor_usage"			"A gold trimmed model ship"
+	"model" 				"models/darkmod/decorative/model_brig_high.lwo"
+    "skin"                  "model_brig_gold"
+	"inv_loot_value"		"100"
+	"inv_loot_type"			"3"
+
+	"inv_icon"				"guis/assets/hud/inventory_icons/ship_loot_icon"
+}
