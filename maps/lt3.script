@@ -344,6 +344,31 @@ void cycleCameras()
 // END SECURITY CAMERA CODE
 /////////////////////////
 
+/////////
+// LIFT
+/////////
+void controlLiftDoors(entity target, entity button, entity callscriptfunction)
+{
+    // The button that calls this is targeting the lift with 'target' spawnarg (i.e. not 'target0', 'target1', etc.)
+    entity lift = button.getEntityKey("target");
+
+    // Get the multistate position entity this button corresponds to
+    // custom spawnarg: didn't want to use 'target' or 'position' because they activate unwanted functionality on some buttons
+    entity multiStatePosition = button.getEntityKey("position_entity_name"); 
+
+    // ensure the lift is idle and it's on the appropriate floor
+    if ( !lift.isMoving() && (lift.getOrigin() == multiStatePosition.getOrigin()) )
+    {
+        if (target.IsOpen())
+        {
+            target.Close();
+        }
+        else
+        {
+            target.Open();
+        }
+    }
+}
 // main - keep at bottom
 void main()
 {
