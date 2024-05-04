@@ -1,32 +1,98 @@
-textures/darkmod/decals/arabic/market
+textures/darkmod/decals/signs/naval_plaque
 {
 	DECAL_MACRO
 	noimpact
 	
 	{
 		blend blend
-		map textures/darkmod/decals/arabic/arabic_market
+		map textures/darkmod/decals/signs/naval_plaque
 	}
 }
 
-textures/darkmod/decals/arabic/to_mosque
+textures/darkmod/decals/signs/naval_admin
 {
 	DECAL_MACRO
 	noimpact
 	
 	{
 		blend blend
-		map textures/darkmod/decals/arabic/to_mosque
+		map textures/darkmod/decals/signs/naval_admin
 	}
 }
 
- textures/darkmod/decals/signs/naval_plaque
- {
- 	DECAL_MACRO
- 	noimpact
- 	
- 	{
- 		blend blend
- 		map textures/darkmod/decals/signs/naval_plaque
- 	}
- }
+textures/darkmod/decals/signs/officers_lounge
+{
+	DECAL_MACRO
+	noimpact
+	
+	{
+		blend blend
+		map textures/darkmod/decals/signs/officers_lounge
+	}
+}
+
+textures/darkmod/decals/signs/war_planning_room
+{
+	DECAL_MACRO
+	noimpact
+	
+	{
+		blend blend
+		map textures/darkmod/decals/signs/war_planning_room
+	}
+}
+
+textures/darkmod/decals/signs/bazaar
+{
+	DECAL_MACRO
+	noimpact
+	
+	{
+		blend blend
+		map textures/darkmod/decals/signs/bazaar
+	}
+}
+
+textures/darkmod/decals/signs/fig_tree
+{
+	DECAL_MACRO
+	noimpact
+	
+	{
+		blend blend
+		map textures/darkmod/decals/signs/fig_tree
+	}
+}
+
+textures/darkmod/decals/signs/jerrys_jewels
+{
+	DECAL_MACRO
+	noimpact
+	
+	{
+		blend blend
+		map textures/darkmod/decals/signs/jerrys_jewels
+	}
+}
+
+textures/darkmod/decals/signs/ministry
+{
+	DECAL_MACRO
+	noimpact
+	
+	{
+		blend blend
+		map textures/darkmod/decals/signs/ministry
+	}
+}
+
+textures/darkmod/decals/signs/soap_works
+{
+	DECAL_MACRO
+	noimpact
+	
+	{
+		blend blend
+		map textures/darkmod/decals/signs/soap_works
+	}
+}
