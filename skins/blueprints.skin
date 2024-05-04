@@ -1,0 +1,6 @@
+skin blueprint01_blue
+{
+	model "models/darkmod/readables/blueprints01.lwo"
+	"textures/readables/blueprint01_machine1"	"textures/readables/blueprint01_machine1_blue"
+
+}

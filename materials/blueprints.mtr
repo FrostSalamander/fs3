@@ -1,0 +1,19 @@
+textures/readables/blueprint01_machine1_blue
+{
+
+	surftype15
+	description "paper"
+	twosided
+	noshadows
+
+	qer_editorimage models/darkmod/props/textures/blueprint01_machine1_ed
+	specularmap models/darkmod/props/textures/blueprint01_s
+	bumpmap	models/darkmod/props/textures/blueprint01_local
+	{
+		blend diffusemap
+		map models/darkmod/props/textures/blueprint01_machine1_blue_d
+		alphaTest 0.5
+	}
+
+
+}
