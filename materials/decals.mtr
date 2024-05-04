@@ -85,3 +85,14 @@ textures/darkmod/decals/signs/ministry
 		map textures/darkmod/decals/signs/ministry
 	}
 }
+
+textures/darkmod/decals/signs/soap_works
+{
+	DECAL_MACRO
+	noimpact
+	
+	{
+		blend blend
+		map textures/darkmod/decals/signs/soap_works
+	}
+}
