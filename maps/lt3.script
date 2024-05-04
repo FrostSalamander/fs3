@@ -369,6 +369,12 @@ void controlLiftDoors(entity target, entity button, entity callscriptfunction)
         }
     }
 }
+
+void unlockLift()
+{
+	$atdm_mover_elevator_button_7.setFrobable(1);
+}
+
 // main - keep at bottom
 void main()
 {
