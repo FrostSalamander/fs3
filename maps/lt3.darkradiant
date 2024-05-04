@@ -2,17 +2,17 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2456050" } 
-		KeyValue { "LastCameraAngle" "-23 313.132 0" } 
-		KeyValue { "LastCameraPosition" "-3543.29 75.4576 -458.996" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/moorpack/wood/wood_reinforced02" } 
+		KeyValue { "EditTimeInSeconds" "2456906" } 
+		KeyValue { "LastCameraAngle" "-39 265.732 0" } 
+		KeyValue { "LastCameraPosition" "1426.1 -511.282 -377.607" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/decals/alphabet6blk" } 
 	}
 	SelectionSets
 	{
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2456050 }
+		TotalSecondsEdited { 2456906 }
 	}
 	SelectionGroups
 	{
@@ -627,6 +627,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 22056 { "" }
 		SelectionGroup 22057 { "" }
 		SelectionGroup 22058 { "" }
+		SelectionGroup 22059 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -1584,6 +1585,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 1304 ) ( 22013 ) } // entity (func_static_1062)
 		Node { ( 1305 ) ( 22013 ) } // entity (light_21)
 		Node { ( 2258 ) ( 22026 ) } // entity (func_static_1671)
+		Node { ( 2388 ) ( 22059 ) } // entity (atdm_mover_elevator_button_7)
+		Node { ( 2450 ) ( 22059 ) } // entity (func_static_1790)
 		Node { ( 3301 ) ( 22003 ) } // entity (func_static_2345)
 		Node { ( 3303 ) ( 22002 ) } // entity (atdm_lamp_oil_standing_copper_lit_1)
 		Node { ( 3345 ) ( 21999 22001 ) } // entity (func_static_2364)
@@ -41914,5 +41917,21 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (atdm_target_callscriptfunction_9)
+		Node { 0 } // entity (func_static_5044)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // entity (func_static_5045)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // entity (func_static_5046)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // entity (func_static_5047)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // entity (func_static_5048)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // entity (func_static_5049)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
 	}
 }
