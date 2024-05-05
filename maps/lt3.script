@@ -25,6 +25,9 @@ string MERCHANT_KITCHEN_POT = "atdm_moveable_cookpot_1";
 string MERCHANT_SECRET_BUTTON = "atdm_mover_button_3";
 string SPENCER_VAULT_PAINTING = "atdm_loot_painting_2";
 
+// Ship lamp entities
+string SHIP_LAMP_TRIGGER = "trigger_count_3";
+string SHIP_LAMP_SCRIPT_TARGET = "atdm_target_callscriptfunction_10";
 
 // MAGE HOUSE
 string MAGE_FIREPLACE_LEVER = "atdm_switch_translate_lever_1";
@@ -373,6 +376,21 @@ void controlLiftDoors(entity target, entity button, entity callscriptfunction)
 void unlockLift()
 {
 	$atdm_mover_elevator_button_7.setFrobable(1);
+}
+
+/////////////
+// END LIFT
+/////////////
+
+void frob_ship_lamp()
+{
+	sys.trigger(sys.getEntity(SHIP_LAMP_TRIGGER));
+	sys.trigger(sys.getEntity(SHIP_LAMP_SCRIPT_TARGET));
+}
+
+void remove_frob(entity ent_target, entity ent_button, entity ent_callscriptfunction)
+{
+	ent_target.setFrobable(0);
 }
 
 // main - keep at bottom
