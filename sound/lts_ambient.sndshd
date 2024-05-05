@@ -186,7 +186,9 @@ fs_muslim
 	looping
 	no_efx
 	volume -15
-	leadin sound/ambient/ambience/silence.ogg
+
+	// this breaks if using this in the main menu
+	//leadin sound/ambient/ambience/silence.ogg
 
 	// credit: Muslim by Serge Quadrado: https://freemusicarchive.org/music/serge-quadrado/islamic/muslim/
 	sound/ambient/muslim.ogg
