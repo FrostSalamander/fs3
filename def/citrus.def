@@ -17,4 +17,7 @@ entityDef lt3:moveable_food_citrus
 	"drop_to_hands"   "1"
 	"inv_category"    "Food"
 	"inv_stackable"   "1"
+
+	"snd_bounce"		"tdm_impact_fruit"
+	"snd_bounce_wood"	"tdm_impact_fruit"
 }
