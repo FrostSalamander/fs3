@@ -1,0 +1,9 @@
+entityDef lt3:ship_lamp
+{
+	"inherit"         "atdm:oil_lamp_wall1"
+
+    "frob_action_script"      "frob_ship_lamp"
+}
+
+
+
