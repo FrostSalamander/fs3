@@ -402,3 +402,21 @@ readables/lt3/journal_dudley
 	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt3/ship_wine_note
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		""
+		"   Omar where did you hide that wine?  I know you have some.  If you don't share, maybe the Captain will get a note under his door from a 'concerned crew member'..."
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_rapscallionpirate.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
