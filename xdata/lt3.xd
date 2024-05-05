@@ -134,13 +134,17 @@ readables/lt3/soap_factory_invoice
 	}
 	"page1_body"	:
 	{
-		"Al-Abad Soap Works"
+		"Mesayd Soap Works"
 		"Invoice #1301"
 		""
 		"- Olive Oil 3 barrels"
 		"- Dried Sea Kelp 5 bags"
 		"- Salt 2 boxes"
 		""
+		"A reminder about your outstanding payment.  This will be the last shipment I will allow on credit."
+		""
+		"Hassan"
+		"Al-Abad Wholesale"
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_shoppinglist.gui"
 	"snd_page_turn"	: "readable_page_turn"
@@ -418,5 +422,31 @@ readables/lt3/ship_wine_note
 		"   Omar where did you hide that wine?  I know you have some.  If you don't share, maybe the Captain will get a note under his door from a 'concerned crew member'..."
 	}
 	"gui_page1"	: "guis/readables/sheets/sheet_paper_calig_rapscallionpirate.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
+
+
+readables/lt3/soap_office_book
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"    This might be the last soap batch we'll be able to afford. Father was right, I should have made more effort to expand outside the city.  Now everyone is making this stuff."
+		"    It also doesn't help that I spend too much time producing our other product. In fact, the revenue from that is the only thing keeping this place afloat.  "
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/books/book_hand_ellianerelle.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
