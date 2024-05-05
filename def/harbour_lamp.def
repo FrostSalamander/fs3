@@ -1,0 +1,12 @@
+entityDef lt3:harbour_lamp
+{
+	"inherit"         "atdm:streetlamp_round_unattached_lit"
+
+    "_color"            "0.80 0.50 0.20"
+
+    //"volumetric_light"  "1"
+    //"volumetric_dust"   "0.0005"
+
+    "light_radius"      "128 128 192"
+}
+
