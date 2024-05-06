@@ -2,17 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2482195" } 
-		KeyValue { "LastCameraAngle" "-18.0071 154.33 0" } 
-		KeyValue { "LastCameraPosition" "-2809.97 1369.25 -190.169" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/bt_basewall2" } 
-	}
-	SelectionSets
-	{
+		KeyValue { "EditTimeInSeconds" "2482771" } 
+		KeyValue { "LastCameraAngle" "-16.6 26.73 0" } 
+		KeyValue { "LastCameraPosition" "-1588.72 946.459 120.189" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/common/cushion" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2482195 }
+		TotalSecondsEdited { 2482771 }
 	}
 	SelectionGroups
 	{
@@ -42291,5 +42288,10 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (path_corner_175)
 		Node { 0 } // entity (path_anim_25)
 		Node { 0 } // entity (path_wait_171)
+		Node { 0 } // entity (mage_floor_cushion)
+		Node { 0 } // brush (Brush)
+	}
+	SelectionSets
+	{
 	}
 }

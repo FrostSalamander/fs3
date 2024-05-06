@@ -31,6 +31,7 @@ string SHIP_LAMP_SCRIPT_TARGET = "atdm_target_callscriptfunction_10";
 
 // MAGE HOUSE
 string MAGE_FIREPLACE_LEVER = "atdm_switch_translate_lever_1";
+string MAGE_FLOOR_CUSHION = "mage_floor_cushion";
 
 // Security camera
 float currentCamera;
@@ -95,7 +96,13 @@ void enterMagePrison(entity zone)
 	removeEntity(FAKE_CROWN);
 	removeEntity(FAKE_PEDESTAL);
 
-	sys.wait(2);
+	// there is an invisible cushion entity on the floor of the mage 'prison' cell
+	// to prevent fall damage (as the trap is obviously unexpected).
+	// remove it shortly after the player lands because it is janky to walk on (bug?)
+	sys.wait(1);
+	sys.getEntity(MAGE_FLOOR_CUSHION).remove();
+
+	sys.wait(1);
 
 	sys.trigger(sys.getEntity(MAGE_THUG));
 	sys.getEntity(MAGE_PRISON_CEILING).setSolid(1);
