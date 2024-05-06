@@ -13,7 +13,9 @@ string MAGE_POOL_FLOOR = "mage_pool_floor";
 string DISPLAY_CABINET_LID1 = "display_cabinet_lid_1";
 string DISPLAY_CABINET_LID2 = "display_cabinet_lid_2";
 
-string POPUP_TO_MOSQUE = "popup_to_mosque";
+string TRIGGER_BOTTLE_MESSAGE = "trigger_count_bottle_message";
+
+string CAFE_WAITER = "cafeWaiter";
 
 string CAMERA_TOPFLOOR = "camera_topfloor";
 string CAMERA_ATRIUM = "camera_atrium";
@@ -26,15 +28,21 @@ string MERCHANT_SECRET_BUTTON = "atdm_mover_button_3";
 string SPENCER_VAULT_PAINTING = "atdm_loot_painting_2";
 
 // Ship lamp entities
+
+// TODO put this back after developing GUI
 string SHIP_LAMP_TRIGGER = "trigger_count_3";
 string SHIP_LAMP_SCRIPT_TARGET = "atdm_target_callscriptfunction_10";
 
 // MAGE HOUSE
 string MAGE_FIREPLACE_LEVER = "atdm_switch_translate_lever_1";
 string MAGE_FLOOR_CUSHION = "mage_floor_cushion";
+string PLAYER_HMMM = "speaker_22";
 
 // Security camera
 float currentCamera;
+
+// Ministry lift
+string LOCKED_ELEVATOR_BUTTON = "atdm_mover_elevator_button_7";
 
 // Mosque stuff
 string TRIGGER_MOSQUE_ARCHIVE_DOOR = "trigger_mosque_archive_door";
@@ -77,11 +85,6 @@ void frobCandlestick(entity ent)
 	frob_item(ent);
 }
 
-void frob_mosque_sign()
-{
-	sys.trigger(sys.getEntity(POPUP_TO_MOSQUE));
-}
-
 void removeEntity(string entityName)
 {
 	sys.getEntity(entityName).remove();
@@ -108,7 +111,7 @@ void enterMagePrison(entity zone)
 	sys.getEntity(MAGE_PRISON_CEILING).setSolid(1);
 	sys.getEntity(MAGE_POOL_FLOOR).setSolid(1);
 
-	sys.trigger($speaker_22);
+	sys.trigger(sys.getEntity(PLAYER_HMMM));
 }
 
 void alertMageThug()
@@ -189,12 +192,12 @@ void exitMageFireplace(entity zone)
 
 void waiterBark()
 {
-	$cafeWaiter.bark("snd_greeting");
+	sys.getEntity(CAFE_WAITER).bark("snd_greeting");
 }
 
 void frobBottle(entity bottle)
 {
-	sys.trigger($trigger_count_bottle_message);
+	sys.trigger(sys.getEntity(TRIGGER_BOTTLE_MESSAGE));
 	frob_item(bottle);
 }
 
@@ -380,7 +383,7 @@ void controlLiftDoors(entity target, entity button, entity callscriptfunction)
 
 void unlockLift()
 {
-	$atdm_mover_elevator_button_7.setFrobable(1);
+	sys.getEntity(LOCKED_ELEVATOR_BUTTON).setFrobable(1);
 }
 
 /////////////
