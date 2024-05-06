@@ -113,10 +113,8 @@ void enterMagePrison(entity zone)
 
 void alertMageThug()
 {
-	sys.println("alerting AI");
 	sys.getEntity(MAGE_THUG).setAlertLevel(20);
 }
-
 
 void setJewelleryCaseFrobable(float frobable)
 {
@@ -137,8 +135,6 @@ void setJewelleryCaseFrobableOff(entity zone)
 void removePrisoner(entity ent_target, entity triggerEntity, entity ent_callscriptfunction)
 {
 	 string name = triggerEntity.getName();
-
-	 sys.println("triggerEntity name: " + name);
 
 	 if (name == "prisoner1")
 	 {
