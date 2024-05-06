@@ -107,6 +107,8 @@ void enterMagePrison(entity zone)
 	sys.trigger(sys.getEntity(MAGE_THUG));
 	sys.getEntity(MAGE_PRISON_CEILING).setSolid(1);
 	sys.getEntity(MAGE_POOL_FLOOR).setSolid(1);
+
+	sys.trigger($speaker_22);
 }
 
 void alertMageThug()
