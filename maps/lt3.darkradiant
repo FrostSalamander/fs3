@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2488321" } 
-		KeyValue { "LastCameraAngle" "-16.6 158.4 0" } 
-		KeyValue { "LastCameraPosition" "-2508.08 -207.765 -176.571" } 
+		KeyValue { "EditTimeInSeconds" "2488389" } 
+		KeyValue { "LastCameraAngle" "-6 205.8 0" } 
+		KeyValue { "LastCameraPosition" "-3122.5 221.154 -524.768" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/moorpack/plaster/plaster_loam06" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2488321 }
+		TotalSecondsEdited { 2488389 }
 	}
 	Layers
 	{
@@ -37065,6 +37065,8 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 22084 { "" }
 		SelectionGroup 22086 { "" }
 		SelectionGroup 22087 { "" }
+		SelectionGroup 22088 { "" }
+		SelectionGroup 22089 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -37950,6 +37952,15 @@ DarkRadiant Map Information File Version 2
 		Node { ( 1311 ) ( 22087 ) } // entity (func_static_1076)
 		Node { ( 1312 ) ( 22087 ) } // entity (func_static_1085)
 		Node { ( 2220 ) ( 22026 ) } // entity (func_static_1671)
+		Node { ( 2298 ) ( 22089 ) } // entity (func_static_1721)
+		Node { ( 2299 ) ( 22089 ) } // entity (func_static_1702)
+		Node { ( 2300 ) ( 22089 ) } // entity (func_static_1716)
+		Node { ( 2301 ) ( 22089 ) } // entity (func_static_1719)
+		Node { ( 2302 ) ( 22088 ) } // entity (func_static_1720)
+		Node { ( 2303 ) ( 22088 ) } // entity (func_static_1722)
+		Node { ( 2304 ) ( 22088 ) } // entity (func_static_1723)
+		Node { ( 2305 ) ( 22088 ) } // entity (func_static_1724)
+		Node { ( 2322 ) ( 22088 ) } // entity (func_static_1740)
 		Node { ( 2350 ) ( 22059 ) } // entity (atdm_mover_elevator_button_7)
 		Node { ( 2412 ) ( 22059 ) } // entity (func_static_1790)
 		Node { ( 3262 ) ( 22003 ) } // entity (func_static_2345)
