@@ -37,9 +37,6 @@ eaxreverb "location_galleon_captains_quarters" {
 eaxreverb "location_harbour" {
   preset MOUNTAINS
 }
-eaxreverb "location_harbour_street" {
-  preset CASTLE_COURTYARD
-}
 
 //////////////////////
 // HARBOUR WAREHOUSE
@@ -131,6 +128,22 @@ eaxreverb "location_mosque_tunnel_transition" {
 }
 
 //////////////////////////
+// INNER COURTYARD AREA
+//////////////////////////
+eaxreverb "location_harbour_street" {
+  preset CASTLE_COURTYARD
+}
+eaxreverb "location_upper_flat" {
+  preset CASTLE_SHORTPASSAGE
+}
+eaxreverb "location_backalley" {
+  preset CASTLE_COURTYARD
+}
+eaxreverb "location_factory_flat" {
+  preset CASTLE_SMALLROOM
+}
+
+//////////////////////////
 // MERCHANT SPENCER HOUSE
 //////////////////////////
 eaxreverb "location_house_merchant" {
@@ -183,6 +196,9 @@ eaxreverb "location_overpass" {
 //////////////////
 eaxreverb "location_mosque_cafe" {
   preset CASTLE_COURTYARD
+}
+eaxreverb "location_mosque_cafe_interior" {
+  preset CASTLE_SMALLROOM
 }
 
 // covered area outside mage shop
@@ -261,6 +277,9 @@ eaxreverb "location_mosque_vaults" {
 eaxreverb "location_city_far_west" {
   preset OUTDOORS_VALLEY
 }
+eaxreverb "location_water_entrance" {
+  preset SMALLWATERROOM
+
 
 //////////////////
 // OFFICER HOUSES
@@ -303,7 +322,12 @@ eaxreverb "location_market_attic" {
   preset CASTLE_CUPBOARD
 }
 
-
+//////////
+// BAZAAR 
+//////////
+eaxreverb "location_bazaar" {
+  preset CASTLE_LONGPASSAGE
+}
 
 ///////////////
 // DANBY HOUSE
@@ -314,8 +338,11 @@ eaxreverb "location_danby_entrance" {
 eaxreverb "location_danby_livingroom" {
   preset CASTLE_SMALLROOM
 }
+eaxreverb "location_danby_balcony_entrance" {
+  preset CASTLE_SHORTPASSAGE
+}
 eaxreverb "location_danby_poolhall" {
-  preset WOODEN_SHORTPASSAGE
+  preset CASTLE_SHORTPASSAGE
 }
 eaxreverb "location_danby_pool" {
   preset CASTLE_MEDIUMROOM
