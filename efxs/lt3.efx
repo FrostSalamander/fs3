@@ -279,7 +279,7 @@ eaxreverb "location_city_far_west" {
 }
 eaxreverb "location_water_entrance" {
   preset SMALLWATERROOM
-
+}
 
 //////////////////
 // OFFICER HOUSES
