@@ -360,6 +360,10 @@ eaxreverb "location_mage_shop" {
 eaxreverb "location_mage_fireplace" {
   preset CASTLE_CUPBOARD
 }
+eaxreverb "location_mage_attic" {
+  preset CASTLE_SMALLROOM
+}
+
 
 //////////////////////
 // WEST PART OF CITY
