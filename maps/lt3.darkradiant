@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2488389" } 
-		KeyValue { "LastCameraAngle" "-6 205.8 0" } 
-		KeyValue { "LastCameraPosition" "-3122.5 221.154 -524.768" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/moorpack/plaster/plaster_loam06" } 
+		KeyValue { "EditTimeInSeconds" "2488581" } 
+		KeyValue { "LastCameraAngle" "-19.4 283.6 0" } 
+		KeyValue { "LastCameraPosition" "-3448.77 1056.11 517.444" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/natural/gravel_brown_01" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2488389 }
+		TotalSecondsEdited { 2488581 }
 	}
 	Layers
 	{
@@ -36277,10 +36277,6 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_5063)
 		Node { 0 } // entity (func_static_5064)
 		Node { 0 } // entity (func_static_5065)
-		Node { 0 } // entity (func_static_5066)
-		Node { 0 } // patch (Patch)
-		Node { 0 } // patch (Patch)
-		Node { 0 } // patch (Patch)
 		Node { 0 } // entity (speaker_6)
 		Node { 0 } // entity (speaker_21)
 		Node { 0 } // entity (path_corner_171)
@@ -36431,6 +36427,12 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (atdm_oil_lamp_wall1_25)
 		Node { 0 } // entity (atdm_mushroom_01_glowing_blue_11)
 		Node { 0 } // entity (path_wait_177)
+		Node { 0 } // entity (func_static_1082)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // entity (func_static_1083)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
 	}
 	SelectionGroups
 	{
@@ -42318,27 +42320,27 @@ DarkRadiant Map Information File Version 2
 		Node { ( 8008 28209 ) ( 22074 22076 ) } // brush (Brush)
 		Node { ( 8008 28210 ) ( 22074 22076 ) } // brush (Brush)
 		Node { ( 8010 ) ( 22082 ) } // entity (func_static_3626)
-		Node { ( 8024 28215 ) ( 22079 ) } // patch (Patch)
-		Node { ( 8024 28216 ) ( 22079 ) } // patch (Patch)
-		Node { ( 8024 28217 ) ( 22079 ) } // patch (Patch)
-		Node { ( 8033 28218 ) ( 22080 ) } // brush (Brush)
-		Node { ( 8033 28219 ) ( 22080 ) } // brush (Brush)
-		Node { ( 8033 28220 ) ( 22080 ) } // brush (Brush)
-		Node { ( 8033 28221 ) ( 22080 ) } // brush (Brush)
-		Node { ( 8034 28222 ) ( 22081 ) } // brush (Brush)
-		Node { ( 8034 28223 ) ( 22081 ) } // brush (Brush)
-		Node { ( 8034 28224 ) ( 22081 ) } // brush (Brush)
-		Node { ( 8034 28225 ) ( 22081 ) } // brush (Brush)
-		Node { ( 8034 28226 ) ( 22081 ) } // brush (Brush)
-		Node { ( 8034 28227 ) ( 22081 ) } // brush (Brush)
-		Node { ( 8071 ) ( 22084 ) } // entity (light_29)
-		Node { ( 8072 ) ( 22084 ) } // entity (light_99)
-		Node { ( 8073 ) ( 22084 ) } // entity (func_static_5077)
-		Node { ( 8074 ) ( 22084 ) } // entity (func_emitter_49)
-		Node { ( 8075 ) ( 22086 ) } // entity (light_117)
-		Node { ( 8076 ) ( 22086 ) } // entity (light_118)
-		Node { ( 8077 ) ( 22086 ) } // entity (func_emitter_50)
-		Node { ( 8078 ) ( 22086 ) } // entity (func_static_5078)
+		Node { ( 8032 28215 ) ( 22080 ) } // brush (Brush)
+		Node { ( 8032 28216 ) ( 22080 ) } // brush (Brush)
+		Node { ( 8032 28217 ) ( 22080 ) } // brush (Brush)
+		Node { ( 8032 28218 ) ( 22080 ) } // brush (Brush)
+		Node { ( 8033 28219 ) ( 22081 ) } // brush (Brush)
+		Node { ( 8033 28220 ) ( 22081 ) } // brush (Brush)
+		Node { ( 8033 28221 ) ( 22081 ) } // brush (Brush)
+		Node { ( 8033 28222 ) ( 22081 ) } // brush (Brush)
+		Node { ( 8033 28223 ) ( 22081 ) } // brush (Brush)
+		Node { ( 8033 28224 ) ( 22081 ) } // brush (Brush)
+		Node { ( 8070 ) ( 22084 ) } // entity (light_29)
+		Node { ( 8071 ) ( 22084 ) } // entity (light_99)
+		Node { ( 8072 ) ( 22084 ) } // entity (func_static_5077)
+		Node { ( 8073 ) ( 22084 ) } // entity (func_emitter_49)
+		Node { ( 8074 ) ( 22086 ) } // entity (light_117)
+		Node { ( 8075 ) ( 22086 ) } // entity (light_118)
+		Node { ( 8076 ) ( 22086 ) } // entity (func_emitter_50)
+		Node { ( 8077 ) ( 22086 ) } // entity (func_static_5078)
+		Node { ( 8085 28306 ) ( 22079 ) } // patch (Patch)
+		Node { ( 8085 28307 ) ( 22079 ) } // patch (Patch)
+		Node { ( 8085 28308 ) ( 22079 ) } // patch (Patch)
 	}
 	SelectionSets
 	{
