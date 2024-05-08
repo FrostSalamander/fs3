@@ -46,6 +46,7 @@ string LOCKED_ELEVATOR_BUTTON = "atdm_mover_elevator_button_7";
 
 // Mosque stuff
 string TRIGGER_MOSQUE_ARCHIVE_DOOR = "trigger_mosque_archive_door";
+string ARCHIVE_SPEAKER = "speaker_23";
 
 string ARCHIVE_DOOR = "atdm_mover_door_sliding_10";
 string TRIGGER_GAS_TRAP = "trigger_relay_1";
@@ -185,6 +186,16 @@ void exitMageFireplace(entity zone)
 {
 	sys.getEntity(MAGE_FIREPLACE_LEVER).setFrobable(0);
 }
+
+///////////////////
+// Mosque Archive
+///////////////////
+void enterMosqueArchive(entity zone)
+{
+	sys.wait(1);
+	sys.trigger(sys.getEntity(ARCHIVE_SPEAKER));
+}
+
 
 //////////////////
 // Other stuff

@@ -270,6 +270,9 @@ eaxreverb "location_mosque_vaults_flooded" {
 eaxreverb "location_mosque_vaults" {
   preset CASTLE_SMALLROOM
 }
+eaxreverb "location_mosque_archive" {
+  preset CASTLE_SMALLROOM
+}
 
 //////////////////
 // FAR WEST AREA
