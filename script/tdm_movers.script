@@ -28,6 +28,8 @@ object multistateposition
     void leave(entity mover);
 
     void closeDoors();
+
+    void triggerObstacles();
 };
 
 //---------------------------------------------------------------------------
@@ -71,6 +73,8 @@ void multistateposition::leave(entity mover)
         lift.activate(lift.lastTriggeredBy);
     }
 
+    //triggerObstacles();
+
 }
 
 void multistateposition::closeDoors()
@@ -102,6 +106,33 @@ boolean multistateposition::isDoorsOpen()
     }
     //sys.println("doors are all closed");
     return false;
+}
+
+void multistateposition::triggerObstacles()
+{
+    //sys.println("Calling triggerObstacles()");
+    //sys.println("entity name: " + self.getName());
+    //sys.println("Number of targets: " + self.numTargets());
+
+    //entity e0 = self.getTarget(0);
+    //entity e1 = self.getTarget(1);
+    //entity e2 = self.getTarget(2);
+    //sys.println("e0 name: " + e0.getName());
+    //sys.println("e1 name: " + e1.getName());
+    //sys.println("e2 name: " + e2.getName());
+
+    float i;
+
+	for(i = 0; i < self.numTargets(); i++)
+	{
+		entity e = self.getTarget(i);
+
+		if( e.getKey("spawnclass") == "idFuncAASObstacle" )
+		{
+            sys.println("Triggering func_aas_obstacle");
+            sys.trigger(e);
+		}
+    }
 }
 
 #endif //__TDM_MOVERS__
