@@ -1,11 +1,3 @@
-string FAKE_ROOM = "fake_room";
-string FAKE_LIGHT = "fake_light";
-string FAKE_PAINTING = "fake_painting";
-string FAKE_TROPHY = "fake_trophy";
-string FAKE_PLATFORM = "fake_platform";
-string FAKE_CROWN = "fake_crown";
-string FAKE_PEDESTAL = "fake_pedestal";
-
 string MAGE_THUG = "mage_thug";
 string MAGE_PRISON_CEILING = "mage_prison_ceiling";
 string MAGE_POOL_FLOOR = "mage_pool_floor";
@@ -91,18 +83,24 @@ void removeEntity(string entityName)
 	sys.getEntity(entityName).remove();
 }
 
+///////////////////
+// MAGE HOUSE
+///////////////////
+
 void enterMagePrison(entity zone)
 {
-	removeEntity(FAKE_ROOM);
-	removeEntity(FAKE_LIGHT);
-	removeEntity(FAKE_PAINTING);
-	removeEntity(FAKE_TROPHY);
-	removeEntity(FAKE_CROWN);
-	removeEntity(FAKE_PEDESTAL);
+    float i;
+
+	// remove all the 'illusion' entities in the room
+	for(i = 0; i < zone.numTargets(); i++)
+	{
+		entity e = zone.getTarget(i);
+		e.remove();
+    }
 
 	// there is an invisible cushion entity on the floor of the mage 'prison' cell
 	// to prevent fall damage (as the trap is obviously unexpected).
-	// remove it shortly after the player lands because it is janky to walk on (bug?)
+	// remove it shortly after the player lands because it is janky to walk on: https://bugs.thedarkmod.com/view.php?id=6531
 	sys.wait(1);
 	sys.getEntity(MAGE_FLOOR_CUSHION).remove();
 
