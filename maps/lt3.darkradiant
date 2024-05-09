@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2494448" } 
-		KeyValue { "LastCameraAngle" "-24 274.2 0" } 
-		KeyValue { "LastCameraPosition" "1412.56 -492.342 -353.633" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/decals/lace/lace_square_01" } 
+		KeyValue { "EditTimeInSeconds" "2494679" } 
+		KeyValue { "LastCameraAngle" "-29.4 345.6 0" } 
+		KeyValue { "LastCameraPosition" "-1480.86 974.845 145.666" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/common/cushion" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2494448 }
+		TotalSecondsEdited { 2494679 }
 	}
 	Layers
 	{
@@ -36353,6 +36353,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (path_wait_171)
 		Node { 0 } // entity (mage_floor_cushion)
 		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (speaker_22)
 		Node { 0 } // entity (atdm_readable_mobile_paper01_1)
 		Node { 0 } // entity (func_static_5076)
@@ -42394,9 +42395,9 @@ DarkRadiant Map Information File Version 2
 		Node { ( 8055 ) ( 22086 ) } // entity (light_118)
 		Node { ( 8056 ) ( 22086 ) } // entity (func_emitter_50)
 		Node { ( 8057 ) ( 22086 ) } // entity (func_static_5078)
-		Node { ( 8065 28353 ) ( 22079 ) } // patch (Patch)
 		Node { ( 8065 28354 ) ( 22079 ) } // patch (Patch)
 		Node { ( 8065 28355 ) ( 22079 ) } // patch (Patch)
+		Node { ( 8065 28356 ) ( 22079 ) } // patch (Patch)
 		Node { ( 8080 ) ( 22092 ) } // entity (func_static_4559)
 		Node { ( 8081 ) ( 22092 ) } // entity (func_static_5066)
 	}
