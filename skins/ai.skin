@@ -5,6 +5,12 @@ moor/moor_purple_robe
     "models/md5/chars/chainmail_new"  "textures/darkmod/fabric/cloth_plain_creased_blue_light"
 }
 
+moor/moor_purple_robe_armor
+{
+    model "tdm_ai_moor"
+    "tdm_moor_robe01"                 "tdm_moor_robe01_purple"
+}
+
 moor/moor_blue_robe
 {
     model "tdm_ai_moor"
