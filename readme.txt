@@ -1,9 +1,23 @@
-LT3
----
+The Lieutentant 3: Foreign Affairs
+----------------------------------
+
+All mapping, story and readables by Frost_Salamander
 
 Credits:
 
+BETA TESTERS:
+
+Mat99
+Chakkman
+wesp5
+Cambridge Spy
+Bergante
+
+VISUAL ASSETS:
+
 One or more textures bundled with this project have been created with images from Textures.com. These images may not be redistributed by default. Please visit www.textures.com for more information.
+
+New blueprint material: Mat99
 
 Caravel model from Dragofer: https://forums.thedarkmod.com/index.php?/topic/17084-dragofers-stuff/
 
@@ -17,7 +31,7 @@ Coloured Robe Moor Skins by Frost_Salamander
 
 Loading screen font (freeware): https://www.fontspace.com/a-awal-ramadhan-font-f45458
 
-Sounds:
+SOUND EFFECTS:
 
 This FM uses these sounds from freesound:
 
@@ -28,7 +42,7 @@ crickets cicadas hot day buzzing in trees residential street loud nice start Mon
 Cicada.1.45.wav by john9 -- https://freesound.org/s/215171/ -- License: Attribution 4.0
 Summer Village Atmosphere at Night(Dog Barking, Cicadas).wav by The_Runner_01 -- https://freesound.org/s/553784/ -- License: Creative Commons 0
 
-Ambient Music Credits:
+AMBIENT MUSIC:
 
 Desert Awakening by TimTaj: https://timtaj.com (https://timtaj.com/background-music/desert-awakening)
 Duduk in The Desert by TimTaj: https://timtaj.com (https://timtaj.com/background-music/duduk-in-the-desert)
