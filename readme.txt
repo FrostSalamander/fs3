@@ -8,6 +8,7 @@ Credits:
 BETA TESTERS:
 
 Mat99
+Shadow
 Chakkman
 wesp5
 Cambridge Spy
@@ -16,8 +17,6 @@ Bergante
 VISUAL ASSETS:
 
 One or more textures bundled with this project have been created with images from Textures.com. These images may not be redistributed by default. Please visit www.textures.com for more information.
-
-New blueprint material: Mat99
 
 Caravel model from Dragofer: https://forums.thedarkmod.com/index.php?/topic/17084-dragofers-stuff/
 
