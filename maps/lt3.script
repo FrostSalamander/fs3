@@ -134,16 +134,6 @@ void setJewelleryCaseFrobableOff(entity zone)
 	setJewelleryCaseFrobable(0);
 }
 
-void removePrisoner(entity ent_target, entity triggerEntity, entity ent_callscriptfunction)
-{
-	 string name = triggerEntity.getName();
-
-	 if (name == "prisoner1")
-	 {
-		triggerEntity.remove();
-	 }
-}
-
 ///////////////////
 // Merchant House
 ///////////////////
@@ -193,7 +183,6 @@ void enterMosqueArchive(entity zone)
 	sys.wait(1);
 	sys.trigger(sys.getEntity(ARCHIVE_SPEAKER));
 }
-
 
 //////////////////
 // Other stuff
