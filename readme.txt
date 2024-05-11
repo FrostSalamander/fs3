@@ -12,7 +12,6 @@ Shadow
 Chakkman
 wesp5
 Cambridge Spy
-Bergante
 
 VISUAL ASSETS:
 
