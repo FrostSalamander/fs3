@@ -3,7 +3,10 @@ textures/darkmod/other/soap
     description "ice"
     slick // grayman #2409
     
-	qer_editorimage textures/water_source/greengrey_plain_flat
-    diffusemap textures/water_source/greengrey_plain_flat
+    qer_editorimage    textures/darkmod/stone/natural/rough_green_dirty_ed
+    diffusemap         textures/darkmod/stone/natural/rough_green_dirty
+    bumpmap            textures/darkmod/stone/natural/rough_grey_dirty_local
+
+    frobstage_texture textures/darkmod/stone/natural/rough_grey_dirty 0.15 0.40
 
 }
