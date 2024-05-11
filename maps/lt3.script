@@ -188,11 +188,6 @@ void enterMosqueArchive(entity zone)
 // Other stuff
 //////////////////
 
-void waiterBark()
-{
-	sys.getEntity(CAFE_WAITER).bark("snd_greeting");
-}
-
 void frobBottle(entity bottle)
 {
 	sys.trigger(sys.getEntity(TRIGGER_BOTTLE_MESSAGE));
