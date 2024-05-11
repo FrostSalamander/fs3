@@ -450,3 +450,29 @@ readables/lt3/soap_office_book
 	"gui_page1"	: "guis/readables/books/book_hand_ellianerelle.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt3/book_flat_factory
+{
+	precache
+	"num_pages"	: "1"
+	"page1_left_title"	:
+	{
+		""
+	}
+	"page1_left_body"	:
+	{
+		"  Something strange is going on in the soap factory.  Last night a boat arrived in the middle of the night and unloaded what sounded like a lot of glass bottles. It was making a lot of noise and the foreman kept trying to keep it quiet, saying things like 'keep it down we're all going to get in trouble!\""
+		"  Not sure what he meant, what could possible be going on in a soap factory?"
+	}
+	"page1_right_title"	:
+	{
+		""
+	}
+	"page1_right_body"	:
+	{
+		""
+	}
+	"gui_page1"	: "guis/readables/books/book_hand_nancy.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
