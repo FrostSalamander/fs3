@@ -2,17 +2,17 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2502912" } 
-		KeyValue { "LastCameraAngle" "2 258 0" } 
-		KeyValue { "LastCameraPosition" "-1484.15 -122.504 385.784" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/moorpack/plaster/plaster_moorish04" } 
-	}
-	SelectionSets
-	{
+		KeyValue { "EditTimeInSeconds" "2503229" } 
+		KeyValue { "LastCameraAngle" "-45.4 3.4 0" } 
+		KeyValue { "LastCameraPosition" "-500.257 -559.619 -10.1774" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/moorpack/wood/wood_planks01" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2502912 }
+		TotalSecondsEdited { 2503229 }
+	}
+	SelectionSets
+	{
 	}
 	SelectionGroups
 	{
@@ -84,7 +84,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 14511 { "" }
 		SelectionGroup 14513 { "" }
 		SelectionGroup 14515 { "" }
-		SelectionGroup 14516 { "" }
 		SelectionGroup 14564 { "" }
 		SelectionGroup 14583 { "" }
 		SelectionGroup 14592 { "" }
@@ -656,6 +655,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 22095 { "" }
 		SelectionGroup 22096 { "" }
 		SelectionGroup 22097 { "" }
+		SelectionGroup 22098 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -1200,30 +1200,32 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 2991 ) ( 21569 ) } // brush (Brush)
 		Node { ( 0 2992 ) ( 21569 ) } // brush (Brush)
 		Node { ( 0 2993 ) ( 21569 ) } // brush (Brush)
-		Node { ( 0 2998 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 2999 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3000 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3001 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3002 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3003 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3004 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3005 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3006 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3007 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3008 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3009 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3010 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3011 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3012 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3013 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3014 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3015 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3016 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3017 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3018 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3019 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3020 ) ( 14516 ) } // brush (Brush)
-		Node { ( 0 3021 ) ( 14516 ) } // brush (Brush)
+		Node { ( 0 2998 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 2999 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3000 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3001 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3002 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3003 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3004 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3005 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3006 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3007 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3008 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3009 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3010 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3011 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3012 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3013 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3014 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3015 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3016 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3017 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3018 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3019 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3020 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3021 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3022 ) ( 22098 ) } // brush (Brush)
+		Node { ( 0 3023 ) ( 22098 ) } // brush (Brush)
 		Node { ( 0 3041 ) ( 14564 ) } // brush (Brush)
 		Node { ( 0 3042 ) ( 14564 ) } // brush (Brush)
 		Node { ( 0 3050 ) ( 14583 ) } // brush (Brush)
