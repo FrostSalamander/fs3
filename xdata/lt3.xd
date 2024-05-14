@@ -476,3 +476,25 @@ readables/lt3/book_flat_factory
 	"gui_page1"	: "guis/readables/books/book_hand_nancy.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
+
+
+readables/lt3/note_mushrooms
+{
+	precache
+	"num_pages"	: "1"
+	"page1_title"	:
+	{
+		""
+	}
+	"page1_body"	:
+	{
+		"Rabi,"
+		""
+		"  I believe I asked you to remove ALL of the fungus from the ship's masts and rigging.  I still see some remaining on the bowsprit, and as I've explained countless times to the entire crew it will cause the wood to rot."
+		"  Please complete your tasks before you disembark or risk forfeiting some of your wages.  If you are are fearful of climbing up there we will find another to finish it."
+		""
+		"First Officer  Adil"
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui"
+	"snd_page_turn"	: "readable_page_turn"
+}
