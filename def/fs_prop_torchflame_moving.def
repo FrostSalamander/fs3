@@ -1,0 +1,17 @@
+fs:prop_torch_on
+{
+    "inherit"				"atdm:prop_torch_on"
+    "def_attach"            "fs:prop_torchflame_moving"
+}
+
+fs:prop_torchflame_moving
+{
+	"inherit"				"atdm:prop_torchflame_moving"
+	"def_attach" 			"fs_light_torchflame_moving"
+}
+
+fs_light_torchflame_moving
+{
+	"inherit"				"light_torchflame_moving"
+	"light_radius" 			"128 128 128"
+}
