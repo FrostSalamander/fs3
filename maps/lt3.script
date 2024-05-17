@@ -28,7 +28,7 @@ string SHIP_LAMP_SCRIPT_TARGET = "atdm_target_callscriptfunction_10";
 // MAGE HOUSE
 string MAGE_FIREPLACE_LEVER = "atdm_switch_translate_lever_1";
 string MAGE_FLOOR_CUSHION = "mage_floor_cushion";
-string PLAYER_HMMM = "speaker_22";
+string PLAYER_HMMM = "trigger_count_4";
 
 // Security camera
 float currentCamera;
@@ -118,6 +118,20 @@ void alertMageThug()
 	sys.getEntity(MAGE_THUG).setAlertLevel(20);
 }
 
+void enterMageFireplace(entity zone)
+{
+	sys.getEntity(MAGE_FIREPLACE_LEVER).setFrobable(1);
+}
+
+void exitMageFireplace(entity zone)
+{
+	sys.getEntity(MAGE_FIREPLACE_LEVER).setFrobable(0);
+}
+
+///////////////////
+// END MAGE HOUSE
+///////////////////
+
 void setJewelleryCaseFrobable(float frobable)
 {
 	sys.getEntity(DISPLAY_CABINET_LID1).setFrobable(frobable);
@@ -159,20 +173,6 @@ void enterSpencerVault(entity name)
 void exitSpencerVault(entity name)
 {
 	sys.getEntity(SPENCER_VAULT_PAINTING).setFrobable(0);
-}
-
-///////////////////
-// Mage House
-///////////////////
-
-void enterMageFireplace(entity zone)
-{
-	sys.getEntity(MAGE_FIREPLACE_LEVER).setFrobable(1);
-}
-
-void exitMageFireplace(entity zone)
-{
-	sys.getEntity(MAGE_FIREPLACE_LEVER).setFrobable(0);
 }
 
 ///////////////////
