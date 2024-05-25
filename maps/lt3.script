@@ -2,9 +2,6 @@ string MAGE_THUG = "mage_thug";
 string MAGE_PRISON_CEILING = "mage_prison_ceiling";
 string MAGE_POOL_FLOOR = "mage_pool_floor";
 
-string DISPLAY_CABINET_LID1 = "display_cabinet_lid_1";
-string DISPLAY_CABINET_LID2 = "display_cabinet_lid_2";
-
 string TRIGGER_BOTTLE_MESSAGE = "trigger_count_bottle_message";
 
 string CAFE_WAITER = "cafeWaiter";
@@ -26,7 +23,6 @@ string SHIP_LAMP_TRIGGER = "trigger_count_3";
 string SHIP_LAMP_SCRIPT_TARGET = "atdm_target_callscriptfunction_10";
 
 // MAGE HOUSE
-string MAGE_FIREPLACE_LEVER = "atdm_switch_translate_lever_1";
 string MAGE_FLOOR_CUSHION = "mage_floor_cushion";
 string PLAYER_HMMM = "trigger_count_4";
 
@@ -116,16 +112,6 @@ void enterMagePrison(entity zone)
 void alertMageThug()
 {
 	sys.getEntity(MAGE_THUG).setAlertLevel(20);
-}
-
-void enterMageFireplace(entity zone)
-{
-	sys.getEntity(MAGE_FIREPLACE_LEVER).setFrobable(1);
-}
-
-void exitMageFireplace(entity zone)
-{
-	sys.getEntity(MAGE_FIREPLACE_LEVER).setFrobable(0);
 }
 
 ///////////////////
