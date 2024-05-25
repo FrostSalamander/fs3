@@ -132,22 +132,6 @@ void exitMageFireplace(entity zone)
 // END MAGE HOUSE
 ///////////////////
 
-void setJewelleryCaseFrobable(float frobable)
-{
-	sys.getEntity(DISPLAY_CABINET_LID1).setFrobable(frobable);
-	sys.getEntity(DISPLAY_CABINET_LID2).setFrobable(frobable);
-}
-
-void setJewelleryCaseFrobableOn(entity zone)
-{
-	setJewelleryCaseFrobable(1);
-}
-
-void setJewelleryCaseFrobableOff(entity zone)
-{
-	setJewelleryCaseFrobable(0);
-}
-
 ///////////////////
 // Merchant House
 ///////////////////
