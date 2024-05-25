@@ -40,6 +40,7 @@ string ARCHIVE_DOOR = "atdm_mover_door_sliding_10";
 string TRIGGER_GAS_TRAP = "trigger_relay_1";
 string GAS_TRAP_DOOR_CHANGE_TARGET = "atdm_target_changetarget_3";
 string GAS_TRAP_EMITTER = "func_emitter_2";
+string GAS_TRAP_TRIGGER = "trigger_relay_3";
 
 void frobManuscript()
 {
@@ -49,16 +50,15 @@ void frobManuscript()
 void triggerGasTrap()
 {
 	entity gasTrap = sys.getEntity(GAS_TRAP_EMITTER);
-
 	gasTrap.startSound("snd_gas", SND_CHANNEL_UNUSED, false);
-	sys.trigger(gasTrap);
+
+	// trigger the relay which starts the gas, disables the exit lock and enables the message pop-up
+	sys.trigger(sys.getEntity(GAS_TRAP_TRIGGER));
+
 	gasTrap.StimEnable(3, 1);
 
 	// close the door if it's still open
 	sys.getEntity(ARCHIVE_DOOR).Close();
-
-	// disable the door rune lock
-	sys.getEntity(TRIGGER_MOSQUE_ARCHIVE_DOOR).removeTarget(sys.getEntity(ARCHIVE_DOOR));
 }
 
 void triggerArchiveDoor()
