@@ -55,7 +55,7 @@ textures/water_source/water_reflective_lt3
 
 	{
 		blend add
-		map textures/darkmod/nature/skybox/starry1_clouds3
+		map textures/darkmod/nature/skybox/starry2_clouds3
 		translate	(time+parm7)*(-0.003*parm3)+parm5,(time+parm7)*(-0.003*parm3)+parm5
 		scale 8.0,8.0
 		rgb  0.01
@@ -64,6 +64,6 @@ textures/water_source/water_reflective_lt3
 	{
 		blend add
 		map textures/darkmod/nature/skybox/starry1_stars
-	   scale 12.0,12.0
+		scale 12.0,12.0
 	}
 }
