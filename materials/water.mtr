@@ -8,6 +8,9 @@ textures/water_source/fs_water_stream_dark
 	twosided
 	translucent
 
+	diffusemap _white
+	specularmap _white
+
 	{
 		vertexProgram HeatHazeWithMaskAndDepth.vfp
 		vertexParm 0 0, time * ((( parm5 + 0.1) - (( parm5 || 0) * 0.1)) * 3)
@@ -21,8 +24,46 @@ textures/water_source/fs_water_stream_dark
 
 	{
 		blend blend
-        //map textures/darkmod/sfx/black_matt
+		//map textures/darkmod/sfx/black_matt
 		map _black
-		alpha 0.95
+		alpha 0.9
+	}
+}
+
+textures/water_source/water_reflective_lt3
+{
+	qer_editorimage textures/glass/glass1
+	nonsolid
+	discrete
+	water
+	description "use on a patch below water surface to create bright reflections"
+
+	{
+		blend blend
+		cubeMap env/gen1
+		texgen    reflect
+		rgb 0.07
+	}
+
+	{
+		blend add
+		map textures/darkmod/nature/skybox/starry2_clouds4
+		translate	(time+parm7)*(-0.006*parm3)+parm5,(time+parm7)*(-0.006*parm3)+parm5
+		scale 15.0,15.0
+		rgb  0.03
+	}
+
+	{
+		blend add
+		map textures/darkmod/nature/skybox/starry1_clouds3
+		translate	(time+parm7)*(-0.003*parm3)+parm5,(time+parm7)*(-0.003*parm3)+parm5
+		scale 8.0,8.0
+		rgb  0.01
+	}
+
+	{
+		blend add
+		map textures/darkmod/nature/skybox/starry1_stars
+	   scale 12.0,12.0
 	}
 }
