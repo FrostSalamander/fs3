@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "2510437" } 
-		KeyValue { "LastCameraAngle" "-0.600002 348.2 0" } 
-		KeyValue { "LastCameraPosition" "-3730.09 1071.14 386.402" } 
+		KeyValue { "EditTimeInSeconds" "2510571" } 
+		KeyValue { "LastCameraAngle" "-19 191.8 0" } 
+		KeyValue { "LastCameraPosition" "-31.9084 1082.33 189.232" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/water_source/water_reflective_lt3" } 
 	}
 	SelectionSets
@@ -12,7 +12,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 2510437 }
+		TotalSecondsEdited { 2510571 }
 	}
 	Layers
 	{
@@ -36541,6 +36541,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (atdm_gui_message_3)
 		Node { 0 } // entity (trigger_count_5)
 		Node { 0 } // entity (func_static_4703)
+		Node { 0 } // entity (atdm_mushroom_01_glowing_blue_15)
 	}
 	SelectionGroups
 	{
