@@ -4,7 +4,8 @@ $timestamp = Get-Date -Format "dd/MM/yyyy HH:mm"
 
 $devFolderName = 'lt3'
 $missionName = 'faffairs'
-$missionDir = "C:\games\darkmod\fms\$devFolderName"
+#$missionDir = "C:\games\darkmod\fms\$devFolderName"
+$missionDir = $PSScriptRoot
 $stagingDir = 'C:\Temp\dm_staging'
 $stagingMissionDir = "$stagingDir\$devFolderName"
 $darkmodtxt = "$stagingMissionDir\darkmod.txt"
